@@ -24,6 +24,7 @@ knitr::opts_chunk$set(echo = TRUE)
 library(prettydoc)
 library(ggplot2)
 ```
+
 ------------------------------------------------------------------------
 
 ## Práctica 9/10
@@ -76,7 +77,7 @@ B
 
 Debido a que $X$ es un vector columna de una única variable aleatoria $X_1$, en este caso particular `cov(X,Y)` = `r format(cov(x,y),digits=4)` y `var(X)` = `r format(var(x),digits=4)` son dos escalares.
 
-Los estimadores de mínimos cuadrados pueden obtenerse también a partir de la matriz de diseño $X$ asumiendo que \$ \hat{Y} = X \beta\$. Haciendo mínimo al residuo $S(\beta)=\Vert{Y-X \beta}\Vert$ se obtiene el vector de estimadores $\beta=(X^T X)^{-1} X^T Y$. Aplicando la inversa de una matriz con la función `solve()` y la transpuesta con el operador `t()` se obtiene
+Los estimadores de mínimos cuadrados pueden obtenerse también a partir de la matriz de diseño $X$ asumiendo que $\hat{Y} = X \beta$. Haciendo mínimo al residuo $S(\beta)=\Vert{Y-X \beta}\Vert$ se obtiene el vector de estimadores $\beta=(X^T X)^{-1} X^T Y$. Aplicando la inversa de una matriz con la función `solve()` y la transpuesta con el operador `t()` se obtiene
 
 ```{r}
 n <- length(x)
@@ -112,7 +113,7 @@ ggplot() +
 ¿Cuánto vale el estimador de $\sigma^2$ ?\
 Se puede demostrar que $S^2$ es un estimador insesgado de $\sigma^2$ si $$S^2 = \frac{{\Vert{Y-\hat{Y}}\Vert}^2}{n-p}$$
 
-donde \$ p\$ es el rango de \$ \beta\$. Numéricamente, resulta igual a [^2]
+donde $p$ es el rango de $\beta$. Numéricamente, resulta igual a [^2]
 
 [^2]: El resultado de la operación matricial resulta en un array de 1x1 (singleton). El operador `()[[1]]` convierte el singleton en un escalar.
 
@@ -132,7 +133,10 @@ S2*(solve(t(X)%*%X))
 
 ¿Cuánto vale en este caso la matriz $X^T X$ ?
 
-Se puede demostrar que la matriz $X^T X$ para el caso de un vector aleatorio con una única variable aleatoria $X_1 = [x_1 x_2 ... x_n]$ tiene como componentes $$X^T X = \left({ \begin{array}{cc}{n} & {\sum\limits_{i=1}^n {x_i}}  \\ {\sum\limits_{i=1}^n {x_i}} & {\sum\limits_{i=1}^n {x_i}^2}  \\ \end{array}} \right)$$ En `R`, la matriz anterior resulta igual a:
+Se puede demostrar que la matriz $X^T X$ para el caso de un vector aleatorio con una única variable aleatoria $X_1 = [x_1 x_2 ... x_n]$ tiene como componentes 
+
+$$X^T X = \left({ \begin{array}{cc}{n} & {\sum\limits_{i=1}^n {x_i}}  \\ {\sum\limits_{i=1}^n {x_i}} & {\sum\limits_{i=1}^n {x_i}^2}  \\ \end{array}} \right)$$ 
+En `R`, la matriz anterior resulta igual a:
 
 ```{r}
 array(c(n,sum(x),sum(x),sum(x^2)),dim=c(2,2))
@@ -165,7 +169,7 @@ Bz <- solve(t(Z) %*% Z) %*% t(Z) %*% y
 Bz
 ```
 
-Los estimadores son diferentes. Sin embargo, la predicción $\hat{Y}$ es la misma
+Los estimadores son diferentes. Sin embargo, la predicción $\hat{Y}$ es la misma, ya que la diferencia entre ambas es despreciable ${\Vert{g(X)-g(X-\eta_X)}\Vert}^2\approx0$
 
 ```{r}
 yp <- B[1]+B[2]*x
@@ -175,7 +179,8 @@ yq <- Bz[1]+Bz[2]*z
 
 ¿Cambia el estimador de $\sigma^2$ ? Recalcule la estimación de la matriz de covarianza de los estimadores y compárela con la obtenida en (6).
 
-Por su definición, el estimador de $\sigma^2$ dado por \$ S\^2 = {\Vert{Y-\hat{Y}}\Vert}\^2/ (n-p)\$ , no cambia porque la predicción $\hat{Y}$ no cambió. Sin embargo la matriz de covarianza \$ \Sigma\_{\hat{\beta}} = {\sigma}\^2 {(Z\^T Z)}\^{-1}\$ será diferente
+Por su definición, el estimador de $\sigma^2$ dado por 
+$S^2 = {\Vert{Y- \hat{Y}}\Vert}^2/(n-p)$, no cambia porque la predicción $\hat{Y}$ no cambió. Sin embargo la matriz de covarianza $\Sigma_{\hat{\beta}} = {\sigma}^2 {(Z^T Z)}^{-1}$ será diferente
 
 ```{r}
 S2*(solve(t(Z)%*%Z))
@@ -194,7 +199,7 @@ Ajustar un modelo polinomial que prediga $y$ usando $x$ y $x^2$
 Para incluir un término más en la regresión, se incorpora una columna más en la matriz de diseño
 
 ```{r}
-X <- as.matrix(data.frame(xo=rep(1,n),x1=x,x2=x^2))
+X <- as.matrix(data.frame(I=rep(1,n), X1=x, X2=x^2))
 B <- solve(t(X) %*% X) %*% t(X) %*% y
 B
 ```
@@ -207,7 +212,7 @@ La manera de medir la eficiencia del nuevo ajuste es a través del estimador de 
 p <- length(B)
 S2_old <- S2
 S2 <- ((y - yp)%*%(y - yp)/(n - p))[[1]]
-
+S2/S2_old
 ```
 
 La nueva varianza condicional es un `2%` mayor a la varianza del modelo lineal con un único término. Luego, el modelo con un término cuadrático no mejora la eficiencia de la predicción.
