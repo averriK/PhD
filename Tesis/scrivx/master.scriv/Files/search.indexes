@@ -1,0 +1,664 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SearchIndexes Version="1.0">
+    <Documents>
+        <Document ID="13BB6D24-BC0A-4196-A089-AF828F505EE8">
+            <Title>Acknowledgements</Title>
+        </Document>
+        <Document ID="99717229-6CF3-4D4A-A109-CB6A2790EA1D">
+            <Title>Note</Title>
+            <Text>Where appropriate you may wish to acknowledge the assistance of particular organisations or individuals who provided information, advice or help. 
+
+Acknowledgements. Acknowledge assistance from advisors, sponsors, funding agencies, colleagues, technicians, and so on.
+
+An acknowledgements section is sometimes included in the front matter of a longer report, thesis, or collection to note the assistance of people whose help was crucial but not extensive enough to warrant their being listed as co-authors. Thesis advisors, technicians, and colleagues who gave advice or time are all candidates for the acknowledgements section.
+
+This section is often placed just after the list of tables. In articles and shorter reports, acknowledgements may be made in the end matter at the very beginning of the list of references.</Text>
+        </Document>
+        <Document ID="9DA9DF92-FA7F-4051-B1F9-433EB65AB742">
+            <Title>Note</Title>
+            <Synopsis>- Summation of result
+
+- Interpretation
+	- Data patterns
+	- Relationship between variables
+	- Explanations
+
+- Comparison
+	- Theory (hypothesis)
+		- Approach evaluation
+		- Error analysis
+	- Existing schemes
+		- Performance
+		- Complexity
+		- Reliability
+		- Cost
+	- Cited works
+		- Focus
+		- Methods
+		- Outcomes
+
+- Optimisation
+	- Limitations and weaknesses
+	- Possible improvements
+
+- Ethical problem
+
+- Applications and industrial relevance
+</Synopsis>
+            <Text>The purpose of the discussion section is to interpret and contextualise your data. You should begin by reiterating the purpose of your research and your major findings. Then you might do any or all of the following: connect your findings to other research (published or that of your peers); describe any ambiguities and sources of error in the data, and suggest future experiments to resolve uncertainties; explain where you expect your work may lead, and suggest specific experiments for extending your findings; describe any conceptual or technical limitations of the research. Finally, you should explain the significance of your findings to basic science and to engineering applications. Like the previous sections, the discussion should have a clear organisation and narrative flow, whether or not you use sub-sections.
+
+Relates results to those of others
+• Cites other work discussed
+• Relates results to theory
+• Discuss limitations and weakness of results
+• Discuss implications for further research
+• Suggest applications of findings when appropriate
+• Avoids undue speculations
+
+The DISCUSSION interprets the results in light of the project's objectives. The most important goal of the DISCUSSION section is to interpret the results so that the reader is informed of the insight or answers that the results provide. The DISCUSSION should also present an evaluation of the particular approach taken by the group. For example: Based on the results, how could the experimental procedure be improved? What additional, future work may be warranted? What recommendations can be drawn?
+
+The main body of the report is where you discuss your material. The facts and evidence you have gathered should be analysed and discussed with specific reference to the problem or issue. If your discussion section is lengthy you might divide it into section headings. Your points should be grouped and arranged in an order that is logical and easy to follow. Use headings and subheadings to create a clear structure for your material. Use bullet points to present a series of points in an easy-to-follow list. 
+
+Discussion. Discuss the meaning of the results, stating clearly what their significance is. Compare the results with theoretical expectations and account for anything unexpected.
+
+Explain in the discussion section of your document information presented in the results section, commenting on significant data produced by the study. In writing a discussion section, keep the following points in mind.
+
+• Identify significant patterns in the data and relationships between variables. Offer tentative explanations for these patterns and relationships.
+• Compare the actual data produced with any predictions or questions posed in the introduction or theory section of the document.
+• If any of the results differ from the expected results, offer possible explanations for the discrepancies. Present the most probable explanations first and the least probable last.
+• Consider how well the data answer any questions posed in the document's introduction. Do the results answer the questions completely? If not, explain what questions still need to be addressed and give possible explanations why the results may be inconclusive.
+• Qualify the scope of your explanations, discussing in what cases your explanations apply and in what cases they may not.
+• Organise your material in order of importance to your reader's purpose in using the document.
+
+
+- Summation of result
+
+- Interpretation
+	- Data patterns
+	- Relationship between variables
+	- Explanations
+
+- Comparison
+	- Theory (hypothesis)
+		- Approach evaluation
+		- Error analysis
+	- Existing schemes
+		- Performance
+		- Complexity
+		- Reliability
+		- Cost
+	- Cited works
+		- Focus
+		- Methods
+		- Outcomes
+
+- Optimisation
+	- Limitations and weaknesses
+	- Possible improvements
+
+- Ethical problem
+
+- Applications and industrial relevance
+</Text>
+        </Document>
+        <Document ID="02571652-AB65-4B5D-B168-E7868415B123">
+            <Title>Methods</Title>
+        </Document>
+        <Document ID="48E9741E-1F94-4771-98D5-63D743C579D0">
+            <Title>Contents</Title>
+        </Document>
+        <Document ID="DEA4EC9B-273B-4F5D-8E68-1BF391616604">
+            <Title>Ideas</Title>
+        </Document>
+        <Document ID="113CCC7B-4392-40D9-B7E6-9A2A316A9448">
+            <Title>Back Matter</Title>
+        </Document>
+        <Document ID="EF6FE532-6DC8-499E-BF0D-0B7F21D06602">
+            <Title>Abstract</Title>
+        </Document>
+        <Document ID="F19A73DF-2111-4BF7-BB43-F499430ED40A">
+            <Title>Introduction</Title>
+        </Document>
+        <Document ID="273C529B-05A5-480A-8F58-18FF7D2BDB89">
+            <Title>Note</Title>
+            <Synopsis>- Detailed calculations, procedures, data
+
+- Additional diagrams
+
+- Additional tables summarising data
+
+- Long lists
+
+- Experimental protocols or survey questions
+
+- Code</Synopsis>
+            <Text>Appendices contain supporting information, such as transcripts of interviews, results of surveys, a glossary and results from experiments.
+
+Under this heading you should include all the supporting information you have used that is not published. This might include tables, graphs, questionnaires, surveys or transcripts. Refer to the appendices in the body of your report.
+
+Appendixes. Provide detailed calculations, procedures, data in separate appendixes. Give each appendix a title, a letter (Appendix A, B, C), and an introductory paragraph.
+
+In one or more appendixes, include materials that are not essential parts of your main text but that will provide useful reference information to readers seeking more detail.
+
+The following list presents some typical material that is often included in an appendix.
+
+• Detailed explanations and elaborations too technical for the main text
+• Additional diagrams
+• Additional tables summarising data
+• Long lists
+• Experimental protocols or survey questions
+• Selected computer code directly relevant to discussions in the main body
+
+Guidelines for Appendixes
+
+• Avoid using appendixes as dumping grounds for raw data that you will be unable to incorporate in the body of the paper.
+• If you have more than one appendix, use letters to label them (Appendix A, Appendix B, and so forth).
+• Give each appendix an appropriate title.
+• Place one specific kind of information in each appendix.
+• Begin each appendix on a new page.
+• If appropriate, identify and summarise the contexts of an appendix in a short summary paragraph.
+• Refer to each appendix in the body of the document.
+
+
+- Detailed calculations, procedures, data
+
+- Additional diagrams
+
+- Additional tables summarising data
+
+- Long lists
+
+- Experimental protocols or survey questions
+
+- Code</Text>
+        </Document>
+        <Document ID="D6446DF0-0E3C-4FCA-905B-851FB198D1FE">
+            <Title>Note: update after writing</Title>
+            <Synopsis>- Sections
+
+- List of figures
+
+- List of tables
+
+- Nomenclature</Synopsis>
+            <Text>The contents page should list the different chapters and/or headings together with the page numbers. Your contents page should be presented in such a way that the reader can quickly scan the list of headings and locate a particular part of the report. You may want to number chapter headings and subheadings in addition to providing page references. Whatever numbering system you use, be sure that it is clear and consistent throughout.
+
+It is useful to provide an alphabetical list of technical terms with a brief, clear description of each term. You can also include in this section explanations of the acronyms, abbreviations or standard units used in your report. 
+
+• List of figures. Include the figure numbers, figure titles, and page numbers.
+• List of tables. Include the table numbers, table titles, and page numbers.
+• Nomenclature (optional). List unfamiliar terms, symbols, acronyms and their meanings.
+
+Some readers begin by scanning the figures first. The figures, with the legends, should provide a self-explanatory overview of your data. Decide what the data show, then create figures which highlight the most important points of your paper.
+
+Tables are used to present repetitive data that is numerical. Graphs or illustrations, collectively called figures, are used to present numerical trends, raw data (like a picture of a gel), or a model that explains your work.
+
+When you prepare your figures and tables, keep in mind that it is significantly more expensive for journals to publish figures and tables than text, so try to present the data in a way that is worthy of such added expense. The table below is an example of an ineffective table.
+
+The information in Table 1 could be presented in one sentence, such as: "In ten experiments carried out at 24°C, ion flow was detected only in the presence of cortical cells." This is a clearer and more concise way to present the information. In addition, all tables and figures must have numbers, titles and legends.
+
+Legends to the figures and tables explain the elements that appear in the illustration. Conclusions about the data are NOT included in the legends. As you write your first draft, you might state in a short simple sentence what the point of the figure or table is. In later drafts, make sure each element of the figure or table is explained. Your figure legends should be written in the present tense since you are explaining elements that still exist at the time that you are writing the paper.
+
+
+- Sections
+
+- List of figures
+
+- List of tables
+
+- Nomenclature</Text>
+        </Document>
+        <Document ID="688E24E7-F2A4-4D38-9370-630CFC12F686">
+            <Title>Title</Title>
+        </Document>
+        <Document ID="7E23EE9F-4C31-4A19-B0D1-762A682AB01B">
+            <Title>Results</Title>
+        </Document>
+        <Document ID="6E8A51AF-FABA-482D-992C-31AB1D2D796A">
+            <Title>Bibliography</Title>
+        </Document>
+        <Document ID="7D368ACE-A964-4A02-97A7-F037C292C562">
+            <Title>Conclusion</Title>
+        </Document>
+        <Document ID="E9C70E86-921F-4228-B921-611A0E916E50">
+            <Title>Note</Title>
+            <Text>References are generally used in the Introduction and Discussion sections to support any claims that are not common knowledge. Include only those references that pertain to the question at hand. Journals vary considerably in their preferred format for the reference list. For this class, you should list the references alphabetically by the first author’s last name. Include all the authors, the paper’s title, the name of the journal in which it was published, its year of publication, the volume number, and page numbers. Please carefully follow the punctuation and format requirements. 
+
+The REFERENCES section should contain complete citations following standard form. The form of the citation depends on the type of source being referenced, and is different for whole books, chapters in books, and articles published in a journal. One good format to follow is that used in the Chemical Engineering Progress journal, published by AIChE. The references should be numbered and listed in the order they were cited in the body of the report. In the text of the report, a particular reference can be cited by using a numerical superscript that corresponds to its number in the reference list. If a reference has not been actually consulted, it should be listed "as discussed in [name of the work that discussed the reference]".
+
+Your bibliography should list, in alphabetical order by author, all published sources referred to in your report. There are different styles of using references and bibliographies. Refer to the study guide Referencing and Bibliographies and check your departmental handbook for guidelines. Texts which you consulted but did not refer to directly could be grouped under a separate heading such as 'Background Reading' and listed in alphabetical order using the same format as in your bibliography. 
+
+Bibliography. List alphabetically any works referred to in your study. Follow the bibliographical and footnote formats of your department or of a prominent periodical published by a professional society in your field.
+</Text>
+        </Document>
+        <Document ID="49A76E56-D15F-4236-A7BB-73D2CB448C43">
+            <Title>Discussion</Title>
+        </Document>
+        <Document ID="B7A83748-4D51-443F-B4FF-2539B8795924">
+            <Title>Note: key words</Title>
+            <Synopsis>- Problem: why matter
+
+- Main task
+
+- Methods
+
+- Key results
+
+- Interpretation
+
+- Conclusion
+
+- Key words</Synopsis>
+            <Text>The reader wants to know what area of work the report covers.
+
+The ABSTRACT is not a part of the body of the report itself. Rather, the abstract is a brief summary of the report contents that is often separately circulated so potential readers can decide whether to read the report. The abstract should very concisely summarise the whole report: why it was written, what was discovered or developed, and what is claimed to be the significance of the effort. The abstract does not include figures or tables, and only the most significant numerical values or results should be given.
+
+The summary should briefly describe the content of the report. It should cover the aims of the report, what was found and what, if any, action is called for. Aim for about 1/2 a page in length and avoid detail or discussion; just outline the main points. Remember that the summary is the first thing that is read. It should provide the reader with a clear, helpful overview of the content of the report.
+
+
+- Problem: why matter
+
+- Main task
+
+- Methods
+
+- Key results
+
+- Interpretation
+
+- Conclusion
+
+- Key words</Text>
+        </Document>
+        <Document ID="5DAD58DF-90EC-4F29-949E-02F0A25905D1">
+            <Title>Academic Report</Title>
+        </Document>
+        <Document ID="1A8B95E3-2C2D-4983-96A6-4715635A94AE">
+            <Title>Back Matter</Title>
+        </Document>
+        <Document ID="EDDCD3DB-E174-422E-8B74-822EFE95CC72">
+            <Title>Note: check before submitting</Title>
+            <Synopsis>- Name
+
+- ID
+
+- Date
+
+- Module
+
+- Tutor</Synopsis>
+            <Text>The title page should be brief but explicit. Include your name, date, module, course and the person for whom the report is written.
+
+
+- Name
+
+- ID
+
+- Date
+
+- Module
+
+- Tutor
+</Text>
+        </Document>
+        <Document ID="4F144FA1-11C9-434C-8A35-E1864E92462B">
+            <Title>Note: past tense, data format</Title>
+            <Synopsis>- Sub-sections by key points
+	- Start with overview sentence
+	- End with conclusion sentence
+	- Smooth transition
+
+- Description
+	- Significance
+		- Results
+		- Variables
+
+	- Data (not statistics)
+		- Environment
+		- Trend
+		- Comparison
+		- Accuracy and precision
+
+	- Edge cases
+		- Elimination
+		- Deviation and error
+
+	- Emphasis
+		- Important results
+		- Principle findings</Synopsis>
+            <Text>One difficult task for budding scientific writers is determining what goes in a Results vs. a Discussion section. Even at the professional level, different scientific journals may have somewhat different expectations for how much interpretation is appropriate in the Results. A good rule of thumb in most contexts is to draw technical conclusions in the Results, but save scientific conclusions for the Discussion. An alternative framework that should yield similar writing choices is to focus on relatively certain conclusions in the Results, and save more speculative (but still supported!) conclusions for the Discussion.
+
+Example of a technical conclusion: "Sequence alignment revealed that both mutants exhibited mutations in at least one of the expected sites and thus were consistent with the possible nucleotide changes that could occur with the library used."
+
+Example of a scientific conclusion: "A previously reported model proposes that the OmpR-P phosphatase reaction occurs by hydrolysis rather than direct phosphotransfer from H557 (Hsing 1997). Our mutant is consistent with a change to the structure of EnvZ that facilitates this hydrolysis reaction, thus increasing phosphatase activity while concurrently reducing kinase activity."
+
+The purpose of the results section is to present your data in a relatively unbiased way, but with some guiding framework. Begin with a short description of the goal and strategy of your overall experiment, and then delve into specific sub-sections that describe each piece of the work.
+
+Titled sub-sections help create a high-level narrative and thus improve readability of dense papers. Effective sub-sections are organised by functional content, not by what you did each day in lab. For example, two successive titles might be "Conjugating lymphoid tissue-associated adhesion proteins to hydrogels" and "T cell migration in protein-coated hydrogels." Less helpful titles for the same content would be "Hydrogel-protein reaction" and "Microscopy and velocity analysis."
+
+To write the results section, use the figures and tables as a guide. One approach you might take is to start by outlining, in point form, what you found, going slowly through each part of the figures. Then take the points and group them into paragraphs, and finally order the points within each paragraph. Present the data as fully as possible, including stuff that does not quite make sense at first glance. Ultimately, each sub-section should begin with an overview sentence that introduces the present experiment and end with a sentence stating the primary conclusion reached from that experiment. (Sub-section headings and figure caption titles can also emphasise said conclusion.) The overview and/or concluding sentences should also provide a transition to the previous/next piece of data when possible. Within a sub-section, be sure to stick to one topic per paragraph; sub-sections will generally require a few paragraphs each.
+
+Note that verbs in the results section are usually in the past tense. Only established scientific knowledge is written about in the present tense, "the world is round," for example. You cannot presume that your own data are part of the body of established scientific knowledge, and so when you describe your own results, use the past tense, "a band of 1.3 kb was seen," for example. There are, however, exceptions to this general rule. It is acceptable to say, "Table 3 shows the sizes of the DNA fragments in our preparation." It is also acceptable to say, "In a 1991 paper, Ebright and coworkers used PCR to mutagenize DNA."
+
+• Describes any transformation made on the data (e.g. from HIT and FA, compute d’)
+• Explain any data that were eliminated from the analysis
+• Statistics: names any statistics used, gives statistical significance of the results
+• BE CAREFUL: focus on describing the data, not the statistics.
+• State the effect of variable X (or interaction) was significant:
+• (F(1,117)=4.71, p &lt; .05). P values used in articles are: p &lt; .05, p &lt; .01, p &lt; .02, p &lt; .001, p &lt; .0001.
+• Do not write the F value if the statistics is not significant (say: effect of factor X was not significant. When F &lt; 1, sometimes people say so)
+• For a 2 x 2 design, states the 3 statistics IF RELEVANT, and put the mean of the conditions in the text
+• Does not let description of statistics substitute for a description of results
+• Generally avoid describing trends or data points that are not statistically significant 
+• Use a graph or a table (not both) to present a set of data
+• State principal findings clearly: a difficult part: depending on the results, you will emphasise some hypothesis/statistics, and/or absence of effects. A case by case
+• Avoid description of individual subjects
+• Does not repeat in the text details information found in table or figure 
+• Clearly states whether hypotheses were supported
+• Interpret results: only interpret significant results: if only the interaction is significant, only interpret the interaction.
+• Write very very clearly
+• Avoids introducing further results
+• Did I say to be clear? 
+
+The RESULTS section is dedicated to presenting the actual results (i.e. measured and calculated quantities), not to discussing their meaning or interpretation. The results should be summarised using appropriate Tables and Figures (graphs or schematics). Every Figure and Table should have a legend that describes concisely what is contained or shown. Figure legends go below the figure, table legends above the table. Throughout the report, but especially in this section, pay attention to reporting numbers with an appropriate number of significant figures. A formal error analysis (such as, perhaps, was done in Physics lab) is not necessary. Still, features of the data-taking and processing that may have especially contributed to errors should be pointed out. One classical example is the taking of small differences between large numbers; for instance, 11.5+0.2 - 10.8+ 0.3 yields a very large fractional error (about 70 %) on the resulting difference, 0.7+0.5. Another procedure that usually increases error is numerical differentiation.
+
+This section should include a summary of the results of the investigation or experiment together with any necessary diagrams, graphs or tables of gathered data that support your results. Present your results in a logical order without comment. Discussion of your results should take place in the main body (Discussion) of the report. 
+
+ Present the results, usually with accompanying tables and graphs. Characterise the patterns and quality of the results and estimate their accuracy and precision. Detailed data go to an appendix. Use analytical graphics.
+
+In the results section of a report, describe all appropriate information produced by the research procedures. Simply present data and estimates of their accuracy. Save the explanation and interpretation of these findings for the discussion section, which usually follows the results section. In short documents, however, the results and discussion sections may be combined into a single section.
+
+Results sections make extensive use of graphs and figures to present data effectively. Order information by its importance to your audience's purpose in reading the document. State all significant findings in the text, referring to tables and graphs displaying all significant data. If the study has produced a large amount of raw data, do not present all of it in the results section. Instead, present only the information most appropriate to your audience's purpose in reading the document, summarising other key information in graphs and figures. If appropriate, include your raw data in an appendix, referring to them within your text.
+
+
+- Sub-sections by key points
+	- Start with overview sentence
+	- End with conclusion sentence
+	- Smooth transition
+
+- Description
+	- Significance
+		- Results
+		- Variables
+
+	- Data (not statistics)
+		- Environment
+		- Trend
+		- Comparison
+		- Accuracy and precision
+
+	- Edge cases
+		- Elimination
+		- Deviation and error
+
+	- Emphasis
+		- Important results
+		- Principle findings</Text>
+        </Document>
+        <Document ID="A4C75978-29D8-416E-ABDB-CD6BBC0AF6C3">
+            <Title>Back Matter</Title>
+        </Document>
+        <Document ID="66939443-3C05-427A-8087-562B1BE1CF2C">
+            <Title>Note</Title>
+            <Synopsis>- Background: big picture
+	- Motivations and benefits
+	- Current stage
+	- Accomplishments and applications
+	- Problems
+
+- Problem: zooming in
+	- Main focus
+		- Reason
+		- Aims and objectives
+	- Previous works
+		- Methods
+		- Outcomes
+		- Limitations
+
+- Investigation
+	- Thesis statement
+		- Purpose
+		- Approach
+		- Target
+		- Advantages
+	- Assumptions
+	- Limitations
+
+- Layout (optional)</Synopsis>
+            <Text>The introduction sets the scene and includes the aims and objectives of the report. It also defines the limits of the report, outlines the method of enquiry, gives a brief general background to the subject of the report and indicates the proposed development.
+
+The introduction provides a framework for the story you are about to tell, and thus serves two main purposes. For one, you must provide sufficient background information for a reader to understand the forthcoming results. Just as importantly, you must motivate the audience to keep reading! How? Reveal the significance of the work through connections to both prior scientific accomplishments and future applications. You are welcome to use your own creativity and judgement as to what a good introduction should look like; however, you may find the suggested structure below useful.
+
+Paragraph 1: most general, "big picture" paragraph. Here you should introduce the reader to the broader context of your experiment and motivate why your research is important. Be sure to tell a coherent story, not a dense but unconnected list of facts.
+Paragraph 2: "zooming in" somewhat. Now that the reader has a frame for thinking about your research, you can present background information in more depth.
+Paragraph 3: most specific, a description of your particular investigation.
+
+State (1) the purpose of the investigation, (2) the problem being investigated, (3) the background (context and importance) of the problem (citing previous work by others), (4) your thesis and general approach, and (5) the criteria for your study success.
+
+State the problem (the question)
+• Put the problem in a theoretical context (in regard to other theories/articles)
+• Cite earlier work on the question
+• State what the study will contribute to understanding the question
+• At the end of the introduction, state the principal hypotheses of the study 
+
+The INTRODUCTION should provide a clear statement of the problem posed by the project, and why the problem is of interest. It should reflect the scenario, if available. If needed, the introduction also needs to present background information so that the reader can understand the significance of the problem. A brief summary of the unique approach your group used to solve the problem should be given, possibly also including a concise introduction to theory or concepts used later to analyse and to discuss the results.
+
+The introduction to your document should lead your readers into your paper and give them an idea of what to expect (also see Forecasting). It should not be simply a restatement of the abstract even though it will contain some of the same material.
+
+Introductions often do the following:
+
+• State the subject of your document as clearly as possible
+• Define the problem you are addressing, your approach to the problem, and why this problem is important
+• State the purpose of your document
+• Define the scope of your document
+• Provide necessary and relevant background information
+
+The introduction sets the scene for the main body of the report. The aims and objectives of the report should be explained in detail. Any problems or limitations in the scope of the report should be identified, and a description of research methods, the parameters of the research and any necessary background history should be included. 
+
+
+- Background: big picture
+	- Motivations and benefits
+	- Current stage
+	- Accomplishments and applications
+	- Problems
+
+- Problem: zooming in
+	- Main focus
+		- Reason
+		- Aims and objectives
+	- Previous works
+		- Methods
+		- Outcomes
+		- Limitations
+
+- Investigation
+	- Thesis statement
+		- Purpose
+		- Approach
+		- Target
+		- Advantages
+	- Assumptions
+	- Limitations
+
+- Layout (optional)</Text>
+        </Document>
+        <Document ID="32AA75EA-C0FF-43E8-9192-D4A9F196AA81">
+            <Title>Back Matter</Title>
+        </Document>
+        <Document ID="298A2426-31A8-43CE-8CBF-C40CA1386D50">
+            <Title>Note: past sense</Title>
+            <Synopsis>- Materials
+	- Hardware and software (under protocol)
+	- Sources
+	- Preparation
+
+- Apparatus
+	- Specification list
+	- Description (brief in text, detailed in appendices)
+
+- Procedures
+	- Experiment process
+	- Exact steps
+
+- Algorithm
+	- Logic
+		- Performance
+		- Complexity
+	- Implementation
+	- Data
+		- Collection
+		- Analysis
+</Synopsis>
+            <Text>The methods section should allow an independent investigator to repeat any of your experiments. Use sub-section headings to allow readers to quickly identify experiments of interest to them (e.g., "Protein conjugation to hydrogels" and "Cell culture and fluorescent labeling"). When commercially available kits were used, it is sufficient to cite the name of the kit and say that it was used according to the manufacturer’s protocol. The key to a good methods section is developing your judgement for what information is essential and what is extraneous.
+
+Note that the methods section should be written in the past tense, since your experiments are completed at the time you are writing your paper. This section should also be written in complete sentences and paragraphs, not in bullet point form.
+
+• Another person could replicate your study based on a reading of your method section
+• A reader could evaluate your study well enough to tell whether your conclusion are valid
+• Method: sometimes you introduce at the beginning of the method section the task/experiment you did
+• Often, you give 1-2 sentences summary of your results 
+• Materials: list equipment, computer program, questionnaire used. If apparatus (or a program)
+is specialised, refer to articles describing it. 
+• Design: describe the logic of the experiment. Lists independent variables (termed factors in an article), their levels (conditions), and the dependent variable(s).
+• Procedure : describes the exact steps in carrying out design (what the participants did) –Procedure subsection may be incorporated into design
+
+List method of controls, such as randomisation or counterbalancing or additional controls of the stimuli (luminance, etc). Summarise or reproduce any instructions to participants (also in Appendix) 
+
+The purpose of the MATERIALS AND METHODS section is to describe the materials, apparatus, and procedures used to carry out the measurements. Most importantly, the section needs to provide a clear presentation of how key measurements were obtained and how the measurements were analysed. This is where the particular approach followed to reach the project's objectives should be described. The detail should be sufficient so that the reader can easily understand what was done. An accurate, schematic diagram depicting the apparatus should be included and referred to in the text as needed (if a diagram has been already provided it can be used in the report, provided that the source is properly referenced). To improve clarity of presentation, this section may be further divided into subsections (ex. a Materials subsection, an Apparatus subsection, a Methods or Procedures subsection, etc.).
+
+Information under this heading may include: a list of equipment used; explanations of procedures followed; relevant information on materials used, including sources of materials and details of any necessary preparation; reference to any problems encountered and subsequent changes in procedure. 
+
+Materials, apparatus, and procedures. List and describe key materials and apparatus. Then describe the procedure in enough detail that others can duplicate it. For design studies, this section includes component design, fabrication, assembly, and testing procedures. Use illustrations.
+
+• Materials and Apparatus
+
+In documents that describe an experiment or other procedure, list all hardware and software in sufficient detail for the the reader to reproduce the process.
+
+Describe equipment and software specific to the procedure. If appropriate, give the model or version numbers of major items of equipment. In many cases, essential information on materials and apparatus can be most effectively presented in a table.
+
+In short documents, describe materials and apparatus as part of the procedures section. If appropriate, mark the description with its own subheading. In longer documents or in documents reporting studies where the materials were a crucial element, put the description in a separate section with its own heading.
+
+Make descriptions of apparatus in the body of your document relatively brief. Put lengthy descriptions of materials and apparatus in one or more appendixes, referring to these descriptions in the main text.
+
+• Procedure
+
+Describe in detail experiments or other methods of collecting data. The purpose of the procedure section is to allow a reader of the report to reproduce the experiment or data collection process.
+
+The procedure section should be written in narrative form with illustrations of all test setups and procedures included within the text (see Integrating Graphics and Text).
+
+As in all narratives, organise the material to follow the actual sequence of events. Separate each group of actions into one or more paragraphs, and describe each discrete action in one or more sentences.
+
+List all materials and apparatus used in the procedures in sufficient detail that a reader could reproduce the experiment.
+
+
+- Materials
+	- Hardware and software (under protocol)
+	- Sources
+	- Preparation
+
+- Apparatus
+	- Specification list
+	- Description (brief in text, detailed in appendices)
+
+- Procedures
+	- Experiment process
+	- Exact steps
+
+- Algorithm
+	- Logic
+		- Performance
+		- Complexity
+	- Implementation
+	- Data
+		- Collection
+		- Analysis
+</Text>
+        </Document>
+        <Document ID="6F999918-5E4C-43A7-A534-03F80C70E4D8">
+            <Title>Note</Title>
+            <Synopsis>- System structure
+	-Flow chart
+
+- Theoretical formulae
+	- Symbol definition
+	- Explanation
+
+- Employed model
+	- Reason
+	- Limitations</Synopsis>
+            <Text>In long and fairly complex reports and articles, especially theoretical and experimental reports where the purpose of the document is to apply, verify, or illustrate one or more theories, include a separate section presenting relevant theoretical formulae and the techniques by which any experimental results are predicted. When introducing equations, be sure to define all symbols used in them.
+
+
+- System structure
+	-Flow chart
+
+- Theoretical formulae
+	- Symbol definition
+	- Explanation
+
+- Employed model
+	- Reason
+	- Limitations</Text>
+        </Document>
+        <Document ID="630CBDA5-08D2-4F7B-BAEC-419E821C5F8A">
+            <Title>Theory</Title>
+        </Document>
+        <Document ID="E04F8696-B67A-4C56-9675-F74669B69EA8">
+            <Title>Appendices</Title>
+        </Document>
+        <Document ID="70E7F967-BE75-46D4-A176-BA69E66F30CE">
+            <Title>Note</Title>
+            <Synopsis>- Purpose and major findings
+
+- Outcomes
+	- Performance
+	- Complexity
+	- Reliability
+	- Cost
+
+- Significance
+	- Problem mitigation
+	- Applications
+
+- Limitations and weaknesses
+
+- Implications for further research</Synopsis>
+            <Text>The conclusion should draw out the implications from the report and normally recommends a course of action. It should link back to the introduction.
+
+The CONCLUSIONS should summarise the central points made in the Discussion section, reinforcing for the reader the value and implications of the work. If the results were not definitive, specific future work that may be needed can be (briefly) described. The conclusions should never contain "surprises". Therefore, any conclusions should be based on observations and data already discussed. It is considered extremely bad form to introduce new data in the conclusions.
+
+In the conclusion you should show the overall significance of what has been covered. You may want to remind the reader of the most important points that have been made in the report or highlight what you consider to be the most central issues or findings. However, no new material should be introduced in the conclusion. 
+
+Conclusions. Review the results in relation to the original problem statement. Assess the success of the study in light of the criteria of success you gave in the introduction.
+
+Include a conclusion as the final part of the body of your document. Because some readers of documents, particularly managers, will sometimes not read the entire document but, instead, focus on the conclusion, this part of the document should summarise all essential information necessary for your audience's purpose. In your conclusion:
+
+• Relate your findings to the general problem and any specific objectives posed in your introduction. 
+• Summarise clearly what the report does and does not demonstrate.
+• Include specific recommendations for action or for further research. Sometimes these recommendations will constitute a separate section of a document.
+
+
+- Purpose and major findings
+
+- Outcomes
+	- Performance
+	- Complexity
+	- Reliability
+	- Cost
+
+- Significance
+	- Problem mitigation
+	- Applications
+
+- Limitations and weaknesses
+
+- Implications for further research</Text>
+        </Document>
+        <Document ID="843667DC-FCB6-4449-A248-096F0E261E2F">
+            <Title>Back Matter</Title>
+        </Document>
+        <Document ID="8609252D-4C16-4E62-A8D2-8CEF327A3364">
+            <Title>Notes</Title>
+        </Document>
+    </Documents>
+</SearchIndexes>
