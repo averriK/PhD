@@ -1,180 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <SearchIndexes Version="1.0">
     <Documents>
-        <Document ID="13BB6D24-BC0A-4196-A089-AF828F505EE8">
-            <Title>Acknowledgements</Title>
-        </Document>
-        <Document ID="99717229-6CF3-4D4A-A109-CB6A2790EA1D">
+        <Document ID="70E7F967-BE75-46D4-A176-BA69E66F30CE">
             <Title>Note</Title>
-            <Text>Where appropriate you may wish to acknowledge the assistance of particular organisations or individuals who provided information, advice or help. 
+            <Synopsis>- Purpose and major findings
 
-Acknowledgements. Acknowledge assistance from advisors, sponsors, funding agencies, colleagues, technicians, and so on.
+- Outcomes
+	- Performance
+	- Complexity
+	- Reliability
+	- Cost
 
-An acknowledgements section is sometimes included in the front matter of a longer report, thesis, or collection to note the assistance of people whose help was crucial but not extensive enough to warrant their being listed as co-authors. Thesis advisors, technicians, and colleagues who gave advice or time are all candidates for the acknowledgements section.
+- Significance
+	- Problem mitigation
+	- Applications
 
-This section is often placed just after the list of tables. In articles and shorter reports, acknowledgements may be made in the end matter at the very beginning of the list of references.</Text>
+- Limitations and weaknesses
+
+- Implications for further research</Synopsis>
         </Document>
-        <Document ID="9DA9DF92-FA7F-4051-B1F9-433EB65AB742">
-            <Title>Note</Title>
-            <Synopsis>- Summation of result
-
-- Interpretation
-	- Data patterns
-	- Relationship between variables
-	- Explanations
-
-- Comparison
-	- Theory (hypothesis)
-		- Approach evaluation
-		- Error analysis
-	- Existing schemes
-		- Performance
-		- Complexity
-		- Reliability
-		- Cost
-	- Cited works
-		- Focus
-		- Methods
-		- Outcomes
-
-- Optimisation
-	- Limitations and weaknesses
-	- Possible improvements
-
-- Ethical problem
-
-- Applications and industrial relevance
-</Synopsis>
-            <Text>The purpose of the discussion section is to interpret and contextualise your data. You should begin by reiterating the purpose of your research and your major findings. Then you might do any or all of the following: connect your findings to other research (published or that of your peers); describe any ambiguities and sources of error in the data, and suggest future experiments to resolve uncertainties; explain where you expect your work may lead, and suggest specific experiments for extending your findings; describe any conceptual or technical limitations of the research. Finally, you should explain the significance of your findings to basic science and to engineering applications. Like the previous sections, the discussion should have a clear organisation and narrative flow, whether or not you use sub-sections.
-
-Relates results to those of others
-• Cites other work discussed
-• Relates results to theory
-• Discuss limitations and weakness of results
-• Discuss implications for further research
-• Suggest applications of findings when appropriate
-• Avoids undue speculations
-
-The DISCUSSION interprets the results in light of the project's objectives. The most important goal of the DISCUSSION section is to interpret the results so that the reader is informed of the insight or answers that the results provide. The DISCUSSION should also present an evaluation of the particular approach taken by the group. For example: Based on the results, how could the experimental procedure be improved? What additional, future work may be warranted? What recommendations can be drawn?
-
-The main body of the report is where you discuss your material. The facts and evidence you have gathered should be analysed and discussed with specific reference to the problem or issue. If your discussion section is lengthy you might divide it into section headings. Your points should be grouped and arranged in an order that is logical and easy to follow. Use headings and subheadings to create a clear structure for your material. Use bullet points to present a series of points in an easy-to-follow list. 
-
-Discussion. Discuss the meaning of the results, stating clearly what their significance is. Compare the results with theoretical expectations and account for anything unexpected.
-
-Explain in the discussion section of your document information presented in the results section, commenting on significant data produced by the study. In writing a discussion section, keep the following points in mind.
-
-• Identify significant patterns in the data and relationships between variables. Offer tentative explanations for these patterns and relationships.
-• Compare the actual data produced with any predictions or questions posed in the introduction or theory section of the document.
-• If any of the results differ from the expected results, offer possible explanations for the discrepancies. Present the most probable explanations first and the least probable last.
-• Consider how well the data answer any questions posed in the document's introduction. Do the results answer the questions completely? If not, explain what questions still need to be addressed and give possible explanations why the results may be inconclusive.
-• Qualify the scope of your explanations, discussing in what cases your explanations apply and in what cases they may not.
-• Organise your material in order of importance to your reader's purpose in using the document.
-
-
-- Summation of result
-
-- Interpretation
-	- Data patterns
-	- Relationship between variables
-	- Explanations
-
-- Comparison
-	- Theory (hypothesis)
-		- Approach evaluation
-		- Error analysis
-	- Existing schemes
-		- Performance
-		- Complexity
-		- Reliability
-		- Cost
-	- Cited works
-		- Focus
-		- Methods
-		- Outcomes
-
-- Optimisation
-	- Limitations and weaknesses
-	- Possible improvements
-
-- Ethical problem
-
-- Applications and industrial relevance
-</Text>
-        </Document>
-        <Document ID="02571652-AB65-4B5D-B168-E7868415B123">
-            <Title>Methods</Title>
-        </Document>
-        <Document ID="48E9741E-1F94-4771-98D5-63D743C579D0">
-            <Title>Contents</Title>
-        </Document>
-        <Document ID="DEA4EC9B-273B-4F5D-8E68-1BF391616604">
-            <Title>Ideas</Title>
-        </Document>
-        <Document ID="113CCC7B-4392-40D9-B7E6-9A2A316A9448">
+        <Document ID="32F71490-D8CA-415E-BFED-09743E83BE30">
             <Title>Back Matter</Title>
         </Document>
-        <Document ID="EF6FE532-6DC8-499E-BF0D-0B7F21D06602">
-            <Title>Abstract</Title>
-        </Document>
-        <Document ID="F19A73DF-2111-4BF7-BB43-F499430ED40A">
-            <Title>Introduction</Title>
-        </Document>
-        <Document ID="273C529B-05A5-480A-8F58-18FF7D2BDB89">
-            <Title>Note</Title>
-            <Synopsis>- Detailed calculations, procedures, data
-
-- Additional diagrams
-
-- Additional tables summarising data
-
-- Long lists
-
-- Experimental protocols or survey questions
-
-- Code</Synopsis>
-            <Text>Appendices contain supporting information, such as transcripts of interviews, results of surveys, a glossary and results from experiments.
-
-Under this heading you should include all the supporting information you have used that is not published. This might include tables, graphs, questionnaires, surveys or transcripts. Refer to the appendices in the body of your report.
-
-Appendixes. Provide detailed calculations, procedures, data in separate appendixes. Give each appendix a title, a letter (Appendix A, B, C), and an introductory paragraph.
-
-In one or more appendixes, include materials that are not essential parts of your main text but that will provide useful reference information to readers seeking more detail.
-
-The following list presents some typical material that is often included in an appendix.
-
-• Detailed explanations and elaborations too technical for the main text
-• Additional diagrams
-• Additional tables summarising data
-• Long lists
-• Experimental protocols or survey questions
-• Selected computer code directly relevant to discussions in the main body
-
-Guidelines for Appendixes
-
-• Avoid using appendixes as dumping grounds for raw data that you will be unable to incorporate in the body of the paper.
-• If you have more than one appendix, use letters to label them (Appendix A, Appendix B, and so forth).
-• Give each appendix an appropriate title.
-• Place one specific kind of information in each appendix.
-• Begin each appendix on a new page.
-• If appropriate, identify and summarise the contexts of an appendix in a short summary paragraph.
-• Refer to each appendix in the body of the document.
-
-
-- Detailed calculations, procedures, data
-
-- Additional diagrams
-
-- Additional tables summarising data
-
-- Long lists
-
-- Experimental protocols or survey questions
-
-- Code</Text>
+        <Document ID="1D126A32-CF13-4B56-BE10-F3A1F634ACF8">
+            <Title>Subject #</Title>
         </Document>
         <Document ID="D6446DF0-0E3C-4FCA-905B-851FB198D1FE">
             <Title>Note: update after writing</Title>
-            <Synopsis>- Sections
+            <Synopsis>The contents page should list the different chapters and/or headings together with the page numbers. Your contents page should be presented in such a way that the reader can quickly scan the list of headings and locate a particular part of the report. You may want to number chapter headings and subheadings in addition to providing page references. Whatever numbering system you use, be sure that it is clear and consistent throughout.
+
+It is useful to provide an alphabetical list of technical terms with a brief, clear description of each term. You can also include in this section explanations of the acronyms, abbreviations or standard units used in your report. 
+
+• List of figures. Include the figure numbers, figure titles, and page numbers.
+• List of tables. Include the table numbers, table titles, and page numbers.
+• Nomenclature (optional). List unfamiliar terms, symbols, acronyms and their meanings.
+
+Some readers begin by scanning the figures first. The figures, with the legends, should provide a self-explanatory overview of your data. Decide what the data show, then create figures which highlight the most important points of your paper.
+
+Tables are used to present repetitive data that is numerical. Graphs or illustrations, collectively called figures, are used to present numerical trends, raw data (like a picture of a gel), or a model that explains your work.
+
+When you prepare your figures and tables, keep in mind that it is significantly more expensive for journals to publish figures and tables than text, so try to present the data in a way that is worthy of such added expense. The table below is an example of an ineffective table.
+
+The information in Table 1 could be presented in one sentence, such as: "In ten experiments carried out at 24°C, ion flow was detected only in the presence of cortical cells." This is a clearer and more concise way to present the information. In addition, all tables and figures must have numbers, titles and legends.
+
+Legends to the figures and tables explain the elements that appear in the illustration. Conclusions about the data are NOT included in the legends. As you write your first draft, you might state in a short simple sentence what the point of the figure or table is. In later drafts, make sure each element of the figure or table is explained. Your figure legends should be written in the present tense since you are explaining elements that still exist at the time that you are writing the paper.
+
+
+- Sections
 
 - List of figures
 
@@ -208,54 +80,45 @@ Legends to the figures and tables explain the elements that appear in the illust
 
 - Nomenclature</Text>
         </Document>
-        <Document ID="688E24E7-F2A4-4D38-9370-630CFC12F686">
-            <Title>Title</Title>
+        <Document ID="F6AE22A8-BB5C-464E-B0C7-F286455C8C25">
+            <Title>Subject #</Title>
         </Document>
-        <Document ID="7E23EE9F-4C31-4A19-B0D1-762A682AB01B">
-            <Title>Results</Title>
+        <Document ID="FDF1D992-BF34-44B7-9279-C771DF001521">
+            <Title>Title Page</Title>
+            <Synopsis>- Name
+
+- ID
+
+- Date
+
+- Module
+
+- Tutor
+</Synopsis>
+            <Text>
+
+
+
+
+
+
+
+
+
+
+&lt;$PROJECTTITLE&gt;
+
+&lt;$author&gt;</Text>
+            <Notes>These tags get replaced with the information set in the Metadata pane of Compile. Alternatively, you can simply replace this text altogether.
+
+The title page should be brief but explicit. Include your name, date, module, course and the person for whom the report is written.
+
+
+</Notes>
         </Document>
-        <Document ID="6E8A51AF-FABA-482D-992C-31AB1D2D796A">
-            <Title>Bibliography</Title>
-        </Document>
-        <Document ID="7D368ACE-A964-4A02-97A7-F037C292C562">
-            <Title>Conclusion</Title>
-        </Document>
-        <Document ID="E9C70E86-921F-4228-B921-611A0E916E50">
-            <Title>Note</Title>
-            <Text>References are generally used in the Introduction and Discussion sections to support any claims that are not common knowledge. Include only those references that pertain to the question at hand. Journals vary considerably in their preferred format for the reference list. For this class, you should list the references alphabetically by the first author’s last name. Include all the authors, the paper’s title, the name of the journal in which it was published, its year of publication, the volume number, and page numbers. Please carefully follow the punctuation and format requirements. 
-
-The REFERENCES section should contain complete citations following standard form. The form of the citation depends on the type of source being referenced, and is different for whole books, chapters in books, and articles published in a journal. One good format to follow is that used in the Chemical Engineering Progress journal, published by AIChE. The references should be numbered and listed in the order they were cited in the body of the report. In the text of the report, a particular reference can be cited by using a numerical superscript that corresponds to its number in the reference list. If a reference has not been actually consulted, it should be listed "as discussed in [name of the work that discussed the reference]".
-
-Your bibliography should list, in alphabetical order by author, all published sources referred to in your report. There are different styles of using references and bibliographies. Refer to the study guide Referencing and Bibliographies and check your departmental handbook for guidelines. Texts which you consulted but did not refer to directly could be grouped under a separate heading such as 'Background Reading' and listed in alphabetical order using the same format as in your bibliography. 
-
-Bibliography. List alphabetically any works referred to in your study. Follow the bibliographical and footnote formats of your department or of a prominent periodical published by a professional society in your field.
-</Text>
-        </Document>
-        <Document ID="49A76E56-D15F-4236-A7BB-73D2CB448C43">
-            <Title>Discussion</Title>
-        </Document>
-        <Document ID="B7A83748-4D51-443F-B4FF-2539B8795924">
-            <Title>Note: key words</Title>
-            <Synopsis>- Problem: why matter
-
-- Main task
-
-- Methods
-
-- Key results
-
-- Interpretation
-
-- Conclusion
-
-- Key words</Synopsis>
-            <Text>The reader wants to know what area of work the report covers.
-
-The ABSTRACT is not a part of the body of the report itself. Rather, the abstract is a brief summary of the report contents that is often separately circulated so potential readers can decide whether to read the report. The abstract should very concisely summarise the whole report: why it was written, what was discovered or developed, and what is claimed to be the significance of the effort. The abstract does not include figures or tables, and only the most significant numerical values or results should be given.
-
-The summary should briefly describe the content of the report. It should cover the aims of the report, what was found and what, if any, action is called for. Aim for about 1/2 a page in length and avoid detail or discussion; just outline the main points. Remember that the summary is the first thing that is read. It should provide the reader with a clear, helpful overview of the content of the report.
-
-
+        <Document ID="C7528E28-CE01-4158-AA73-12321B8D55D7">
+            <Title>Abstract</Title>
+            <Synopsis>
 - Problem: why matter
 
 - Main task
@@ -268,26 +131,39 @@ The summary should briefly describe the content of the report. It should cover t
 
 - Conclusion
 
-- Key words</Text>
+- Key words</Synopsis>
+            <Notes>The reader wants to know what area of work the report covers.
+
+The ABSTRACT is not a part of the body of the report itself. Rather, the abstract is a brief summary of the report contents that is often separately circulated so potential readers can decide whether to read the report. The abstract should very concisely summarise the whole report: why it was written, what was discovered or developed, and what is claimed to be the significance of the effort. The abstract does not include figures or tables, and only the most significant numerical values or results should be given.
+
+The summary should briefly describe the content of the report. It should cover the aims of the report, what was found and what, if any, action is called for. Aim for about 1/2 a page in length and avoid detail or discussion; just outline the main points. Remember that the summary is the first thing that is read. It should provide the reader with a clear, helpful overview of the content of the report.
+
+</Notes>
         </Document>
-        <Document ID="5DAD58DF-90EC-4F29-949E-02F0A25905D1">
-            <Title>Academic Report</Title>
+        <Document ID="AB0593DA-4576-4807-8549-9E9842004875">
+            <Title>Background</Title>
+            <Synopsis>- System structure
+	-Flow chart
+
+- Theoretical formulae
+	- Symbol definition
+	- Explanation
+
+- Employed model
+	- Reason
+	- Limitations</Synopsis>
+            <Notes>Background or Theory
+In long and fairly complex reports and articles, especially theoretical and experimental reports where the purpose of the document is to apply, verify, or illustrate one or more theories, include a separate section presenting relevant theoretical formulae and the techniques by which any experimental results are predicted. When introducing equations, be sure to define all symbols used in them.
+
+
+</Notes>
         </Document>
-        <Document ID="1A8B95E3-2C2D-4983-96A6-4715635A94AE">
-            <Title>Back Matter</Title>
+        <Document ID="DEA4EC9B-273B-4F5D-8E68-1BF391616604">
+            <Title>Ideas</Title>
         </Document>
-        <Document ID="EDDCD3DB-E174-422E-8B74-822EFE95CC72">
-            <Title>Note: check before submitting</Title>
-            <Synopsis>- Name
-
-- ID
-
-- Date
-
-- Module
-
-- Tutor</Synopsis>
-            <Text>The title page should be brief but explicit. Include your name, date, module, course and the person for whom the report is written.
+        <Document ID="0D793740-D257-42C9-9DF7-8694FC4C933B">
+            <Title>Title Page</Title>
+            <Synopsis>The title page should be brief but explicit. Include your name, date, module, course and the person for whom the report is written.
 
 
 - Name
@@ -299,10 +175,660 @@ The summary should briefly describe the content of the report. It should cover t
 - Module
 
 - Tutor
+</Synopsis>
+            <Text>Your Name
+Your Address
+Your phone number
+Your e-mail address
+
+(Your agent’s name)
+(Your agent’s address)
+&lt;$wc100&gt; words
+
+
+
+
+
+
+
+
+
+
+&lt;$projecttitle&gt;
+
+by &lt;$fullname&gt;</Text>
+            <Notes>This is the title page of the manuscript. Note that its “Section Type” is automatically set to “Front Matter” in the Metadata pane of the Inspector, allowing the title page to be formatted differently from body text during Compile.
+
+The &lt;$PROJECTTITLE&gt; and &lt;$fullname&gt; tags get replaced with metadata information you can set when compiling. Other information is taken from Contacts when the project is created.
+
+The &lt;$wc100&gt; words tag will be replaced with the word count rounded to the nearest 100 during Compile (this and other tags can be inserted from the Insert menu).
+
+Feel free to edit the text of the title page as required.</Notes>
+        </Document>
+        <Document ID="49A76E56-D15F-4236-A7BB-73D2CB448C43">
+            <Title>Discussion</Title>
+            <Synopsis>- Summation of result
+
+- Interpretation
+	- Data patterns
+	- Relationship between variables
+	- Explanations
+
+- Comparison
+	- Theory (hypothesis)
+		- Approach evaluation
+		- Error analysis
+	- Existing schemes
+		- Performance
+		- Complexity
+		- Reliability
+		- Cost
+	- Cited works
+		- Focus
+		- Methods
+		- Outcomes
+
+- Optimisation
+	- Limitations and weaknesses
+	- Possible improvements
+
+- Ethical problem
+
+- Applications and industrial relevance
+</Synopsis>
+            <Notes>The purpose of the discussion section is to interpret and contextualise your data. You should begin by reiterating the purpose of your research and your major findings. Then you might do any or all of the following: connect your findings to other research (published or that of your peers); describe any ambiguities and sources of error in the data, and suggest future experiments to resolve uncertainties; explain where you expect your work may lead, and suggest specific experiments for extending your findings; describe any conceptual or technical limitations of the research. Finally, you should explain the significance of your findings to basic science and to engineering applications. Like the previous sections, the discussion should have a clear organisation and narrative flow, whether or not you use sub-sections.
+
+Relates results to those of others
+• Cites other work discussed
+• Relates results to theory
+• Discuss limitations and weakness of results
+• Discuss implications for further research
+• Suggest applications of findings when appropriate
+• Avoids undue speculations
+
+The DISCUSSION interprets the results in light of the project's objectives. The most important goal of the DISCUSSION section is to interpret the results so that the reader is informed of the insight or answers that the results provide. The DISCUSSION should also present an evaluation of the particular approach taken by the group. For example: Based on the results, how could the experimental procedure be improved? What additional, future work may be warranted? What recommendations can be drawn?
+
+The main body of the report is where you discuss your material. The facts and evidence you have gathered should be analysed and discussed with specific reference to the problem or issue. If your discussion section is lengthy you might divide it into section headings. Your points should be grouped and arranged in an order that is logical and easy to follow. Use headings and subheadings to create a clear structure for your material. Use bullet points to present a series of points in an easy-to-follow list. 
+
+Discussion. Discuss the meaning of the results, stating clearly what their significance is. Compare the results with theoretical expectations and account for anything unexpected.
+
+Explain in the discussion section of your document information presented in the results section, commenting on significant data produced by the study. In writing a discussion section, keep the following points in mind.
+
+• Identify significant patterns in the data and relationships between variables. Offer tentative explanations for these patterns and relationships.
+• Compare the actual data produced with any predictions or questions posed in the introduction or theory section of the document.
+• If any of the results differ from the expected results, offer possible explanations for the discrepancies. Present the most probable explanations first and the least probable last.
+• Consider how well the data answer any questions posed in the document's introduction. Do the results answer the questions completely? If not, explain what questions still need to be addressed and give possible explanations why the results may be inconclusive.
+• Qualify the scope of your explanations, discussing in what cases your explanations apply and in what cases they may not.
+• Organise your material in order of importance to your reader's purpose in using the document.
+
+</Notes>
+        </Document>
+        <Document ID="F7B9BAF6-1A51-491C-9CA1-79F2BE3F4115">
+            <Title>Front Matter</Title>
+            <Notes>Note that in the “Metadata” pane of the Inspector, under “Section Type”, the “Default Subdocument Type” is set to “Front Matter”. This setting causes all subdocuments of this folder to use the “Front Matter” section type by default (that is, when “Structure-Based” is selected as the section type).
+
+This saves us from having to manually assign the “Front Matter” section type for each document we place into this folder.
+
+During Compile, documents assigned the “Front Matter” section type will be laid out differently from documents in the main body of the manuscript.</Notes>
+        </Document>
+        <Document ID="DFA14A55-EF4C-4FE4-B116-15FB045B2443">
+            <Title>Subject #1</Title>
+        </Document>
+        <Document ID="F19A73DF-2111-4BF7-BB43-F499430ED40A">
+            <Title>Introduction</Title>
+        </Document>
+        <Document ID="33937EEA-58A0-4896-AAF2-2DAA765AB08C">
+            <Title>Contents</Title>
+        </Document>
+        <Document ID="47C2E418-720B-4637-B29D-4B88F92D5DBD">
+            <Title>Conclusion</Title>
+            <Synopsis>- Purpose and major findings
+
+- Outcomes
+	- Performance
+	- Complexity
+	- Reliability
+	- Cost
+
+- Significance
+	- Problem mitigation
+	- Applications
+
+- Limitations and weaknesses
+
+- Implications for further research</Synopsis>
+            <Notes>The conclusion should draw out the implications from the report and normally recommends a course of action. It should link back to the introduction.
+
+The CONCLUSIONS should summarise the central points made in the Discussion section, reinforcing for the reader the value and implications of the work. If the results were not definitive, specific future work that may be needed can be (briefly) described. The conclusions should never contain "surprises". Therefore, any conclusions should be based on observations and data already discussed. It is considered extremely bad form to introduce new data in the conclusions.
+
+In the conclusion you should show the overall significance of what has been covered. You may want to remind the reader of the most important points that have been made in the report or highlight what you consider to be the most central issues or findings. However, no new material should be introduced in the conclusion. 
+
+Conclusions. Review the results in relation to the original problem statement. Assess the success of the study in light of the criteria of success you gave in the introduction.
+
+Include a conclusion as the final part of the body of your document. Because some readers of documents, particularly managers, will sometimes not read the entire document but, instead, focus on the conclusion, this part of the document should summarise all essential information necessary for your audience's purpose. In your conclusion:
+
+• Relate your findings to the general problem and any specific objectives posed in your introduction. 
+• Summarise clearly what the report does and does not demonstrate.
+• Include specific recommendations for action or for further research. Sometimes these recommendations will constitute a separate section of a document.
+</Notes>
+        </Document>
+        <Document ID="C3F6BB76-D994-4E92-98AA-BD91A3D48016">
+            <Title>Subject #4</Title>
+        </Document>
+        <Document ID="6F999918-5E4C-43A7-A534-03F80C70E4D8">
+            <Title>Note</Title>
+            <Text>
+
+- System structure
+	-Flow chart
+
+- Theoretical formulae
+	- Symbol definition
+	- Explanation
+
+- Employed model
+	- Reason
+	- Limitations</Text>
+        </Document>
+        <Document ID="FC0DF106-3D7B-4457-A56C-27CA8948EE3F">
+            <Title>Subject #</Title>
+        </Document>
+        <Document ID="D9EE858D-F07A-48AC-A113-BCCB2CC578E6">
+            <Title>Subject #</Title>
+        </Document>
+        <Document ID="4D14C544-5EFE-4102-BD14-02255CEA368A">
+            <Title>Non-Fiction Format</Title>
+            <Text>GENERAL NON-FICTION
+
+About This Template
+When compiled (File &gt; Compile), this project will generate a document in the standard manuscript format used for many types of non-fiction. Settings are also provided to make it easy to compile to a paperback-style PDF for self-publishing or an EPUB or Kindle ebook.
+
+How To Use This Template
+	•	Inside the “Manuscript” folder, create a new folder for each chapter and title each folder with the name of the chapter. (You do not need to—and indeed shouldn’t—title the folders “Chapter One” and so on, because chapter numbering will be taken care of automatically during the Compile process.) The first chapter folder has been created for you with the placeholder title “Chapter”.
+	⁃	Note: The “Manuscript” folder is what we refer to in the documentation as the “Draft folder”. It’s just been renamed “Manuscript” in this template.
+	•	Create a new text document for each section inside the chapter folders. (Upon export, sections will be separated with the “#” character for standard manuscript format, or with a blank line for other formats.)
+	•	If you don’t require a foreword, move the “Foreword” document to the Trash folder. Alternatively, rename it “Preface” or “Introduction” if you prefer.
+	•	“Notes” and “Ideas” folders have been provided for your convenience, although you can replace them or create different top-level folders for your research materials if necessary (these are just regular folders that have had custom icons assigned to them using the Documents &gt; Change Icon feature).
+
+Tables and Figures
+If you need to use tables or figures in your manuscript, you can label them using the following tags, replacing “KEYWORD” with a unique word that identifies your table or figure.
+
+!fig(KEYWORD)
+!table(KEYWORD)
+
+These tags will be replaced with numbers in the compiled document, with the numbering stream for figures being separate from the numbering stream for tables.
+
+You can refer to such tags as follows:
+
+#fig(KEYWORD)
+#table(KEYWORD)
+
+Here’s an example:
+
+Table !table(sales): Sales 2011
+Table !table(dates): Shipment dates
+Figure !fig(skeleton): The skeleton of the gnu.
+Figure !fig(malcolmreynolds): The second coolest character in Firefly.
+
+… (For sales figures, see table #table(sales))… For shipment dates, see table #table(dates)… where he discovered the skeleton of a gnarled gnu (see figure #fig(skeleton))… Chronicles providing a similar role, albeit without the Castle actor (see figure #fig(malcolmreynolds)).
+
+In the compiled document, the above text would look like this:
+
+Table 1: Sales 2011
+Table 2: Shipment dates
+Figure 1: The skeleton of the gnu.
+Figure 2: The second coolest character in Firefly.
+
+… (For sales figures, see table 1)… For shipment dates, see table 2… where he discovered the skeleton of a gnarled gnu (see figure 1)… Chronicles providing a similar role, albeit without the Castle actor (see figure 2).
+
+Compiling
+	•	Title pages and front matter are all provided in the “Front Matter” folder. Different front matter is used for different formats.
+	•	A “Back Matter” folder is also provided. Here you can add any back matter that is specific to each Compile format. Currently this only contains documents for storying endnotes (see below).
+	•	Tip: You can open this document in a Quick Reference panel and have it open alongside the Compile panel if you need to refer to these instructions while compiling.
+
+	•	To compile to standard manuscript format:
+	◦	Edit the “Title Page” document inside the Front Matter/Manuscript Format folder to ensure that it contains the correct information (by default it will use information from Contacts).
+	◦	To create your table of contents:
+	⁃	Holding down the Command key, select all the documents you wish to be included in the contents listing. (Usually this will be “Foreword” and all chapter folders, but not the individual sections inside chapter folders. If you have footnotes and wish them to be added to the end of the manuscript as endnotes, you should also include the “Endnotes” document inside “Back Matter”.)
+	⁃	Go to Edit &gt; Copy Special &gt; Copy Documents as ToC.
+	⁃	Paste into the “Contents” document in the “Manuscript Format” front matter folder. (Tip: Use Format &gt; Font &gt; Underline to change or remove the dotted underline between the chapter names and page numbers.)
+	⁃	The resulting linked text and page number tags will be replaced with the final chapter names and page numbers in the compiled document.
+	⁃	Note that you don’t need to do this every time you compile, only when chapters have been added, deleted, renamed or moved around. (Note to Microsoft Word users: If you export to Word, you may need to generate a print preview in Word to force the page numbers to show up correctly - they may appear as question marks before doing so.)
+	⁃	You don’t have to use “Copy Documents as ToC” to create a table of contents, by the way. You could equally construct one yourself using document links and placeholders - see “List of All Placeholders…” in the Help menu for more information on the latter.
+	◦	Go to File &gt; Compile…
+	◦	Next to “Compile for”, select “Print”, “PDF” or one of the rich text file formats such as RTF, Word or OpenOffice.
+	◦	Select either “Non-Fiction Manuscript (Courier)” or “Non-Fiction Manuscript (Times)” from the list of formats on the left.
+	◦	Ensure that the “Add front matter” button is ticked under the contents list on the right and that the “Manuscript Format” folder is selected in the pop-up button next to it. (This has already been set up for you.)
+	◦	If you have footnotes in your text, they can either be included at the end of each page (the default) or as endnotes. To have them included as endnotes:
+	⁃	Beneath the list of documents on the right side of the Compile pane, tick “Add back matter”. This will include the “Endnotes” document from the Back Matter/Manuscript Format folder.
+	⁃	Click on the gear icon in the right-most header bar in Compile.
+	⁃	Tick “Export inspector footnotes as endnotes” and “Export inline footnotes as endnotes”.
+	◦	Click on “Compile”.
+
+•	To compile to paperback PDF format:
+	◦	Edit the front matter pages contained inside the Front Matter/Paperback folder.
+	◦	Follow the instructions under compiling for standard manuscript format for creating a table of contents, but this time paste the contents list into the Front Matter/Paperback/Contents document.
+	◦	Go to File &gt; Compile…
+	◦	Next to “Compile for”, select “PDF”.
+	◦	Select “Paperback (5.06” x 7.81”)” from the list of formats on the left.
+	◦	Ensure that the “Add front matter” button is ticked under the contents list on the right and that the “Paperback” folder is selected in the pop-up button next to it if it. (This has already been set up for you.)
+	◦	If you have footnotes in your text, they can either be included at the end of each page or as endnotes. See the instructions under compiling for standard manuscript format for information on how to include footnotes as endnotes (in this case, however, clicking “Add Back Matter” will include the “Paperback” back matter folder).
+	◦	Click on “Compile”.
+
+	•	To compile to ebook format:
+	◦	Edit or remove the dedication page contained inside the Front Matter/Ebook folder. Feel free to add any other front matter documents as required.
+	◦	Import a cover image (preferably in JPG or PNG format).
+	⁃	You can store this anywhere, but it makes sense to place it in the “Ebook” front matter folder. A placeholder cover image is already provided—you will want to delete that once you have imported your own.
+	⁃	Be sure to check online for recommended image sizes, because the recommendations are constantly changing. The sample cover image provided is 2,500 x 1,563 pixels, based on Amazon’s recommended size and proportions for a Kindle cover at the time this template was created.
+	◦	Go to File &gt; Compile…
+	◦	From the “Compile for” menu, select one of the ebook formats.
+	⁃	To create an ePub file, choose the “ePub 3” format.
+	⁃	To create a Kindle file, choose the “Kindle KF8/Mobi” format.
+	⁃	“ePub 2” and “Kindle Mobi” are older versions of the formats. They are mainly provided for supporting projects created in older versions of Scrivener.
+	◦	Select “Ebook” from the list of formats on the left.
+	◦	If you have front matter documents other than the cover image, ensure that the “Add front matter” button is ticked under the contents list on the right and that the “Ebook” folder is selected in the pop-up button next to it. If you don’t have any front matter documents, you can un-tick “Add front matter”. (Un-ticking this does not affect the cover image.)
+	◦	Above the contents list in the rightmost header bar are six buttons. Click on each of them in turn to go through the various available settings, changing what you need. In particular:
+	⁃	Fill in the metadata such as author name and book title.
+	⁃	Ensure your cover image is selected and shown.
+	◦	Click on “Compile”.
+
+Adding Sub-Heads
+If you want your chapters divided into sections that each have their own sub-headings, simply use blank file groups for each heading, with each section under that heading a subdocument of the file group, like this:
+
+#
+
+Customising the Ebook Table of Contents
+When exporting to ebook format, Scrivener automatically generates a table of contents. If you would like to customise what appears in the contents, follow these instructions:
+	1.	Create a document for your table of contents inside the Front Matter/Ebook folder.
+	2.	Name the document “Contents”.
+	3.	In the binder, select the documents you would like to appear in the table of contents (hold down Command to select more than one document).
+	4.	For a simple flat list, hit Cmd-C or use Edit &gt; Copy. Alternatively, if you would like the table of contents indented to match the binder structure, go to Edit &gt; Copy Special &gt; Copy Documents as Structured Link List.
+	5.	Click into the text of the “Contents” document and hit Cmd-V or use Edit &gt; Paste. The documents you wish to appear in the table of contents will now appear as a list of links.
+	6.	If you intend to export to an older ebook format (ePub 2 or non-KF8 Mobi), select all of the text and change it to use a 12-point font.
+	7.	If you wish to centre the table of contents, select the text and centre it.
+	8.	In the Inspector, change the “Section Type” of the “Contents” document to “Table of Contents”. Now, when you Compile, your custom “Contents” document will be used instead of the automatically-generated one. The titles in the links of the “Contents” document will automatically be updated to match those of the final compiled ebook.
+
+Sample Document
+See the “Sample MS” PDF file in the Research folder for an example of a document that has been created using this template.
+
+Final Note
+Scrivener project templates are flexible and are not intended to restrict you to a particular workflow. You can change, delete or move the files and folders contained in the template to suit how you work.
+
+Like all templates in Scrivener, this project was originally created from the “Blank” template. We’ve simply added a few folders and set everything up in ways that should be useful to non-fiction authors. Everything you can do with this project, you could equally do by creating a “Blank” project and setting it up yourself.
+
+You can create your own templates by setting up a skeletal project with the files, folders and settings you would like to use for new projects and using File &gt; Save As Template.</Text>
+        </Document>
+        <Document ID="298A2426-31A8-43CE-8CBF-C40CA1386D50">
+            <Title>Note</Title>
+            <Synopsis>- Materials
+	- Hardware and software (under protocol)
+	- Sources
+	- Preparation
+
+- Apparatus
+	- Specification list
+	- Description (brief in text, detailed in appendices)
+
+- Procedures
+	- Experiment process
+	- Exact steps
+
+- Algorithm
+	- Logic
+		- Performance
+		- Complexity
+	- Implementation
+	- Data
+		- Collection
+		- Analysis
+</Synopsis>
+        </Document>
+        <Document ID="B4334C17-D83E-4B9A-A5C1-62F31EDD52A1">
+            <Title>Introduction</Title>
+            <Synopsis>- Background: big picture
+	- Motivations and benefits
+	- Current stage
+	- Accomplishments and applications
+	- Problems
+
+- Problem: zooming in
+	- Main focus
+		- Reason
+		- Aims and objectives
+	- Previous works
+		- Methods
+		- Outcomes
+		- Limitations
+
+- Investigation
+	- Thesis statement
+		- Purpose
+		- Approach
+		- Target
+		- Advantages
+	- Assumptions
+	- Limitations
+
+- Layout (optional)</Synopsis>
+            <Notes>The introduction sets the scene and includes the aims and objectives of the report. It also defines the limits of the report, outlines the method of enquiry, gives a brief general background to the subject of the report and indicates the proposed development.
+
+The introduction provides a framework for the story you are about to tell, and thus serves two main purposes. For one, you must provide sufficient background information for a reader to understand the forthcoming results. Just as importantly, you must motivate the audience to keep reading! How? Reveal the significance of the work through connections to both prior scientific accomplishments and future applications. You are welcome to use your own creativity and judgement as to what a good introduction should look like; however, you may find the suggested structure below useful.
+
+Paragraph 1: most general, "big picture" paragraph. Here you should introduce the reader to the broader context of your experiment and motivate why your research is important. Be sure to tell a coherent story, not a dense but unconnected list of facts.
+Paragraph 2: "zooming in" somewhat. Now that the reader has a frame for thinking about your research, you can present background information in more depth.
+Paragraph 3: most specific, a description of your particular investigation.
+
+State (1) the purpose of the investigation, (2) the problem being investigated, (3) the background (context and importance) of the problem (citing previous work by others), (4) your thesis and general approach, and (5) the criteria for your study success.
+
+State the problem (the question)
+• Put the problem in a theoretical context (in regard to other theories/articles)
+• Cite earlier work on the question
+• State what the study will contribute to understanding the question
+• At the end of the introduction, state the principal hypotheses of the study 
+
+The INTRODUCTION should provide a clear statement of the problem posed by the project, and why the problem is of interest. It should reflect the scenario, if available. If needed, the introduction also needs to present background information so that the reader can understand the significance of the problem. A brief summary of the unique approach your group used to solve the problem should be given, possibly also including a concise introduction to theory or concepts used later to analyse and to discuss the results.
+
+The introduction to your document should lead your readers into your paper and give them an idea of what to expect (also see Forecasting). It should not be simply a restatement of the abstract even though it will contain some of the same material.
+
+Introductions often do the following:
+
+• State the subject of your document as clearly as possible
+• Define the problem you are addressing, your approach to the problem, and why this problem is important
+• State the purpose of your document
+• Define the scope of your document
+• Provide necessary and relevant background information
+
+The introduction sets the scene for the main body of the report. The aims and objectives of the report should be explained in detail. Any problems or limitations in the scope of the report should be identified, and a description of research methods, the parameters of the research and any necessary background history should be included. </Notes>
+        </Document>
+        <Document ID="02571652-AB65-4B5D-B168-E7868415B123">
+            <Title>Methods</Title>
+            <Synopsis>- Materials
+	- Hardware and software (under protocol)
+	- Sources
+	- Preparation
+
+- Apparatus
+	- Specification list
+	- Description (brief in text, detailed in appendices)
+
+- Procedures
+	- Experiment process
+	- Exact steps
+
+- Algorithm
+	- Logic
+		- Performance
+		- Complexity
+	- Implementation
+	- Data
+		- Collection
+		- Analysis
+</Synopsis>
+            <Notes>The methods section should allow an independent investigator to repeat any of your experiments. Use sub-section headings to allow readers to quickly identify experiments of interest to them (e.g., "Protein conjugation to hydrogels" and "Cell culture and fluorescent labeling"). When commercially available kits were used, it is sufficient to cite the name of the kit and say that it was used according to the manufacturer’s protocol. The key to a good methods section is developing your judgement for what information is essential and what is extraneous.
+
+Note that the methods section should be written in the past tense, since your experiments are completed at the time you are writing your paper. This section should also be written in complete sentences and paragraphs, not in bullet point form.
+
+• Another person could replicate your study based on a reading of your method section
+• A reader could evaluate your study well enough to tell whether your conclusion are valid
+• Method: sometimes you introduce at the beginning of the method section the task/experiment you did
+• Often, you give 1-2 sentences summary of your results 
+• Materials: list equipment, computer program, questionnaire used. If apparatus (or a program)
+is specialised, refer to articles describing it. 
+• Design: describe the logic of the experiment. Lists independent variables (termed factors in an article), their levels (conditions), and the dependent variable(s).
+• Procedure : describes the exact steps in carrying out design (what the participants did) –Procedure subsection may be incorporated into design
+
+List method of controls, such as randomisation or counterbalancing or additional controls of the stimuli (luminance, etc). Summarise or reproduce any instructions to participants (also in Appendix) 
+
+The purpose of the MATERIALS AND METHODS section is to describe the materials, apparatus, and procedures used to carry out the measurements. Most importantly, the section needs to provide a clear presentation of how key measurements were obtained and how the measurements were analysed. This is where the particular approach followed to reach the project's objectives should be described. The detail should be sufficient so that the reader can easily understand what was done. An accurate, schematic diagram depicting the apparatus should be included and referred to in the text as needed (if a diagram has been already provided it can be used in the report, provided that the source is properly referenced). To improve clarity of presentation, this section may be further divided into subsections (ex. a Materials subsection, an Apparatus subsection, a Methods or Procedures subsection, etc.).
+
+Information under this heading may include: a list of equipment used; explanations of procedures followed; relevant information on materials used, including sources of materials and details of any necessary preparation; reference to any problems encountered and subsequent changes in procedure. 
+
+Materials, apparatus, and procedures. List and describe key materials and apparatus. Then describe the procedure in enough detail that others can duplicate it. For design studies, this section includes component design, fabrication, assembly, and testing procedures. Use illustrations.
+
+• Materials and Apparatus
+
+In documents that describe an experiment or other procedure, list all hardware and software in sufficient detail for the the reader to reproduce the process.
+
+Describe equipment and software specific to the procedure. If appropriate, give the model or version numbers of major items of equipment. In many cases, essential information on materials and apparatus can be most effectively presented in a table.
+
+In short documents, describe materials and apparatus as part of the procedures section. If appropriate, mark the description with its own subheading. In longer documents or in documents reporting studies where the materials were a crucial element, put the description in a separate section with its own heading.
+
+Make descriptions of apparatus in the body of your document relatively brief. Put lengthy descriptions of materials and apparatus in one or more appendixes, referring to these descriptions in the main text.
+
+• Procedure
+
+Describe in detail experiments or other methods of collecting data. The purpose of the procedure section is to allow a reader of the report to reproduce the experiment or data collection process.
+
+The procedure section should be written in narrative form with illustrations of all test setups and procedures included within the text (see Integrating Graphics and Text).
+
+As in all narratives, organise the material to follow the actual sequence of events. Separate each group of actions into one or more paragraphs, and describe each discrete action in one or more sentences.
+
+List all materials and apparatus used in the procedures in sufficient detail that a reader could reproduce the experiment.
+</Notes>
+        </Document>
+        <Document ID="77A3A675-1D0F-478B-AE62-6D8C7EEDE51D">
+            <Title>Endnotes</Title>
+            <Text>&lt;$--ENDNOTES--&gt;</Text>
+            <Notes>The &lt;$--ENDNOTES--&gt; tag will be replaced by the footnotes during Compile. Using this tag allows us to have the footnotes inserted wherever we like, without having a separator placed above them.</Notes>
+        </Document>
+        <Document ID="2D324E75-F22E-45C9-8522-27E0CE2E6FC4">
+            <Title>Subject #</Title>
+        </Document>
+        <Document ID="B7496083-E6F3-4BBD-88F0-6DE8FDB04F04">
+            <Title>Copyright</Title>
+            <Text>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Copyright © &lt;$year&gt; &lt;$author&gt;
+All rights reserved.
+ISBN:
+ISBN-13:
+</Text>
+            <Notes>Feel free to delete this document if you don’t need it, or edit it for your needs.</Notes>
+        </Document>
+        <Document ID="7340BFA8-5712-4667-8493-45ED95B5AB40">
+            <Title>Paperback</Title>
+        </Document>
+        <Document ID="DB17C1AB-A33A-4850-9C75-0CD290F59122">
+            <Title>Subject #</Title>
+        </Document>
+        <Document ID="3AC317E6-FECC-46AF-94EA-34D5EFEE4CB9">
+            <Title>Sample MS</Title>
+            <Text>Amy Nonomusse
+Your manuscript should have your address
+and contact details
+on the first page only.
+If you have an agent, your agent’s address can be included beneath.
+900 words
+Non-Fiction Standard Manuscript Format by A. Nonomusse
+
+Contents
+Foreword 1 Chapter One - Folder Names Become Subtitles 2 Chapter Two - Another Chapter Folder 4
+
+Foreword
+Non-fiction works often feature a foreword or preface. This usually comes after the table of contents, but not always—sometimes the foreword precedes the table of contents. If you need your foreword to come before the table of contents, place the “Contents” document after “Foreword” in the Manuscript folder. You can also rename “Foreword” to "Preface" or "Introduction", or delete it entirely, depending on your requirements.
+The table of contents is generated using Scrivener's Edit &gt; Copy Special &gt; Copy Documents as ToC feature. Simply select the documents in the binder that you want to include in your table of contents, select "Copy Documents as ToC" from the Edit &gt; Copy Special menu, and then hit Edit &gt; Paste (cmd-V) in the "Contents" document. The results won't look much in Scrivener's editor—a bunch of linked text with "&lt;$p&gt;" page number tags after it—but when compiled this will become a proper table of contents using the correct chapter titles. Remember to update your table of contents if you move, add, delete or rename any chapters.
+Nonomusse / NON-FICTION MS / 1
+
+Chapter One
+Folder Names Become Subtitles
+Standard manuscript format is often required for novels so that work can easily be read by editors. It allows editors to estimate word count and determine roughly how many pages will be required to produce a book using the page size, style and font used by their house.1 This PDF file was generated using Scrivener's Compile feature and was created using the “General Non-Fiction” project template.
+Manuscripts for full-length novels require a separate title page. The author's name, address, telephone number and e-mail address should be shown in the upper-left corner of the title page, single-spaced. The title of the work should appear about half-way down the page. The author's name follows the title on the by-line as the author wants it to appear when published. A real name or pseudonym may be used and may include initials, actual given name or professional designation.
+A table of contents and foreword, preface or introduction may follow the title page, preceding the main text.
+All text should be double-spaced and left-justified with a ragged right margin.
+Nonomusse / NON-FICTION MS / 2
+
+Paragraphs should be indented by about five spaces (half an inch) and not separated by an additional blank line. (It used to be traditional to separate each sentence with two spaces, but in these days of word processors this is now less common.) A 12-point font such as Courier, Times New Roman or Arial should be used throughout. In Scrivener, however, you can write using any font and formatting you choose —the Compile options can be used to change the formatting in the final document. In the “General Non-Fiction” project template, the Compile settings will deal with changing the font and formatting to those required for standard manuscript format.
+Top, bottom, left and right margins should all be approximately one inch, not allowing for the page header. Each page except for the title page should include a header comprising the author's real surname, the title of the work (or a key word from the title) in capitals, and the page number. In Scrivener, all of this is handled by the Compile settings.
+#
+Section breaks are indicated with the hash character. Do not simply add an extra line space as this can be missed by the typesetter. In general, this will be handled by Compile in Scrivener,
+however, so that you can either leave empty lines in the text (and Scrivener will insert the hash character during Compile) or use different documents for different sections (and Scrivener will add the hash between them).
+Some editors and publishers prefer emphasis to be indicated by underlining rather than italics. In Scrivener, this conversion can be handled by Compile. The “General Non- Fiction (Courier)” Compile format will convert italics to underlines, whereas the “General Non-Fiction (Times)” format will not.
+Nonomusse / NON-FICTION MS / 3
+
+Chapter Two Another Chapter Folder
+Begin each new chapter on a new page like this with the chapter number about a third of the way down the page. In Scrivener, all of this is handled automatically by the “General Non- Fiction” compile formats.
+Although it is often said that writers should not use the word-count features of their computers to determine the number of words in a manuscript, most publishers and editors will happily accept a word processor word count these days. In Scrivener, you can insert a word count of your manuscript by using Edit &gt; Insert &gt; Draft Word Count (for a manuscript, you may wish to have the word count rounded to the nearest 100, in which case select Edit &gt; Insert &gt; Draft Word Count &gt; Rounded To Nearest 100—this feature is used on the title page of this manuscript, in fact). Note that the actual word count will not be inserted, but a tag that will be substituted for the word count upon export.
+#
+Footnotes should generally be numbered sequentially throughout the manuscript and appear
+as endnotes at the very end.2 However, different editors and publishers have different
+Nonomusse / NON-FICTION MS / 4
+
+requirements when it comes to footnotes, so you should always check the submission guidelines.3
+In reality, the formatting of a manuscript is often only really crucial when submitting directly to a publisher—first time authors will usually submit to an agent first, and agents are often less picky about format and will point you in the right direction before submitting your work to a publisher.
+Nonomusse / NON-FICTION MS / 5
+
+Endnotes
+1. Much of the information contained in this document is based on a description of novel manuscript format by Matt Carless for the BBC Writers' Room website (http:// www.bbc.co.uk/writersroom), along with various web resources describing non-fiction manuscript format (the basics of standard manuscript format is commonly used for both fiction and non-fiction).
+2. Useful information about non-fiction manuscript formatting was also taken from this web page: http://calemccaskey.blogspot.com/2011/05/how-to-prepare-non-fiction- manuscript.html
+3. Note that if you require more advanced footnote and endnote layout, or if you require indexes, you should compile to RTF or Word format and open the generated file in your word processor of choice for a final pass.
+Nonomusse / NON-FICTION MS / 6
 </Text>
         </Document>
-        <Document ID="4F144FA1-11C9-434C-8A35-E1864E92462B">
-            <Title>Note: past tense, data format</Title>
+        <Document ID="99717229-6CF3-4D4A-A109-CB6A2790EA1D">
+            <Title>Note</Title>
+        </Document>
+        <Document ID="630CBDA5-08D2-4F7B-BAEC-419E821C5F8A">
+            <Title>Theory</Title>
+            <Synopsis>- System structure
+	-Flow chart
+
+- Theoretical formulae
+	- Symbol definition
+	- Explanation
+
+- Employed model
+	- Reason
+	- Limitations</Synopsis>
+            <Notes>In long and fairly complex reports and articles, especially theoretical and experimental reports where the purpose of the document is to apply, verify, or illustrate one or more theories, include a separate section presenting relevant theoretical formulae and the techniques by which any experimental results are predicted. When introducing equations, be sure to define all symbols used in them.
+</Notes>
+        </Document>
+        <Document ID="A8E43E00-0378-4162-A3BE-3346E410F074">
+            <Title>Subject #</Title>
+        </Document>
+        <Document ID="E3D8B331-FD1C-4B4C-9DB6-B957D4BAC2CF">
+            <Title>Subject #</Title>
+        </Document>
+        <Document ID="8D838408-F07E-4DC6-A4C5-277D299C43F3">
+            <Title>Paperback</Title>
+        </Document>
+        <Document ID="9DA9DF92-FA7F-4051-B1F9-433EB65AB742">
+            <Title>Note</Title>
+        </Document>
+        <Document ID="7D368ACE-A964-4A02-97A7-F037C292C562">
+            <Title>Conclusion</Title>
+        </Document>
+        <Document ID="E6BAB72A-4A5A-4503-A616-936451F2FC07">
+            <Title>Subject #</Title>
+        </Document>
+        <Document ID="6E8A51AF-FABA-482D-992C-31AB1D2D796A">
+            <Title>Bibliography</Title>
+            <Notes>References are generally used in the Introduction and Discussion sections to support any claims that are not common knowledge. Include only those references that pertain to the question at hand. Journals vary considerably in their preferred format for the reference list. For this class, you should list the references alphabetically by the first author’s last name. Include all the authors, the paper’s title, the name of the journal in which it was published, its year of publication, the volume number, and page numbers. Please carefully follow the punctuation and format requirements. 
+
+The REFERENCES section should contain complete citations following standard form. The form of the citation depends on the type of source being referenced, and is different for whole books, chapters in books, and articles published in a journal. One good format to follow is that used in the Chemical Engineering Progress journal, published by AIChE. The references should be numbered and listed in the order they were cited in the body of the report. In the text of the report, a particular reference can be cited by using a numerical superscript that corresponds to its number in the reference list. If a reference has not been actually consulted, it should be listed "as discussed in [name of the work that discussed the reference]".
+
+Your bibliography should list, in alphabetical order by author, all published sources referred to in your report. There are different styles of using references and bibliographies. Refer to the study guide Referencing and Bibliographies and check your departmental handbook for guidelines. Texts which you consulted but did not refer to directly could be grouped under a separate heading such as 'Background Reading' and listed in alphabetical order using the same format as in your bibliography. 
+
+Bibliography. List alphabetically any works referred to in your study. Follow the bibliographical and footnote formats of your department or of a prominent periodical published by a professional society in your field.
+</Notes>
+        </Document>
+        <Document ID="8609252D-4C16-4E62-A8D2-8CEF327A3364">
+            <Title>Notes</Title>
+        </Document>
+        <Document ID="48E9741E-1F94-4771-98D5-63D743C579D0">
+            <Title>Contents</Title>
+        </Document>
+        <Document ID="EF6FE532-6DC8-499E-BF0D-0B7F21D06602">
+            <Title>Abstract</Title>
+        </Document>
+        <Document ID="B8F0BFC0-052B-4E27-88D3-DFDD965C751E">
+            <Title>Subject #</Title>
+        </Document>
+        <Document ID="66939443-3C05-427A-8087-562B1BE1CF2C">
+            <Title>Note</Title>
+            <Synopsis>- Background: big picture
+	- Motivations and benefits
+	- Current stage
+	- Accomplishments and applications
+	- Problems
+
+- Problem: zooming in
+	- Main focus
+		- Reason
+		- Aims and objectives
+	- Previous works
+		- Methods
+		- Outcomes
+		- Limitations
+
+- Investigation
+	- Thesis statement
+		- Purpose
+		- Approach
+		- Target
+		- Advantages
+	- Assumptions
+	- Limitations
+
+- Layout (optional)</Synopsis>
+            <Text>
+
+
+- Background: big picture
+	- Motivations and benefits
+	- Current stage
+	- Accomplishments and applications
+	- Problems
+
+- Problem: zooming in
+	- Main focus
+		- Reason
+		- Aims and objectives
+	- Previous works
+		- Methods
+		- Outcomes
+		- Limitations
+
+- Investigation
+	- Thesis statement
+		- Purpose
+		- Approach
+		- Target
+		- Advantages
+	- Assumptions
+	- Limitations
+
+- Layout (optional)</Text>
+        </Document>
+        <Document ID="E9C70E86-921F-4228-B921-611A0E916E50">
+            <Title>Note</Title>
+        </Document>
+        <Document ID="13BB6D24-BC0A-4196-A089-AF828F505EE8">
+            <Title>Acknowledgements</Title>
+            <Notes>Where appropriate you may wish to acknowledge the assistance of particular organisations or individuals who provided information, advice or help. 
+
+Acknowledgements. Acknowledge assistance from advisors, sponsors, funding agencies, colleagues, technicians, and so on.
+
+An acknowledgements section is sometimes included in the front matter of a longer report, thesis, or collection to note the assistance of people whose help was crucial but not extensive enough to warrant their being listed as co-authors. Thesis advisors, technicians, and colleagues who gave advice or time are all candidates for the acknowledgements section.
+
+This section is often placed just after the list of tables. In articles and shorter reports, acknowledgements may be made in the end matter at the very beginning of the list of references.</Notes>
+        </Document>
+        <Document ID="7E23EE9F-4C31-4A19-B0D1-762A682AB01B">
+            <Title>Results</Title>
             <Synopsis>- Sub-sections by key points
 	- Start with overview sentence
 	- End with conclusion sentence
@@ -326,7 +852,7 @@ The summary should briefly describe the content of the report. It should cover t
 	- Emphasis
 		- Important results
 		- Principle findings</Synopsis>
-            <Text>One difficult task for budding scientific writers is determining what goes in a Results vs. a Discussion section. Even at the professional level, different scientific journals may have somewhat different expectations for how much interpretation is appropriate in the Results. A good rule of thumb in most contexts is to draw technical conclusions in the Results, but save scientific conclusions for the Discussion. An alternative framework that should yield similar writing choices is to focus on relatively certain conclusions in the Results, and save more speculative (but still supported!) conclusions for the Discussion.
+            <Notes>One difficult task for budding scientific writers is determining what goes in a Results vs. a Discussion section. Even at the professional level, different scientific journals may have somewhat different expectations for how much interpretation is appropriate in the Results. A good rule of thumb in most contexts is to draw technical conclusions in the Results, but save scientific conclusions for the Discussion. An alternative framework that should yield similar writing choices is to focus on relatively certain conclusions in the Results, and save more speculative (but still supported!) conclusions for the Discussion.
 
 Example of a technical conclusion: "Sequence alignment revealed that both mutants exhibited mutations in at least one of the expected sites and thus were consistent with the possible nucleotide changes that could occur with the library used."
 
@@ -369,9 +895,120 @@ This section should include a summary of the results of the investigation or exp
 In the results section of a report, describe all appropriate information produced by the research procedures. Simply present data and estimates of their accuracy. Save the explanation and interpretation of these findings for the discussion section, which usually follows the results section. In short documents, however, the results and discussion sections may be combined into a single section.
 
 Results sections make extensive use of graphs and figures to present data effectively. Order information by its importance to your audience's purpose in reading the document. State all significant findings in the text, referring to tables and graphs displaying all significant data. If the study has produced a large amount of raw data, do not present all of it in the results section. Instead, present only the information most appropriate to your audience's purpose in reading the document, summarising other key information in graphs and figures. If appropriate, include your raw data in an appendix, referring to them within your text.
+</Notes>
+        </Document>
+        <Document ID="B7A83748-4D51-443F-B4FF-2539B8795924">
+            <Title>Note</Title>
+            <Synopsis>- Problem: why matter
+
+- Main task
+
+- Methods
+
+- Key results
+
+- Interpretation
+
+- Conclusion
+
+- Key words</Synopsis>
+            <Text>The reader wants to know what area of work the report covers.
+
+The ABSTRACT is not a part of the body of the report itself. Rather, the abstract is a brief summary of the report contents that is often separately circulated so potential readers can decide whether to read the report. The abstract should very concisely summarise the whole report: why it was written, what was discovered or developed, and what is claimed to be the significance of the effort. The abstract does not include figures or tables, and only the most significant numerical values or results should be given.
+
+The summary should briefly describe the content of the report. It should cover the aims of the report, what was found and what, if any, action is called for. Aim for about 1/2 a page in length and avoid detail or discussion; just outline the main points. Remember that the summary is the first thing that is read. It should provide the reader with a clear, helpful overview of the content of the report.
 
 
-- Sub-sections by key points
+- Problem: why matter
+
+- Main task
+
+- Methods
+
+- Key results
+
+- Interpretation
+
+- Conclusion
+
+- Key words</Text>
+        </Document>
+        <Document ID="273C529B-05A5-480A-8F58-18FF7D2BDB89">
+            <Title>Note</Title>
+        </Document>
+        <Document ID="9159B4EA-5375-4D93-B04F-182E0AAF5819">
+            <Title>Subject #</Title>
+        </Document>
+        <Document ID="52AA1E16-BC2A-48D8-AFA2-7F4AB45632DE">
+            <Title>Subject #</Title>
+        </Document>
+        <Document ID="0540496C-DF81-4A3C-9708-ECE7DC16F29D">
+            <Title>Subject #</Title>
+        </Document>
+        <Document ID="FE283F8A-4618-4F68-A4B9-6312677820B0">
+            <Title>Subject #</Title>
+        </Document>
+        <Document ID="9CC7A988-E160-4C06-9A53-D449FAC393A1">
+            <Title>Subject #</Title>
+        </Document>
+        <Document ID="F7DEFDE3-C8D7-4141-BBA5-9B6D325DCD19">
+            <Title>Contents</Title>
+            <Synopsis>- Sections
+
+- List of figures
+
+- List of tables
+
+- Nomenclature</Synopsis>
+            <Notes>The contents page should list the different chapters and/or headings together with the page numbers. Your contents page should be presented in such a way that the reader can quickly scan the list of headings and locate a particular part of the report. You may want to number chapter headings and subheadings in addition to providing page references. Whatever numbering system you use, be sure that it is clear and consistent throughout.
+
+It is useful to provide an alphabetical list of technical terms with a brief, clear description of each term. You can also include in this section explanations of the acronyms, abbreviations or standard units used in your report. 
+
+• List of figures. Include the figure numbers, figure titles, and page numbers.
+• List of tables. Include the table numbers, table titles, and page numbers.
+• Nomenclature (optional). List unfamiliar terms, symbols, acronyms and their meanings.
+
+Some readers begin by scanning the figures first. The figures, with the legends, should provide a self-explanatory overview of your data. Decide what the data show, then create figures which highlight the most important points of your paper.
+
+Tables are used to present repetitive data that is numerical. Graphs or illustrations, collectively called figures, are used to present numerical trends, raw data (like a picture of a gel), or a model that explains your work.
+
+When you prepare your figures and tables, keep in mind that it is significantly more expensive for journals to publish figures and tables than text, so try to present the data in a way that is worthy of such added expense. The table below is an example of an ineffective table.
+
+The information in Table 1 could be presented in one sentence, such as: "In ten experiments carried out at 24°C, ion flow was detected only in the presence of cortical cells." This is a clearer and more concise way to present the information. In addition, all tables and figures must have numbers, titles and legends.
+
+Legends to the figures and tables explain the elements that appear in the illustration. Conclusions about the data are NOT included in the legends. As you write your first draft, you might state in a short simple sentence what the point of the figure or table is. In later drafts, make sure each element of the figure or table is explained. Your figure legends should be written in the present tense since you are explaining elements that still exist at the time that you are writing the paper.
+
+
+</Notes>
+        </Document>
+        <Document ID="EDDCD3DB-E174-422E-8B74-822EFE95CC72">
+            <Title>Note: check before submitting</Title>
+            <Synopsis>- Name
+
+- ID
+
+- Date
+
+- Module
+
+- Tutor</Synopsis>
+            <Text>The title page should be brief but explicit. Include your name, date, module, course and the person for whom the report is written.
+
+
+- Name
+
+- ID
+
+- Date
+
+- Module
+
+- Tutor
+</Text>
+        </Document>
+        <Document ID="4F144FA1-11C9-434C-8A35-E1864E92462B">
+            <Title>Note</Title>
+            <Synopsis>- Sub-sections by key points
 	- Start with overview sentence
 	- End with conclusion sentence
 	- Smooth transition
@@ -393,272 +1030,98 @@ Results sections make extensive use of graphs and figures to present data effect
 
 	- Emphasis
 		- Important results
-		- Principle findings</Text>
+		- Principle findings</Synopsis>
         </Document>
-        <Document ID="A4C75978-29D8-416E-ABDB-CD6BBC0AF6C3">
-            <Title>Back Matter</Title>
-        </Document>
-        <Document ID="66939443-3C05-427A-8087-562B1BE1CF2C">
-            <Title>Note</Title>
-            <Synopsis>- Background: big picture
-	- Motivations and benefits
-	- Current stage
-	- Accomplishments and applications
-	- Problems
-
-- Problem: zooming in
-	- Main focus
-		- Reason
-		- Aims and objectives
-	- Previous works
-		- Methods
-		- Outcomes
-		- Limitations
-
-- Investigation
-	- Thesis statement
-		- Purpose
-		- Approach
-		- Target
-		- Advantages
-	- Assumptions
-	- Limitations
-
-- Layout (optional)</Synopsis>
-            <Text>The introduction sets the scene and includes the aims and objectives of the report. It also defines the limits of the report, outlines the method of enquiry, gives a brief general background to the subject of the report and indicates the proposed development.
-
-The introduction provides a framework for the story you are about to tell, and thus serves two main purposes. For one, you must provide sufficient background information for a reader to understand the forthcoming results. Just as importantly, you must motivate the audience to keep reading! How? Reveal the significance of the work through connections to both prior scientific accomplishments and future applications. You are welcome to use your own creativity and judgement as to what a good introduction should look like; however, you may find the suggested structure below useful.
-
-Paragraph 1: most general, "big picture" paragraph. Here you should introduce the reader to the broader context of your experiment and motivate why your research is important. Be sure to tell a coherent story, not a dense but unconnected list of facts.
-Paragraph 2: "zooming in" somewhat. Now that the reader has a frame for thinking about your research, you can present background information in more depth.
-Paragraph 3: most specific, a description of your particular investigation.
-
-State (1) the purpose of the investigation, (2) the problem being investigated, (3) the background (context and importance) of the problem (citing previous work by others), (4) your thesis and general approach, and (5) the criteria for your study success.
-
-State the problem (the question)
-• Put the problem in a theoretical context (in regard to other theories/articles)
-• Cite earlier work on the question
-• State what the study will contribute to understanding the question
-• At the end of the introduction, state the principal hypotheses of the study 
-
-The INTRODUCTION should provide a clear statement of the problem posed by the project, and why the problem is of interest. It should reflect the scenario, if available. If needed, the introduction also needs to present background information so that the reader can understand the significance of the problem. A brief summary of the unique approach your group used to solve the problem should be given, possibly also including a concise introduction to theory or concepts used later to analyse and to discuss the results.
-
-The introduction to your document should lead your readers into your paper and give them an idea of what to expect (also see Forecasting). It should not be simply a restatement of the abstract even though it will contain some of the same material.
-
-Introductions often do the following:
-
-• State the subject of your document as clearly as possible
-• Define the problem you are addressing, your approach to the problem, and why this problem is important
-• State the purpose of your document
-• Define the scope of your document
-• Provide necessary and relevant background information
-
-The introduction sets the scene for the main body of the report. The aims and objectives of the report should be explained in detail. Any problems or limitations in the scope of the report should be identified, and a description of research methods, the parameters of the research and any necessary background history should be included. 
-
-
-- Background: big picture
-	- Motivations and benefits
-	- Current stage
-	- Accomplishments and applications
-	- Problems
-
-- Problem: zooming in
-	- Main focus
-		- Reason
-		- Aims and objectives
-	- Previous works
-		- Methods
-		- Outcomes
-		- Limitations
-
-- Investigation
-	- Thesis statement
-		- Purpose
-		- Approach
-		- Target
-		- Advantages
-	- Assumptions
-	- Limitations
-
-- Layout (optional)</Text>
-        </Document>
-        <Document ID="32AA75EA-C0FF-43E8-9192-D4A9F196AA81">
-            <Title>Back Matter</Title>
-        </Document>
-        <Document ID="298A2426-31A8-43CE-8CBF-C40CA1386D50">
-            <Title>Note: past sense</Title>
-            <Synopsis>- Materials
-	- Hardware and software (under protocol)
-	- Sources
-	- Preparation
-
-- Apparatus
-	- Specification list
-	- Description (brief in text, detailed in appendices)
-
-- Procedures
-	- Experiment process
-	- Exact steps
-
-- Algorithm
-	- Logic
-		- Performance
-		- Complexity
-	- Implementation
-	- Data
-		- Collection
-		- Analysis
-</Synopsis>
-            <Text>The methods section should allow an independent investigator to repeat any of your experiments. Use sub-section headings to allow readers to quickly identify experiments of interest to them (e.g., "Protein conjugation to hydrogels" and "Cell culture and fluorescent labeling"). When commercially available kits were used, it is sufficient to cite the name of the kit and say that it was used according to the manufacturer’s protocol. The key to a good methods section is developing your judgement for what information is essential and what is extraneous.
-
-Note that the methods section should be written in the past tense, since your experiments are completed at the time you are writing your paper. This section should also be written in complete sentences and paragraphs, not in bullet point form.
-
-• Another person could replicate your study based on a reading of your method section
-• A reader could evaluate your study well enough to tell whether your conclusion are valid
-• Method: sometimes you introduce at the beginning of the method section the task/experiment you did
-• Often, you give 1-2 sentences summary of your results 
-• Materials: list equipment, computer program, questionnaire used. If apparatus (or a program)
-is specialised, refer to articles describing it. 
-• Design: describe the logic of the experiment. Lists independent variables (termed factors in an article), their levels (conditions), and the dependent variable(s).
-• Procedure : describes the exact steps in carrying out design (what the participants did) –Procedure subsection may be incorporated into design
-
-List method of controls, such as randomisation or counterbalancing or additional controls of the stimuli (luminance, etc). Summarise or reproduce any instructions to participants (also in Appendix) 
-
-The purpose of the MATERIALS AND METHODS section is to describe the materials, apparatus, and procedures used to carry out the measurements. Most importantly, the section needs to provide a clear presentation of how key measurements were obtained and how the measurements were analysed. This is where the particular approach followed to reach the project's objectives should be described. The detail should be sufficient so that the reader can easily understand what was done. An accurate, schematic diagram depicting the apparatus should be included and referred to in the text as needed (if a diagram has been already provided it can be used in the report, provided that the source is properly referenced). To improve clarity of presentation, this section may be further divided into subsections (ex. a Materials subsection, an Apparatus subsection, a Methods or Procedures subsection, etc.).
-
-Information under this heading may include: a list of equipment used; explanations of procedures followed; relevant information on materials used, including sources of materials and details of any necessary preparation; reference to any problems encountered and subsequent changes in procedure. 
-
-Materials, apparatus, and procedures. List and describe key materials and apparatus. Then describe the procedure in enough detail that others can duplicate it. For design studies, this section includes component design, fabrication, assembly, and testing procedures. Use illustrations.
-
-• Materials and Apparatus
-
-In documents that describe an experiment or other procedure, list all hardware and software in sufficient detail for the the reader to reproduce the process.
-
-Describe equipment and software specific to the procedure. If appropriate, give the model or version numbers of major items of equipment. In many cases, essential information on materials and apparatus can be most effectively presented in a table.
-
-In short documents, describe materials and apparatus as part of the procedures section. If appropriate, mark the description with its own subheading. In longer documents or in documents reporting studies where the materials were a crucial element, put the description in a separate section with its own heading.
-
-Make descriptions of apparatus in the body of your document relatively brief. Put lengthy descriptions of materials and apparatus in one or more appendixes, referring to these descriptions in the main text.
-
-• Procedure
-
-Describe in detail experiments or other methods of collecting data. The purpose of the procedure section is to allow a reader of the report to reproduce the experiment or data collection process.
-
-The procedure section should be written in narrative form with illustrations of all test setups and procedures included within the text (see Integrating Graphics and Text).
-
-As in all narratives, organise the material to follow the actual sequence of events. Separate each group of actions into one or more paragraphs, and describe each discrete action in one or more sentences.
-
-List all materials and apparatus used in the procedures in sufficient detail that a reader could reproduce the experiment.
-
-
-- Materials
-	- Hardware and software (under protocol)
-	- Sources
-	- Preparation
-
-- Apparatus
-	- Specification list
-	- Description (brief in text, detailed in appendices)
-
-- Procedures
-	- Experiment process
-	- Exact steps
-
-- Algorithm
-	- Logic
-		- Performance
-		- Complexity
-	- Implementation
-	- Data
-		- Collection
-		- Analysis
-</Text>
-        </Document>
-        <Document ID="6F999918-5E4C-43A7-A534-03F80C70E4D8">
-            <Title>Note</Title>
-            <Synopsis>- System structure
-	-Flow chart
-
-- Theoretical formulae
-	- Symbol definition
-	- Explanation
-
-- Employed model
-	- Reason
-	- Limitations</Synopsis>
-            <Text>In long and fairly complex reports and articles, especially theoretical and experimental reports where the purpose of the document is to apply, verify, or illustrate one or more theories, include a separate section presenting relevant theoretical formulae and the techniques by which any experimental results are predicted. When introducing equations, be sure to define all symbols used in them.
-
-
-- System structure
-	-Flow chart
-
-- Theoretical formulae
-	- Symbol definition
-	- Explanation
-
-- Employed model
-	- Reason
-	- Limitations</Text>
-        </Document>
-        <Document ID="630CBDA5-08D2-4F7B-BAEC-419E821C5F8A">
-            <Title>Theory</Title>
+        <Document ID="99987356-5294-4AD7-84AF-D06275A1FA6B">
+            <Title>Subject #</Title>
         </Document>
         <Document ID="E04F8696-B67A-4C56-9675-F74669B69EA8">
             <Title>Appendices</Title>
+            <Synopsis>- Detailed calculations, procedures, data
+
+- Additional diagrams
+
+- Additional tables summarising data
+
+- Long lists
+
+- Experimental protocols or survey questions
+
+- Code</Synopsis>
+            <Notes>Appendices contain supporting information, such as transcripts of interviews, results of surveys, a glossary and results from experiments.
+
+Under this heading you should include all the supporting information you have used that is not published. This might include tables, graphs, questionnaires, surveys or transcripts. Refer to the appendices in the body of your report.
+
+Appendixes. Provide detailed calculations, procedures, data in separate appendixes. Give each appendix a title, a letter (Appendix A, B, C), and an introductory paragraph.
+
+In one or more appendixes, include materials that are not essential parts of your main text but that will provide useful reference information to readers seeking more detail.
+
+The following list presents some typical material that is often included in an appendix.
+
+• Detailed explanations and elaborations too technical for the main text
+• Additional diagrams
+• Additional tables summarising data
+• Long lists
+• Experimental protocols or survey questions
+• Selected computer code directly relevant to discussions in the main body
+
+Guidelines for Appendixes
+
+• Avoid using appendixes as dumping grounds for raw data that you will be unable to incorporate in the body of the paper.
+• If you have more than one appendix, use letters to label them (Appendix A, Appendix B, and so forth).
+• Give each appendix an appropriate title.
+• Place one specific kind of information in each appendix.
+• Begin each appendix on a new page.
+• If appropriate, identify and summarise the contexts of an appendix in a short summary paragraph.
+• Refer to each appendix in the body of the document.</Notes>
         </Document>
-        <Document ID="70E7F967-BE75-46D4-A176-BA69E66F30CE">
-            <Title>Note</Title>
-            <Synopsis>- Purpose and major findings
-
-- Outcomes
-	- Performance
-	- Complexity
-	- Reliability
-	- Cost
-
-- Significance
-	- Problem mitigation
-	- Applications
-
-- Limitations and weaknesses
-
-- Implications for further research</Synopsis>
-            <Text>The conclusion should draw out the implications from the report and normally recommends a course of action. It should link back to the introduction.
-
-The CONCLUSIONS should summarise the central points made in the Discussion section, reinforcing for the reader the value and implications of the work. If the results were not definitive, specific future work that may be needed can be (briefly) described. The conclusions should never contain "surprises". Therefore, any conclusions should be based on observations and data already discussed. It is considered extremely bad form to introduce new data in the conclusions.
-
-In the conclusion you should show the overall significance of what has been covered. You may want to remind the reader of the most important points that have been made in the report or highlight what you consider to be the most central issues or findings. However, no new material should be introduced in the conclusion. 
-
-Conclusions. Review the results in relation to the original problem statement. Assess the success of the study in light of the criteria of success you gave in the introduction.
-
-Include a conclusion as the final part of the body of your document. Because some readers of documents, particularly managers, will sometimes not read the entire document but, instead, focus on the conclusion, this part of the document should summarise all essential information necessary for your audience's purpose. In your conclusion:
-
-• Relate your findings to the general problem and any specific objectives posed in your introduction. 
-• Summarise clearly what the report does and does not demonstrate.
-• Include specific recommendations for action or for further research. Sometimes these recommendations will constitute a separate section of a document.
-
-
-- Purpose and major findings
-
-- Outcomes
-	- Performance
-	- Complexity
-	- Reliability
-	- Cost
-
-- Significance
-	- Problem mitigation
-	- Applications
-
-- Limitations and weaknesses
-
-- Implications for further research</Text>
+        <Document ID="1EE12128-089D-4E60-970B-A30CBA2A4DAC">
+            <Title>Subject #</Title>
         </Document>
-        <Document ID="843667DC-FCB6-4449-A248-096F0E261E2F">
-            <Title>Back Matter</Title>
+        <Document ID="FCC4AAA3-38FE-4C4A-8E3A-F768794BB8BA">
+            <Title>Dedication</Title>
+            <Text>
+
+
+
+
+
+
+
+
+
+
+Insert dedication here.</Text>
+            <Notes>Feel free to delete this document if you don’t need it.</Notes>
         </Document>
-        <Document ID="8609252D-4C16-4E62-A8D2-8CEF327A3364">
+        <Document ID="49533C13-D244-4C91-95E1-5B4D5E7D8CA5">
+            <Title>Subject #</Title>
+        </Document>
+        <Document ID="61667704-B58A-46E4-9CAB-A8AD06349DED">
+            <Title>Subject #</Title>
+        </Document>
+        <Document ID="55FAAEC9-F3FD-4162-8AB0-39006DDC7AEF">
+            <Title>Subject #</Title>
+        </Document>
+        <Document ID="099BBCF0-15C2-44DD-955D-1453AF769D10">
+            <Title>Subject #2</Title>
+        </Document>
+        <Document ID="688E24E7-F2A4-4D38-9370-630CFC12F686">
+            <Title>Title</Title>
+        </Document>
+        <Document ID="F8B9AC96-60E6-489E-8990-76C8E11E243F">
+            <Title>Subject #3</Title>
+        </Document>
+        <Document ID="2A3E52A2-4BD6-4B3E-8EAD-F163257D8F0A">
+            <Title>Subject #</Title>
+        </Document>
+        <Document ID="799C289F-9D8B-4FDD-A407-CA91197A5D29">
+            <Title>Subject #</Title>
+        </Document>
+        <Document ID="B071755C-493F-4840-8F2D-C259FA09194A">
             <Title>Notes</Title>
+            <Text>&lt;$--ENDNOTES--&gt;</Text>
+            <Notes>The &lt;$--ENDNOTES--&gt; tag will be replaced by the footnotes during Compile. Using this tag allows us to have the footnotes inserted wherever we like, without having a separator placed above them.</Notes>
         </Document>
     </Documents>
 </SearchIndexes>
