@@ -22,8 +22,23 @@
         <Document ID="32F71490-D8CA-415E-BFED-09743E83BE30">
             <Title>Back Matter</Title>
         </Document>
+        <Document ID="205895F6-5B45-445D-8303-BE9F563E1DBA">
+            <Text>1.4 Recent Machine Learning in Digital Signal Processing
+We are facing a totally new era inDSP. In this new  scenario, the particular characteristics of signals and data are challenging the traditional signal-processing technologies. Signal and data streams are now massive, unreliable, unstructured, and barely fit standard statistical assumptions about the underlying system. The recent advances in interdisciplinary research are of paramount importance to develop new technologies able to deal with the new scenario. Powerful approaches have been designed for advanced signal processing, which can be implemented thanks to continuous advances in fast comput- ing (which is becoming increasingly inexpensive) and algorithmic developments.
+
+1.4.1 Traditional Signal Assumptions Are No Longer Valid
+Standard signal-processing models have traditionally relied on the rather simplifying and strong assumptions of linearity, Gaussianity, stationarity, circularity, causality, and uniform sampling. These models provide mathematical tractability and simple and fast algorithms, but they also constrain their performance and applicability. Current approaches try to get rid of these approximations in a number of ways: 
+by widely using models that are intrinsically nonlinear and nonparametric; 
+by encoding the relations between the signal and noise (which are often modeled and no longer considered Gaussian independent and identically distributed (i.i.d.) noise); 
+by using new approaches to treat the non circularity and non stationarity properties of signals; 
+by learning in anti- causal systems, which is an important topic of control theory; and, in some situations, since the acquired signals and data streams are fundamentally unstructured, 
+by not assuming uniform sampling of the representation domain. 
+
+It is also important to take into account the increasing diversity of data. For example, large and unstructured text and multimedia datasets stored in the Internet and the increasing use of social network media produce masses of unstructured heterogeneous data streams. Techniques for document classification, part-of-speech tagging, multimedia tagging or classification, together with massive data-processing techniques (known as “big data” techniques) relying on machine-learning theory try to get rid of unjustified assumptions about the data-generation mechanisms.
+</Text>
+        </Document>
         <Document ID="1D126A32-CF13-4B56-BE10-F3A1F634ACF8">
-            <Title>Subject #</Title>
+            <Title>Background </Title>
         </Document>
         <Document ID="D6446DF0-0E3C-4FCA-905B-851FB198D1FE">
             <Title>Note: update after writing</Title>
@@ -81,7 +96,7 @@ Legends to the figures and tables explain the elements that appear in the illust
 - Nomenclature</Text>
         </Document>
         <Document ID="F6AE22A8-BB5C-464E-B0C7-F286455C8C25">
-            <Title>Subject #</Title>
+            <Title>Conclusion</Title>
         </Document>
         <Document ID="FDF1D992-BF34-44B7-9279-C771DF001521">
             <Title>Title Page</Title>
@@ -115,6 +130,9 @@ The title page should be brief but explicit. Include your name, date, module, co
 
 
 </Notes>
+        </Document>
+        <Document ID="92B48F3A-F342-4D2E-BF63-E7D30E8EBAD1">
+            <Title>Notation</Title>
         </Document>
         <Document ID="C7528E28-CE01-4158-AA73-12321B8D55D7">
             <Title>Abstract</Title>
@@ -158,8 +176,14 @@ In long and fairly complex reports and articles, especially theoretical and expe
 
 </Notes>
         </Document>
+        <Document ID="11CEC9E8-4E05-4544-8AFE-A1850361D70D">
+            <Title>Analysis</Title>
+        </Document>
         <Document ID="DEA4EC9B-273B-4F5D-8E68-1BF391616604">
             <Title>Ideas</Title>
+        </Document>
+        <Document ID="1099BF74-B0C3-42C4-9329-AAFC9540DDDB">
+            <Title>Main Contribution</Title>
         </Document>
         <Document ID="0D793740-D257-42C9-9DF7-8694FC4C933B">
             <Title>Title Page</Title>
@@ -263,6 +287,15 @@ Explain in the discussion section of your document information presented in the 
 
 </Notes>
         </Document>
+        <Document ID="3EF133E7-80BB-44F7-81C9-4DF66A75C501">
+            <Title>Chapter</Title>
+        </Document>
+        <Document ID="DFA14A55-EF4C-4FE4-B116-15FB045B2443">
+            <Title>Subject #1</Title>
+        </Document>
+        <Document ID="F19A73DF-2111-4BF7-BB43-F499430ED40A">
+            <Title>Introduction</Title>
+        </Document>
         <Document ID="F7B9BAF6-1A51-491C-9CA1-79F2BE3F4115">
             <Title>Front Matter</Title>
             <Notes>Note that in the “Metadata” pane of the Inspector, under “Section Type”, the “Default Subdocument Type” is set to “Front Matter”. This setting causes all subdocuments of this folder to use the “Front Matter” section type by default (that is, when “Structure-Based” is selected as the section type).
@@ -270,12 +303,6 @@ Explain in the discussion section of your document information presented in the 
 This saves us from having to manually assign the “Front Matter” section type for each document we place into this folder.
 
 During Compile, documents assigned the “Front Matter” section type will be laid out differently from documents in the main body of the manuscript.</Notes>
-        </Document>
-        <Document ID="DFA14A55-EF4C-4FE4-B116-15FB045B2443">
-            <Title>Subject #1</Title>
-        </Document>
-        <Document ID="F19A73DF-2111-4BF7-BB43-F499430ED40A">
-            <Title>Introduction</Title>
         </Document>
         <Document ID="33937EEA-58A0-4896-AAF2-2DAA765AB08C">
             <Title>Contents</Title>
@@ -315,8 +342,27 @@ Include a conclusion as the final part of the body of your document. Because som
         <Document ID="C3F6BB76-D994-4E92-98AA-BD91A3D48016">
             <Title>Subject #4</Title>
         </Document>
+        <Document ID="D9EE858D-F07A-48AC-A113-BCCB2CC578E6">
+            <Title>Outline</Title>
+        </Document>
+        <Document ID="FC0DF106-3D7B-4457-A56C-27CA8948EE3F">
+            <Title>Future Work</Title>
+        </Document>
+        <Document ID="321C6A02-C046-4E63-A04E-B010FB1182FC">
+            <Title>Manuscript</Title>
+        </Document>
         <Document ID="6F999918-5E4C-43A7-A534-03F80C70E4D8">
             <Title>Note</Title>
+            <Synopsis>- System structure
+	-Flow chart
+
+- Theoretical formulae
+	- Symbol definition
+	- Explanation
+
+- Employed model
+	- Reason
+	- Limitations</Synopsis>
             <Text>
 
 - System structure
@@ -330,11 +376,30 @@ Include a conclusion as the final part of the body of your document. Because som
 	- Reason
 	- Limitations</Text>
         </Document>
-        <Document ID="FC0DF106-3D7B-4457-A56C-27CA8948EE3F">
-            <Title>Subject #</Title>
-        </Document>
-        <Document ID="D9EE858D-F07A-48AC-A113-BCCB2CC578E6">
-            <Title>Subject #</Title>
+        <Document ID="298A2426-31A8-43CE-8CBF-C40CA1386D50">
+            <Title>Note</Title>
+            <Synopsis>- Materials
+	- Hardware and software (under protocol)
+	- Sources
+	- Preparation
+
+- Apparatus
+	- Specification list
+	- Description (brief in text, detailed in appendices)
+
+- Procedures
+	- Experiment process
+	- Exact steps
+
+- Algorithm
+	- Logic
+		- Performance
+		- Complexity
+	- Implementation
+	- Data
+		- Collection
+		- Analysis
+</Synopsis>
         </Document>
         <Document ID="4D14C544-5EFE-4102-BD14-02255CEA368A">
             <Title>Non-Fiction Format</Title>
@@ -457,31 +522,6 @@ Scrivener project templates are flexible and are not intended to restrict you to
 Like all templates in Scrivener, this project was originally created from the “Blank” template. We’ve simply added a few folders and set everything up in ways that should be useful to non-fiction authors. Everything you can do with this project, you could equally do by creating a “Blank” project and setting it up yourself.
 
 You can create your own templates by setting up a skeletal project with the files, folders and settings you would like to use for new projects and using File &gt; Save As Template.</Text>
-        </Document>
-        <Document ID="298A2426-31A8-43CE-8CBF-C40CA1386D50">
-            <Title>Note</Title>
-            <Synopsis>- Materials
-	- Hardware and software (under protocol)
-	- Sources
-	- Preparation
-
-- Apparatus
-	- Specification list
-	- Description (brief in text, detailed in appendices)
-
-- Procedures
-	- Experiment process
-	- Exact steps
-
-- Algorithm
-	- Logic
-		- Performance
-		- Complexity
-	- Implementation
-	- Data
-		- Collection
-		- Analysis
-</Synopsis>
         </Document>
         <Document ID="B4334C17-D83E-4B9A-A5C1-62F31EDD52A1">
             <Title>Introduction</Title>
@@ -612,7 +652,7 @@ List all materials and apparatus used in the procedures in sufficient detail tha
             <Notes>The &lt;$--ENDNOTES--&gt; tag will be replaced by the footnotes during Compile. Using this tag allows us to have the footnotes inserted wherever we like, without having a separator placed above them.</Notes>
         </Document>
         <Document ID="2D324E75-F22E-45C9-8522-27E0CE2E6FC4">
-            <Title>Subject #</Title>
+            <Title>Framework and Algorithms</Title>
         </Document>
         <Document ID="B7496083-E6F3-4BBD-88F0-6DE8FDB04F04">
             <Title>Copyright</Title>
@@ -640,11 +680,14 @@ ISBN-13:
 </Text>
             <Notes>Feel free to delete this document if you don’t need it, or edit it for your needs.</Notes>
         </Document>
+        <Document ID="6900CABD-2CC1-40B5-98E8-55052A9C7F8D">
+            <Title>Manuscript</Title>
+        </Document>
+        <Document ID="E3D8B331-FD1C-4B4C-9DB6-B957D4BAC2CF">
+            <Title>Main Contribution</Title>
+        </Document>
         <Document ID="7340BFA8-5712-4667-8493-45ED95B5AB40">
             <Title>Paperback</Title>
-        </Document>
-        <Document ID="DB17C1AB-A33A-4850-9C75-0CD290F59122">
-            <Title>Subject #</Title>
         </Document>
         <Document ID="3AC317E6-FECC-46AF-94EA-34D5EFEE4CB9">
             <Title>Sample MS</Title>
@@ -701,6 +744,16 @@ Nonomusse / NON-FICTION MS / 6
         </Document>
         <Document ID="99717229-6CF3-4D4A-A109-CB6A2790EA1D">
             <Title>Note</Title>
+            <Text>Where appropriate you may wish to acknowledge the assistance of particular organisations or individuals who provided information, advice or help. 
+
+Acknowledgements. Acknowledge assistance from advisors, sponsors, funding agencies, colleagues, technicians, and so on.
+
+An acknowledgements section is sometimes included in the front matter of a longer report, thesis, or collection to note the assistance of people whose help was crucial but not extensive enough to warrant their being listed as co-authors. Thesis advisors, technicians, and colleagues who gave advice or time are all candidates for the acknowledgements section.
+
+This section is often placed just after the list of tables. In articles and shorter reports, acknowledgements may be made in the end matter at the very beginning of the list of references.</Text>
+        </Document>
+        <Document ID="DB17C1AB-A33A-4850-9C75-0CD290F59122">
+            <Title>Analysis</Title>
         </Document>
         <Document ID="630CBDA5-08D2-4F7B-BAEC-419E821C5F8A">
             <Title>Theory</Title>
@@ -718,22 +771,57 @@ Nonomusse / NON-FICTION MS / 6
 </Notes>
         </Document>
         <Document ID="A8E43E00-0378-4162-A3BE-3346E410F074">
-            <Title>Subject #</Title>
-        </Document>
-        <Document ID="E3D8B331-FD1C-4B4C-9DB6-B957D4BAC2CF">
-            <Title>Subject #</Title>
+            <Title>Subject #1</Title>
         </Document>
         <Document ID="8D838408-F07E-4DC6-A4C5-277D299C43F3">
             <Title>Paperback</Title>
         </Document>
+        <Document ID="E6BAB72A-4A5A-4503-A616-936451F2FC07">
+            <Title>Conclusions and Perspectives</Title>
+        </Document>
         <Document ID="9DA9DF92-FA7F-4051-B1F9-433EB65AB742">
             <Title>Note</Title>
+            <Synopsis>- Summation of result
+
+- Interpretation
+	- Data patterns
+	- Relationship between variables
+	- Explanations
+
+- Comparison
+	- Theory (hypothesis)
+		- Approach evaluation
+		- Error analysis
+	- Existing schemes
+		- Performance
+		- Complexity
+		- Reliability
+		- Cost
+	- Cited works
+		- Focus
+		- Methods
+		- Outcomes
+
+- Optimisation
+	- Limitations and weaknesses
+	- Possible improvements
+
+- Ethical problem
+
+- Applications and industrial relevance
+</Synopsis>
         </Document>
         <Document ID="7D368ACE-A964-4A02-97A7-F037C292C562">
             <Title>Conclusion</Title>
         </Document>
-        <Document ID="E6BAB72A-4A5A-4503-A616-936451F2FC07">
-            <Title>Subject #</Title>
+        <Document ID="47957662-EDF9-4ED4-A509-EAFB7C29AEFB">
+            <Title>Motivation</Title>
+        </Document>
+        <Document ID="8609252D-4C16-4E62-A8D2-8CEF327A3364">
+            <Title>Notes</Title>
+        </Document>
+        <Document ID="8F091CBF-EBC5-475F-9F43-449832218ED0">
+            <Title>Problem Statement</Title>
         </Document>
         <Document ID="6E8A51AF-FABA-482D-992C-31AB1D2D796A">
             <Title>Bibliography</Title>
@@ -746,17 +834,17 @@ Your bibliography should list, in alphabetical order by author, all published so
 Bibliography. List alphabetically any works referred to in your study. Follow the bibliographical and footnote formats of your department or of a prominent periodical published by a professional society in your field.
 </Notes>
         </Document>
-        <Document ID="8609252D-4C16-4E62-A8D2-8CEF327A3364">
-            <Title>Notes</Title>
-        </Document>
         <Document ID="48E9741E-1F94-4771-98D5-63D743C579D0">
             <Title>Contents</Title>
         </Document>
         <Document ID="EF6FE532-6DC8-499E-BF0D-0B7F21D06602">
             <Title>Abstract</Title>
         </Document>
+        <Document ID="D26DAA0A-1238-4C91-ACD4-A24812016FB6">
+            <Title>Contributions</Title>
+        </Document>
         <Document ID="B8F0BFC0-052B-4E27-88D3-DFDD965C751E">
-            <Title>Subject #</Title>
+            <Title>Subject #2</Title>
         </Document>
         <Document ID="66939443-3C05-427A-8087-562B1BE1CF2C">
             <Title>Note</Title>
@@ -816,6 +904,17 @@ Bibliography. List alphabetically any works referred to in your study. Follow th
         </Document>
         <Document ID="E9C70E86-921F-4228-B921-611A0E916E50">
             <Title>Note</Title>
+            <Text>References are generally used in the Introduction and Discussion sections to support any claims that are not common knowledge. Include only those references that pertain to the question at hand. Journals vary considerably in their preferred format for the reference list. For this class, you should list the references alphabetically by the first author’s last name. Include all the authors, the paper’s title, the name of the journal in which it was published, its year of publication, the volume number, and page numbers. Please carefully follow the punctuation and format requirements. 
+
+The REFERENCES section should contain complete citations following standard form. The form of the citation depends on the type of source being referenced, and is different for whole books, chapters in books, and articles published in a journal. One good format to follow is that used in the Chemical Engineering Progress journal, published by AIChE. The references should be numbered and listed in the order they were cited in the body of the report. In the text of the report, a particular reference can be cited by using a numerical superscript that corresponds to its number in the reference list. If a reference has not been actually consulted, it should be listed "as discussed in [name of the work that discussed the reference]".
+
+Your bibliography should list, in alphabetical order by author, all published sources referred to in your report. There are different styles of using references and bibliographies. Refer to the study guide Referencing and Bibliographies and check your departmental handbook for guidelines. Texts which you consulted but did not refer to directly could be grouped under a separate heading such as 'Background Reading' and listed in alphabetical order using the same format as in your bibliography. 
+
+Bibliography. List alphabetically any works referred to in your study. Follow the bibliographical and footnote formats of your department or of a prominent periodical published by a professional society in your field.
+</Text>
+        </Document>
+        <Document ID="536C9C12-5EA0-4AC5-8BA5-49E95DC7AE33">
+            <Title>Background and Algorithms</Title>
         </Document>
         <Document ID="13BB6D24-BC0A-4196-A089-AF828F505EE8">
             <Title>Acknowledgements</Title>
@@ -826,6 +925,42 @@ Acknowledgements. Acknowledge assistance from advisors, sponsors, funding agenci
 An acknowledgements section is sometimes included in the front matter of a longer report, thesis, or collection to note the assistance of people whose help was crucial but not extensive enough to warrant their being listed as co-authors. Thesis advisors, technicians, and colleagues who gave advice or time are all candidates for the acknowledgements section.
 
 This section is often placed just after the list of tables. In articles and shorter reports, acknowledgements may be made in the end matter at the very beginning of the list of references.</Notes>
+        </Document>
+        <Document ID="B7A83748-4D51-443F-B4FF-2539B8795924">
+            <Title>Note</Title>
+            <Synopsis>- Problem: why matter
+
+- Main task
+
+- Methods
+
+- Key results
+
+- Interpretation
+
+- Conclusion
+
+- Key words</Synopsis>
+            <Text>The reader wants to know what area of work the report covers.
+
+The ABSTRACT is not a part of the body of the report itself. Rather, the abstract is a brief summary of the report contents that is often separately circulated so potential readers can decide whether to read the report. The abstract should very concisely summarise the whole report: why it was written, what was discovered or developed, and what is claimed to be the significance of the effort. The abstract does not include figures or tables, and only the most significant numerical values or results should be given.
+
+The summary should briefly describe the content of the report. It should cover the aims of the report, what was found and what, if any, action is called for. Aim for about 1/2 a page in length and avoid detail or discussion; just outline the main points. Remember that the summary is the first thing that is read. It should provide the reader with a clear, helpful overview of the content of the report.
+
+
+- Problem: why matter
+
+- Main task
+
+- Methods
+
+- Key results
+
+- Interpretation
+
+- Conclusion
+
+- Key words</Text>
         </Document>
         <Document ID="7E23EE9F-4C31-4A19-B0D1-762A682AB01B">
             <Title>Results</Title>
@@ -897,59 +1032,40 @@ In the results section of a report, describe all appropriate information produce
 Results sections make extensive use of graphs and figures to present data effectively. Order information by its importance to your audience's purpose in reading the document. State all significant findings in the text, referring to tables and graphs displaying all significant data. If the study has produced a large amount of raw data, do not present all of it in the results section. Instead, present only the information most appropriate to your audience's purpose in reading the document, summarising other key information in graphs and figures. If appropriate, include your raw data in an appendix, referring to them within your text.
 </Notes>
         </Document>
-        <Document ID="B7A83748-4D51-443F-B4FF-2539B8795924">
-            <Title>Note</Title>
-            <Synopsis>- Problem: why matter
-
-- Main task
-
-- Methods
-
-- Key results
-
-- Interpretation
-
-- Conclusion
-
-- Key words</Synopsis>
-            <Text>The reader wants to know what area of work the report covers.
-
-The ABSTRACT is not a part of the body of the report itself. Rather, the abstract is a brief summary of the report contents that is often separately circulated so potential readers can decide whether to read the report. The abstract should very concisely summarise the whole report: why it was written, what was discovered or developed, and what is claimed to be the significance of the effort. The abstract does not include figures or tables, and only the most significant numerical values or results should be given.
-
-The summary should briefly describe the content of the report. It should cover the aims of the report, what was found and what, if any, action is called for. Aim for about 1/2 a page in length and avoid detail or discussion; just outline the main points. Remember that the summary is the first thing that is read. It should provide the reader with a clear, helpful overview of the content of the report.
-
-
-- Problem: why matter
-
-- Main task
-
-- Methods
-
-- Key results
-
-- Interpretation
-
-- Conclusion
-
-- Key words</Text>
-        </Document>
         <Document ID="273C529B-05A5-480A-8F58-18FF7D2BDB89">
             <Title>Note</Title>
+            <Synopsis>- Detailed calculations, procedures, data
+
+- Additional diagrams
+
+- Additional tables summarising data
+
+- Long lists
+
+- Experimental protocols or survey questions
+
+- Code</Synopsis>
         </Document>
         <Document ID="9159B4EA-5375-4D93-B04F-182E0AAF5819">
-            <Title>Subject #</Title>
+            <Title>Subject #3</Title>
         </Document>
         <Document ID="52AA1E16-BC2A-48D8-AFA2-7F4AB45632DE">
-            <Title>Subject #</Title>
+            <Title>Problem Statemenrt (Introduction)</Title>
+        </Document>
+        <Document ID="FE283F8A-4618-4F68-A4B9-6312677820B0">
+            <Title>Subject #4</Title>
         </Document>
         <Document ID="0540496C-DF81-4A3C-9708-ECE7DC16F29D">
             <Title>Subject #</Title>
         </Document>
-        <Document ID="FE283F8A-4618-4F68-A4B9-6312677820B0">
-            <Title>Subject #</Title>
-        </Document>
         <Document ID="9CC7A988-E160-4C06-9A53-D449FAC393A1">
-            <Title>Subject #</Title>
+            <Title>Subject #1
+Subject #2
+Subject #3
+Subject #4</Title>
+        </Document>
+        <Document ID="FD6A9B89-1B6B-460D-B3E4-BA24E3AD231F">
+            <Title>Outline</Title>
         </Document>
         <Document ID="F7DEFDE3-C8D7-4141-BBA5-9B6D325DCD19">
             <Title>Contents</Title>
@@ -1006,34 +1122,11 @@ Legends to the figures and tables explain the elements that appear in the illust
 - Tutor
 </Text>
         </Document>
-        <Document ID="4F144FA1-11C9-434C-8A35-E1864E92462B">
-            <Title>Note</Title>
-            <Synopsis>- Sub-sections by key points
-	- Start with overview sentence
-	- End with conclusion sentence
-	- Smooth transition
-
-- Description
-	- Significance
-		- Results
-		- Variables
-
-	- Data (not statistics)
-		- Environment
-		- Trend
-		- Comparison
-		- Accuracy and precision
-
-	- Edge cases
-		- Elimination
-		- Deviation and error
-
-	- Emphasis
-		- Important results
-		- Principle findings</Synopsis>
+        <Document ID="F8B9AC96-60E6-489E-8990-76C8E11E243F">
+            <Title>Subject #3</Title>
         </Document>
         <Document ID="99987356-5294-4AD7-84AF-D06275A1FA6B">
-            <Title>Subject #</Title>
+            <Title>Out of Scope</Title>
         </Document>
         <Document ID="E04F8696-B67A-4C56-9675-F74669B69EA8">
             <Title>Appendices</Title>
@@ -1075,8 +1168,31 @@ Guidelines for Appendixes
 • If appropriate, identify and summarise the contexts of an appendix in a short summary paragraph.
 • Refer to each appendix in the body of the document.</Notes>
         </Document>
-        <Document ID="1EE12128-089D-4E60-970B-A30CBA2A4DAC">
-            <Title>Subject #</Title>
+        <Document ID="4F144FA1-11C9-434C-8A35-E1864E92462B">
+            <Title>Note</Title>
+            <Synopsis>- Sub-sections by key points
+	- Start with overview sentence
+	- End with conclusion sentence
+	- Smooth transition
+
+- Description
+	- Significance
+		- Results
+		- Variables
+
+	- Data (not statistics)
+		- Environment
+		- Trend
+		- Comparison
+		- Accuracy and precision
+
+	- Edge cases
+		- Elimination
+		- Deviation and error
+
+	- Emphasis
+		- Important results
+		- Principle findings</Synopsis>
         </Document>
         <Document ID="FCC4AAA3-38FE-4C4A-8E3A-F768794BB8BA">
             <Title>Dedication</Title>
@@ -1095,28 +1211,34 @@ Insert dedication here.</Text>
             <Notes>Feel free to delete this document if you don’t need it.</Notes>
         </Document>
         <Document ID="49533C13-D244-4C91-95E1-5B4D5E7D8CA5">
-            <Title>Subject #</Title>
-        </Document>
-        <Document ID="61667704-B58A-46E4-9CAB-A8AD06349DED">
-            <Title>Subject #</Title>
-        </Document>
-        <Document ID="55FAAEC9-F3FD-4162-8AB0-39006DDC7AEF">
-            <Title>Subject #</Title>
+            <Title>Background and Notation</Title>
         </Document>
         <Document ID="099BBCF0-15C2-44DD-955D-1453AF769D10">
             <Title>Subject #2</Title>
         </Document>
+        <Document ID="55FAAEC9-F3FD-4162-8AB0-39006DDC7AEF">
+            <Title>Summary</Title>
+        </Document>
+        <Document ID="61667704-B58A-46E4-9CAB-A8AD06349DED">
+            <Title>Motivation</Title>
+        </Document>
         <Document ID="688E24E7-F2A4-4D38-9370-630CFC12F686">
             <Title>Title</Title>
         </Document>
-        <Document ID="F8B9AC96-60E6-489E-8990-76C8E11E243F">
-            <Title>Subject #3</Title>
+        <Document ID="1EE12128-089D-4E60-970B-A30CBA2A4DAC">
+            <Title>Introduction</Title>
+        </Document>
+        <Document ID="942DD3A6-70EF-414F-8391-251898253D26">
+            <Title>Chapter</Title>
         </Document>
         <Document ID="2A3E52A2-4BD6-4B3E-8EAD-F163257D8F0A">
-            <Title>Subject #</Title>
+            <Title>Related Work</Title>
         </Document>
         <Document ID="799C289F-9D8B-4FDD-A407-CA91197A5D29">
-            <Title>Subject #</Title>
+            <Title>Subjects</Title>
+        </Document>
+        <Document ID="4AFA5B99-4B6C-46D0-B7EA-0D02F340E141">
+            <Title>Scope</Title>
         </Document>
         <Document ID="B071755C-493F-4840-8F2D-C259FA09194A">
             <Title>Notes</Title>

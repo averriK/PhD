@@ -51,6 +51,11 @@
 			<key>Row</key>
 			<integer>-1</integer>
 		</dict>
+		<key>205895F6-5B45-445D-8303-BE9F563E1DBA</key>
+		<dict>
+			<key>Row</key>
+			<integer>-1</integer>
+		</dict>
 		<key>273C529B-05A5-480A-8F58-18FF7D2BDB89</key>
 		<dict>
 			<key>Row</key>
@@ -431,8 +436,8 @@
 	</dict>
 	<key>inspectorSplitFrames</key>
 	<array>
-		<string>{{0, 0}, {772, 871}}</string>
-		<string>{{773, 0}, {578, 871}}</string>
+		<string>{{0, 0}, {1069.5, 871}}</string>
+		<string>{{1070.5, 0}, {280.5, 871}}</string>
 	</array>
 	<key>inspectorWidth</key>
 	<real>245</real>
