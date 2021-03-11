@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ScrivenerProject Identifier="6AB37CD2-587B-412E-93B6-E97FA48E9CB5" Version="2.0" Creator="SCRMAC-3.2.2-14632" Device="AVK-NB" Author="" Modified="2021-03-11 18:35:38 -0300" ModID="C1D5B92E-DB93-4BFA-93D8-1F628D6AF998">
+<ScrivenerProject Identifier="6AB37CD2-587B-412E-93B6-E97FA48E9CB5" Version="2.0" Creator="SCRMAC-3.2.2-14632" Device="AVK-NB" Author="" Modified="2021-03-11 20:10:24 -0300" ModID="F21105F6-3B67-4BDB-86D0-B18B3929D854">
     <Binder>
         <BinderItem UUID="8FC126C3-6408-43AD-985E-62046A87B53B" Type="Text" Created="2021-03-10 13:27:46 -0300" Modified="2021-03-10 13:28:18 -0300">
             <Title>Research Proposal</Title>
@@ -57,7 +57,7 @@
                         <NotesTextSelection>2144,208</NotesTextSelection>
                     </MetaData>
                     <TextSettings>
-                        <TextSelection>101,0</TextSelection>
+                        <TextSelection>140,0</TextSelection>
                     </TextSettings>
                 </BinderItem>
                 <BinderItem UUID="F83D28B1-D7EE-4B58-8FBF-23F580BD477B" Type="Text" Created="2021-03-11 14:21:42 -0300" Modified="2021-03-11 18:29:05 -0300">
@@ -78,14 +78,14 @@
                         <TextSelection>293,0</TextSelection>
                     </TextSettings>
                 </BinderItem>
-                <BinderItem UUID="8BC18B05-2ED2-4C75-9377-89921B27D9B4" Type="Text" Created="2021-02-28 19:42:04 -0300" Modified="2021-03-11 17:47:09 -0300">
+                <BinderItem UUID="8BC18B05-2ED2-4C75-9377-89921B27D9B4" Type="Text" Created="2021-02-28 19:42:04 -0300" Modified="2021-03-11 19:57:49 -0300">
                     <Title>Copyright</Title>
                     <MetaData>
                         <IncludeInCompile>Yes</IncludeInCompile>
                         <NotesTextSelection>82,0</NotesTextSelection>
                     </MetaData>
                     <TextSettings>
-                        <TextSelection>6,40</TextSelection>
+                        <TextSelection>97,0</TextSelection>
                     </TextSettings>
                 </BinderItem>
                 <BinderItem UUID="680C529D-6F35-49A4-9AC4-3ABD4D22A586" Type="Text" Created="2021-02-28 19:42:04 -0300" Modified="2021-03-10 15:23:06 -0300">
@@ -155,49 +155,45 @@
                         <TextSelection>0,0</TextSelection>
                     </TextSettings>
                     <Children>
-                        <BinderItem UUID="0B03128D-B703-405D-B848-B881F951003A" Type="Text" Created="2021-03-01 20:35:23 -0300" Modified="2021-03-01 20:35:28 -0300">
+                        <BinderItem UUID="0B03128D-B703-405D-B848-B881F951003A" Type="Text" Created="2021-03-01 20:35:23 -0300" Modified="2021-03-11 20:10:23 -0300">
                             <Title>Motivation</Title>
                             <MetaData>
                                 <IncludeInCompile>Yes</IncludeInCompile>
                             </MetaData>
                             <TextSettings>
-                                <TextSelection>0,0</TextSelection>
+                                <TextSelection>49,0</TextSelection>
                             </TextSettings>
                             <Children>
-                                <BinderItem UUID="75A7E9C9-0512-4644-A475-89F5E2B1FE27" Type="Text" Created="2021-03-11 18:07:00 -0300" Modified="2021-03-11 18:21:52 -0300">
-                                    <Title>SoA Chapter #1</Title>
+                                <BinderItem UUID="75A7E9C9-0512-4644-A475-89F5E2B1FE27" Type="Text" Created="2021-03-11 18:07:00 -0300" Modified="2021-03-11 20:10:23 -0300">
                                     <MetaData>
                                         <IncludeInCompile>Yes</IncludeInCompile>
                                     </MetaData>
                                     <TextSettings>
-                                        <TextSelection>0,0</TextSelection>
+                                        <TextSelection>36,0</TextSelection>
                                     </TextSettings>
                                 </BinderItem>
-                                <BinderItem UUID="9771C3A6-920E-4650-9156-79B6462514CF" Type="Text" Created="2021-03-11 18:07:00 -0300" Modified="2021-03-11 18:07:36 -0300">
-                                    <Title>SoA Chapter #2</Title>
+                                <BinderItem UUID="9771C3A6-920E-4650-9156-79B6462514CF" Type="Text" Created="2021-03-11 18:07:00 -0300" Modified="2021-03-11 20:10:23 -0300">
                                     <MetaData>
                                         <IncludeInCompile>Yes</IncludeInCompile>
                                     </MetaData>
                                     <TextSettings>
-                                        <TextSelection>0,0</TextSelection>
+                                        <TextSelection>36,0</TextSelection>
                                     </TextSettings>
                                 </BinderItem>
-                                <BinderItem UUID="65CF6A76-2213-40D1-B695-386DB993A675" Type="Text" Created="2021-03-11 18:07:00 -0300" Modified="2021-03-11 18:07:39 -0300">
-                                    <Title>SoA Chapter #3</Title>
+                                <BinderItem UUID="65CF6A76-2213-40D1-B695-386DB993A675" Type="Text" Created="2021-03-11 18:07:00 -0300" Modified="2021-03-11 20:10:23 -0300">
                                     <MetaData>
                                         <IncludeInCompile>Yes</IncludeInCompile>
                                     </MetaData>
                                     <TextSettings>
-                                        <TextSelection>0,0</TextSelection>
+                                        <TextSelection>35,0</TextSelection>
                                     </TextSettings>
                                 </BinderItem>
-                                <BinderItem UUID="CD79F556-2732-4362-8842-BA587820EE51" Type="Text" Created="2021-03-11 18:07:00 -0300" Modified="2021-03-11 18:07:44 -0300">
-                                    <Title>SoA Chapter #4</Title>
+                                <BinderItem UUID="CD79F556-2732-4362-8842-BA587820EE51" Type="Text" Created="2021-03-11 18:07:00 -0300" Modified="2021-03-11 20:10:23 -0300">
                                     <MetaData>
                                         <IncludeInCompile>Yes</IncludeInCompile>
                                     </MetaData>
                                     <TextSettings>
-                                        <TextSelection>0,0</TextSelection>
+                                        <TextSelection>35,0</TextSelection>
                                     </TextSettings>
                                 </BinderItem>
                             </Children>
@@ -259,67 +255,67 @@
                         <TextSelection>24,0</TextSelection>
                     </TextSettings>
                     <Children>
-                        <BinderItem UUID="6877A140-B147-43FA-A67A-410798AFDD28" Type="Text" Created="2021-03-01 20:32:21 -0300" Modified="2021-03-11 11:11:08 -0300">
+                        <BinderItem UUID="6877A140-B147-43FA-A67A-410798AFDD28" Type="Text" Created="2021-03-01 20:32:21 -0300" Modified="2021-03-11 20:06:45 -0300">
                             <Title>Introduction</Title>
                             <MetaData>
                                 <IncludeInCompile>Yes</IncludeInCompile>
                             </MetaData>
                             <TextSettings>
-                                <TextSelection>0,0</TextSelection>
+                                <TextSelection>13,0</TextSelection>
                             </TextSettings>
                         </BinderItem>
-                        <BinderItem UUID="EC3F579A-6B6C-414B-9DB7-FD67459AC07D" Type="Text" Created="2021-03-11 11:11:10 -0300" Modified="2021-03-11 11:11:16 -0300">
+                        <BinderItem UUID="EC3F579A-6B6C-414B-9DB7-FD67459AC07D" Type="Text" Created="2021-03-11 11:11:10 -0300" Modified="2021-03-11 20:06:55 -0300">
                             <Title>Problem Statement</Title>
                             <MetaData>
                                 <IncludeInCompile>Yes</IncludeInCompile>
                             </MetaData>
                             <TextSettings>
-                                <TextSelection>0,0</TextSelection>
+                                <TextSelection>18,0</TextSelection>
                             </TextSettings>
                         </BinderItem>
-                        <BinderItem UUID="BA097E8C-3951-4D93-B0AE-A25821021BD8" Type="Text" Created="2021-03-01 20:34:01 -0300" Modified="2021-03-01 20:34:10 -0300">
+                        <BinderItem UUID="BA097E8C-3951-4D93-B0AE-A25821021BD8" Type="Text" Created="2021-03-01 20:34:01 -0300" Modified="2021-03-11 20:08:44 -0300">
                             <Title>Background </Title>
                             <MetaData>
                                 <IncludeInCompile>Yes</IncludeInCompile>
                             </MetaData>
                             <TextSettings>
-                                <TextSelection>0,0</TextSelection>
+                                <TextSelection>1,32</TextSelection>
                             </TextSettings>
                         </BinderItem>
-                        <BinderItem UUID="3692290B-89E0-47A7-9456-61CAEE2CF7C4" Type="Text" Created="2021-03-01 20:32:42 -0300" Modified="2021-03-11 11:21:59 -0300">
-                            <Title>Current Approach</Title>
+                        <BinderItem UUID="3692290B-89E0-47A7-9456-61CAEE2CF7C4" Type="Text" Created="2021-03-01 20:32:42 -0300" Modified="2021-03-11 20:08:44 -0300">
+                            <Title>Proposed Methodology</Title>
                             <MetaData>
                                 <IncludeInCompile>Yes</IncludeInCompile>
                             </MetaData>
                             <TextSettings>
-                                <TextSelection>0,0</TextSelection>
+                                <TextSelection>21,0</TextSelection>
                             </TextSettings>
                         </BinderItem>
-                        <BinderItem UUID="6CB21783-48A1-456B-96D6-99F4C035D164" Type="Text" Created="2021-03-01 20:33:00 -0300" Modified="2021-03-11 11:11:44 -0300">
-                            <Title>Application</Title>
+                        <BinderItem UUID="6CB21783-48A1-456B-96D6-99F4C035D164" Type="Text" Created="2021-03-01 20:33:00 -0300" Modified="2021-03-11 20:07:28 -0300">
+                            <Title>Case Study</Title>
                             <MetaData>
                                 <IncludeInCompile>Yes</IncludeInCompile>
                             </MetaData>
                             <TextSettings>
-                                <TextSelection>0,0</TextSelection>
+                                <TextSelection>11,0</TextSelection>
                             </TextSettings>
                         </BinderItem>
-                        <BinderItem UUID="8FF6CD40-F019-4A41-9AF8-410C9FD5210D" Type="Text" Created="2021-03-01 20:33:24 -0300" Modified="2021-03-01 20:34:43 -0300">
+                        <BinderItem UUID="8FF6CD40-F019-4A41-9AF8-410C9FD5210D" Type="Text" Created="2021-03-01 20:33:24 -0300" Modified="2021-03-11 20:07:57 -0300">
                             <Title>Conclusion</Title>
                             <MetaData>
                                 <IncludeInCompile>Yes</IncludeInCompile>
                             </MetaData>
                             <TextSettings>
-                                <TextSelection>0,0</TextSelection>
+                                <TextSelection>11,0</TextSelection>
                             </TextSettings>
                         </BinderItem>
-                        <BinderItem UUID="51CC16B8-FAEC-4E56-AC33-1FF861C280BA" Type="Text" Created="2021-03-01 20:34:44 -0300" Modified="2021-03-01 20:34:47 -0300">
+                        <BinderItem UUID="51CC16B8-FAEC-4E56-AC33-1FF861C280BA" Type="Text" Created="2021-03-01 20:34:44 -0300" Modified="2021-03-11 20:08:20 -0300">
                             <Title>Future Work</Title>
                             <MetaData>
                                 <IncludeInCompile>Yes</IncludeInCompile>
                             </MetaData>
                             <TextSettings>
-                                <TextSelection>0,0</TextSelection>
+                                <TextSelection>28,0</TextSelection>
                             </TextSettings>
                         </BinderItem>
                     </Children>
@@ -484,7 +480,7 @@
                         <TextSelection>0,0</TextSelection>
                     </TextSettings>
                     <Children>
-                        <BinderItem UUID="3F966676-F386-40ED-8A49-27CA59B73071" Type="Text" Created="2021-03-11 13:34:09 -0300" Modified="2021-03-11 17:42:08 -0300">
+                        <BinderItem UUID="3F966676-F386-40ED-8A49-27CA59B73071" Type="Text" Created="2021-03-11 13:34:09 -0300" Modified="2021-03-11 20:00:11 -0300">
                             <Title>Sample</Title>
                             <MetaData>
                                 <IncludeInCompile>Yes</IncludeInCompile>
@@ -734,13 +730,13 @@
     <ProjectTargets Notify="No">
         <DraftTarget Type="Words" CountIncludedOnly="Yes" CurrentCompileGroupOnly="No" Deadline="2021-03-11 12:42:10 -0300" IgnoreDeadline="Yes">0</DraftTarget>
         <SessionTarget Type="Words" CountDraftOnly="Yes" AllowNegatives="Yes" NextResetDate="2021-03-12 00:00:00 -0300" ResetType="Time" ResetTime="00:00" DeterminedFromDeadline="No" WritingDays="" CanWriteOnDeadlineDate="No">0</SessionTarget>
-        <PreviousSession Words="4" Characters="24" Date="2021-03-11 12:42:10 -0300"/>
+        <PreviousSession Words="56" Characters="425" Date="2021-03-11 12:42:10 -0300"/>
     </ProjectTargets>
     <RecentWritingHistory Date="2021-03-11 12:42:10 -0300">
-        <DraftWordCount>4</DraftWordCount>
-        <DraftCharCount>24</DraftCharCount>
-        <OtherWordCount>-276</OtherWordCount>
-        <OtherCharCount>-1563</OtherCharCount>
+        <DraftWordCount>56</DraftWordCount>
+        <DraftCharCount>425</DraftCharCount>
+        <OtherWordCount>-267</OtherWordCount>
+        <OtherCharCount>-1495</OtherCharCount>
     </RecentWritingHistory>
     <PrintSettings PaperSize="595.0,842.0" LeftMargin="72.0" RightMargin="72.0" TopMargin="90.0" BottomMargin="90.0" PaperType="iso-a4" Orientation="Portrait" HorizontalPagination="Clip" VerticalPagination="Auto" ScaleFactor="1.0" HorizontallyCentered="Yes" VerticallyCentered="Yes" Collates="Yes" PagesAcross="1" PagesDown="1"/>
 </ScrivenerProject>
