@@ -40,8 +40,8 @@
             </Ebook>
         </Options>
         <MetaData>
-            <ProjectTitle>Prueba</ProjectTitle>
-            <ProjectAbbreviatedTitle>Prueba</ProjectAbbreviatedTitle>
+            <ProjectTitle>formats</ProjectTitle>
+            <ProjectAbbreviatedTitle>formats</ProjectAbbreviatedTitle>
             <Authors>
                 <Author Role="aut"></Author>
             </Authors>
@@ -60,8 +60,8 @@
     <FormatSettings>
         <Format ID="DEFAULT">
             <SectionLayouts>
-                <Type ID="DEF2E310-8EA1-43BF-8EC3-FBD3E440576B">NEW-PAGE-HEADER-WITH-TEXT</Type>
-                <Type ID="E1922FCA-1F73-48D3-9520-FA246F6634D2">TEXT-SECTION</Type>
+                <Type ID="4167FA9B-B809-45D9-80A2-FA49A7CF3177">NEW-PAGE-HEADER-WITH-TEXT</Type>
+                <Type ID="AAE5284E-4A01-4DF9-AD2A-FF5AEAAA977D">TEXT-SECTION</Type>
             </SectionLayouts>
         </Format>
     </FormatSettings>
