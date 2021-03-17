@@ -1,10 +1,210 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <SearchIndexes Version="1.0">
     <Documents>
-        <Document ID="097E1565-B3E7-4423-A83A-AC87A5F15371">
-            <Title>Back Matter</Title>
+        <Document ID="4D02267C-AA7A-4A80-AFCA-4B030DBAC7BF">
+            <Text>Outline
+
+</Text>
         </Document>
-        <Document ID="04243F71-EAC1-42FC-8E86-213F09596CB5">
+        <Document ID="43A368C6-7374-4433-947A-2B512617D60B">
+            <Title>Declaration</Title>
+            <Text>
+
+
+Except where indicated by specific reference within the dissertation, the work submitted for examination is the result of the candidate’s own investigation and the views expressed are those of the candidate. 
+No portion of the work presented in this dissertation has been submitted in substance for any other degree or award at this university or any other university, nor is being submitted concomitantly in candidature for any degree or other award  
+</Text>
+        </Document>
+        <Document ID="9123651E-507B-4698-8784-394D51CBA00C">
+            <Text>
+Problem Statement</Text>
+        </Document>
+        <Document ID="33772FCD-FA7A-414F-BE5F-9FB8F1F40653">
+            <Text>Caracterización y Clasificación de la Respuesta Dinámica del Sitio
+</Text>
+        </Document>
+        <Document ID="DD78654A-35F2-4415-8322-126F026F6BFB">
+            <Text>
+Problem Statement</Text>
+        </Document>
+        <Document ID="8E2586CA-0FB2-487D-BE81-7E8793D24204">
+            <Text>
+Problem Statement</Text>
+        </Document>
+        <Document ID="CAF9DEA4-BD2C-4499-A1BC-8E4C87153A37">
+            <Title>Discussion</Title>
+        </Document>
+        <Document ID="C502708E-D79A-4724-B9CD-B7138122AEB8">
+            <Text>
+Proposed Approach</Text>
+        </Document>
+        <Document ID="43AE7A47-043C-4656-B876-18795AAEE8D3">
+            <Text>
+Problem Statement</Text>
+        </Document>
+        <Document ID="E6665289-E7EA-4117-AE93-D9FBF82B42AF">
+            <Synopsis>- Summation of result
+
+- Interpretation
+	- Data patterns
+	- Relationship between variables
+	- Explanations
+
+- Comparison
+	- Theory (hypothesis)
+		- Approach evaluation
+		- Error analysis
+	- Existing schemes
+		- Performance
+		- Complexity
+		- Reliability
+		- Cost
+	- Cited works
+		- Focus
+		- Methods
+		- Outcomes
+
+- Optimisation
+	- Limitations and weaknesses
+	- Possible improvements
+
+- Ethical problem
+
+- Applications and industrial relevance
+</Synopsis>
+            <Text>
+Discussion
+Limitations and Future Work</Text>
+            <Notes>The purpose of the discussion section is to interpret and contextualise your data. You should begin by reiterating the purpose of your research and your major findings. Then you might do any or all of the following: connect your findings to other research (published or that of your peers); describe any ambiguities and sources of error in the data, and suggest future experiments to resolve uncertainties; explain where you expect your work may lead, and suggest specific experiments for extending your findings; describe any conceptual or technical limitations of the research. Finally, you should explain the significance of your findings to basic science and to engineering applications. Like the previous sections, the discussion should have a clear organisation and narrative flow, whether or not you use sub-sections.
+
+Relates results to those of others
+• Cites other work discussed
+• Relates results to theory
+• Discuss limitations and weakness of results
+• Discuss implications for further research
+• Suggest applications of findings when appropriate
+• Avoids undue speculations
+
+The DISCUSSION interprets the results in light of the project's objectives. The most important goal of the DISCUSSION section is to interpret the results so that the reader is informed of the insight or answers that the results provide. The DISCUSSION should also present an evaluation of the particular approach taken by the group. For example: Based on the results, how could the experimental procedure be improved? What additional, future work may be warranted? What recommendations can be drawn?
+
+The main body of the report is where you discuss your material. The facts and evidence you have gathered should be analysed and discussed with specific reference to the problem or issue. If your discussion section is lengthy you might divide it into section headings. Your points should be grouped and arranged in an order that is logical and easy to follow. Use headings and subheadings to create a clear structure for your material. Use bullet points to present a series of points in an easy-to-follow list. 
+
+Discussion. Discuss the meaning of the results, stating clearly what their significance is. Compare the results with theoretical expectations and account for anything unexpected.
+
+Explain in the discussion section of your document information presented in the results section, commenting on significant data produced by the study. In writing a discussion section, keep the following points in mind.
+
+• Identify significant patterns in the data and relationships between variables. Offer tentative explanations for these patterns and relationships.
+• Compare the actual data produced with any predictions or questions posed in the introduction or theory section of the document.
+• If any of the results differ from the expected results, offer possible explanations for the discrepancies. Present the most probable explanations first and the least probable last.
+• Consider how well the data answer any questions posed in the document's introduction. Do the results answer the questions completely? If not, explain what questions still need to be addressed and give possible explanations why the results may be inconclusive.
+• Qualify the scope of your explanations, discussing in what cases your explanations apply and in what cases they may not.
+• Organise your material in order of importance to your reader's purpose in using the document.
+</Notes>
+        </Document>
+        <Document ID="28DFF2CE-435F-4377-9AB7-4B4D7ECFB232">
+            <Title>Title #3</Title>
+        </Document>
+        <Document ID="F75495D6-1E52-410D-A25A-B498B77AE502">
+            <Text>Capítulo III
+Caracterización y Clasificación de la Respuesta Dinámica del Sitio</Text>
+        </Document>
+        <Document ID="2F8707B1-94EF-40E6-9A6A-A893117BC593">
+            <Text>
+Problem Statement</Text>
+        </Document>
+        <Document ID="6DB8D057-1797-4E3E-964F-F04D8399EAAE">
+            <Title>Notation</Title>
+            <Text>Background and Notation</Text>
+        </Document>
+        <Document ID="189992D1-8941-4748-80AF-A7F786D81D78">
+            <Text>
+Proposed Approach</Text>
+        </Document>
+        <Document ID="18C247A1-405E-469F-B497-F112A1CFEE57">
+            <Text>
+Proposed Approach</Text>
+        </Document>
+        <Document ID="6CB21783-48A1-456B-96D6-99F4C035D164">
+            <Text>
+Case Study</Text>
+        </Document>
+        <Document ID="8FF6CD40-F019-4A41-9AF8-410C9FD5210D">
+            <Title>Title #3</Title>
+            <Text>
+Conclusion</Text>
+        </Document>
+        <Document ID="80C0559B-FECB-40A8-995C-1F68AFD4D988">
+            <Text>
+Conclusion</Text>
+        </Document>
+        <Document ID="BF1B996C-4004-4028-A5F9-F2AA25CF6387">
+            <Title>Discussion</Title>
+        </Document>
+        <Document ID="368986F7-6286-48AF-8028-09FDAAD04E85">
+            <Text>
+Case Study</Text>
+        </Document>
+        <Document ID="DBEE2E67-A1CF-4753-95C8-0D16104F185A">
+            <Text>
+Problem Statement</Text>
+        </Document>
+        <Document ID="8C9E4A2F-DBD2-41C3-8E67-1444F199F57A">
+            <Text>
+Background. Literature Review
+
+Que ya se sabía de estemos
+Qué se hacía antes de Alejandro
+</Text>
+        </Document>
+        <Document ID="EC3F579A-6B6C-414B-9DB7-FD67459AC07D">
+            <Text>
+Problem Statement</Text>
+        </Document>
+        <Document ID="D52A6916-0D0A-43A6-B267-DABCB04ECF2E">
+            <Text>
+Case Study</Text>
+        </Document>
+        <Document ID="222ADE05-A2A4-4D5B-833A-63B7C843BFCA">
+            <Text>
+Proposed Approach</Text>
+        </Document>
+        <Document ID="413F0BDB-7E96-4520-B932-EE661155AF91">
+            <Text>Objetivos
+
+	•	Identificar parámetros dinámicos en series temporales que permitan clasificar y agrupar registros de aceleraciones 
+	•	Diseñar métricas eficientes que permitan detectar similitudes (mínima distancias) entre series temporales asociadas a un grupo particular, y los acelerogramas de una región objetivo
+	•	Formular para cada grupo un modelo no-paramétrico de predicción del movimiento sísmico. 
+	•	Analizar mediante simulación numérica, la respuesta dinámica del sitio para un gran número de escenarios geotécnicos simulados, y agrupar parámetros estimadores mediante un sistema de clasificación de sitios basado en la respuesta dinámica 
+	•	Definir estimadores sesgados de la respuesta dinámica de sistemas dinámicos complejos, mediante modelos mecánicos simples (proxy) y estimar las medianas condicionales y la variabilidad de la respuesta para cada grupo de sismos y para categoría de sitios
+	•	A partir del monitoreo de resultados obtenidos en modelos computacionales complejos para problemas tipo,  establecer una estrategia numérica robusta de entrenamiento de los estimadores no-paramétricos que minimice el sesgo y la variabilidad. 
+	•	Presentar aplicaciones del modelo de aprendizaje automático para algunos problemas clásicos de análisis dinámico de deformaciones inducidas por sismos y discutir resultados, identificar limitaciones y proponer futuros c
+</Text>
+        </Document>
+        <Document ID="D49AC6A4-E3E1-4AB5-9951-1A939197324A">
+            <Text>
+Problem Statement</Text>
+        </Document>
+        <Document ID="8BBD1B2C-22AF-4CC2-BF5B-8B0205EB0892">
+            <Text>
+Discussion
+Limitations and Future Work</Text>
+        </Document>
+        <Document ID="EDDCF3B0-00D0-4D79-953F-1712D25C261A">
+            <Title>Discussion</Title>
+            <Text>
+Propuse metodologías de clasificacion, 
+Dadas estas caracterizaciones, propuse modelos que usan esos sismos pero desagregados o clasificados previamente mediante las metodologías
+Dados estos modelos (hice muchos), los clasifiqué y propuse metodologías para “clasificarlos” y seleccionarlos. Estos modelos no pretenden ser un predictor robusto de la repuesta, sino un predictor “sesgado” capaz de identificar qué sismos hace más daño que otros sismo
+Dados resultados e modelos complejos, como mejorar las técnicas de selección y penalización
+Debo discutir qué tan bien funciona este método 
+
+
+
+
+
+</Text>
+        </Document>
+        <Document ID="2A565D00-E2EA-40BA-A1F5-6E257037EAFB">
             <Title>Introduction</Title>
             <Synopsis>- Background: big picture
 	- Motivations and benefits
@@ -31,6 +231,9 @@
 	- Limitations
 
 - Layout (optional)</Synopsis>
+            <Text>Introduction
+
+</Text>
             <Notes>The introduction sets the scene and includes the aims and objectives of the report. It also defines the limits of the report, outlines the method of enquiry, gives a brief general background to the subject of the report and indicates the proposed development.
 
 The introduction provides a framework for the story you are about to tell, and thus serves two main purposes. For one, you must provide sufficient background information for a reader to understand the forthcoming results. Just as importantly, you must motivate the audience to keep reading! How? Reveal the significance of the work through connections to both prior scientific accomplishments and future applications. You are welcome to use your own creativity and judgement as to what a good introduction should look like; however, you may find the suggested structure below useful.
@@ -61,36 +264,130 @@ Introductions often do the following:
 
 The introduction sets the scene for the main body of the report. The aims and objectives of the report should be explained in detail. Any problems or limitations in the scope of the report should be identified, and a description of research methods, the parameters of the research and any necessary background history should be included. </Notes>
         </Document>
-        <Document ID="7CD72C1B-F2FA-43DD-939F-35F422D62B0A">
-            <Title>Summary</Title>
+        <Document ID="2C7199DE-1200-4FCC-949D-15EB6055F88D">
+            <Text>Main Contribution
+
+
+¿Que voy a aportar, respecto a lo que ya está hecho?
+</Text>
         </Document>
-        <Document ID="DF606712-8386-4E3B-AFEB-D3D81A4E7409">
-            <Title>Bibliography</Title>
-            <Notes>References are generally used in the Introduction and Discussion sections to support any claims that are not common knowledge. Include only those references that pertain to the question at hand. Journals vary considerably in their preferred format for the reference list. For this class, you should list the references alphabetically by the first author’s last name. Include all the authors, the paper’s title, the name of the journal in which it was published, its year of publication, the volume number, and page numbers. Please carefully follow the punctuation and format requirements. 
+        <Document ID="E05E54E0-8AF0-4F65-8D26-318990BFB149">
+            <Text>Capítulo X
+Predicción de la Demanda Sísmica</Text>
+        </Document>
+        <Document ID="AA5CF427-D723-4406-A327-03A468A0E794">
+            <Title>Notes</Title>
+            <Text>&lt;$--ENDNOTES--&gt;</Text>
+            <Notes>The &lt;$--ENDNOTES--&gt; tag will be replaced by the footnotes during Compile. Using this tag allows us to have the footnotes inserted wherever we like, without having a separator placed above them.</Notes>
+        </Document>
+        <Document ID="C28B4833-A0E2-41F5-AA6F-396493EAA1EC">
+            <Text>Problem Statement
 
-The REFERENCES section should contain complete citations following standard form. The form of the citation depends on the type of source being referenced, and is different for whole books, chapters in books, and articles published in a journal. One good format to follow is that used in the Chemical Engineering Progress journal, published by AIChE. The references should be numbered and listed in the order they were cited in the body of the report. In the text of the report, a particular reference can be cited by using a numerical superscript that corresponds to its number in the reference list. If a reference has not been actually consulted, it should be listed "as discussed in [name of the work that discussed the reference]".
+¿Qué problemas quiero resolver? 
+¿Qué resultados necesito obtener?
 
-Your bibliography should list, in alphabetical order by author, all published sources referred to in your report. There are different styles of using references and bibliographies. Refer to the study guide Referencing and Bibliographies and check your departmental handbook for guidelines. Texts which you consulted but did not refer to directly could be grouped under a separate heading such as 'Background Reading' and listed in alphabetical order using the same format as in your bibliography. 
+</Text>
+        </Document>
+        <Document ID="BA097E8C-3951-4D93-B0AE-A25821021BD8">
+            <Text>
+Background</Text>
+        </Document>
+        <Document ID="45B33832-53E5-4346-9CFB-4CD2C1D29A49">
+            <Text>Caracterización y Clasificación de la Respuesta Dinámica del Sitio
+Estado actual de la práctica
 
-Bibliography. List alphabetically any works referred to in your study. Follow the bibliographical and footnote formats of your department or of a prominent periodical published by a professional society in your field.
+
+Necesidades
+</Text>
+        </Document>
+        <Document ID="1E92BC9A-895F-49DD-9067-5FB156F9374A">
+            <Text>
+Conclusion</Text>
+        </Document>
+        <Document ID="673919A6-ECE1-47C3-8543-FA53F2CD0E8D">
+            <Text>Predicción de la respuesta dinámica
+</Text>
+        </Document>
+        <Document ID="DACFC8DB-08DA-41BC-8C72-AB374C3108E4">
+            <Title>Title #2</Title>
+            <Text>Diseño de modelos de estimación de respuesta sísmica de sistemas complejos basados en Aprendizaje Estadístico</Text>
+        </Document>
+        <Document ID="CF117A0A-0F59-41DB-A841-2B9F9E0FA705">
+            <Text>
+Case Study</Text>
+        </Document>
+        <Document ID="2BCC4512-148A-45C2-A512-855E200FFF94">
+            <Title>Discussion</Title>
+            <Text>Literature Review Capitulo 1
+
+Que ya se sabía de estemos
+Qué se hacía antes de Alejandro
+</Text>
+        </Document>
+        <Document ID="A606E6DA-B960-47A8-851E-13ECB6853284">
+            <Title>Title #1</Title>
+            <Text>Aplicaciones de IA en la generación automática de modelos de estimación de respuesta sísmica de sistemas complejos</Text>
+        </Document>
+        <Document ID="08B1EF06-A416-4AA1-BE11-16E48FE09DF0">
+            <Title>Title Page</Title>
+            <Synopsis>- Name
+
+- ID
+
+- Date
+
+- Module
+
+- Tutor
+</Synopsis>
+            <Notes>These tags get replaced with the information set in the Metadata pane of Compile. Alternatively, you can simply replace this text altogether.
+
+The title page should contain the following information: 
+	1.	The Title of the dissertation. The title should remain the same on all the docu- ments. It should ideally be in typescript or black ink and in block letters.  
+	2.	Name of the author. This should include the first name, middle name and sur- name. This should match the name you have provided in the university records.  
+	3.	Previous academic credentials (qualifications) of the author. These are written in  descending chronological order and each qualification is written in a single line. An example is shown below: M.S (General Surgery), Pondicherry University, 2007 MBBS (Pondicherry University), 2003  However, in some universities, only the name of the candidate without academic  
+qualifications is put on the title page. 
+	4.	The degree award title for which the dissertation is presented. This should be written in the form of a statement which reads as “...in partial fulfillment of... (write the name of the course or degree) For example:  Dissertation submitted in partial fulfillment of the requirements for the Doctorate of Philosophy  
+	5.	The Institution or Department in which the work was carried out.  
+	6.	The month and year during which it is submitted for examination (or re-presentation in the case of a dissertation that is to be re-examined).  
+	7.	If there is more than one volume that is submitted, then the Title page should  state the total number of volumes and the particular volume.  
+	8.	A Copyright Statement that should include your name, year and name of the  university For example: © Dr Arvind Gupta, 2010, Pondicherry University  
+However, this is not mandatory in all the university guidelines. 
+	9.	ReuseStatement.Thisclarifiesthetermsofreproducingthework.Thecopyright usually rests with the author or the Department in which the work is carried out.  
+	10.	A Declaration Statement is usually placed in the page following Title page that outlines a statement signed by the candidate that states, “Except where indi- cated by specific reference within the dissertation, the work submitted for examination is the result of the candidate’s own investigation and the views expressed are those of the candidate”.  
+	11.	TheDeclarationStatementshouldalsoincludeasignedstatementbythecandidate that states, “No portion of the work presented in this dissertation has been submitted in substance for any other degree or award at this university or any other university, nor is being submitted concomitantly in candidature for any degree or other award”.  
+
 </Notes>
         </Document>
-        <Document ID="6AC396FB-4B04-4B16-B554-294E20A83E75">
-            <Title>Current Approach</Title>
+        <Document ID="898C1901-74C9-477B-A5A2-0347D789CCD0">
+            <Text>
+Problem Statement</Text>
         </Document>
-        <Document ID="42C479F6-0D27-4827-9DF0-F3838DC9051D">
-            <Title>Application</Title>
+        <Document ID="007C088F-8447-4172-89FD-20A7A447F7DF">
+            <Text>Capítulo X
+Selección de Registros Sísmicos
+</Text>
         </Document>
-        <Document ID="0CAAC7CD-DA2C-4E44-B2BE-7A9932425D92">
+        <Document ID="4E549DEB-3B99-4053-8F88-39497CDB9303">
+            <Text>Caracterización y Clasificación de la Respuesta Dinámica del Sitio
+</Text>
+        </Document>
+        <Document ID="8D277EBA-811D-4381-A77F-73A6E1F8CC80">
+            <Text>Estimación de la Respuesta Sísmica de Sistemas Complejos
+Estado actual de la práctica
+Estado actual de la práctica para el análisis dinámico de deformaciones de estructuras sometidas a cargas sísmicas de gran intensidad requiere modelos computacionales complejos, con un alto costo computacional (con tiempos que van desde varias horas hasta días de tiempo computacional por cada registro sísmico)
+Respuesta dinámica de estas estructuras fuertemente  dependiente de la historia de aceleraciones en superficie. No existen parámetros escalares que determinen efectivamente si un determinado registro sísmico tendrá mayor demanda sísmica (deformaciones) que otro. 
+Dependencia con el contenido de frecuencias de los registros sísmicos requiere corridas análisis dinámicos para un número relativamente grande de registros sísmicos que permitan identificar la distribución de probabilidad de la respuesta dinámica. 
+Necesidad de poder identificar y seleccionar un número reducido registros que controlan o maximizan la demanda sísmica. Alto costo computacional  hace prácticamente imposible analizar miles de registros sísmicos con un modelo computacional de estas características. 
+Necesidades
+Se requieren modelos de estimación de la demanda sísmica de bajo costo computacional que permitan analizar cientos de miles de registros sísmicos y obtener estimadores sesgados de la distribución de la demanda sísmica de un parámetro de demanda (ejemplo, amplificación del sitio, asentamientos en el coronamiento de una presa, desplazamientos de la junta sísmica de un caño enterrado, distorsiones de un entrepiso de un edificio alto, esfuerzos debidos al oleaje de un tanque de almacenamiento, etc.)
+Luego, se requerirán técnicas robustas basadas en modelos no-paramétricos que permitan reducir el sesgo y la varianza de las predicciones, mediante el entrenamiento con datos obtenidos de modelos computacionales complejos para un numero reducido de casos </Text>
+        </Document>
+        <Document ID="30BC8413-78A5-4374-825A-74755840E548">
             <Title>Abstract</Title>
             <Synopsis>
 </Synopsis>
-            <Text>
-Resumen
-
-Resumen en español
-
-Abstract
+            <Text>Abstract
 
 Abstract in English
 
@@ -105,68 +402,122 @@ The summary should briefly describe the content of the report. It should cover t
 
 </Notes>
         </Document>
-        <Document ID="6DB8D057-1797-4E3E-964F-F04D8399EAAE">
-            <Title>Notation</Title>
+        <Document ID="E48C1A9F-622A-4B85-9465-CF7AE7A230F7">
+            <Title>Discussion</Title>
+            <Text>Literature Review Capitulo 1
+
+Que ya se sabía de estemos
+Qué se hacía antes de Alejandro
+</Text>
         </Document>
-        <Document ID="4623B85E-3B4B-445A-B6B4-92B7F96E540E">
-            <Title>Conclusion</Title>
-            <Synopsis>- Purpose and major findings
+        <Document ID="CBD09FB7-4288-4900-B808-BF39DA45A9A5">
+            <Text>
+Conclusion</Text>
+        </Document>
+        <Document ID="00FC4575-1B70-4DE6-A631-054E74033205">
+            <Text>
+Background. Literature Review
 
-- Outcomes
-	- Performance
-	- Complexity
-	- Reliability
-	- Cost
+Que ya se sabía de estemos
+Qué se hacía antes de Alejandro
+</Text>
+        </Document>
+        <Document ID="568E22F1-84F7-43D6-B044-9D76F0C0361F">
+            <Title>Publications</Title>
+        </Document>
+        <Document ID="9A753B3A-47EA-4738-A120-8638F6349F76">
+            <Text>
+Case Study</Text>
+        </Document>
+        <Document ID="A4B44C99-0FF1-487B-B705-3012D3CEF41C">
+            <Text>Objeto
 
-- Significance
-	- Problem mitigation
-	- Applications
+El objeto del estudio, es la implementación de metodologías de aprendizaje automático para la generación de modelos  predicción de la intensidad del movimiento sísmico de una región , modelos de estimación de la respuesta dinámica de un sitio dado, y modelos de estimación de las deformaciones sísmicas en sistemas dinámicos complejos
 
-- Limitations and weaknesses
+</Text>
+        </Document>
+        <Document ID="C6961460-9BB1-4B11-AB4A-76F36A5F1DA2">
+            <Title>Acknowledgements</Title>
+            <Text>Agradecimientos</Text>
+            <Notes>Where appropriate you may wish to acknowledge the assistance of particular organisations or individuals who provided information, advice or help. 
 
-- Implications for further research</Synopsis>
-            <Notes>The conclusion should draw out the implications from the report and normally recommends a course of action. It should link back to the introduction.
+Acknowledgements. Acknowledge assistance from advisors, sponsors, funding agencies, colleagues, technicians, and so on.
 
-The CONCLUSIONS should summarise the central points made in the Discussion section, reinforcing for the reader the value and implications of the work. If the results were not definitive, specific future work that may be needed can be (briefly) described. The conclusions should never contain "surprises". Therefore, any conclusions should be based on observations and data already discussed. It is considered extremely bad form to introduce new data in the conclusions.
+An acknowledgements section is sometimes included in the front matter of a longer report, thesis, or collection to note the assistance of people whose help was crucial but not extensive enough to warrant their being listed as co-authors. Thesis advisors, technicians, and colleagues who gave advice or time are all candidates for the acknowledgements section.
 
-In the conclusion you should show the overall significance of what has been covered. You may want to remind the reader of the most important points that have been made in the report or highlight what you consider to be the most central issues or findings. However, no new material should be introduced in the conclusion. 
+This section is often placed just after the list of tables. In articles and shorter reports, acknowledgements may be made in the end matter at the very beginning of the list of references.</Notes>
+        </Document>
+        <Document ID="8FC126C3-6408-43AD-985E-62046A87B53B">
+            <Title>Research Proposal</Title>
+        </Document>
+        <Document ID="8D506251-770E-46B6-9859-3C1D09EBA48E">
+            <Title>Publications</Title>
+            <Synopsis>-</Synopsis>
+            <Text>Publicaciones
 
-Conclusions. Review the results in relation to the original problem statement. Assess the success of the study in light of the criteria of success you gave in the introduction.
+El contenido de este trabajo de investigación, se apoya en las siguientes publicaciones del autor:
 
-Include a conclusion as the final part of the body of your document. Because some readers of documents, particularly managers, will sometimes not read the entire document but, instead, focus on the conclusion, this part of the document should summarise all essential information necessary for your audience's purpose. In your conclusion:
+	•	x
+	•	x
+	•	x
+	•	x
+	•	x
+	•	x
+</Text>
+            <Notes>The contents page should list the different chapters and/or headings together with the page numbers. Your contents page should be presented in such a way that the reader can quickly scan the list of headings and locate a particular part of the report. You may want to number chapter headings and subheadings in addition to providing page references. Whatever numbering system you use, be sure that it is clear and consistent throughout.
 
-• Relate your findings to the general problem and any specific objectives posed in your introduction. 
-• Summarise clearly what the report does and does not demonstrate.
-• Include specific recommendations for action or for further research. Sometimes these recommendations will constitute a separate section of a document.
+It is useful to provide an alphabetical list of technical terms with a brief, clear description of each term. You can also include in this section explanations of the acronyms, abbreviations or standard units used in your report. 
+
+• List of figures. Include the figure numbers, figure titles, and page numbers.
+• List of tables. Include the table numbers, table titles, and page numbers.
+• Nomenclature (optional). List unfamiliar terms, symbols, acronyms and their meanings.
+
+Some readers begin by scanning the figures first. The figures, with the legends, should provide a self-explanatory overview of your data. Decide what the data show, then create figures which highlight the most important points of your paper.
+
+Tables are used to present repetitive data that is numerical. Graphs or illustrations, collectively called figures, are used to present numerical trends, raw data (like a picture of a gel), or a model that explains your work.
+
+When you prepare your figures and tables, keep in mind that it is significantly more expensive for journals to publish figures and tables than text, so try to present the data in a way that is worthy of such added expense. The table below is an example of an ineffective table.
+
+The information in Table 1 could be presented in one sentence, such as: "In ten experiments carried out at 24°C, ion flow was detected only in the presence of cortical cells." This is a clearer and more concise way to present the information. In addition, all tables and figures must have numbers, titles and legends.
+
+Legends to the figures and tables explain the elements that appear in the illustration. Conclusions about the data are NOT included in the legends. As you write your first draft, you might state in a short simple sentence what the point of the figure or table is. In later drafts, make sure each element of the figure or table is explained. Your figure legends should be written in the present tense since you are explaining elements that still exist at the time that you are writing the paper.
+
+
 </Notes>
         </Document>
-        <Document ID="E7F6F720-7AE1-4CBC-B3BB-76ADB97C0BA5">
-            <Title>Introduction</Title>
-        </Document>
-        <Document ID="F83D28B1-D7EE-4B58-8FBF-23F580BD477B">
-            <Title>Author</Title>
+        <Document ID="184C43D5-CD34-4A51-9221-4AEC34B4CA3F">
             <Text>
-Autor
-Alejandro Verri Kozlowski
+Background. Literature Review
 
-Facultad de Ingeniería Civil de la Universidad de Buenos Aires
-para la obtención del título académico de
-Doctor de la Universidad de Buenos Aires en el área de Ingeniería
-
-
-Supervisores
-Dr. Ing. Raúl Bertero (Director)
-Dr. Ing. Emilio Picasso (Co-Director)
-
-
-
-Fecha de Presentación: 
-1 de &lt;$month&gt;  de &lt;$year&gt;
-
-Buenos Aires, &lt;$year&gt; </Text>
+Que ya se sabía de estemos
+Qué se hacía antes de Alejandro
+</Text>
         </Document>
-        <Document ID="A9B19A4A-716C-41A8-8542-7907A4F41B08">
-            <Title>Discussion</Title>
+        <Document ID="3332231F-2F34-465B-B57B-4233B03A87FC">
+            <Text>Predicción del Movimiento Sísmico
+Con el fin de restringir los modelos empíricos para la amplia gama de escenarios de magnitud y distancia que se consideran dentro de los análisis probabilísticos de peligro y riesgo, generalmente es necesario compilar conjuntos de datos de movimientos del suelo de diferentes regiones
+Sin embargo, como se ha mencionado anteriormente, lo que deseamos idealmente es una predicción de la distribución de los movimientos sísmicos que deberían esperarse cuando se produce un evento concreto en un lugar determinado. Cualquier diferencia que exista entre el medio de propagación, las excitaciones de la fuente o las respuestas del sitio en las regiones de las que se han obtenido los datos se manifestará como una mayor varianza en el modelo de movimiento del suelo. Uno de los principales retos que queda por resolver adecuadamente es cómo eliminar la suposición ergódica que se hace en el estado actual del arte, que asume que cualquier movimiento sísmico en cualquier punto del espacio, es una realización de un mismo proceso aleatorio con parámetros invariables en el tiempo y en el espacio.</Text>
+        </Document>
+        <Document ID="1EC51D0D-D336-42E7-B368-86C5883E954C">
+            <Text>
+Conclusion</Text>
+        </Document>
+        <Document ID="71C2FCEE-5243-4507-9B7B-29ED8F0B6296">
+            <Text>Métodos y Algoritmos</Text>
+        </Document>
+        <Document ID="38143955-47D4-4541-AE70-A52ED1B5AAFA">
+            <Text>
+Case Study</Text>
+        </Document>
+        <Document ID="38AE316D-2706-4839-B779-1E2BB91EC2A3">
+            <Text>
+Background</Text>
+        </Document>
+        <Document ID="12500CEB-1C3F-4619-A9D2-EEBDBCC7489D">
+            <Text>
+Proposed Approach</Text>
+        </Document>
+        <Document ID="A17A1142-35A3-4735-9927-EA2F26F36293">
             <Synopsis>- Summation of result
 
 - Interpretation
@@ -196,6 +547,9 @@ Buenos Aires, &lt;$year&gt; </Text>
 
 - Applications and industrial relevance
 </Synopsis>
+            <Text>
+Discussion
+Limitations and Future Work</Text>
             <Notes>The purpose of the discussion section is to interpret and contextualise your data. You should begin by reiterating the purpose of your research and your major findings. Then you might do any or all of the following: connect your findings to other research (published or that of your peers); describe any ambiguities and sources of error in the data, and suggest future experiments to resolve uncertainties; explain where you expect your work may lead, and suggest specific experiments for extending your findings; describe any conceptual or technical limitations of the research. Finally, you should explain the significance of your findings to basic science and to engineering applications. Like the previous sections, the discussion should have a clear organisation and narrative flow, whether or not you use sub-sections.
 
 Relates results to those of others
@@ -220,339 +574,272 @@ Explain in the discussion section of your document information presented in the 
 • Consider how well the data answer any questions posed in the document's introduction. Do the results answer the questions completely? If not, explain what questions still need to be addressed and give possible explanations why the results may be inconclusive.
 • Qualify the scope of your explanations, discussing in what cases your explanations apply and in what cases they may not.
 • Organise your material in order of importance to your reader's purpose in using the document.
-
 </Notes>
         </Document>
-        <Document ID="291CB8F0-D048-4C6F-9B62-2C70AEAB2068">
-            <Title>Manuscript</Title>
-        </Document>
-        <Document ID="7A5660A7-08DE-4C8E-8637-1310F5B2E0AC">
-            <Title>Conclusion</Title>
-            <Synopsis>- Purpose and major findings
-
-- Outcomes
-	- Performance
-	- Complexity
-	- Reliability
-	- Cost
-
-- Significance
-	- Problem mitigation
-	- Applications
-
-- Limitations and weaknesses
-
-- Implications for further research</Synopsis>
-            <Notes>The conclusion should draw out the implications from the report and normally recommends a course of action. It should link back to the introduction.
-
-The CONCLUSIONS should summarise the central points made in the Discussion section, reinforcing for the reader the value and implications of the work. If the results were not definitive, specific future work that may be needed can be (briefly) described. The conclusions should never contain "surprises". Therefore, any conclusions should be based on observations and data already discussed. It is considered extremely bad form to introduce new data in the conclusions.
-
-In the conclusion you should show the overall significance of what has been covered. You may want to remind the reader of the most important points that have been made in the report or highlight what you consider to be the most central issues or findings. However, no new material should be introduced in the conclusion. 
-
-Conclusions. Review the results in relation to the original problem statement. Assess the success of the study in light of the criteria of success you gave in the introduction.
-
-Include a conclusion as the final part of the body of your document. Because some readers of documents, particularly managers, will sometimes not read the entire document but, instead, focus on the conclusion, this part of the document should summarise all essential information necessary for your audience's purpose. In your conclusion:
-
-• Relate your findings to the general problem and any specific objectives posed in your introduction. 
-• Summarise clearly what the report does and does not demonstrate.
-• Include specific recommendations for action or for further research. Sometimes these recommendations will constitute a separate section of a document.
-</Notes>
-        </Document>
-        <Document ID="0C00610F-2CFF-4015-90A4-B0F10519D974">
-            <Title>Objetivos</Title>
-            <Text>El objeto general del trabajo de investigación de Alejandro Verri será el desarrollo y la implementación de metodologías especiales del análisis estadístico que permitan abordar problemas computacionalmente complejos de manera eficiente, propagar y tratar las incertidumbres y facilitar la generación automática de la demanda sísmica a partir del análisis de miles de registros. 
-Los objetivos específicos del Plan de Investigación de Alejandro atienden las principales limitaciones de las metodologías de diseño sísmico de geo estructuras de materiales sueltos
-	⁃	Revisar exhaustivamente el estado actual del arte en la cuantificación del conocimiento y la incertidumbre obtenida a partir de modelos numéricos. Este capítulo deberá revisar detalladamente las metodologías disponibles para cuantificar la incertidumbre en los datos y la incertidumbre de los modelos, las técnicas de propagación y estimación de la incertidumbre y los intervalos de confianza de las predicciones del modelo 
-	⁃	Clasificar y caracterizar las bases de datos de registros sísmicos a partir de parámetros asociados a la demanda y parámetros relacionados con la respuesta dinámica de diferentes modelos de análisis.
-	⁃	Formular modelos vectoriales de predicción del peligro sísmico basada en datos (data-driven) a partir del análisis de miles de registros sísmicos 
-	⁃	Definir modelos probabilísticos de estimación de demanda (PSDM) para problemas críticos del estado actual de la práctica (presas de materiales sueltos, túneles y tuberías enterradas, etc.)
-	⁃	Establecer las condiciones mínimas que debe cumplir un modelo PSDM insesgado para poder clasificar y seleccionar registros sísmicos para el análisis dinámico.
-	⁃	Establecer estrategias robustas para el análisis de incertidumbre y la definición del intervalo de confianza de una predicción mediante la combinación de modelos FEM y modelos predictores substitutos.</Text>
-        </Document>
-        <Document ID="0B32975C-B6C2-480A-8D07-42A2B8DC2C90">
-            <Title>Background</Title>
-            <Synopsis>- System structure
-	-Flow chart
-
-- Theoretical formulae
-	- Symbol definition
-	- Explanation
-
-- Employed model
-	- Reason
-	- Limitations</Synopsis>
-            <Notes>Background or Theory
-In long and fairly complex reports and articles, especially theoretical and experimental reports where the purpose of the document is to apply, verify, or illustrate one or more theories, include a separate section presenting relevant theoretical formulae and the techniques by which any experimental results are predicted. When introducing equations, be sure to define all symbols used in them.
-
-
-</Notes>
-        </Document>
-        <Document ID="8FF6CD40-F019-4A41-9AF8-410C9FD5210D">
-            <Title>Conclusion</Title>
+        <Document ID="B9746A63-2F6D-469E-A12F-0A4304CEBC70">
             <Text>
 Conclusion</Text>
         </Document>
-        <Document ID="B82E926A-AB51-4BA9-A16A-F8251535D54D">
-            <Title>Front Matter</Title>
-            <Notes>Note that in the “Metadata” pane of the Inspector, under “Section Type”, the “Default Subdocument Type” is set to “Front Matter”. This setting causes all subdocuments of this folder to use the “Front Matter” section type by default (that is, when “Structure-Based” is selected as the section type).
+        <Document ID="DF606712-8386-4E3B-AFEB-D3D81A4E7409">
+            <Title>Bibliography</Title>
+            <Notes>References are generally used in the Introduction and Discussion sections to support any claims that are not common knowledge. Include only those references that pertain to the question at hand. Journals vary considerably in their preferred format for the reference list. For this class, you should list the references alphabetically by the first author’s last name. Include all the authors, the paper’s title, the name of the journal in which it was published, its year of publication, the volume number, and page numbers. Please carefully follow the punctuation and format requirements. 
 
-This saves us from having to manually assign the “Front Matter” section type for each document we place into this folder.
+The REFERENCES section should contain complete citations following standard form. The form of the citation depends on the type of source being referenced, and is different for whole books, chapters in books, and articles published in a journal. One good format to follow is that used in the Chemical Engineering Progress journal, published by AIChE. The references should be numbered and listed in the order they were cited in the body of the report. In the text of the report, a particular reference can be cited by using a numerical superscript that corresponds to its number in the reference list. If a reference has not been actually consulted, it should be listed "as discussed in [name of the work that discussed the reference]".
 
-During Compile, documents assigned the “Front Matter” section type will be laid out differently from documents in the main body of the manuscript.</Notes>
+Your bibliography should list, in alphabetical order by author, all published sources referred to in your report. There are different styles of using references and bibliographies. Refer to the study guide Referencing and Bibliographies and check your departmental handbook for guidelines. Texts which you consulted but did not refer to directly could be grouped under a separate heading such as 'Background Reading' and listed in alphabetical order using the same format as in your bibliography. 
+
+Bibliography. List alphabetically any works referred to in your study. Follow the bibliographical and footnote formats of your department or of a prominent periodical published by a professional society in your field.
+</Notes>
         </Document>
-        <Document ID="EC3F579A-6B6C-414B-9DB7-FD67459AC07D">
-            <Title>Problem Statement</Title>
+        <Document ID="16E4B583-35F9-4FB5-A0CC-0CFE5CEFBF48">
+            <Title>Estado de la Practica</Title>
+            <Text>
+Las limitaciones en la incorporación y propagación de las incertidumbres asociadas a la estimación de la respuesta dinámica de estructuras complejas constituyen un desafío importante en los métodos actuales de análisis probabilístico de problemas sísmicos y establece la motivación principal del presente trabajo de Investigación 
+Las metodologías actuales de análisis dinámico de estructuras geotécnicas en general, y las presas de enrocado en particular como mega estructuras de alto impacto ambiental, requieren modelos numéricos especiales que permitan analizar millones de escenarios de registros sísmicos y propiedades materiales a un bajo costo computacional. 
+La imposibilidad de analizar un gran número de registros mediante modelos computacionales complejos (predictores robustos) establece la necesidad de modelos de predicción simplificado (predictores sesgados) que permitan seleccionar los registros sísmicos críticos y establecer el intervalo de confianza de la predicción. 
+La naturaleza de los problemas requiere predictores de decenas o cientos de parámetros que solo pueden abordarse mediante métodos numéricos especializados del análisis estadístico relacionados con el aprendizaje de máquina. Por otra parte, las limitaciones del estado actual de la práctica en la predicción de la intensidad sísmica mediante modelos escalares de peligro sísmico, requiere la generalización del modelo PSHA a un modelo vectorial de varias medidas de intensidad que puedan correlacionarse luego con los parámetros del predictor</Text>
+        </Document>
+        <Document ID="F849E48F-89DC-4500-808E-C426902B7740">
+            <Text>Capítulo X
+Clasificación, Regularización y Selección de Modelos de Predicción</Text>
+        </Document>
+        <Document ID="6A6194DC-8E3D-48DD-94B3-14E152C6FBA9">
             <Text>
 Problem Statement</Text>
         </Document>
-        <Document ID="6D575EBB-9128-48E1-BE75-28E34B293699">
-            <Title>Main Contribution</Title>
-        </Document>
-        <Document ID="46AE547D-893F-4243-87F6-E0489F97700A">
-            <Title>Outline</Title>
-        </Document>
-        <Document ID="DB7562C6-8F89-4DAB-A743-A42372404536">
-            <Title>Summary</Title>
-        </Document>
-        <Document ID="7D6C181B-02EB-4F8D-B57D-A50B6FF82D3E">
-            <Title>Formats</Title>
+        <Document ID="F2E80094-AA70-4D08-8F48-20762BDE70BA">
             <Text>
+Proposed Approach</Text>
+        </Document>
+        <Document ID="0B03128D-B703-405D-B848-B881F951003A">
+            <Text>Motivación
 
-Author
-A Thesis in the Field of 
-for the Degree of Master of Liberal Arts in Extension Studies
-Harvard University
  
 
-Copyright 20XX [Author’s Name]
-Abstract
-To insert Abstract text here, select this text and then either type the text you wish to use or paste text from another document, being sure to keep the text only and not the formatting from the previous document. To keep text only, choose Paste, and then from the drop-down box that will appear, choose the Keep Text Only option on the right, with the icon of a clipboard and the letter A.
-
-Frontispiece (optional)
-To insert Frontispiece image here, select this text and choose Pictures on the Insert tab of the ribbon. If using the Frontispiece, please delete the word “(optional)” from the header above.
-To delete this or any other unwanted section, select it in its entirety, including the title and the Section Break, and press Backspace or Delete. To see the Section Break, show formatting symbols by clicking the ¶ button in the Paragraph section of the Home ribbon, or by pressing Ctrl+Shift+8. Repeat the command to hide them again. Failure to delete the Section Break along with the text will result in a superfluous blank page; accidentally deleting a Section Break you didn’t intend to will remove the page break between sections.
-Author’s Biographical Sketch (optional)
-To insert Biographical Sketch text here, select this text and then either type the text you wish to use or paste text from another document, being sure to keep the text only and not the formatting from the previous document. To keep text only, choose Paste, and then from the drop-down box that will appear, choose the Keep Text Only option on the right, with the icon of a clipboard and the letter A. If using the Biographical Sketch, please delete the word “(optional)” from the header above.
-To delete this or any other unwanted section, select it in its entirety, including the title and the Section Break, and press Backspace or Delete. To see the Section Break, show formatting symbols by clicking the ¶ button in the Paragraph section of the Home ribbon, or by pressing Ctrl+Shift+8. Repeat the command to hide them again. Failure to delete the Section Break along with the text will result in a superfluous blank page; accidentally deleting a Section Break you didn’t intend to will remove the page break between sections.
-Dedication 
-To insert Dedication text here, select this text and then either type the text you wish to use or paste text from another document, being sure to keep the text only and not the formatting from the previous document. To keep text only, choose Paste, and then from the drop-down box that will appear, choose the Keep Text Only option on the right, with the icon of a clipboard and the letter A. If using the Dedication, please delete the word “(optional)” from the header above.
-To delete this or any other unwanted section, select it in its entirety, including the title and the Section Break, and press Backspace or Delete. To see the Section Break, show formatting symbols by clicking the ¶ button in the Paragraph section of the Home ribbon, or by pressing Ctrl+Shift+8. Repeat the command to hide them again. Failure to delete the Section Break along with the text will result in a superfluous blank page; accidentally deleting a Section Break you didn’t intend to will remove the page break between sections.
-Acknowledgments (optional)
-To insert Frontispiece text here, select this text and then either type the text you wish to use or paste text from another document, being sure to keep the text only and not the formatting from the previous document. To keep text only, choose Paste, and then from the drop-down box that will appear, choose the Keep Text Only option on the right, with the icon of a clipboard and the letter A. If using the Acknowledgments section, please delete the word “(optional)” from the header above. Note: if you are acknowledging only one person, please change the title above to read “Acknowledgment.”
-To delete this or any other unwanted section, select it in its entirety, including the title and the Section Break, and press Backspace or Delete. To see the Section Break, show formatting symbols by clicking the ¶ button in the Paragraph section of the Home ribbon, or by pressing Ctrl+Shift+8. Repeat the command to hide them again. Failure to delete the Section Break along with the text will result in a superfluous blank page; accidentally deleting a Section Break you didn’t intend to will remove the page break between sections.
-Table of Contents
-Frontispiece (optional)	ii
-Author’s Biographical Sketch (optional)	ii
-Dedication	ii
-Acknowledgments (optional)	ii
-List of Tables (optional)	ii
-List of Figures (optional)	ii
-Chapter I. About Chapters	2
-Chapter II. Chapter Styles	2
-Heading 3, SectionTitle/A-Head	2
-Heading 4, B-Head	2
-B-Head Style	2
-B-Head Style	2
-C-Head Style and Accompanying Paragraph	2
-Body Text with C-Head	2
-Numbered List Style	2
-Bulleted List Style	2
-Block Quote Style	2
-Figures	2
-Figure Title Style.	2
-Figure Description Style.	2
-Tables	2
-Table Title Style.	2
-Table Cell Style.	2
-Table Description Style.	2
-Styles Used in Other Parts of the Document	2
-Title Style	2
-Author Style	2
-Centered Text Style	2
-Harvard,Month,Year Style	2
-Copyright Style	2
-No-TOC-Heading Style	2
-Bibliography Entry Style	2
-Appendix 1. Title	2
-Appendix 2. Title	2
-References	2
-
-
-List of Tables (optional)
-Table 1. Table Title.	2
-Table 2. Table Title	2
-
-
-
-List of Figures (optional)
-Figure 1. Figure Title.	2
-Figure 2. Figure Title	2
-
-
-
-Chapter I. About Chapters
-There are two ways to add a new chapter. First, you can simply type the name of your new chapter on a separate line and apply the Chapter Title (or Heading 2) style. That will automatically drop your chapter title down to the next page and you may then begin your next chapter. Alternatively, you can copy this section, from the chapter title down to the section break, and then paste it immediately following the section break.
-Whether you need a section break is largely determined by what you plan to do with the structure of your thesis. If you need more than one column (say, for columns of statistics), for example, you’ll want a section break, then another to switch back to one column.
-To insert a new section break, go to the Layout tab in the Ribbon. In the Page Setup section, choose the Breaks dropdown menu; from the second half of the list, choose Section Break: Next Page or Section Break: Continuous if you don’t want a page break.
-Chapter II. Chapter Styles
-There are several styles that are used within chapters that you’ll need to know how to use. Other styles in the document are used in specific circumstances only, but we’ll cover those later. 
-Heading 3, SectionTitle/A-Head
-The Chapter Title or “Major heading” style (shown in the Quick Styles menu as “Ch Title”) is used at the beginning of each chapter, including the appendices. For an example, see “Chapter 1 About Chapters” above. The first line of the title text will always begin 2” from the top of the page. The style immediately following the Chapter Title style will default to the Body Text style, to be used for the introduction of the chapter.
-Chapter titles will automatically be included in the Table of Contents, but in order for them to appear after they’re first added, you’ll need to right-click on the TOC and choose “Update entire table.” To ensure that the chapter title is formatted correctly both on the page and in the corresponding TOC entry, there are two commands you’ll need to use for each:
-	•	In the TOC entry for Chapter 1, you’ll notice that there’s a half-inch space between the words “Chapter 1:” and the chapter title. This is accomplished by using a Tab character in the title itself. The Chapter Title style has been designed so that this Tab character will not interfere with the centering of the header and therefore will not appear to be present on this page at all; if the TOC entry does not contain that half-inch space, remember to add a Tab character.
-	•	In the Chapter 1 example above, you’ll notice that the chapter title falls on two different lines, with the words “Chapter 1:” on the first line and the chapter title itself on the second line. If you use the Enter key to separate these (called a “hard return”), they will appear much farther apart on the page and will appear in the TOC as two separate entries. To prevent this, you’ll need to use what’s called a “soft-return” by pressing Shift + Enter (just after the Tab character mentioned previously). This command tells the computer that you want the second line to be considered part of the same header or paragraph even as it appears on a new line.
-Heading 4, B-Head
-The Section Title or A-Head style (shown in the Quick Styles menu as “Sect Title”) is used as a header for a section within a chapter. For an example, see “Chapter Styles” above. Note: there should always be introductory text for the chapter before the Section Title. The style immediately following the Section Title style will default to the Body Text style, to be used for the introduction of the section.
-Section titles will automatically be added to the Table of Contents, directly below the previous chapter title and with a half-inch indent, each time you update the whole TOC.
-B-Head Style
-The B-Head style (shown in the Quick Styles menu as “B-Head”) is used as a header for a subsection within a section of a chapter. For an example, see “B-Head Style” above. Note: there should always be introductory text for the section before the B-Head. The style immediately following the B-Head style will default to the Body Text style, to be used for the introduction of the subsection.
-B-Heads will automatically be added to the Table of Contents, directly below the previous section title and with a one-inch indent, each time you update the whole TOC.
-B-Head Style
-The Body Text style (shown in the Quick Styles menu as “Body Text”) is used for standard paragraph styles. This paragraph is using the Body Text style; the default style for the next paragraph is also Body Text.
-C-Head Style and Accompanying Paragraph
-The C-Head style (shown in the Quick Styles menu as “C-Head”) is used as a header for a subsection within a subsection. For example:
-Body Text with C-Head. This is a C-Head and accompanying paragraph. Note that the C-Head is on the same line as the rest of the paragraph; it’s not indented; and there is no additional space before the C-Head as there is with other headers.
-C-Heads will automatically be added to the Table of Contents, directly below the previous subsection title and with a 1.5-inch indent, each time you update the whole TOC.
-To apply the C-Head style, select the paragraph to which it belongs and click on the “Body Text w/ C-Head” style in the Quick Styles menu; then select the C-Head itself and click on the “C-Head” style.
-Remember, there should always be introductory text for the subsection before the C-Head. The style immediately following the C-Head style will default to the Body Text style.
-Numbered List Style
-To create a numbered list, select the lines of text which you want to make a list (whether they’re already in a Word list structure or not) and choose the “Numbered List” style in the Quick Styles menu. If the list was in a Word list structure previously, it will simply update the styles. If the list was previously formatted by hand, you will need to check that list items begin and end at the correct points and that any typed numbering is removed.
-	1.	This is the Numbered list style.
-	2.	To add a list item, simply hit Enter at the end of the previous list item.
-	3.	To end the list, hit Enter and then select the “Body Text” style from the Quick Styles menu.
-If you wish to create a second numbered list, follow the directions for creating a list above, then right-click on the list and choose “Restart at 1.” If this does not work, right-click and choose “Set Numbering Value” and set it to create a new list starting from 1. If either of these methods creates a list starting with 1 but with the second item in the list continuing numbering from a previous list, you may need to right-click on that second item and again choose “Set Numbering Value,” this time choosing to start from 2.
-Bulleted List Style
-To create a bulleted list, select the lines of text which you want to make a list (whether they’re already in a Word list structure or not) and choose the “Bulleted List” style in the Quick Styles menu. If the list was in a Word list structure previously, it will simply update the styles. If the list was previously formatted by hand, you will need to check that list items begin and end at the correct points and that any typed bullets are removed.
-	•	This is the Bulleted list style.
-	•	To add a list item, simply hit Enter at the end of the previous list item.
-	•	To end the list, hit Enter and then select the “Body Text” style from the Quick Styles menu.
-This is what some body text after a bulleted list would look like.
-Block Quote Style
-The Block Quote Style is used for quoting large selections of text, rather than a word or phrase.
-Blockquotes are further indented to distinguish them from body text. They’re also single-spaced rather than double-spaced.
-A multi-paragraph block quote will look like this, with a space between the paragraphs to differentiate them.
-Figures
-To insert a figure, place your cursor at the beginning of the Figure Title line. You can either copy and paste a figure into the document or use the Insert Pictures command in the Insert ribbon. Once you have the image inserted, click on the picture and select the dropdown menu that appears: make sure the “In Line With Text” option is selected, in order to keep the picture aligned properly and associated with the correct text. Example (the gray box is merely a placeholder to show you how it should look):
-In order not to be drawn into your Table of Figures, you need to assign your figure its own paragraph and style. Click to the right of the figure, making sure your cursor is to the left of the paragraph marker, and select Figure from the Styles list.
-
-Figure 1. Figure Title.
-Description of Figure 1, legend brief citation, etc.
-Figure Title Style. The Figure Title style, which appears in the Quick Styles menu as “Figure Title,” is used to name a figure in a way that will appear in the TOC. The title will automatically be added to the List of Figures following an update of the entire table. Remember to place a tab between the figure number and the title, as shown above, in order to preserve formatting in the TOC. Note: the style of the paragraph following Figure Title defaults to Figure Description.
-Figure Description Style. The Figure Description style, which appears in the Quick Styles menu as “Figure Description,” is used to briefly describe the accompanying figure; the space after it separates it from the body text below the figure.
-Tables
-Tables can copied and pasted from another document or created in the Word document itself using the Insert Table command on the Insert tab of the ribbon. A sample table:
-Table 1. Table Title.
-Lorem ipsum
-Augue vel tellus
-Sed sagittis
-Est blandit
-0
-1
-Sed est
-0
-1
-Table description style, legend, brief citation etc.
-Following insertion using either method, table styles should be applied as follows.
-Table Title Style. The Table Title should come immediately before the table itself; the style appears in the Quick Styles menu as “Table Title,” In order to preserve formatting of the TOC entry, insert a Tab character between the table number and the table title, as shown above.
-Table Cell Style. To apply this style to the table cells, highlight the table and choose “Table Cell” from the Quick Styles menu. The default will be to left-align the text inside the cells; to center text, as in the second and third columns above, you can simply select those cells and choose Center. To control vertical alignment as necessary, select the applicable cells and choose the Layout tab that appears in the ribbon. On the right in the Alignment section, choose the graphic that matches the alignment you prefer, from top left to bottom right to centered horizontally and vertically.
-Table Description Style. The Table Description style, shown in the Quick Styles menu as “Table Description,” is used to format the brief description of the table immediately following said table. This style also includes space after to differentiate it from later paragraphs.
-Styles Used in Other Parts of the Document
-Title Style
-The only time the Title style is used is on the first page of the document. It is exactly 2” from the top of the document.
-Author Style
-The Author style is also used only on the first page of the document and begins exactly 2” below the title.
-Centered Text Style
-The Centered Text style is to be used on the first page for the Degree information.
-Harvard,Month,Year Style
-The Harvard,Month,Year style is for use on the front page for the University name and the month and year of graduation.
-Copyright Style
-The Copyright style is for use on the second page for copyright information.
-No-TOC-Heading Style
-The No-TOC-Heading style is for use when chapter-type headings should not be included in the table of contents, such as the Abstract. Its appearance is exactly the same as the Chapter Title style but will not be included when the table of contents is updated.
-Bibliography Entry Style
-The Bibliography Entry style is single-spaced with a double-space between entries and has a hanging indent of one-half inch. The sample text includes only a few examples of different style guides for different types of document: please be sure to format your bibliography entries using the style guide required for your thesis type.
-
-
-Appendix 1. Title
-The following tables can be copied and pasted into other sections of this document, then changed to the appropriate size and filled with content.
-To add a row, hover your mouse to the left of one of the gray lines between or after rows; to add a column, hover your mouse above one of the gray lines between or after columns. In either case, a thicker line will appear with a “+” sign at the top; click this to add a row or column. Note that when doing so, the width of columns and height of rows will distribute evenly.
-To delete cells, highlight them and right-click, choosing the Delete Cells option. This will give you two types of options: you can delete only the highlighted cells and choose whether to move the remaining cells up or left; or you can delete the entire row or column that the highlighted cells belong to.
-Table 2. Table Title
-Lorem ipsum
-Augue vel tellus
-Sed sagittis
-Est blandit
-0
-1
-Sed est
-0
-1
-Table description style
-
-Appendix 2. Title
-The following is placeholder text to show you how an appendix might fill out with an image, figure title and description. Delete and replace with your own as necessary.
-
-Figure 2. Figure Title
-Sample text for Figure 2 description
-We hope that this thesis template helps you to concentrate on the substance of your writing as opposed to spending time on formatting details, and that your thesis work goes as well as possible for you!
-Note that you should use just one of the following reference styles, depending on which format style your Thesis Director has asked you to use.  If you have any questions about the correcting formatting for the many different types of sources you might be referencing (e.g. books, articles, online articles, newspaper articles) then check with a publication manual for the particular reference style you are using, and/or use a reference generation program such as Zotero or Refworks. 
-
-Last Name, Full First Name. Basic MLA Style Only. City: Publisher, Year. Print.
-Last Name, First and Middle Initials (Year). Basic APA Style Only. City, State Abbreviation: Publisher.
-Last Name, First Name. Basic CMS Style Only, Requires Footnotes or Endnotes. Place of publication: Publisher, Year.</Text>
-            <Comments>The Table of Contents (TOC) is designed to be generated automatically from your headings. It is important not to type in this area. Instead, To update the TOC right-click anywhere in it (not including the title) and select “Update Field”. You will be given the choice of “Update page numbers only” or “Update entire table”. The former will, as it says, change only the page numbers, and only for items already in the TOC; the latter will update the titles as well, and will add new items in accordance with any new headings/section titles you may have created. These will be determined by the use of the appropriate styles. If a header is missing from the TOC after updating the entire table, check that the header in question is using the appropriate heading style, then update the entire TOC again.
-To update the List of Tables, which is a specialized TOC, right-click anywhere in it (not including the title) and select “Update Field”. You will be given the choice of “Update page numbers only” or “Update entire table”. The former will, as it says, change only the page numbers, and only for items already in the TOC; the latter will update the titles as well, and will add new items in accordance with any new table titles you may have created. These will be determined by the use of the appropriate styles. If a table title is missing from the list after updating the entire table, check that the table title in question is using the Table Title style, then update the entire TOC again.
-If not using a List of Tables, delete this section by selecting it in its entirety, including the title and the Section Break, and pressing Backspace or Delete. To see the Section Break, show formatting symbols by clicking the ¶ button in the Paragraph section of the Home ribbon, or by pressing Ctrl+Shift+8. Repeat the command to hide them again. Failure to delete the Section Break along with the text will result in a superfluous blank page; accidentally deleting a Section Break you didn’t intend to will remove the page break between sections.
-To update the List of Figures, which is a specialized TOC, right-click anywhere in it (not including the title) and select “Update Field”. You will be given the choice of “Update page numbers only” or “Update entire table”. The former will, as it says, change only the page numbers, and only for items already in the TOC; the latter will update the titles as well, and will add new items in accordance with any new figure titles you may have created. These will be determined by the use of the appropriate styles. If a figure title is missing from the list after updating the entire table, check that the figure title in question is using the Figure Title style, then update the entire TOC again.
-If not using a List of Figures, delete this section by selecting it in its entirety, including the title and the Section Break, and pressing Backspace or Delete. To see the Section Break, show formatting symbols by clicking the ¶ button in the Paragraph section of the Home ribbon, or by pressing Ctrl+Shift+8. Repeat the command to hide them again. Failure to delete the Section Break along with the text will result in a superfluous blank page; accidentally deleting a Section Break you didn’t intend to will remove the page break between sections.
-You will need to type the chapter number manually for each chapter. Also remember that you need to use a soft return (Shift+Enter) between the chapter number and its title.
-In order to get the proper spacing for a chapter heading, go to the Layout tab and click on the Breaks button, then select Next Page under Section Breaks. (Note: typically, Word will insert a stray paragraph return above your heading that will need to be deleted.)</Comments>
-        </Document>
-        <Document ID="8BC18B05-2ED2-4C75-9377-89921B27D9B4">
-            <Title>Copyright</Title>
-            <Text>
-
-
-
-
-
-Copyright © &lt;$year&gt; &lt;$author&gt; 
-Re-distributed by Universidad de Buenos Aires bajo  license with the author.
 
 
 </Text>
-            <Notes>Feel free to delete this document if you don’t need it, or edit it for your needs.</Notes>
+            <Notes>Problemática
+Contexto actual. (Incremento del número de presas de relaves) Los riesgos ambientales y sociales asociados a la falla de las presas
+
+Estado de la práctica actual en la Modelación. Las limitaciones de este estado actual para seleccionar sismos para el analisis dinámico de estructuras complejas mediante modelos de alto costo computacional 
+
+Importancia del enfoque, más que de la aplicación a las presas. Buscar las ventajas de la metodología
+
+Problem Statement
+
+¿Qué problemas quiero resolver? 
+¿Qué resultados necesito obtener?
+</Notes>
         </Document>
-        <Document ID="0333FB28-C013-4AFF-B835-BAF0BC46713A">
-            <Title>Motivación</Title>
-            <Text>Las presas de materiales sueltos, empleadas en los depósitos de relaves y en reservorios de agua en complejos hidroeléctricos, son estructuras geotécnicas que pueden alcanzar más de 300 m de altura y varios km de longitud y constituyen en la actualidad las estructuras más grandes construidas por el hombre. El 90% de las presas de relaves alto riesgo de todo el mundo, están localizadas en zonas sísmicas de gran actividad y sobre este total, el 60% tienen poblaciones cercanas aguas-abajo del depósito. 
-La estimación de la respuesta dinámica y la demanda sísmica (las deformaciones permanentes o residuales) requiere modelos numéricos avanzados que suelen tener un alto costo computacional. Cuando son sometidas a eventos sísmicos de gran intensidad, las estructuras de materiales sueltos pueden acusar grandes deformaciones y desplazamientos durante la historia de deformaciones que alteran sus propiedades mecánicas y dinámicas y requieren en general formulaciones constitutivas avanzadas para materiales con propiedades dependientes de la presión y la amplitud de la deformación, requieren condiciones de borde dependientes de la velocidad (viscosas), requieren parámetros dinámicos dependientes del número de ciclos de carga y descarga (amortiguamientos histeréticos) y emplean mallas de discretización con gran número de elementos para poder capturar geometrías complejas. Estos modelos en general requieren instancias de modelación previa que simulen los procesos constructivos que determinan las propiedades iniciales de los materiales, antes de ser sometidos a un movimiento sísmico en su base. 
-Por otra parte, en las grandes presas de enrocado, los estados de tensiones que se inducen en el material de fundación pueden alterar las características mecánicas de estos materiales y afectar la historia de aceleraciones que requiere la presa en su base, y por esa razón los modelos computacionales de estas estructuras requieren no sólo el modelamiento de la estructura sino además de un volumen importante del material de fundación afectado por esos campos de tensiones y deformaciones. Cuando se limita el tamaño máximo de los elementos o diferencias finitas a unos pocos metros, para poder capturar correctamente ciertas longitudes de onda, estas mallas tridimensionales fácilmente pueden alcanzar varios millones de elementos finitos, con la complejidad numérica descrita anteriormente. Luego, el estado actual del arte en la modelación numérica de problemas dinámicos de interacción presenta desafíos importantes para poder incorporar y propagar adecuadamente las incertidumbres epistémicas asociadas a la modelación numérica (mediante árboles lógicos o simulaciones de Montecarlo) debido al alto costo computacional que implica el análisis dinámico de un simple escenario.
-La respuesta dinámica en una presa de materiales sueltos es el campo de desplazamientos y aceleraciones resultante a un movimiento sísmico en su base. La medida de intensidad más empleada de un registro sísmico es el valor máximo de las aceleraciones que registra esa historia (PGA). Las estructuras deformables responden en general de manera diferente a registros sísmicos de la misma intensidad (PGA) pero con contenido de frecuencia diferente. Las máximas aceleraciones registradas en un punto de la estructura suelen ser diferentes a la máxima intensidad actuando en la base y la respuesta dinámica puede entenderse como la convolución de la señal sísmica con la función de transferencia de la estructura dependiente del período fundamental y del amortiguamiento. 
-En las estructuras de materiales cohesivos o cohesivo-friccionales, la máxima demanda sísmica en el régimen elástico se puede expresar en términos de un esfuerzo de corte máximo, asociada a la respuesta dinámica (elástica) de la estructura. Esto permite definir una única envolvente de esfuerzos máximos (espectro) que representa la máxima demanda sísmica que tendrían estructuras con estas características dinámicas, para un cierto nivel de intensidad. En las presas y geo-estructuras de materiales sueltos la respuesta dinámica es fuertemente dependiente del contenido de frecuencias, la duración del registro, el número de ciclos de carga y descarga y otros parámetros espectrales del registro sísmico. Es decir, a diferencia de las estructuras de materiales cohesivos, conocer el PGA en la base de la presa no permite inferir con un factor de amplificación escalar, la máxima demanda sísmica. Dicho de otro modo, la demanda sísmica está pobremente relacionada con la aceleración máxima PGA y depende además de otros parámetros de la historia de aceleraciones. 
-La intensidad sísmica se obtiene mediante la estimación del peligro sísmico. La metodología probabilística de estimación del peligro sísmico (PSHA) cuantifica numéricamente las contribuciones de intensidad de todas las fuentes sísmicas conocidas para todas las magnitudes creíbles de todos los eventos que puedan ocurrir en el área de influencia y proporciona las probabilidades de excedencia anual (AEP) de las intensidades esperables en el sitio del proyecto. Esta metodología numérica incorpora la incertidumbre aleatoria dada por la distribución espacial de los hipocentros, la frecuencia anual de ocurrencia de eventos y el error de los los modelos empíricos de estimación de intensidades en función de las distancias al hipocentro, del área de ruptura de cada evento, y los efectos del sitio. Sin embargo, el estado del arte en la predicción de movimientos sísmicos de los modelos empíricos actuales tiene aún una capacidad de predicción muy pobre debido a la enorme dispersión que actualmente reportan estos modelos, con coeficientes de variación cercanos al 100% en muchos casos. Este término es por lejos el factor que más incertidumbre incorpora en toda la metodología y controla el error de las predicciones.
-Una limitación de las formulaciones PSHA disponibles en herramientas computacionales, es que los modelos de estimación de intensidades son escalares, es decir, son modelos que predicen un único parámetro del movimiento sísmico, (PGA, o Sa) y por esa razón, tienen una dispersión y variabilidad muy grande, que intentan reducir incorporando muchos parámetros relacionados con la forma del área de ruptura que excepto en pocas regiones en el mundo como las fallas del valle de California, estos parámetros son desconocidos. Luego, se requieren modelos PSHA basados en funciones de distribución conjuntas, que permitan correlacionar adecuadamente varias medidas de intensidad con un escenario de distancias y magnitudes. Los modelos PSHA vectoriales (VPSHA) solo pueden manejarse mediante metodologías avanzadas de regresión numérica y debido a que predicen variables aleatorias no independientes, requieren grandes bases de datos de registros sísmicos para estimar la correlación que existe entre diversas medidas de intensidad
-En relación a la incertidumbre epistémica que surge de un conocimiento incompleto de algunas propiedades y parámetros del modelo, el elevado costo computacional de los modelos suele ser un obstáculo para la implementación de metodologías tradicionales de estimación y propagación de la incertidumbre epistémica de los parámetros de un modelo de estas características. Por otra parte, y este es uno de los problemas más difíciles de abordar, el costo computacional de un modelo de este tipo determina en la práctica el análisis de un número muy reducido de registros sísmicos. 
-En obras críticas como las presas de reservorio o los depósitos de relaves, es fundamental poder contar con una estimación robusta de las deformaciones permanentes al final del evento sísmico, incluyendo la incertidumbre asociada a esa estimación. Las deformaciones permanentes en estructuras de materiales sueltos dependen fuertemente del contenido de frecuencias y la duración del registro sísmico. Por esta razón, cuando se efectúan análisis dinámicos para un conjunto de registros sísmicos escalados al mismo nivel de intensidad (PGA) la respuesta dinámica de estas estructuras presenta una enorme dispersión y la elección arbitraria de un conjunto reducido de registros producirá indefectiblemente una estimación sesgada de la demanda sísmica y por lo tanto insegura. 
-La variabilidad del contenido de frecuencias y la duración de los registros sísmicos sólo puede ser capturada a partir del análisis de cientos o miles de Acelerogramas escalados a diferentes intensidades (niveles de servicio) de modo tal que permitan construir predictores insesgados de demanda sísmica probabilística (PBSD), que se emplearán luego en la estimación de la fragilidad, la vulnerabilidad y el riesgo de las estructuras. En el estado actual de la práctica, esta estrategia de análisis de incertidumbres es imposible aún debido al elevado costo computacional que ya tiene el análisis de unos pocos registros sísmicos, incluyendo no solamente el tiempo de CPU sino además las horas-hombre involucradas en el post-procesamiento e interpretación de los resultados obtenidos. </Text>
-            <Comments>Algunos parámetros como la rigidez al corte inicial o la relación de vacíos son dependientes del proceso constructivo y requieren etapas previas que simulen numéricamente dicho proceso para establecer las condiciones iniciales de tensiones y deformaciones en cada nodo de la malla FEM. Otros parámetros dinámicos, como el amortiguamiento o la rigidez a la corte instantánea, son altamente dependientes del nivel de daño que tendrá el material durante la historia de deformaciones.
-Las mallas FEM que involucran el análisis de ondas mecánicas, deben tener una separación entre sus nodos adecuada para capturar (discretizar) el pasaje una semionda completa y en general se suele limitar el tamaño máximo del elemento al 10% de la longitud de onda más corta esperable en algún estrato de material. Las ondas mecánicas involucradas en el análisis de deformaciones inducidas por sismos son las ondas de corte y el tamaño máximo del elemento se limita con  donde  es la velocidad de propagación y  es la frecuencia característica del movimiento sísmico. Esta restricción es análoga a las que se derivan de los teoremas de muestreo de ondas y los fenómenos de aliasing
-En general, nunca se disponen de registros sísmicos que hayan ocurrido previamente en el sitio de cada proyecto, y se suelen emplear acelerogramas obtenidos en estaciones sismológicas alrededor del mundo para eventos sísmicos similares a los que se esperan en la región y escalados a la intensidad objetivo para la que se diseña cada presa. Sin embargo, las características los suelos de fundación de las estaciones sismológicas rara vez coinciden con las del material de fundación de la presa, y se suelen emplear procedimientos numéricos para corregir numéricamente los registros sísmicos.
-La tecnología de elementos finitos de los últimos 20 años ha aportado herramientas que permiten reducir la incertidumbre epistémica con formulaciones constitutivas más sofisticados e interfaces con humanos que facilitan las etapas de discretización y simulación del proceso constructivo. Sin embargo, la instancia de modelación y las hipótesis sobre el comportamiento de los materiales, sigue siendo una tarea exclusiva de los humanos y la elección de los parámetros del modelo, particularmente aquellos que no son medibles en laboratorio o en terreno, continúan siendo parte del juicio experto del analista. La incertidumbre asociada a esta instancia suele considerarse mediante árboles lógicos o simulación de Montecarlo y si bien estas técnicas son muy conocidas y relativamente simples de implementar, el costo computacional de algunos modelos numéricos las hace inviables y son empleadas únicamente en estructuras muy críticas desde el punto de vista de la seguridad a la vida o al medio ambiente.</Comments>
-        </Document>
-        <Document ID="6DE79B56-F986-47F6-A28C-CDEA106B91A0">
-            <Title>Conclusion</Title>
-        </Document>
-        <Document ID="4BEAB349-606D-421A-AF41-BE6A782A2F7F">
-            <Title>Out of Scope</Title>
-        </Document>
-        <Document ID="BA097E8C-3951-4D93-B0AE-A25821021BD8">
-            <Title>Background </Title>
+        <Document ID="BE46EB9A-134A-4F68-821B-1029928ACF7E">
             <Text>
-Background and Literature Review</Text>
+Background</Text>
         </Document>
-        <Document ID="2197FDCA-146B-4021-85B3-C7495702E791">
-            <Title>Resumen</Title>
+        <Document ID="9B4EDF16-6A2E-48C0-9214-AFFC53A152AE">
+            <Text>
+Background</Text>
+        </Document>
+        <Document ID="76B6976A-DF7E-4EB1-8425-32EFB640ADE9">
+            <Text>
+Background</Text>
+        </Document>
+        <Document ID="89D715E2-A1D0-4AC7-ABD0-6BA16AD39A8C">
+            <Text>
+Case Study</Text>
+        </Document>
+        <Document ID="59968058-431D-42FE-9572-FDE8659C122C">
+            <Text>Capítulo I
+Caracterización y Clasificación de la Respuesta Dinámica del Sitio</Text>
+        </Document>
+        <Document ID="81A5F6AD-487B-44FD-9946-F4D1E874ED89">
+            <Text>Predicción del Movimiento Sísmico
+</Text>
+        </Document>
+        <Document ID="BCFE684A-E1D0-4BF3-A896-9CFAE631C596">
+            <Title>Chapter</Title>
+            <Text>Capítulo 1
+Chapter Title</Text>
+        </Document>
+        <Document ID="BD4CCC9B-70D0-47B7-A861-B1AEA91CF425">
+            <Text>Estimación de la Respuesta Sísmica de Sistemas Complejos
+</Text>
+        </Document>
+        <Document ID="3692290B-89E0-47A7-9456-61CAEE2CF7C4">
+            <Text>
+Proposed Approach</Text>
+        </Document>
+        <Document ID="3F966676-F386-40ED-8A49-27CA59B73071">
+            <Title>Sample</Title>
+            <Text>Thesis Title
+Thesis Subtitle
+Non-TOC Heading
+Non-TOC Subheading
+Chapter Number
+Chapter Title
+Section Title
+Section Heading
+Section Subheading
+
+CODE BLOCK
+CODE BLOCK
+CODE BLOCK
+
+Body Text Body Text Body Text, Body Text Body Text Body Text, Body Text Body Text Body Text, Body Text Body Text Body Text, Body Text Body Text Body Text, Body Text Body Text Body Text, Body Text Body Text Body Text, Body Text Body Text Body Text, Body Text Body Text Body Text, Body Text Body Text Body Text, Body Text Body Text Body Text, Body Text Body Text Body Text, Body Text Body Text Body Text,
+Table Title: 
+Table Description
+
+</Text>
+        </Document>
+        <Document ID="EBAA7FE3-9E31-42BF-9869-EA001104BBE2">
+            <Text>
+Case Study</Text>
+        </Document>
+        <Document ID="0433CD80-BAAD-4CF3-A18C-6EFE0D55E0D0">
+            <Title>Literature Review Capitulo 1</Title>
+            <Text>Literature Review Capitulo 1
+
+Que ya se sabía de estemos
+Qué se hacía antes de Alejandro
+</Text>
+        </Document>
+        <Document ID="2E593C4B-775F-46BD-9872-F31FBD031263">
+            <Text>Capítulo II
+Predicción del Movimiento Sísmico</Text>
+        </Document>
+        <Document ID="63369468-3A6F-4A33-8FDF-E5BDA0DC8610">
+            <Text>
+Proposed Approach</Text>
+        </Document>
+        <Document ID="680C529D-6F35-49A4-9AC4-3ABD4D22A586">
+            <Title>Dedication</Title>
+            <Text>Dedicación
+
+
+
+
+
+
+Dedicado a </Text>
+            <Notes>Feel free to delete this document if you don’t need it.</Notes>
+        </Document>
+        <Document ID="4027414E-E569-4C60-8A71-23E657005801">
+            <Synopsis>- Summation of result
+
+- Interpretation
+	- Data patterns
+	- Relationship between variables
+	- Explanations
+
+- Comparison
+	- Theory (hypothesis)
+		- Approach evaluation
+		- Error analysis
+	- Existing schemes
+		- Performance
+		- Complexity
+		- Reliability
+		- Cost
+	- Cited works
+		- Focus
+		- Methods
+		- Outcomes
+
+- Optimisation
+	- Limitations and weaknesses
+	- Possible improvements
+
+- Ethical problem
+
+- Applications and industrial relevance
+</Synopsis>
+            <Text>
+Discussion
+Limitations and Future Work</Text>
+            <Notes>The purpose of the discussion section is to interpret and contextualise your data. You should begin by reiterating the purpose of your research and your major findings. Then you might do any or all of the following: connect your findings to other research (published or that of your peers); describe any ambiguities and sources of error in the data, and suggest future experiments to resolve uncertainties; explain where you expect your work may lead, and suggest specific experiments for extending your findings; describe any conceptual or technical limitations of the research. Finally, you should explain the significance of your findings to basic science and to engineering applications. Like the previous sections, the discussion should have a clear organisation and narrative flow, whether or not you use sub-sections.
+
+Relates results to those of others
+• Cites other work discussed
+• Relates results to theory
+• Discuss limitations and weakness of results
+• Discuss implications for further research
+• Suggest applications of findings when appropriate
+• Avoids undue speculations
+
+The DISCUSSION interprets the results in light of the project's objectives. The most important goal of the DISCUSSION section is to interpret the results so that the reader is informed of the insight or answers that the results provide. The DISCUSSION should also present an evaluation of the particular approach taken by the group. For example: Based on the results, how could the experimental procedure be improved? What additional, future work may be warranted? What recommendations can be drawn?
+
+The main body of the report is where you discuss your material. The facts and evidence you have gathered should be analysed and discussed with specific reference to the problem or issue. If your discussion section is lengthy you might divide it into section headings. Your points should be grouped and arranged in an order that is logical and easy to follow. Use headings and subheadings to create a clear structure for your material. Use bullet points to present a series of points in an easy-to-follow list. 
+
+Discussion. Discuss the meaning of the results, stating clearly what their significance is. Compare the results with theoretical expectations and account for anything unexpected.
+
+Explain in the discussion section of your document information presented in the results section, commenting on significant data produced by the study. In writing a discussion section, keep the following points in mind.
+
+• Identify significant patterns in the data and relationships between variables. Offer tentative explanations for these patterns and relationships.
+• Compare the actual data produced with any predictions or questions posed in the introduction or theory section of the document.
+• If any of the results differ from the expected results, offer possible explanations for the discrepancies. Present the most probable explanations first and the least probable last.
+• Consider how well the data answer any questions posed in the document's introduction. Do the results answer the questions completely? If not, explain what questions still need to be addressed and give possible explanations why the results may be inconclusive.
+• Qualify the scope of your explanations, discussing in what cases your explanations apply and in what cases they may not.
+• Organise your material in order of importance to your reader's purpose in using the document.
+</Notes>
+        </Document>
+        <Document ID="86B364B8-B03C-4AB2-B97F-CDFF7EB00817">
+            <Synopsis>- Summation of result
+
+- Interpretation
+	- Data patterns
+	- Relationship between variables
+	- Explanations
+
+- Comparison
+	- Theory (hypothesis)
+		- Approach evaluation
+		- Error analysis
+	- Existing schemes
+		- Performance
+		- Complexity
+		- Reliability
+		- Cost
+	- Cited works
+		- Focus
+		- Methods
+		- Outcomes
+
+- Optimisation
+	- Limitations and weaknesses
+	- Possible improvements
+
+- Ethical problem
+
+- Applications and industrial relevance
+</Synopsis>
+            <Text>
+Discussion
+Limitations and Future Work</Text>
+            <Notes>The purpose of the discussion section is to interpret and contextualise your data. You should begin by reiterating the purpose of your research and your major findings. Then you might do any or all of the following: connect your findings to other research (published or that of your peers); describe any ambiguities and sources of error in the data, and suggest future experiments to resolve uncertainties; explain where you expect your work may lead, and suggest specific experiments for extending your findings; describe any conceptual or technical limitations of the research. Finally, you should explain the significance of your findings to basic science and to engineering applications. Like the previous sections, the discussion should have a clear organisation and narrative flow, whether or not you use sub-sections.
+
+Relates results to those of others
+• Cites other work discussed
+• Relates results to theory
+• Discuss limitations and weakness of results
+• Discuss implications for further research
+• Suggest applications of findings when appropriate
+• Avoids undue speculations
+
+The DISCUSSION interprets the results in light of the project's objectives. The most important goal of the DISCUSSION section is to interpret the results so that the reader is informed of the insight or answers that the results provide. The DISCUSSION should also present an evaluation of the particular approach taken by the group. For example: Based on the results, how could the experimental procedure be improved? What additional, future work may be warranted? What recommendations can be drawn?
+
+The main body of the report is where you discuss your material. The facts and evidence you have gathered should be analysed and discussed with specific reference to the problem or issue. If your discussion section is lengthy you might divide it into section headings. Your points should be grouped and arranged in an order that is logical and easy to follow. Use headings and subheadings to create a clear structure for your material. Use bullet points to present a series of points in an easy-to-follow list. 
+
+Discussion. Discuss the meaning of the results, stating clearly what their significance is. Compare the results with theoretical expectations and account for anything unexpected.
+
+Explain in the discussion section of your document information presented in the results section, commenting on significant data produced by the study. In writing a discussion section, keep the following points in mind.
+
+• Identify significant patterns in the data and relationships between variables. Offer tentative explanations for these patterns and relationships.
+• Compare the actual data produced with any predictions or questions posed in the introduction or theory section of the document.
+• If any of the results differ from the expected results, offer possible explanations for the discrepancies. Present the most probable explanations first and the least probable last.
+• Consider how well the data answer any questions posed in the document's introduction. Do the results answer the questions completely? If not, explain what questions still need to be addressed and give possible explanations why the results may be inconclusive.
+• Qualify the scope of your explanations, discussing in what cases your explanations apply and in what cases they may not.
+• Organise your material in order of importance to your reader's purpose in using the document.
+</Notes>
         </Document>
         <Document ID="EC85023E-F577-4346-A657-B18AE7E61DD9">
             <Title>Appendices</Title>
@@ -594,272 +881,84 @@ Guidelines for Appendixes
 • If appropriate, identify and summarise the contexts of an appendix in a short summary paragraph.
 • Refer to each appendix in the body of the document.</Notes>
         </Document>
-        <Document ID="680C529D-6F35-49A4-9AC4-3ABD4D22A586">
-            <Title>Dedication</Title>
+        <Document ID="E8DEE7C7-E636-4A82-8F97-38E9543B449A">
             <Text>
-
-
-
-
-
-
-
-
-
-
-Dedicado a </Text>
-            <Notes>Feel free to delete this document if you don’t need it.</Notes>
+Case Study</Text>
         </Document>
-        <Document ID="6877A140-B147-43FA-A67A-410798AFDD28">
-            <Title>Introduction</Title>
+        <Document ID="49E822E1-A8DB-40A3-A294-3328D267870E">
             <Text>
-Introduction</Text>
-        </Document>
-        <Document ID="4D02267C-AA7A-4A80-AFCA-4B030DBAC7BF">
-            <Title>Outline</Title>
-        </Document>
-        <Document ID="8FC126C3-6408-43AD-985E-62046A87B53B">
-            <Title>Research Proposal</Title>
-        </Document>
-        <Document ID="51CC16B8-FAEC-4E56-AC33-1FF861C280BA">
-            <Title>Future Work</Title>
-            <Text>
+Discussion
 Limitations and Future Work</Text>
         </Document>
-        <Document ID="5EF6F09B-B39A-454C-831D-23F5D9ED96B1">
-            <Title>Motivation</Title>
-        </Document>
-        <Document ID="D61F8D16-5A18-4814-9351-406206842680">
-            <Title>Templates</Title>
-        </Document>
-        <Document ID="2A565D00-E2EA-40BA-A1F5-6E257037EAFB">
-            <Title>Introduction</Title>
-            <Synopsis>- Background: big picture
-	- Motivations and benefits
-	- Current stage
-	- Accomplishments and applications
-	- Problems
-
-- Problem: zooming in
-	- Main focus
-		- Reason
-		- Aims and objectives
-	- Previous works
-		- Methods
-		- Outcomes
-		- Limitations
-
-- Investigation
-	- Thesis statement
-		- Purpose
-		- Approach
-		- Target
-		- Advantages
-	- Assumptions
-	- Limitations
-
-- Layout (optional)</Synopsis>
-            <Notes>The introduction sets the scene and includes the aims and objectives of the report. It also defines the limits of the report, outlines the method of enquiry, gives a brief general background to the subject of the report and indicates the proposed development.
-
-The introduction provides a framework for the story you are about to tell, and thus serves two main purposes. For one, you must provide sufficient background information for a reader to understand the forthcoming results. Just as importantly, you must motivate the audience to keep reading! How? Reveal the significance of the work through connections to both prior scientific accomplishments and future applications. You are welcome to use your own creativity and judgement as to what a good introduction should look like; however, you may find the suggested structure below useful.
-
-Paragraph 1: most general, "big picture" paragraph. Here you should introduce the reader to the broader context of your experiment and motivate why your research is important. Be sure to tell a coherent story, not a dense but unconnected list of facts.
-Paragraph 2: "zooming in" somewhat. Now that the reader has a frame for thinking about your research, you can present background information in more depth.
-Paragraph 3: most specific, a description of your particular investigation.
-
-State (1) the purpose of the investigation, (2) the problem being investigated, (3) the background (context and importance) of the problem (citing previous work by others), (4) your thesis and general approach, and (5) the criteria for your study success.
-
-State the problem (the question)
-• Put the problem in a theoretical context (in regard to other theories/articles)
-• Cite earlier work on the question
-• State what the study will contribute to understanding the question
-• At the end of the introduction, state the principal hypotheses of the study 
-
-The INTRODUCTION should provide a clear statement of the problem posed by the project, and why the problem is of interest. It should reflect the scenario, if available. If needed, the introduction also needs to present background information so that the reader can understand the significance of the problem. A brief summary of the unique approach your group used to solve the problem should be given, possibly also including a concise introduction to theory or concepts used later to analyse and to discuss the results.
-
-The introduction to your document should lead your readers into your paper and give them an idea of what to expect (also see Forecasting). It should not be simply a restatement of the abstract even though it will contain some of the same material.
-
-Introductions often do the following:
-
-• State the subject of your document as clearly as possible
-• Define the problem you are addressing, your approach to the problem, and why this problem is important
-• State the purpose of your document
-• Define the scope of your document
-• Provide necessary and relevant background information
-
-The introduction sets the scene for the main body of the report. The aims and objectives of the report should be explained in detail. Any problems or limitations in the scope of the report should be identified, and a description of research methods, the parameters of the research and any necessary background history should be included. </Notes>
-        </Document>
-        <Document ID="43A368C6-7374-4433-947A-2B512617D60B">
-            <Title>Declaration</Title>
-            <Text>
-
-
-Except where indicated by specific reference within the dissertation, the work submitted for examination is the result of the candidate’s own investigation and the views expressed are those of the candidate. 
-No portion of the work presented in this dissertation has been submitted in substance for any other degree or award at this university or any other university, nor is being submitted concomitantly in candidature for any degree or other award  
-</Text>
-        </Document>
-        <Document ID="0B03128D-B703-405D-B848-B881F951003A">
-            <Title>Motivation</Title>
-            <Text>Motivation
-
-Background and Literature Review #1
-
-
-Background and Literature Review #3
-
-Background and Literature Review #4</Text>
-        </Document>
-        <Document ID="9771C3A6-920E-4650-9156-79B6462514CF">
-            <Text>Background and Literature Review #2
-</Text>
-        </Document>
-        <Document ID="08B1EF06-A416-4AA1-BE11-16E48FE09DF0">
-            <Title>Title Page</Title>
-            <Synopsis>- Name
-
-- ID
-
-- Date
-
-- Module
-
-- Tutor
+        <Document ID="0CAAC7CD-DA2C-4E44-B2BE-7A9932425D92">
+            <Title>Resumen</Title>
+            <Synopsis>
 </Synopsis>
-            <Text>
+            <Text>Resumen
 
+Resumen en español</Text>
+            <Notes>The reader wants to know what area of work the report covers.
 
+The ABSTRACT is not a part of the body of the report itself. Rather, the abstract is a brief summary of the report contents that is often separately circulated so potential readers can decide whether to read the report. The abstract should very concisely summarise the whole report: why it was written, what was discovered or developed, and what is claimed to be the significance of the effort. The abstract does not include figures or tables, and only the most significant numerical values or results should be given.
 
-
-Aplicaciones de inteligencia artificial en la generación automática de modelos de estimación de respuesta sísmica de sistemas complejos
-
-</Text>
-            <Notes>These tags get replaced with the information set in the Metadata pane of Compile. Alternatively, you can simply replace this text altogether.
-
-The title page should contain the following information: 
-	1.	The Title of the dissertation. The title should remain the same on all the docu- ments. It should ideally be in typescript or black ink and in block letters.  
-	2.	Name of the author. This should include the first name, middle name and sur- name. This should match the name you have provided in the university records.  
-	3.	Previous academic credentials (qualifications) of the author. These are written in  descending chronological order and each qualification is written in a single line. An example is shown below: M.S (General Surgery), Pondicherry University, 2007 MBBS (Pondicherry University), 2003  However, in some universities, only the name of the candidate without academic  
-qualifications is put on the title page. 
-	4.	The degree award title for which the dissertation is presented. This should be written in the form of a statement which reads as “...in partial fulfillment of... (write the name of the course or degree) For example:  Dissertation submitted in partial fulfillment of the requirements for the Doctorate of Philosophy  
-	5.	The Institution or Department in which the work was carried out.  
-	6.	The month and year during which it is submitted for examination (or re-presentation in the case of a dissertation that is to be re-examined).  
-	7.	If there is more than one volume that is submitted, then the Title page should  state the total number of volumes and the particular volume.  
-	8.	A Copyright Statement that should include your name, year and name of the  university For example: © Dr Arvind Gupta, 2010, Pondicherry University  
-However, this is not mandatory in all the university guidelines. 
-	9.	ReuseStatement.Thisclarifiesthetermsofreproducingthework.Thecopyright usually rests with the author or the Department in which the work is carried out.  
-	10.	A Declaration Statement is usually placed in the page following Title page that outlines a statement signed by the candidate that states, “Except where indi- cated by specific reference within the dissertation, the work submitted for examination is the result of the candidate’s own investigation and the views expressed are those of the candidate”.  
-	11.	TheDeclarationStatementshouldalsoincludeasignedstatementbythecandidate that states, “No portion of the work presented in this dissertation has been submitted in substance for any other degree or award at this university or any other university, nor is being submitted concomitantly in candidature for any degree or other award”.  
+The summary should briefly describe the content of the report. It should cover the aims of the report, what was found and what, if any, action is called for. Aim for about 1/2 a page in length and avoid detail or discussion; just outline the main points. Remember that the summary is the first thing that is read. It should provide the reader with a clear, helpful overview of the content of the report.
 
 </Notes>
         </Document>
-        <Document ID="BF5DEF0A-5EDE-4A0A-8DA6-95D66A15853B">
-            <Title>Background</Title>
-            <Synopsis>- System structure
-	-Flow chart
-
-- Theoretical formulae
-	- Symbol definition
-	- Explanation
-
-- Employed model
-	- Reason
-	- Limitations</Synopsis>
-            <Notes>Background or Theory
-In long and fairly complex reports and articles, especially theoretical and experimental reports where the purpose of the document is to apply, verify, or illustrate one or more theories, include a separate section presenting relevant theoretical formulae and the techniques by which any experimental results are predicted. When introducing equations, be sure to define all symbols used in them.
-
-
-</Notes>
-        </Document>
-        <Document ID="CB06DB3C-4E78-4523-8159-2B7C072AE8CE">
-            <Title>Future Work</Title>
-        </Document>
-        <Document ID="C6961460-9BB1-4B11-AB4A-76F36A5F1DA2">
-            <Title>Acknowledgements</Title>
-            <Text>Agradecimientos</Text>
-            <Notes>Where appropriate you may wish to acknowledge the assistance of particular organisations or individuals who provided information, advice or help. 
-
-Acknowledgements. Acknowledge assistance from advisors, sponsors, funding agencies, colleagues, technicians, and so on.
-
-An acknowledgements section is sometimes included in the front matter of a longer report, thesis, or collection to note the assistance of people whose help was crucial but not extensive enough to warrant their being listed as co-authors. Thesis advisors, technicians, and colleagues who gave advice or time are all candidates for the acknowledgements section.
-
-This section is often placed just after the list of tables. In articles and shorter reports, acknowledgements may be made in the end matter at the very beginning of the list of references.</Notes>
-        </Document>
-        <Document ID="3F966676-F386-40ED-8A49-27CA59B73071">
-            <Title>Sample</Title>
-            <Text>Thesis Title
-Thesis Subtitle
-Non-TOC Heading
-Non-TOC Subheading
-Chapter Number
-Chapter Title
-Section Title
-Section Heading
-Section Subheading
-
-CODE BLOCK
-CODE BLOCK
-CODE BLOCK
-
-Body Text Body Text Body Text, Body Text Body Text Body Text, Body Text Body Text Body Text, Body Text Body Text Body Text, Body Text Body Text Body Text, Body Text Body Text Body Text, Body Text Body Text Body Text, Body Text Body Text Body Text, Body Text Body Text Body Text, Body Text Body Text Body Text, Body Text Body Text Body Text, Body Text Body Text Body Text, Body Text Body Text Body Text,
-Table Title: 
-Table Description
-
-</Text>
-        </Document>
-        <Document ID="75A7E9C9-0512-4644-A475-89F5E2B1FE27">
-            <Text>Background and Literature Review #1
-</Text>
-        </Document>
-        <Document ID="8D506251-770E-46B6-9859-3C1D09EBA48E">
-            <Title>Contents</Title>
-            <Synopsis>- Sections
-
-- List of figures
-
-- List of tables
-
-- Nomenclature</Synopsis>
+        <Document ID="7987A264-B24D-43B2-A48F-B8B0BF9857CF">
             <Text>
-Listado de Publicaciones
+Discussion
+Limitations and Future Work</Text>
+        </Document>
+        <Document ID="93CDF702-A4D4-421A-9F59-886C7060CA7C">
+            <Text>Caracterización y Clasificación del Movimientos Sísmico
+Estado de la práctica en la formulación de modelos de predicción del la intensidad del movimiento sísmico requiere el empleo de datasets de registros pertenecientes a la región que hayan sido producto de un cierto mecanismo de generación (ejemplo, subducción).  Si bien las bases de datos de registros sísmicos cuentan con un numero cada vez mayor de registros sísmicos accesibles públicamente, esto sólo ocurre para las regiones desarrolladas del mundo (Ej, California, Región central de Europa, Taiwan, Japón ) y existen muy pocos registros sísmicos disponibles para las regiones menos desarrolladas (ej. Sudamérica y Centroamérica, Asia central, etc.). Luego, no es posible en la mayoría de los casos veces contar con un número suficiente de registros sísmicos locales medidos en roca ni tampoco conocer con metadatos que identifiquen claramente el mecanismo de generación de registros medidos en estaciones. 
+Necesidades
+Para disponer de un número adecuado de registros sísmicos para el análisis, es necesario identificar de parámetros de selección adecuados que identifiquen características comunes en las series temporales obtenidas en diferentes regiones del mundo.
+Por otra parte, se requieren métricas adecuadas para calcular distancias entre diferentes grupos de series temporales, que permitan clasificar y agrupar registros de aceleraciones en diferentes clases o categorías, sin distinción de regiones, mecanismos o medidas de intensidad. 
+ Posible solución (Objetivos): 
+A partir del análisis de un gran número de series temporales, es posible diseñar métricas adecuadas que permitan agrupar registros sísmicos en roca según parámetros dinámicos, sin distinguir regiones ni mecanismos de generación. 
 
-El contenido de este trabajo de investigación, se apoya en las siguientes publicaciones del autor:
+
+
+
+
 </Text>
-            <Notes>The contents page should list the different chapters and/or headings together with the page numbers. Your contents page should be presented in such a way that the reader can quickly scan the list of headings and locate a particular part of the report. You may want to number chapter headings and subheadings in addition to providing page references. Whatever numbering system you use, be sure that it is clear and consistent throughout.
-
-It is useful to provide an alphabetical list of technical terms with a brief, clear description of each term. You can also include in this section explanations of the acronyms, abbreviations or standard units used in your report. 
-
-• List of figures. Include the figure numbers, figure titles, and page numbers.
-• List of tables. Include the table numbers, table titles, and page numbers.
-• Nomenclature (optional). List unfamiliar terms, symbols, acronyms and their meanings.
-
-Some readers begin by scanning the figures first. The figures, with the legends, should provide a self-explanatory overview of your data. Decide what the data show, then create figures which highlight the most important points of your paper.
-
-Tables are used to present repetitive data that is numerical. Graphs or illustrations, collectively called figures, are used to present numerical trends, raw data (like a picture of a gel), or a model that explains your work.
-
-When you prepare your figures and tables, keep in mind that it is significantly more expensive for journals to publish figures and tables than text, so try to present the data in a way that is worthy of such added expense. The table below is an example of an ineffective table.
-
-The information in Table 1 could be presented in one sentence, such as: "In ten experiments carried out at 24°C, ion flow was detected only in the presence of cortical cells." This is a clearer and more concise way to present the information. In addition, all tables and figures must have numbers, titles and legends.
-
-Legends to the figures and tables explain the elements that appear in the illustration. Conclusions about the data are NOT included in the legends. As you write your first draft, you might state in a short simple sentence what the point of the figure or table is. In later drafts, make sure each element of the figure or table is explained. Your figure legends should be written in the present tense since you are explaining elements that still exist at the time that you are writing the paper.
-
-
-</Notes>
         </Document>
-        <Document ID="4DC6DFFB-47F2-4EA1-86AB-23DE343FCFCA">
-            <Title>Background </Title>
-        </Document>
-        <Document ID="AA5CF427-D723-4406-A327-03A468A0E794">
-            <Title>Notes</Title>
-            <Text>&lt;$--ENDNOTES--&gt;</Text>
-            <Notes>The &lt;$--ENDNOTES--&gt; tag will be replaced by the footnotes during Compile. Using this tag allows us to have the footnotes inserted wherever we like, without having a separator placed above them.</Notes>
-        </Document>
-        <Document ID="16E4B583-35F9-4FB5-A0CC-0CFE5CEFBF48">
-            <Title>Estado de la Practica</Title>
+        <Document ID="F83D28B1-D7EE-4B58-8FBF-23F580BD477B">
+            <Title>Author</Title>
             <Text>
-Las limitaciones en la incorporación y propagación de las incertidumbres asociadas a la estimación de la respuesta dinámica de estructuras complejas constituyen un desafío importante en los métodos actuales de análisis probabilístico de problemas sísmicos y establece la motivación principal del presente trabajo de Investigación 
-Las metodologías actuales de análisis dinámico de estructuras geotécnicas en general, y las presas de enrocado en particular como mega estructuras de alto impacto ambiental, requieren modelos numéricos especiales que permitan analizar millones de escenarios de registros sísmicos y propiedades materiales a un bajo costo computacional. 
-La imposibilidad de analizar un gran número de registros mediante modelos computacionales complejos (predictores robustos) establece la necesidad de modelos de predicción simplificado (predictores sesgados) que permitan seleccionar los registros sísmicos críticos y establecer el intervalo de confianza de la predicción. 
-La naturaleza de los problemas requiere predictores de decenas o cientos de parámetros que solo pueden abordarse mediante métodos numéricos especializados del análisis estadístico relacionados con el aprendizaje de máquina. Por otra parte, las limitaciones del estado actual de la práctica en la predicción de la intensidad sísmica mediante modelos escalares de peligro sísmico, requiere la generalización del modelo PSHA a un modelo vectorial de varias medidas de intensidad que puedan correlacionarse luego con los parámetros del predictor</Text>
+Autor
+Alejandro Verri Kozlowski
+
+Facultad de Ingeniería Civil de la Universidad de Buenos Aires
+para la obtención del título académico de
+Doctor de la Universidad de Buenos Aires en el área de Ingeniería
+
+
+Supervisores
+Dr. Ing. Raúl Bertero (Director)
+Dr. Ing. Emilio Picasso (Co-Director)
+
+
+
+Fecha de Presentación: 
+1 de &lt;$month&gt;  de &lt;$year&gt;
+
+Buenos Aires, &lt;$year&gt; </Text>
+        </Document>
+        <Document ID="51CC16B8-FAEC-4E56-AC33-1FF861C280BA">
+            <Text>
+Discussion
+Limitations and Future Work</Text>
+        </Document>
+        <Document ID="B82E926A-AB51-4BA9-A16A-F8251535D54D">
+            <Title>Front Matter</Title>
+            <Notes>Note that in the “Metadata” pane of the Inspector, under “Section Type”, the “Default Subdocument Type” is set to “Front Matter”. This setting causes all subdocuments of this folder to use the “Front Matter” section type by default (that is, when “Structure-Based” is selected as the section type).
+
+This saves us from having to manually assign the “Front Matter” section type for each document we place into this folder.
+
+During Compile, documents assigned the “Front Matter” section type will be laid out differently from documents in the main body of the manuscript.</Notes>
         </Document>
         <Document ID="A5885A1A-2153-4F40-9C10-9A42932703B0">
             <Text>1.4 Recent Machine Learning in Digital Signal Processing
@@ -876,101 +975,256 @@ by not assuming uniform sampling of the representation domain.
 It is also important to take into account the increasing diversity of data. For example, large and unstructured text and multimedia datasets stored in the Internet and the increasing use of social network media produce masses of unstructured heterogeneous data streams. Techniques for document classification, part-of-speech tagging, multimedia tagging or classification, together with massive data-processing techniques (known as “big data” techniques) relying on machine-learning theory try to get rid of unjustified assumptions about the data-generation mechanisms.
 </Text>
         </Document>
-        <Document ID="A38B76F6-0889-4BE6-A8D6-CAA69BB8CFB2">
-            <Title>Notation</Title>
-        </Document>
-        <Document ID="05A7BD04-2881-4621-B903-5863E8B666CB">
-            <Title>Out of Scope</Title>
-        </Document>
-        <Document ID="78252713-2590-48B5-B1AC-0BFAB463FA4A">
-            <Title>Problem Statement</Title>
-        </Document>
-        <Document ID="A3AD5972-B150-4ED9-A9F0-65B9F7B0F9B0">
-            <Title>Discussion</Title>
-            <Synopsis>- Summation of result
-
-- Interpretation
-	- Data patterns
-	- Relationship between variables
-	- Explanations
-
-- Comparison
-	- Theory (hypothesis)
-		- Approach evaluation
-		- Error analysis
-	- Existing schemes
-		- Performance
-		- Complexity
-		- Reliability
-		- Cost
-	- Cited works
-		- Focus
-		- Methods
-		- Outcomes
-
-- Optimisation
-	- Limitations and weaknesses
-	- Possible improvements
-
-- Ethical problem
-
-- Applications and industrial relevance
-</Synopsis>
-            <Notes>The purpose of the discussion section is to interpret and contextualise your data. You should begin by reiterating the purpose of your research and your major findings. Then you might do any or all of the following: connect your findings to other research (published or that of your peers); describe any ambiguities and sources of error in the data, and suggest future experiments to resolve uncertainties; explain where you expect your work may lead, and suggest specific experiments for extending your findings; describe any conceptual or technical limitations of the research. Finally, you should explain the significance of your findings to basic science and to engineering applications. Like the previous sections, the discussion should have a clear organisation and narrative flow, whether or not you use sub-sections.
-
-Relates results to those of others
-• Cites other work discussed
-• Relates results to theory
-• Discuss limitations and weakness of results
-• Discuss implications for further research
-• Suggest applications of findings when appropriate
-• Avoids undue speculations
-
-The DISCUSSION interprets the results in light of the project's objectives. The most important goal of the DISCUSSION section is to interpret the results so that the reader is informed of the insight or answers that the results provide. The DISCUSSION should also present an evaluation of the particular approach taken by the group. For example: Based on the results, how could the experimental procedure be improved? What additional, future work may be warranted? What recommendations can be drawn?
-
-The main body of the report is where you discuss your material. The facts and evidence you have gathered should be analysed and discussed with specific reference to the problem or issue. If your discussion section is lengthy you might divide it into section headings. Your points should be grouped and arranged in an order that is logical and easy to follow. Use headings and subheadings to create a clear structure for your material. Use bullet points to present a series of points in an easy-to-follow list. 
-
-Discussion. Discuss the meaning of the results, stating clearly what their significance is. Compare the results with theoretical expectations and account for anything unexpected.
-
-Explain in the discussion section of your document information presented in the results section, commenting on significant data produced by the study. In writing a discussion section, keep the following points in mind.
-
-• Identify significant patterns in the data and relationships between variables. Offer tentative explanations for these patterns and relationships.
-• Compare the actual data produced with any predictions or questions posed in the introduction or theory section of the document.
-• If any of the results differ from the expected results, offer possible explanations for the discrepancies. Present the most probable explanations first and the least probable last.
-• Consider how well the data answer any questions posed in the document's introduction. Do the results answer the questions completely? If not, explain what questions still need to be addressed and give possible explanations why the results may be inconclusive.
-• Qualify the scope of your explanations, discussing in what cases your explanations apply and in what cases they may not.
-• Organise your material in order of importance to your reader's purpose in using the document.
-
-</Notes>
-        </Document>
-        <Document ID="CD79F556-2732-4362-8842-BA587820EE51">
-            <Text>Background and Literature Review #4
-</Text>
-        </Document>
-        <Document ID="3692290B-89E0-47A7-9456-61CAEE2CF7C4">
-            <Title>Proposed Methodology</Title>
+        <Document ID="E9196AF6-9D05-42E9-B90F-1C1CD970DB61">
             <Text>
-Proposed Methodology</Text>
+Background</Text>
         </Document>
-        <Document ID="2C7199DE-1200-4FCC-949D-15EB6055F88D">
-            <Title>Main Contribution</Title>
+        <Document ID="7B0B0981-6BE3-4AAA-8EE8-6EBB0A7DF70F">
+            <Text>Capítulo X
+Modelos de Clasificación de Registros Sísmicos</Text>
         </Document>
-        <Document ID="6CB21783-48A1-456B-96D6-99F4C035D164">
-            <Title>Case Study</Title>
+        <Document ID="9BC1FE96-4BD8-4651-BAB5-12B83E334E5E">
             <Text>
 Case Study</Text>
         </Document>
-        <Document ID="DA09D8D1-9BDB-4E67-8564-3EB06C0307D8">
-            <Title>Chapter</Title>
+        <Document ID="4EB6A1FA-ECFD-4EBA-B399-AFA894CD503D">
+            <Text>
+Problem Statement</Text>
         </Document>
-        <Document ID="007C088F-8447-4172-89FD-20A7A447F7DF">
-            <Title>Chapter</Title>
-            <Text>Capítulo 1
-Chapter Title</Text>
+        <Document ID="CD4A173B-28A5-4218-AA26-99D2D5A2F010">
+            <Text>Capítulo X
+Modelos de Estimación de Intensidad Sísmica</Text>
         </Document>
-        <Document ID="65CF6A76-2213-40D1-B695-386DB993A675">
-            <Text>Background and Literature Review #3
+        <Document ID="5929A6BD-8E75-431E-97BC-3BCA1C2D84F1">
+            <Text>
+Background. Literature Review
+
+Que ya se sabía de estemos
+Qué se hacía antes de Alejandro
 </Text>
+        </Document>
+        <Document ID="6DF484DF-C3CF-4800-B4DD-F3A14E40C23D">
+            <Text>
+Conclusion</Text>
+        </Document>
+        <Document ID="23622076-FF26-4B35-9FA7-9520D758FDFE">
+            <Text>
+Conclusion</Text>
+        </Document>
+        <Document ID="DC56D745-6B5E-4211-B63D-D17FFE531D8A">
+            <Text>
+Conclusion</Text>
+        </Document>
+        <Document ID="EA5E2F06-54EA-46C4-AF20-521E814BFD99">
+            <Text>
+Proposed Approach</Text>
+        </Document>
+        <Document ID="15D4AEA6-8819-40CE-9AE0-DA78E1492FD5">
+            <Text>Aportes
+
+</Text>
+        </Document>
+        <Document ID="6C13E47E-01FE-411A-93B9-B5531586EC92">
+            <Text>Clasificación de series no estacionarias
+
+Estado actual de la práctica
+El Estado del arte  identifica parámetros que caracterizan la generación de sismos en capas profundas de la corteza en diferentes regiones del mundo y existen modelos computacionales complejos que permiten predecir una historia de aceleraciones bajo ciertas condicione geológicas locales y otros parámetros de generación específicos de cada sitio.
+Problemas: 
+No se conocen los parámetros de generación en la mayoría de las regiones en el mundo y los modelos necesarios para inferir las características temporales y espectrales de un registro sísmico obtenido por simulación, son computacionalmente muy complejos y limitados a una configuración geológica de partida. Se requieren otras alternativas para inferir las características de los sismos de una region dada para un mecanismo conocido, y en algunos casos, en regiones donde no se conoce el tipo de mecanismo de generación o coexisten con otros mecanismos (ejemplo: Sismos intraplaca e inter-placa generados en la placa de Sudamérica, subduciendo bajo la placa de Nazca)
+Preguntas: 
+
+Posible Solución (objetivos): 
+Efectuar un análisis de correlación temporal y espectral de series dinámicas de un gran número de acelerogramas medidos en roca y definir métricas que permitan identificar y clasificar registros sísmicos pertenecientes a un sitio, una región o un mecanismo particular 
+</Text>
+        </Document>
+        <Document ID="D61F8D16-5A18-4814-9351-406206842680">
+            <Title>Templates</Title>
+        </Document>
+        <Document ID="A93B21C0-F60C-4F89-9EE4-2D821BF123E4">
+            <Title>Discussion</Title>
+        </Document>
+        <Document ID="850CEB2E-02B7-4F29-9F7D-2A47AC4A19D6">
+            <Text>Capítulo IV
+Estimación de la Respuesta Sísmica de Sistemas Complejos
+</Text>
+        </Document>
+        <Document ID="DDD4F344-D58B-4B25-AB32-050E27291295">
+            <Text>
+Discussion
+Limitations and Future Work</Text>
+        </Document>
+        <Document ID="2CE4244F-288E-4B21-9AE2-561ACDA504DC">
+            <Text>
+Discussion
+Limitations and Future Work</Text>
+        </Document>
+        <Document ID="78FAD7C6-6FA0-4704-B016-43FA63AB5C37">
+            <Text>
+Case Study</Text>
+        </Document>
+        <Document ID="8BC18B05-2ED2-4C75-9377-89921B27D9B4">
+            <Title>Copyright</Title>
+            <Text>
+
+
+
+
+
+Copyright © &lt;$year&gt; &lt;$author&gt; 
+
+
+</Text>
+            <Notes>Feel free to delete this document if you don’t need it, or edit it for your needs.</Notes>
+        </Document>
+        <Document ID="A93D1FA6-811B-4424-ACE5-24688DB50308">
+            <Title>Discussion</Title>
+        </Document>
+        <Document ID="83417A1C-27FA-43C3-B51A-308444834057">
+            <Text>
+Conclusion</Text>
+        </Document>
+        <Document ID="C35FB58C-6478-4732-9305-1996A2DAE9E6">
+            <Synopsis>- Análisis de Respuesta de Dinámica del Sitio
+- Análisis de Respuesta de Dinámica de Taludes y Presas
+
+ - Análisis de Respuesta de Dinámica de Túneles y Tuberías Enterradas
+
+- Análisis de Respuesta de Dinámica del Tanques de Almacenamiento 
+</Synopsis>
+            <Text>Capítulo X
+Modelos de Estimación de la Demanda Sísmica
+
+
+</Text>
+        </Document>
+        <Document ID="B675DBA1-7062-4A1E-A48D-8254E715606D">
+            <Text>
+Discussion
+Limitations and Future Work</Text>
+        </Document>
+        <Document ID="A308BFD9-EF64-4290-9E82-863557114568">
+            <Title>Discussion</Title>
+        </Document>
+        <Document ID="BBDF58D6-E0F4-4AB3-A33F-7764143E5E7B">
+            <Title>Discussion</Title>
+            <Text>Literature Review Capitulo 1
+
+Que ya se sabía de estemos
+Qué se hacía antes de Alejandro
+</Text>
+        </Document>
+        <Document ID="097E1565-B3E7-4423-A83A-AC87A5F15371">
+            <Title>Back Matter</Title>
+        </Document>
+        <Document ID="20FA01C8-4DAF-4050-B62D-A5A200FD480F">
+            <Synopsis>Camino #1
+Literature Review
+Gap
+
+Lo escri</Synopsis>
+            <Text>Background
+
+Defino en general el estado actual de la práctica
+
+
+</Text>
+        </Document>
+        <Document ID="2252F057-8F0F-40B8-9796-21E866E75940">
+            <Text>
+Conclusion</Text>
+        </Document>
+        <Document ID="BA516983-2957-48C2-8DAA-4A51F62E21CF">
+            <Text>
+Proposed Approach</Text>
+        </Document>
+        <Document ID="21682EC6-3C5B-455E-B2B6-7F9FA300350A">
+            <Text>Predicción del Movimiento Sísmico
+
+</Text>
+        </Document>
+        <Document ID="347F015A-999E-41BD-9051-A23AE0CDB4DE">
+            <Text>
+Proposed Approach</Text>
+        </Document>
+        <Document ID="4623B85E-3B4B-445A-B6B4-92B7F96E540E">
+            <Title>Conclusion</Title>
+            <Synopsis>- Purpose and major findings
+
+- Outcomes
+	- Performance
+	- Complexity
+	- Reliability
+	- Cost
+
+- Significance
+	- Problem mitigation
+	- Applications
+
+- Limitations and weaknesses
+
+- Implications for further research</Synopsis>
+            <Notes>The conclusion should draw out the implications from the report and normally recommends a course of action. It should link back to the introduction.
+
+The CONCLUSIONS should summarise the central points made in the Discussion section, reinforcing for the reader the value and implications of the work. If the results were not definitive, specific future work that may be needed can be (briefly) described. The conclusions should never contain "surprises". Therefore, any conclusions should be based on observations and data already discussed. It is considered extremely bad form to introduce new data in the conclusions.
+
+In the conclusion you should show the overall significance of what has been covered. You may want to remind the reader of the most important points that have been made in the report or highlight what you consider to be the most central issues or findings. However, no new material should be introduced in the conclusion. 
+
+Conclusions. Review the results in relation to the original problem statement. Assess the success of the study in light of the criteria of success you gave in the introduction.
+
+Include a conclusion as the final part of the body of your document. Because some readers of documents, particularly managers, will sometimes not read the entire document but, instead, focus on the conclusion, this part of the document should summarise all essential information necessary for your audience's purpose. In your conclusion:
+
+• Relate your findings to the general problem and any specific objectives posed in your introduction. 
+• Summarise clearly what the report does and does not demonstrate.
+• Include specific recommendations for action or for further research. Sometimes these recommendations will constitute a separate section of a document.
+</Notes>
+        </Document>
+        <Document ID="0C00610F-2CFF-4015-90A4-B0F10519D974">
+            <Title>Objetivos</Title>
+            <Synopsis>Clasificar y caracterizar las bases de datos de registros sísmicos a partir de parámetros asociados a la demanda y parámetros relacionados con la respuesta dinámica de diferentes modelos de análisis.
+
+⁃	Formular modelos vectoriales de predicción del peligro sísmico basada en datos (data-driven) a partir del análisis de miles de registros sísmicos 
+
+⁃	Definir modelos probabilísticos de estimación de demanda (PSDM) para problemas críticos del estado actual de la práctica (presas de materiales sueltos, túneles y tuberías enterradas, etc.)
+	⁃	⁃	Clasificar y caracterizar las bases de datos de registros sísmicos a partir de parámetros asociados a la demanda y parámetros relacionados con la respuesta dinámica de diferentes modelos de análisis.
+	⁃	Establecer las condiciones mínimas que debe cumplir un modelo PSDM insesgado para poder clasificar y seleccionar registros sísmicos para el análisis dinámico.
+	⁃	Establecer estrategias robustas para el análisis de incertidumbre y la definición del intervalo de confianza de una predicción mediante la combinación de modelos FEM y modelos predictores substitutos.
+⁃	</Synopsis>
+            <Text>El objeto general del trabajo de investigación de Alejandro Verri será el desarrollo y la implementación de metodologías especiales del análisis estadístico que permitan abordar problemas computacionalmente complejos de manera eficiente, propagar y tratar las incertidumbres y facilitar la generación automática de la demanda sísmica a partir del análisis de miles de registros. 
+Los objetivos específicos del Plan de Investigación de Alejandro atienden las principales limitaciones de las metodologías de diseño sísmico de geo estructuras de materiales sueltos
+Objeto
+ Generación automática de modelos  de estimación de demanda sísmica en sistemas complejos
+- Generar 
+	⁃	procesar, caracterizar y agrupar los registros sísmicos (¿Un sismo chileno es parecido a un sismo peruano?) . Definir criterios de agrupación para identificar características o similitudes. Metodología: Clustering, Aprendizaje No supervisada, etc.. M: Clasificación de Series Temporales no estacionarias
+	⁃	Definir modelos proxy o substitutos (modelos simples, closed-form solutions) que permita estimar la respuesta dinámica y la demanda sísmica en términos de deformaciones permanentes en estructuras de materiales sueltos 
+	⁃	Definir criterios de regularización, penalización y selección de modelos óptimos mediante aprendizaje estadístico. M : Formulación de modelos no-paramétricos
+</Text>
+        </Document>
+        <Document ID="DBC7E55A-2C5B-4960-A640-46584C9ACDAA">
+            <Title>Discussion</Title>
+        </Document>
+        <Document ID="9AA901C4-469D-48EE-9C9D-71C1833C7315">
+            <Text>
+Background</Text>
+        </Document>
+        <Document ID="0333FB28-C013-4AFF-B835-BAF0BC46713A">
+            <Title>Motivación</Title>
+            <Text>Las presas de materiales sueltos, empleadas en los depósitos de relaves y en reservorios de agua en complejos hidroeléctricos, son estructuras geotécnicas que pueden alcanzar más de 300 m de altura y varios km de longitud y constituyen en la actualidad las estructuras más grandes construidas por el hombre. El 90% de las presas de relaves alto riesgo de todo el mundo, están localizadas en zonas sísmicas de gran actividad y sobre este total, el 60% tienen poblaciones cercanas aguas-abajo del depósito. 
+La estimación de la respuesta dinámica y la demanda sísmica (las deformaciones permanentes o residuales) requiere modelos numéricos avanzados que suelen tener un alto costo computacional. Cuando son sometidas a eventos sísmicos de gran intensidad, las estructuras de materiales sueltos pueden acusar grandes deformaciones y desplazamientos durante la historia de deformaciones que alteran sus propiedades mecánicas y dinámicas y requieren en general formulaciones constitutivas avanzadas para materiales con propiedades dependientes de la presión y la amplitud de la deformación, requieren condiciones de borde dependientes de la velocidad (viscosas), requieren parámetros dinámicos dependientes del número de ciclos de carga y descarga (amortiguamientos histeréticos) y emplean mallas de discretización con gran número de elementos para poder capturar geometrías complejas. Estos modelos en general requieren instancias de modelación previa que simulen los procesos constructivos que determinan las propiedades iniciales de los materiales, antes de ser sometidos a un movimiento sísmico en su base. 
+Por otra parte, en las grandes presas de enrocado, los estados de tensiones que se inducen en el material de fundación pueden alterar las características mecánicas de estos materiales y afectar la historia de aceleraciones que requiere la presa en su base, y por esa razón los modelos computacionales de estas estructuras requieren no sólo el modelamiento de la estructura sino además de un volumen importante del material de fundación afectado por esos campos de tensiones y deformaciones. Cuando se limita el tamaño máximo de los elementos o diferencias finitas a unos pocos metros, para poder capturar correctamente ciertas longitudes de onda, estas mallas tridimensionales fácilmente pueden alcanzar varios millones de elementos finitos, con la complejidad numérica descrita anteriormente. Luego, el estado actual del arte en la modelación numérica de problemas dinámicos de interacción presenta desafíos importantes para poder incorporar y propagar adecuadamente las incertidumbres epistémicas asociadas a la modelación numérica (mediante árboles lógicos o simulaciones de Montecarlo) debido al alto costo computacional que implica el análisis dinámico de un simple escenario.
+La respuesta dinámica en una presa de materiales sueltos es el campo de desplazamientos y aceleraciones resultante a un movimiento sísmico en su base. La medida de intensidad más empleada de un registro sísmico es el valor máximo de las aceleraciones que registra esa historia (PGA). Las estructuras deformables responden en general de manera diferente a registros sísmicos de la misma intensidad (PGA) pero con contenido de frecuencia diferente. Las máximas aceleraciones registradas en un punto de la estructura suelen ser diferentes a la máxima intensidad actuando en la base y la respuesta dinámica puede entenderse como la convolución de la señal sísmica con la función de transferencia de la estructura dependiente del período fundamental y del amortiguamiento. 
+En las estructuras de materiales cohesivos o cohesivo-friccionales, la máxima demanda sísmica en el régimen elástico se puede expresar en términos de un esfuerzo de corte máximo, asociada a la respuesta dinámica (elástica) de la estructura. Esto permite definir una única envolvente de esfuerzos máximos (espectro) que representa la máxima demanda sísmica que tendrían estructuras con estas características dinámicas, para un cierto nivel de intensidad. En las presas y geo-estructuras de materiales sueltos la respuesta dinámica es fuertemente dependiente del contenido de frecuencias, la duración del registro, el número de ciclos de carga y descarga y otros parámetros espectrales del registro sísmico. Es decir, a diferencia de las estructuras de materiales cohesivos, conocer el PGA en la base de la presa no permite inferir con un factor de amplificación escalar, la máxima demanda sísmica. Dicho de otro modo, la demanda sísmica está pobremente relacionada con la aceleración máxima PGA y depende además de otros parámetros de la historia de aceleraciones. 
+La intensidad sísmica se obtiene mediante la estimación del peligro sísmico. La metodología probabilística de estimación del peligro sísmico (PSHA) cuantifica numéricamente las contribuciones de intensidad de todas las fuentes sísmicas conocidas para todas las magnitudes creíbles de todos los eventos que puedan ocurrir en el área de influencia y proporciona las probabilidades de excedencia anual (AEP) de las intensidades esperables en el sitio del proyecto. Esta metodología numérica incorpora la incertidumbre aleatoria dada por la distribución espacial de los hipocentros, la frecuencia anual de ocurrencia de eventos y el error de los los modelos empíricos de estimación de intensidades en función de las distancias al hipocentro, del área de ruptura de cada evento, y los efectos del sitio. Sin embargo, el estado del arte en la predicción de movimientos sísmicos de los modelos empíricos actuales tiene aún una capacidad de predicción muy pobre debido a la enorme dispersión que actualmente reportan estos modelos, con coeficientes de variación cercanos al 100% en muchos casos. Este término es por lejos el factor que más incertidumbre incorpora en toda la metodología y controla el error de las predicciones.
+Una limitación de las formulaciones PSHA disponibles en herramientas computacionales, es que los modelos de estimación de intensidades son escalares, es decir, son modelos que predicen un único parámetro del movimiento sísmico, (PGA, o Sa) y por esa razón, tienen una dispersión y variabilidad muy grande, que intentan reducir incorporando muchos parámetros relacionados con la forma del área de ruptura que excepto en pocas regiones en el mundo como las fallas del valle de California, estos parámetros son desconocidos. Luego, se requieren modelos PSHA basados en funciones de distribución conjuntas, que permitan correlacionar adecuadamente varias medidas de intensidad con un escenario de distancias y magnitudes. Los modelos PSHA vectoriales (VPSHA) solo pueden manejarse mediante metodologías avanzadas de regresión numérica y debido a que predicen variables aleatorias no independientes, requieren grandes bases de datos de registros sísmicos para estimar la correlación que existe entre diversas medidas de intensidad
+En relación a la incertidumbre epistémica que surge de un conocimiento incompleto de algunas propiedades y parámetros del modelo, el elevado costo computacional de los modelos suele ser un obstáculo para la implementación de metodologías tradicionales de estimación y propagación de la incertidumbre epistémica de los parámetros de un modelo de estas características. Por otra parte, y este es uno de los problemas más difíciles de abordar, el costo computacional de un modelo de este tipo determina en la práctica el análisis de un número muy reducido de registros sísmicos. 
+En obras críticas como las presas de reservorio o los depósitos de relaves, es fundamental poder contar con una estimación robusta de las deformaciones permanentes al final del evento sísmico, incluyendo la incertidumbre asociada a esa estimación. Las deformaciones permanentes en estructuras de materiales sueltos dependen fuertemente del contenido de frecuencias y la duración del registro sísmico. Por esta razón, cuando se efectúan análisis dinámicos para un conjunto de registros sísmicos escalados al mismo nivel de intensidad (PGA) la respuesta dinámica de estas estructuras presenta una enorme dispersión y la elección arbitraria de un conjunto reducido de registros producirá indefectiblemente una estimación sesgada de la demanda sísmica y por lo tanto insegura. 
+La variabilidad del contenido de frecuencias y la duración de los registros sísmicos sólo puede ser capturada a partir del análisis de cientos o miles de Acelerogramas escalados a diferentes intensidades (niveles de servicio) de modo tal que permitan construir predictores insesgados de demanda sísmica probabilística (PBSD), que se emplearán luego en la estimación de la fragilidad, la vulnerabilidad y el riesgo de las estructuras. En el estado actual de la práctica, esta estrategia de análisis de incertidumbres es imposible aún debido al elevado costo computacional que ya tiene el análisis de unos pocos registros sísmicos, incluyendo no solamente el tiempo de CPU sino además las horas-hombre involucradas en el post-procesamiento e interpretación de los resultados obtenidos. </Text>
+            <Comments>Algunos parámetros como la rigidez al corte inicial o la relación de vacíos son dependientes del proceso constructivo y requieren etapas previas que simulen numéricamente dicho proceso para establecer las condiciones iniciales de tensiones y deformaciones en cada nodo de la malla FEM. Otros parámetros dinámicos, como el amortiguamiento o la rigidez a la corte instantánea, son altamente dependientes del nivel de daño que tendrá el material durante la historia de deformaciones.
+Las mallas FEM que involucran el análisis de ondas mecánicas, deben tener una separación entre sus nodos adecuada para capturar (discretizar) el pasaje una semionda completa y en general se suele limitar el tamaño máximo del elemento al 10% de la longitud de onda más corta esperable en algún estrato de material. Las ondas mecánicas involucradas en el análisis de deformaciones inducidas por sismos son las ondas de corte y el tamaño máximo del elemento se limita con  donde  es la velocidad de propagación y  es la frecuencia característica del movimiento sísmico. Esta restricción es análoga a las que se derivan de los teoremas de muestreo de ondas y los fenómenos de aliasing
+En general, nunca se disponen de registros sísmicos que hayan ocurrido previamente en el sitio de cada proyecto, y se suelen emplear acelerogramas obtenidos en estaciones sismológicas alrededor del mundo para eventos sísmicos similares a los que se esperan en la región y escalados a la intensidad objetivo para la que se diseña cada presa. Sin embargo, las características los suelos de fundación de las estaciones sismológicas rara vez coinciden con las del material de fundación de la presa, y se suelen emplear procedimientos numéricos para corregir numéricamente los registros sísmicos.
+La tecnología de elementos finitos de los últimos 20 años ha aportado herramientas que permiten reducir la incertidumbre epistémica con formulaciones constitutivas más sofisticados e interfaces con humanos que facilitan las etapas de discretización y simulación del proceso constructivo. Sin embargo, la instancia de modelación y las hipótesis sobre el comportamiento de los materiales, sigue siendo una tarea exclusiva de los humanos y la elección de los parámetros del modelo, particularmente aquellos que no son medibles en laboratorio o en terreno, continúan siendo parte del juicio experto del analista. La incertidumbre asociada a esta instancia suele considerarse mediante árboles lógicos o simulación de Montecarlo y si bien estas técnicas son muy conocidas y relativamente simples de implementar, el costo computacional de algunos modelos numéricos las hace inviables y son empleadas únicamente en estructuras muy críticas desde el punto de vista de la seguridad a la vida o al medio ambiente.</Comments>
+        </Document>
+        <Document ID="998B5D69-D824-4738-B824-92B3A5076706">
+            <Title>Discussion</Title>
         </Document>
     </Documents>
 </SearchIndexes>

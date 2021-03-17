@@ -3,6 +3,7 @@
     <ProjectSettings>
         <Content Scope="Included">
             <Filter State="Off" Exclude="No" Type="Label">
+                <CollectionID>A38B2AD6-408F-4B8E-A7E3-45FF5E8FAF2B</CollectionID>
                 <Label>-1</Label>
                 <Status>-1</Status>
             </Filter>
@@ -13,7 +14,7 @@
             <ResampleImages DPI="72">No</ResampleImages>
             <ConvertTablesAndListToMMD>Yes</ConvertTablesAndListToMMD>
             <PDF>
-                <Cover Bleed="9.0" BleedUnits="pt"/>
+                <Cover Source="FrontMatter" Bleed="9.0" BleedUnits="pt"/>
                 <Compression Enabled="No">
                     <ImageResolutionCompressionType>Set</ImageResolutionCompressionType>
                     <ImageResolution>150</ImageResolution>
@@ -42,9 +43,6 @@
         <MetaData>
             <ProjectTitle>formats</ProjectTitle>
             <ProjectAbbreviatedTitle>formats</ProjectAbbreviatedTitle>
-            <Authors>
-                <Author Role="aut"></Author>
-            </Authors>
             <EbookLanguage>en</EbookLanguage>
             <FountainTitlePageMetaData>
                 <Value Key="Title"><![CDATA[<$projecttitle>]]></Value>
@@ -56,14 +54,27 @@
             </MMDMetaData>
         </MetaData>
     </ProjectSettings>
-    <CurrentFileType>Print</CurrentFileType>
+    <CurrentFileType>pdf</CurrentFileType>
     <FormatSettings>
+        <Format ID="manuscript-courier">
+            <FrontAndBackMatter>
+                <DefaultFrontMatter Add="Yes">B82E926A-AB51-4BA9-A16A-F8251535D54D</DefaultFrontMatter>
+                <DefaultBackMatter Add="Yes">097E1565-B3E7-4423-A83A-AC87A5F15371</DefaultBackMatter>
+            </FrontAndBackMatter>
+        </Format>
         <Format ID="DEFAULT">
             <SectionLayouts>
                 <Type ID="4167FA9B-B809-45D9-80A2-FA49A7CF3177">NEW-PAGE-HEADER-WITH-TEXT</Type>
                 <Type ID="AAE5284E-4A01-4DF9-AD2A-FF5AEAAA977D">TEXT-SECTION</Type>
             </SectionLayouts>
+            <FrontAndBackMatter>
+                <DefaultFrontMatter Add="Yes">B82E926A-AB51-4BA9-A16A-F8251535D54D</DefaultFrontMatter>
+                <DefaultBackMatter Add="Yes">097E1565-B3E7-4423-A83A-AC87A5F15371</DefaultBackMatter>
+            </FrontAndBackMatter>
         </Format>
     </FormatSettings>
-    <LastUsedFormats/>
+    <LastUsedFormats>
+        <Print>manuscript-courier</Print>
+        <pdf>manuscript-courier</pdf>
+    </LastUsedFormats>
 </CompileSettings>

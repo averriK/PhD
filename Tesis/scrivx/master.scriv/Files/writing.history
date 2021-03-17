@@ -1,4 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WritingHistory>
-    <Day dwc="0" dcc="0" owc="-420" occ="-2440">2021-03-11</Day>
+    <Day dwc="56" dcc="425" dtwc="0" owc="-267" occ="-1495" dtcc="0">2021-03-11</Day>
+    <Day dwc="149" dcc="995" dtwc="0" owc="5" occ="132" dtcc="0">2021-03-12</Day>
+    <Day dwc="20" dcc="121" dtwc="0" owc="0" occ="0" dtcc="0">2021-03-13</Day>
+    <Day dwc="199" dcc="1448" dtwc="569" owc="0" occ="0" dtcc="4002">2021-03-14</Day>
+    <Day dwc="744" dcc="5203" dtwc="1239" owc="0" occ="0" dtcc="8785">2021-03-15</Day>
+    <Day dwc="-44" dcc="-203" dtwc="1195" owc="0" occ="0" dtcc="8582">2021-03-16</Day>
+    <Day dwc="0" dcc="1" owc="0" occ="0">2021-03-17</Day>
 </WritingHistory>
