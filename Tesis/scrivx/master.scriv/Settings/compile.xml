@@ -56,10 +56,22 @@
     </ProjectSettings>
     <CurrentFileType>pdf</CurrentFileType>
     <FormatSettings>
+        <Format ID="manuscript-times">
+            <SectionLayouts>
+                <Type ID="4167FA9B-B809-45D9-80A2-FA49A7CF3177">AS-IS</Type>
+                <Type ID="57B5B351-6655-4C3B-AC07-7111194AF50E">AS-IS</Type>
+                <Type ID="AAE5284E-4A01-4DF9-AD2A-FF5AEAAA977D">AS-IS</Type>
+            </SectionLayouts>
+        </Format>
         <Format ID="manuscript-courier">
+            <SectionLayouts>
+                <Type ID="4167FA9B-B809-45D9-80A2-FA49A7CF3177">AS-IS</Type>
+                <Type ID="57B5B351-6655-4C3B-AC07-7111194AF50E">AS-IS</Type>
+                <Type ID="AAE5284E-4A01-4DF9-AD2A-FF5AEAAA977D">AS-IS</Type>
+            </SectionLayouts>
             <FrontAndBackMatter>
-                <DefaultFrontMatter Add="Yes">B82E926A-AB51-4BA9-A16A-F8251535D54D</DefaultFrontMatter>
-                <DefaultBackMatter Add="Yes">097E1565-B3E7-4423-A83A-AC87A5F15371</DefaultBackMatter>
+                <DefaultFrontMatter>B82E926A-AB51-4BA9-A16A-F8251535D54D</DefaultFrontMatter>
+                <DefaultBackMatter>097E1565-B3E7-4423-A83A-AC87A5F15371</DefaultBackMatter>
             </FrontAndBackMatter>
         </Format>
         <Format ID="DEFAULT">
@@ -75,6 +87,6 @@
     </FormatSettings>
     <LastUsedFormats>
         <Print>manuscript-courier</Print>
-        <pdf>manuscript-courier</pdf>
+        <pdf>manuscript-times</pdf>
     </LastUsedFormats>
 </CompileSettings>

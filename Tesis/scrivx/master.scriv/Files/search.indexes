@@ -15,34 +15,74 @@ Except where indicated by specific reference within the dissertation, the work s
 No portion of the work presented in this dissertation has been submitted in substance for any other degree or award at this university or any other university, nor is being submitted concomitantly in candidature for any degree or other award  
 </Text>
         </Document>
-        <Document ID="9123651E-507B-4698-8784-394D51CBA00C">
+        <Document ID="0D1E64A8-073F-4D71-A6FF-8A898CFA17E3">
             <Text>
-Problem Statement</Text>
-        </Document>
-        <Document ID="33772FCD-FA7A-414F-BE5F-9FB8F1F40653">
-            <Text>Caracterización y Clasificación de la Respuesta Dinámica del Sitio
+Literature Review
+
 </Text>
         </Document>
-        <Document ID="DD78654A-35F2-4415-8322-126F026F6BFB">
-            <Text>
-Problem Statement</Text>
+        <Document ID="DC5588C2-FBA5-43A4-B5BC-8D86C27BF80B">
+            <Text>Introducción 
+
+
+</Text>
+        </Document>
+        <Document ID="85A397EA-7843-4AF5-B2DF-96813BB1F1D1">
+            <Text>Parametric Inference
+
+References
+Cakmak, A. S., &amp; Sherif, R. I. (n.d.). Parametric Time Series Models for Earthquake Strong Ground Motions and Their Relationship to Site Parameters.
+Chang, M. K., Kwiatkowski, J. W., Nau, R. F., Oliver, R. M., &amp; Pister, K. S. (1979). ARMA models for earthquake ground motions.
+Conte, J. P., Pister, K. S., &amp; Mahin, S. A. (1992). Nonstationary ARMA modeling of seismic motions. Soil Dynamics and Earthquake Engineering, 11(7), 411–426. https://doi.org/10.1016/0267-7261(92)90005-X
+Vanmarcke, E. H. (1996). Random Process in Earthquake Engineering.PDF. 11th World Conference on Earthquake Engineering.
+Kozin, F. (1988). Autoregressive moving average models of earthquake records. Probabilistic Engineering Mechanics, 3(2), 58–63. https://doi.org/10.1016/0266-8920(88)90016-1
+Popescu, T. D., &amp; Demetriu, S. (1990). Analysis and simulation of strong earthquake ground motions using ARMA models. Automatica, 26(4), 721–737. https://doi.org/10.1016/0005-1098(90)90049-N
+Tuan, P. D. (1984). a Note on Some Statistics Useful in Identifying the Order of Autoregressive Moving Average Model. Journal of Time Series Analysis, 5(4), 273–279. https://doi.org/10.1111/j.1467-9892.1984.tb00393.x
+Dabaghi, M., &amp; Kiureghian, A. Der. (2014). PACIFIC EARTHQUAKE ENGINEERING Stochastic Modeling and Simulation of Near-Fault Ground Motions for Performance-Based Earthquake Engineering. DECEMBER.
+Geisser, S. (n.d.). Models of Parametric Statistical Inference. Wiley.
+
+
+
+
+</Text>
+        </Document>
+        <Document ID="33772FCD-FA7A-414F-BE5F-9FB8F1F40653">
+            <Text>Principal Component Analysis
+
+References
+
+Kassambara, A. (2017). Practical Guide to Principal Component Methods in R Multivariate Analysis Alboukadel KASSAMBARA.
+Kassambara, A. (2017). Practical Guide To Principal Component Methods in R: PCA, M (CA), FAMD, MFA, HCPC, factoextra. Sthda, 2, 1–155. http://www.analyticsvidhya.com/blog/2016/03/practical-guide-principal-component-analysis-python/
+Wilks, D. S. (2011). Principal Component (EOF) Analysis. In International Geophysics (Vol. 100). https://doi.org/10.1016/B978-0-12-385022-5.00012-9
+Kaufman, L., &amp; Rousseeuw, P. J. (2005). Finding Groups in Data - An Introduction to Cluster Analysis.
+Bartholomew, D. J. (2010). Principal components analysis. International Encyclopedia of Education, 374–377. https://doi.org/10.1016/B978-0-08-044894-7.01358-0
+</Text>
         </Document>
         <Document ID="8E2586CA-0FB2-487D-BE81-7E8793D24204">
             <Text>
 Problem Statement</Text>
         </Document>
-        <Document ID="CAF9DEA4-BD2C-4499-A1BC-8E4C87153A37">
-            <Title>Discussion</Title>
+        <Document ID="CDBE83E3-C33D-47EE-A458-464DA521CBCF">
+            <Text>Purpose and major findings</Text>
         </Document>
-        <Document ID="C502708E-D79A-4724-B9CD-B7138122AEB8">
-            <Text>
-Proposed Approach</Text>
+        <Document ID="0FCA9D8B-41BB-42D1-BF66-1E8FC8EBCD59">
+            <Text>Signal Processing 
+
+References
+Giron-Sierra, J. M. (2017). Digital Signal Processing with Matlab Examples, Volume 3. In Electronics {&amp;} Communications Engineering Journal (Vol. 5, Issue 1). https://doi.org/10.1007/978-981-10-2540-2
+Andreas Antoniou, P. D. (2018). Digital Filters: Analysis, Design, and Signal Processing Applications. https://www.accessengineeringlibrary.com/content/book/9780071846035
+L., R. J., Martinez, M., &amp; J.Muñoz. (n.d.). Digital Signal Processing with Kernel Methods.
+Margrave, G. F. (2006). Methods of Seismic Data Processing.
+Rainer, J. (1986). Applications of the fourier transform to the processing of vibration signals. Building Research Note, 233, 24.
+Stephens, C., &amp; Boore, D. (n.d.). ANSS / NSMP STRONG-MOTION RECORD PROCESSING AND PROCEDURES.
+Boore, D. M., Stephens, C. D., &amp; Joyner, W. B. (2002). Comments on Baseline Correction of Digital Strong-Motion Data : Examples from the 1999 Hector Mine , California , Earthquake. 92(4), 1543–1560.
+
+
+
+
+</Text>
         </Document>
-        <Document ID="43AE7A47-043C-4656-B876-18795AAEE8D3">
-            <Text>
-Problem Statement</Text>
-        </Document>
-        <Document ID="E6665289-E7EA-4117-AE93-D9FBF82B42AF">
+        <Document ID="681F2464-15FD-45C8-8BCE-F78A97FE1CE9">
             <Synopsis>- Summation of result
 
 - Interpretation
@@ -101,112 +141,139 @@ Explain in the discussion section of your document information presented in the 
 • Organise your material in order of importance to your reader's purpose in using the document.
 </Notes>
         </Document>
-        <Document ID="28DFF2CE-435F-4377-9AB7-4B4D7ECFB232">
-            <Title>Title #3</Title>
+        <Document ID="2E283429-E683-4251-A23A-AA76C3CEE6AF">
+            <Text>Objetivos</Text>
         </Document>
-        <Document ID="F75495D6-1E52-410D-A25A-B498B77AE502">
-            <Text>Capítulo III
-Caracterización y Clasificación de la Respuesta Dinámica del Sitio</Text>
-        </Document>
-        <Document ID="2F8707B1-94EF-40E6-9A6A-A893117BC593">
+        <Document ID="9123651E-507B-4698-8784-394D51CBA00C">
             <Text>
 Problem Statement</Text>
         </Document>
-        <Document ID="6DB8D057-1797-4E3E-964F-F04D8399EAAE">
-            <Title>Notation</Title>
-            <Text>Background and Notation</Text>
-        </Document>
-        <Document ID="189992D1-8941-4748-80AF-A7F786D81D78">
-            <Text>
-Proposed Approach</Text>
-        </Document>
-        <Document ID="18C247A1-405E-469F-B497-F112A1CFEE57">
-            <Text>
-Proposed Approach</Text>
-        </Document>
-        <Document ID="6CB21783-48A1-456B-96D6-99F4C035D164">
-            <Text>
-Case Study</Text>
-        </Document>
-        <Document ID="8FF6CD40-F019-4A41-9AF8-410C9FD5210D">
-            <Title>Title #3</Title>
-            <Text>
-Conclusion</Text>
-        </Document>
-        <Document ID="80C0559B-FECB-40A8-995C-1F68AFD4D988">
-            <Text>
-Conclusion</Text>
-        </Document>
-        <Document ID="BF1B996C-4004-4028-A5F9-F2AA25CF6387">
-            <Title>Discussion</Title>
-        </Document>
-        <Document ID="368986F7-6286-48AF-8028-09FDAAD04E85">
-            <Text>
-Case Study</Text>
-        </Document>
-        <Document ID="DBEE2E67-A1CF-4753-95C8-0D16104F185A">
-            <Text>
-Problem Statement</Text>
-        </Document>
-        <Document ID="8C9E4A2F-DBD2-41C3-8E67-1444F199F57A">
-            <Text>
-Background. Literature Review
+        <Document ID="54A82FA4-CB13-4491-BFB0-C37628B60811">
+            <Text>Machine Learning
 
-Que ya se sabía de estemos
-Qué se hacía antes de Alejandro
+References
+
+HASTIE, T., TIBSHIRANI, R., &amp; FRIEDMAN, J. (2009). The Elements of Statistical Learning. In Springer Series in Statistics (Vol. 27, Issue 2). http://www.springerlink.com/index/D7X7KX6772HQ2135.pdf
+Ramasubramanian, K., &amp; Singh, A. (2019). Machine Learning Using R. In Frontiers in Artificial Intelligence and Applications (Vol. 321). https://doi.org/10.3233/FAIA200024
+Chollet, F., &amp; Allaire, J. J. (2017). Deep Learning with R.
 </Text>
         </Document>
-        <Document ID="EC3F579A-6B6C-414B-9DB7-FD67459AC07D">
+        <Document ID="A756FD77-C63C-4B8F-8C78-9DAB57A04BF8">
+            <Text>Similarity Measures of Time Series
+References
+Last, M., Kandel, A., &amp; Bunke, H. (n.d.). Data Mining in Time Series Databases.
+
+
+</Text>
+        </Document>
+        <Document ID="809FFD46-2DEA-40C6-9DF5-E55ADE041923">
+            <Text>Desplazamientos sísmicos en taludes
+</Text>
+        </Document>
+        <Document ID="6B258507-67F8-4A09-AED9-F51BE4523C5D">
+            <Text>Literature Review
+
+</Text>
+        </Document>
+        <Document ID="15F904DC-5798-4392-BDA7-D39755023A31">
+            <Text>Introducción 
+
+
+</Text>
+        </Document>
+        <Document ID="B3A3A2E4-8ED2-48CF-BE86-69232C50CBFF">
+            <Text>Objetivos Generales
+El propósito principal del estudio, es la implementación de metodologías de aprendizaje automático para la generación de modelos  predicción de la intensidad del movimiento sísmico de una región , modelos de estimación de la respuesta dinámica de un sitio dado, y modelos de estimación de las deformaciones sísmicas en sistemas dinámicos complejos
+
+</Text>
+        </Document>
+        <Document ID="6DB8D057-1797-4E3E-964F-F04D8399EAAE">
+            <Text>Background and Notation</Text>
+        </Document>
+        <Document ID="4D938D46-A0D1-451D-AD4E-3EE921788F5F">
+            <Text>Conclusion</Text>
+        </Document>
+        <Document ID="F0145642-FFA9-4C24-B35C-1FD99A5C31A9">
             <Text>
 Problem Statement</Text>
         </Document>
-        <Document ID="D52A6916-0D0A-43A6-B267-DABCB04ECF2E">
+        <Document ID="DD78654A-35F2-4415-8322-126F026F6BFB">
             <Text>
-Case Study</Text>
+Problem Statement</Text>
+        </Document>
+        <Document ID="5706D0AB-BBB8-4432-A6C9-C22FC2349B73">
+            <Text>Objetivos</Text>
+        </Document>
+        <Document ID="CD55A027-0350-4C0E-8632-B158CD1C7222">
+            <Text>Capítulo
+Clasificación de Series Temporales</Text>
         </Document>
         <Document ID="222ADE05-A2A4-4D5B-833A-63B7C843BFCA">
             <Text>
 Proposed Approach</Text>
         </Document>
+        <Document ID="70D20E20-96AD-4091-9970-5BE121EECA29">
+            <Text>Objetivos</Text>
+        </Document>
+        <Document ID="A21E5549-59B0-4FBC-A962-44BEB697AD23">
+            <Text>
+Case Study</Text>
+        </Document>
         <Document ID="413F0BDB-7E96-4520-B932-EE661155AF91">
-            <Text>Objetivos
+            <Text>Objetivos Específicos
+	1)	Recopilar, procesar e implementar una base de datos de registros sísmicos reales, obtenidos en diferentes regiones del mundo y bajo diferentes condiciones geotécnicas e seleccionar metodologías autónoma de procesamiento de señales para inferir series temporales regularizadas en roca (outcrop)
+	1)	Identificar las características particulares de las series temporales obtenidas en roca en diferentes regiones del mundo y bajo diferentes mecanismos de generación. 
+	1)	Diseñar métricas adecuadas para identificar grupos de series temporales sin distinción de regiones, mecanismos o medidas de intensidad e implementar metodologías de agrupamiento (clustering) y selección de series temporales a partir de distancias mínimas con registros obtenidos en una región de interés (target)
 
-	•	Identificar parámetros dinámicos en series temporales que permitan clasificar y agrupar registros de aceleraciones 
-	•	Diseñar métricas eficientes que permitan detectar similitudes (mínima distancias) entre series temporales asociadas a un grupo particular, y los acelerogramas de una región objetivo
-	•	Formular para cada grupo un modelo no-paramétrico de predicción del movimiento sísmico. 
+	•	Formular modelos robustos de predicción del movimiento sísmico, basados en las métricas
 	•	Analizar mediante simulación numérica, la respuesta dinámica del sitio para un gran número de escenarios geotécnicos simulados, y agrupar parámetros estimadores mediante un sistema de clasificación de sitios basado en la respuesta dinámica 
 	•	Definir estimadores sesgados de la respuesta dinámica de sistemas dinámicos complejos, mediante modelos mecánicos simples (proxy) y estimar las medianas condicionales y la variabilidad de la respuesta para cada grupo de sismos y para categoría de sitios
 	•	A partir del monitoreo de resultados obtenidos en modelos computacionales complejos para problemas tipo,  establecer una estrategia numérica robusta de entrenamiento de los estimadores no-paramétricos que minimice el sesgo y la variabilidad. 
 	•	Presentar aplicaciones del modelo de aprendizaje automático para algunos problemas clásicos de análisis dinámico de deformaciones inducidas por sismos y discutir resultados, identificar limitaciones y proponer futuros c
 </Text>
         </Document>
-        <Document ID="D49AC6A4-E3E1-4AB5-9951-1A939197324A">
-            <Text>
-Problem Statement</Text>
-        </Document>
-        <Document ID="8BBD1B2C-22AF-4CC2-BF5B-8B0205EB0892">
-            <Text>
-Discussion
-Limitations and Future Work</Text>
-        </Document>
-        <Document ID="EDDCF3B0-00D0-4D79-953F-1712D25C261A">
-            <Title>Discussion</Title>
-            <Text>
-Propuse metodologías de clasificacion, 
-Dadas estas caracterizaciones, propuse modelos que usan esos sismos pero desagregados o clasificados previamente mediante las metodologías
-Dados estos modelos (hice muchos), los clasifiqué y propuse metodologías para “clasificarlos” y seleccionarlos. Estos modelos no pretenden ser un predictor robusto de la repuesta, sino un predictor “sesgado” capaz de identificar qué sismos hace más daño que otros sismo
-Dados resultados e modelos complejos, como mejorar las técnicas de selección y penalización
-Debo discutir qué tan bien funciona este método 
+        <Document ID="32FAF4DE-EAD1-4243-8ECC-F7F952C265E2">
+            <Text>Time Series Clustering
 
-
-
-
+References
+Kassambara, A. (2017). Practical Guide To Cluster Analysis in R - Unsupervised Machine Learning.
+Maharaj, E. A., D’Urso, P., &amp; Caiado, J. (2019). Time Series Clustering and Classification. In Time Series Clustering and Classification. https://doi.org/10.1201/9780429058264
+Montero, P., &amp; Vilar, J. A. (2014). TSclust: An R package for time series clustering. Journal of Statistical Software, 62(1), 1–43. https://doi.org/10.18637/jss.v062.i01
+Last, M., Kandel, A., &amp; Bunke, H. (n.d.). Data Mining in Time Series Databases.
 
 </Text>
         </Document>
+        <Document ID="1D9EC9F4-0460-4E98-BFE9-B0B764DEAA7E">
+            <Text>Non-Parametric Inference
+References
+Kantz, H., &amp; Shreiber, T. (2003). Nonlinear Time Series Analysis. Cambridge.
+Hardle, W., &amp; Mammen, E. (1993). Comparing Nonparametric Versus Parametric Regression Fits. The Annals of Mathematical Statistics, 21(4), 1926–1947.
+Hollander, M., Wolfe, D. A., &amp; Chicken, E. (n.d.). Nonparametric Statistical Methods. Wiley.
+Kloke, J., &amp; Mckean, J. W. (2014). The R Series Statistics Nonparametric Statistical Methods Using R. Chapman and Hall/CRC.
+Sprent, P., &amp; Smeeton, N. C. (2007). Applied Nonparametric Statistical Methods.
+Perez Ruiz, D. A. (2016). Bayesian Nonparametric Data Analysis. In International Statistical Review (Vol. 84, Issue 1). https://doi.org/10.1111/insr.12168
+Sprent, P., &amp; Smeeton, N. C. (2007). Applied Nonparametric Statistical Methods.
+
+</Text>
+        </Document>
+        <Document ID="78BECA13-C47A-4E2D-BD27-70DCA4332B2C">
+            <Text>Limitations and weaknesses
+
+</Text>
+        </Document>
+        <Document ID="FF26CB3A-7BD2-4A63-A436-52D1BD003212">
+            <Text>Outcomes
+
+Performance
+Complexity
+Reliability
+Computational Cost</Text>
+        </Document>
         <Document ID="2A565D00-E2EA-40BA-A1F5-6E257037EAFB">
-            <Title>Introduction</Title>
-            <Synopsis>- Background: big picture
+            <Text>Introducción
+
+</Text>
+            <Notes>- Background: big picture
 	- Motivations and benefits
 	- Current stage
 	- Accomplishments and applications
@@ -230,11 +297,10 @@ Debo discutir qué tan bien funciona este método
 	- Assumptions
 	- Limitations
 
-- Layout (optional)</Synopsis>
-            <Text>Introduction
+- Layout (optional)
 
-</Text>
-            <Notes>The introduction sets the scene and includes the aims and objectives of the report. It also defines the limits of the report, outlines the method of enquiry, gives a brief general background to the subject of the report and indicates the proposed development.
+
+The introduction sets the scene and includes the aims and objectives of the report. It also defines the limits of the report, outlines the method of enquiry, gives a brief general background to the subject of the report and indicates the proposed development.
 
 The introduction provides a framework for the story you are about to tell, and thus serves two main purposes. For one, you must provide sufficient background information for a reader to understand the forthcoming results. Just as importantly, you must motivate the audience to keep reading! How? Reveal the significance of the work through connections to both prior scientific accomplishments and future applications. You are welcome to use your own creativity and judgement as to what a good introduction should look like; however, you may find the suggested structure below useful.
 
@@ -271,62 +337,73 @@ The introduction sets the scene for the main body of the report. The aims and ob
 ¿Que voy a aportar, respecto a lo que ya está hecho?
 </Text>
         </Document>
-        <Document ID="E05E54E0-8AF0-4F65-8D26-318990BFB149">
-            <Text>Capítulo X
-Predicción de la Demanda Sísmica</Text>
+        <Document ID="9BE51F9C-9736-474B-B27D-496E8CF81BF5">
+            <Text>
+Site Dynamic Response
+References
+Ambraseys, N. N. (1959). ANote of the response of an elastic overburden of varying rigidity to an arbitrary ground motion. Bulletin - Seismological Society of America, 49(3), 211–220.
+Tsai, N. C., &amp; Housner, G. W. (1970). Calculation of surface motions of a layered half-space by n. c. tsai and g. w. housner. Bulletin - Seismological Society of America, 60(5), 1625–1651.
+Charara, I. (2019). Seismic response of n-layered soil : Exact analytical closed-form solution. 1698–1706.
+Tsai, C. C., &amp; Liu, P. C. (2019). Site response analysis to evaluate vertical-to-horizontal spectrum ratio. 3(M), 5345–5352.
+Tromans, I. J., &amp; Bard, P. Y. (2019). Inverted pendulum effect due to deep shear-wave velocity reversal identified using microtremor H/V. 3577–3584.
+Charara, I. (2019). Seismic response of n-layered soil : Exact analytical closed-form solution. 1698–1706.
+Rodriguez-marek, A., Bray, J. D., &amp; Abrahamson, N. (1999). Characterization of Site Response General Site Categories.
+Faccioli, E., Vanini, M., &amp; Frassine, L. (2002). "Complex” site effects in earthquake ground motion, including topography. 12th European Conference on Earthquake Engineering, Paper No.844, 23.
+</Text>
         </Document>
         <Document ID="AA5CF427-D723-4406-A327-03A468A0E794">
             <Title>Notes</Title>
             <Text>&lt;$--ENDNOTES--&gt;</Text>
             <Notes>The &lt;$--ENDNOTES--&gt; tag will be replaced by the footnotes during Compile. Using this tag allows us to have the footnotes inserted wherever we like, without having a separator placed above them.</Notes>
         </Document>
-        <Document ID="C28B4833-A0E2-41F5-AA6F-396493EAA1EC">
-            <Text>Problem Statement
-
-¿Qué problemas quiero resolver? 
-¿Qué resultados necesito obtener?
-
-</Text>
-        </Document>
-        <Document ID="BA097E8C-3951-4D93-B0AE-A25821021BD8">
-            <Text>
-Background</Text>
-        </Document>
-        <Document ID="45B33832-53E5-4346-9CFB-4CD2C1D29A49">
-            <Text>Caracterización y Clasificación de la Respuesta Dinámica del Sitio
-Estado actual de la práctica
-
-
-Necesidades
-</Text>
-        </Document>
-        <Document ID="1E92BC9A-895F-49DD-9067-5FB156F9374A">
-            <Text>
-Conclusion</Text>
-        </Document>
-        <Document ID="673919A6-ECE1-47C3-8543-FA53F2CD0E8D">
-            <Text>Predicción de la respuesta dinámica
-</Text>
-        </Document>
-        <Document ID="DACFC8DB-08DA-41BC-8C72-AB374C3108E4">
-            <Title>Title #2</Title>
-            <Text>Diseño de modelos de estimación de respuesta sísmica de sistemas complejos basados en Aprendizaje Estadístico</Text>
-        </Document>
         <Document ID="CF117A0A-0F59-41DB-A841-2B9F9E0FA705">
-            <Text>
-Case Study</Text>
+            <Text>Case Study</Text>
         </Document>
-        <Document ID="2BCC4512-148A-45C2-A512-855E200FFF94">
-            <Title>Discussion</Title>
-            <Text>Literature Review Capitulo 1
+        <Document ID="B6ED2F3C-1C1C-4284-B442-8FB188758099">
+            <Text>Literature Review
 
-Que ya se sabía de estemos
-Qué se hacía antes de Alejandro
 </Text>
         </Document>
-        <Document ID="A606E6DA-B960-47A8-851E-13ECB6853284">
-            <Title>Title #1</Title>
-            <Text>Aplicaciones de IA en la generación automática de modelos de estimación de respuesta sísmica de sistemas complejos</Text>
+        <Document ID="30D10E6E-929E-4698-8AB7-267C42D55DAC">
+            <Text>
+Limitations and Future Work</Text>
+            <Notes>The purpose of the discussion section is to interpret and contextualise your data. You should begin by reiterating the purpose of your research and your major findings. Then you might do any or all of the following: connect your findings to other research (published or that of your peers); describe any ambiguities and sources of error in the data, and suggest future experiments to resolve uncertainties; explain where you expect your work may lead, and suggest specific experiments for extending your findings; describe any conceptual or technical limitations of the research. Finally, you should explain the significance of your findings to basic science and to engineering applications. Like the previous sections, the discussion should have a clear organisation and narrative flow, whether or not you use sub-sections.
+
+Relates results to those of others
+• Cites other work discussed
+• Relates results to theory
+• Discuss limitations and weakness of results
+• Discuss implications for further research
+• Suggest applications of findings when appropriate
+• Avoids undue speculations
+
+The DISCUSSION interprets the results in light of the project's objectives. The most important goal of the DISCUSSION section is to interpret the results so that the reader is informed of the insight or answers that the results provide. The DISCUSSION should also present an evaluation of the particular approach taken by the group. For example: Based on the results, how could the experimental procedure be improved? What additional, future work may be warranted? What recommendations can be drawn?
+
+The main body of the report is where you discuss your material. The facts and evidence you have gathered should be analysed and discussed with specific reference to the problem or issue. If your discussion section is lengthy you might divide it into section headings. Your points should be grouped and arranged in an order that is logical and easy to follow. Use headings and subheadings to create a clear structure for your material. Use bullet points to present a series of points in an easy-to-follow list. 
+
+Discussion. Discuss the meaning of the results, stating clearly what their significance is. Compare the results with theoretical expectations and account for anything unexpected.
+
+Explain in the discussion section of your document information presented in the results section, commenting on significant data produced by the study. In writing a discussion section, keep the following points in mind.
+
+• Identify significant patterns in the data and relationships between variables. Offer tentative explanations for these patterns and relationships.
+• Compare the actual data produced with any predictions or questions posed in the introduction or theory section of the document.
+• If any of the results differ from the expected results, offer possible explanations for the discrepancies. Present the most probable explanations first and the least probable last.
+• Consider how well the data answer any questions posed in the document's introduction. Do the results answer the questions completely? If not, explain what questions still need to be addressed and give possible explanations why the results may be inconclusive.
+• Qualify the scope of your explanations, discussing in what cases your explanations apply and in what cases they may not.
+• Organise your material in order of importance to your reader's purpose in using the document.
+</Notes>
+        </Document>
+        <Document ID="75546475-94DE-48CB-A7C6-1F11F0199120">
+            <Text>Time Series Distance Measures
+
+References
+
+Spiegel, S. (2015). Time Series Distance Measures: Segmentation, Classification, and Clustering of Temporal Data. 211. https://doi.org/10.14279/depositonce-4619
+Last, M., Kandel, A., &amp; Bunke, H. (n.d.). Data Mining in Time Series Databases.
+</Text>
+        </Document>
+        <Document ID="A3272A58-72B9-4522-A796-8235C37C0A1F">
+            <Text>Objetivos</Text>
         </Document>
         <Document ID="08B1EF06-A416-4AA1-BE11-16E48FE09DF0">
             <Title>Title Page</Title>
@@ -340,6 +417,14 @@ Qué se hacía antes de Alejandro
 
 - Tutor
 </Synopsis>
+            <Text>
+
+
+
+Modelos estimadores de la respuesta sísmica de sistemas complejos basados en aprendizaje de máquina
+
+
+</Text>
             <Notes>These tags get replaced with the information set in the Metadata pane of Compile. Alternatively, you can simply replace this text altogether.
 
 The title page should contain the following information: 
@@ -359,37 +444,13 @@ However, this is not mandatory in all the university guidelines.
 
 </Notes>
         </Document>
-        <Document ID="898C1901-74C9-477B-A5A2-0347D789CCD0">
-            <Text>
-Problem Statement</Text>
-        </Document>
-        <Document ID="007C088F-8447-4172-89FD-20A7A447F7DF">
-            <Text>Capítulo X
-Selección de Registros Sísmicos
-</Text>
-        </Document>
-        <Document ID="4E549DEB-3B99-4053-8F88-39497CDB9303">
-            <Text>Caracterización y Clasificación de la Respuesta Dinámica del Sitio
-</Text>
-        </Document>
-        <Document ID="8D277EBA-811D-4381-A77F-73A6E1F8CC80">
-            <Text>Estimación de la Respuesta Sísmica de Sistemas Complejos
-Estado actual de la práctica
-Estado actual de la práctica para el análisis dinámico de deformaciones de estructuras sometidas a cargas sísmicas de gran intensidad requiere modelos computacionales complejos, con un alto costo computacional (con tiempos que van desde varias horas hasta días de tiempo computacional por cada registro sísmico)
-Respuesta dinámica de estas estructuras fuertemente  dependiente de la historia de aceleraciones en superficie. No existen parámetros escalares que determinen efectivamente si un determinado registro sísmico tendrá mayor demanda sísmica (deformaciones) que otro. 
-Dependencia con el contenido de frecuencias de los registros sísmicos requiere corridas análisis dinámicos para un número relativamente grande de registros sísmicos que permitan identificar la distribución de probabilidad de la respuesta dinámica. 
-Necesidad de poder identificar y seleccionar un número reducido registros que controlan o maximizan la demanda sísmica. Alto costo computacional  hace prácticamente imposible analizar miles de registros sísmicos con un modelo computacional de estas características. 
-Necesidades
-Se requieren modelos de estimación de la demanda sísmica de bajo costo computacional que permitan analizar cientos de miles de registros sísmicos y obtener estimadores sesgados de la distribución de la demanda sísmica de un parámetro de demanda (ejemplo, amplificación del sitio, asentamientos en el coronamiento de una presa, desplazamientos de la junta sísmica de un caño enterrado, distorsiones de un entrepiso de un edificio alto, esfuerzos debidos al oleaje de un tanque de almacenamiento, etc.)
-Luego, se requerirán técnicas robustas basadas en modelos no-paramétricos que permitan reducir el sesgo y la varianza de las predicciones, mediante el entrenamiento con datos obtenidos de modelos computacionales complejos para un numero reducido de casos </Text>
+        <Document ID="79D90E09-6F7D-41C1-A395-2A9A7899A09D">
+            <Text>Objetivos</Text>
         </Document>
         <Document ID="30BC8413-78A5-4374-825A-74755840E548">
             <Title>Abstract</Title>
-            <Synopsis>
-</Synopsis>
-            <Text>Abstract
+            <Text>Resumen
 
-Abstract in English
 
 
 
@@ -402,39 +463,35 @@ The summary should briefly describe the content of the report. It should cover t
 
 </Notes>
         </Document>
-        <Document ID="E48C1A9F-622A-4B85-9465-CF7AE7A230F7">
-            <Title>Discussion</Title>
-            <Text>Literature Review Capitulo 1
-
-Que ya se sabía de estemos
-Qué se hacía antes de Alejandro
-</Text>
+        <Document ID="8D277EBA-811D-4381-A77F-73A6E1F8CC80">
+            <Text>Estimación de la Respuesta Sísmica de Sistemas Complejos
+Estado actual de la práctica para el análisis dinámico de deformaciones debidas a cargas sísmicas de gran intensidad requiere modelos computacionales complejos, con un alto costo computacional (con tiempos que van desde varias horas hasta días de tiempo computacional por cada registro sísmico)
+Respuesta dinámica de estas estructuras fuertemente  dependiente de la historia de aceleraciones en superficie. No existen parámetros escalares que determinen efectivamente si un determinado registro sísmico tendrá mayor demanda sísmica (deformaciones) que otro. 
+Dependencia con el contenido de frecuencias de los registros sísmicos requiere corridas análisis dinámicos para un número relativamente grande de registros sísmicos que permitan identificar la distribución de probabilidad de la respuesta dinámica. 
+Necesidad de poder identificar y seleccionar un número reducido registros que controlan o maximizan la demanda sísmica. Alto costo computacional  hace prácticamente imposible analizar miles de registros sísmicos con un modelo computacional de estas características. 
+Se requieren modelos de estimación de la demanda sísmica de bajo costo computacional que permitan analizar cientos de miles de registros sísmicos y obtener estimadores sesgados de la distribución de la demanda sísmica de un parámetro de demanda (ejemplo, amplificación del sitio, asentamientos en el coronamiento de una presa, desplazamientos de la junta sísmica de un caño enterrado, distorsiones de un entrepiso de un edificio alto, esfuerzos debidos al oleaje de un tanque de almacenamiento, etc.)
+Luego, se requerirán técnicas robustas basadas en modelos no-paramétricos que permitan reducir el sesgo y la varianza de las predicciones, mediante el entrenamiento con datos obtenidos de modelos computacionales complejos para un numero reducido de casos </Text>
         </Document>
         <Document ID="CBD09FB7-4288-4900-B808-BF39DA45A9A5">
-            <Text>
-Conclusion</Text>
+            <Text>Conclusion</Text>
         </Document>
-        <Document ID="00FC4575-1B70-4DE6-A631-054E74033205">
-            <Text>
-Background. Literature Review
+        <Document ID="8B9A80BE-95D7-4C91-A83D-CA269FDCA8A9">
+            <Text>Site Response Analysis</Text>
+        </Document>
+        <Document ID="561025D6-9DEA-4181-8481-46EFBBB8925D">
+            <Text>Significance
 
-Que ya se sabía de estemos
-Qué se hacía antes de Alejandro
-</Text>
-        </Document>
-        <Document ID="568E22F1-84F7-43D6-B044-9D76F0C0361F">
-            <Title>Publications</Title>
+Problem mitigation
+Applications</Text>
+            <Notes>Propuse metodologías de clasificacion, 
+Dadas estas caracterizaciones, propuse modelos que usan esos sismos pero desagregados o clasificados previamente mediante las metodologías
+Dados estos modelos (hice muchos), los clasifiqué y propuse metodologías para “clasificarlos” y seleccionarlos. Estos modelos no pretenden ser un predictor robusto de la repuesta, sino un predictor “sesgado” capaz de identificar qué sismos hace más daño que otros sismo
+Dados resultados e modelos complejos, como mejorar las técnicas de selección y penalización
+Debo discutir qué tan bien funciona este método </Notes>
         </Document>
         <Document ID="9A753B3A-47EA-4738-A120-8638F6349F76">
             <Text>
 Case Study</Text>
-        </Document>
-        <Document ID="A4B44C99-0FF1-487B-B705-3012D3CEF41C">
-            <Text>Objeto
-
-El objeto del estudio, es la implementación de metodologías de aprendizaje automático para la generación de modelos  predicción de la intensidad del movimiento sísmico de una región , modelos de estimación de la respuesta dinámica de un sitio dado, y modelos de estimación de las deformaciones sísmicas en sistemas dinámicos complejos
-
-</Text>
         </Document>
         <Document ID="C6961460-9BB1-4B11-AB4A-76F36A5F1DA2">
             <Title>Acknowledgements</Title>
@@ -446,6 +503,35 @@ Acknowledgements. Acknowledge assistance from advisors, sponsors, funding agenci
 An acknowledgements section is sometimes included in the front matter of a longer report, thesis, or collection to note the assistance of people whose help was crucial but not extensive enough to warrant their being listed as co-authors. Thesis advisors, technicians, and colleagues who gave advice or time are all candidates for the acknowledgements section.
 
 This section is often placed just after the list of tables. In articles and shorter reports, acknowledgements may be made in the end matter at the very beginning of the list of references.</Notes>
+        </Document>
+        <Document ID="544E3567-C498-411D-93E1-7078440A5AA2">
+            <Text>
+Limitations and Future Work</Text>
+            <Notes>The purpose of the discussion section is to interpret and contextualise your data. You should begin by reiterating the purpose of your research and your major findings. Then you might do any or all of the following: connect your findings to other research (published or that of your peers); describe any ambiguities and sources of error in the data, and suggest future experiments to resolve uncertainties; explain where you expect your work may lead, and suggest specific experiments for extending your findings; describe any conceptual or technical limitations of the research. Finally, you should explain the significance of your findings to basic science and to engineering applications. Like the previous sections, the discussion should have a clear organisation and narrative flow, whether or not you use sub-sections.
+
+Relates results to those of others
+• Cites other work discussed
+• Relates results to theory
+• Discuss limitations and weakness of results
+• Discuss implications for further research
+• Suggest applications of findings when appropriate
+• Avoids undue speculations
+
+The DISCUSSION interprets the results in light of the project's objectives. The most important goal of the DISCUSSION section is to interpret the results so that the reader is informed of the insight or answers that the results provide. The DISCUSSION should also present an evaluation of the particular approach taken by the group. For example: Based on the results, how could the experimental procedure be improved? What additional, future work may be warranted? What recommendations can be drawn?
+
+The main body of the report is where you discuss your material. The facts and evidence you have gathered should be analysed and discussed with specific reference to the problem or issue. If your discussion section is lengthy you might divide it into section headings. Your points should be grouped and arranged in an order that is logical and easy to follow. Use headings and subheadings to create a clear structure for your material. Use bullet points to present a series of points in an easy-to-follow list. 
+
+Discussion. Discuss the meaning of the results, stating clearly what their significance is. Compare the results with theoretical expectations and account for anything unexpected.
+
+Explain in the discussion section of your document information presented in the results section, commenting on significant data produced by the study. In writing a discussion section, keep the following points in mind.
+
+• Identify significant patterns in the data and relationships between variables. Offer tentative explanations for these patterns and relationships.
+• Compare the actual data produced with any predictions or questions posed in the introduction or theory section of the document.
+• If any of the results differ from the expected results, offer possible explanations for the discrepancies. Present the most probable explanations first and the least probable last.
+• Consider how well the data answer any questions posed in the document's introduction. Do the results answer the questions completely? If not, explain what questions still need to be addressed and give possible explanations why the results may be inconclusive.
+• Qualify the scope of your explanations, discussing in what cases your explanations apply and in what cases they may not.
+• Organise your material in order of importance to your reader's purpose in using the document.
+</Notes>
         </Document>
         <Document ID="8FC126C3-6408-43AD-985E-62046A87B53B">
             <Title>Research Proposal</Title>
@@ -485,37 +571,56 @@ Legends to the figures and tables explain the elements that appear in the illust
 
 </Notes>
         </Document>
-        <Document ID="184C43D5-CD34-4A51-9221-4AEC34B4CA3F">
-            <Text>
-Background. Literature Review
-
-Que ya se sabía de estemos
-Qué se hacía antes de Alejandro
-</Text>
-        </Document>
         <Document ID="3332231F-2F34-465B-B57B-4233B03A87FC">
             <Text>Predicción del Movimiento Sísmico
-Con el fin de restringir los modelos empíricos para la amplia gama de escenarios de magnitud y distancia que se consideran dentro de los análisis probabilísticos de peligro y riesgo, generalmente es necesario compilar conjuntos de datos de movimientos del suelo de diferentes regiones
-Sin embargo, como se ha mencionado anteriormente, lo que deseamos idealmente es una predicción de la distribución de los movimientos sísmicos que deberían esperarse cuando se produce un evento concreto en un lugar determinado. Cualquier diferencia que exista entre el medio de propagación, las excitaciones de la fuente o las respuestas del sitio en las regiones de las que se han obtenido los datos se manifestará como una mayor varianza en el modelo de movimiento del suelo. Uno de los principales retos que queda por resolver adecuadamente es cómo eliminar la suposición ergódica que se hace en el estado actual del arte, que asume que cualquier movimiento sísmico en cualquier punto del espacio, es una realización de un mismo proceso aleatorio con parámetros invariables en el tiempo y en el espacio.</Text>
+Las ecuaciones de predicción de intensidad del movimiento sísmico, tambien llamados GMPE (ground-motion prediction equations), se basan en general en modelos empíricos de regresión (paramétricos) inferidos a partir de un conjunto de acelerogramas  rasociados a eventos sísmicos de diferentes magnitudes y distancias a las estaciones sismológicas que registraron el evento.
+El objetivo de un GMPE es poder predecir los parámetros del movimiento sísmico que deberían esperarse cuando se produce un evento de magnitud conocida, a distancia conocida, y en una region dada.
+Con el fin de restringir los modelos empíricos para un rango amplio de escenarios de magnitud y distancia que se consideran dentro de los análisis probabilísticos de peligro y riesgo, generalmente es necesario compilar conjuntos de datos de movimientos del suelo de diferentes regiones. 
+Cualquier diferencia que exista entre el medio de propagación, las excitaciones de la fuente o las respuestas del sitio en las regiones de las que se han obtenido los datos se manifestará como una mayor varianza en el modelo de movimiento del suelo. 
+Uno de los principales retos que queda por resolver adecuadamente es cómo eliminar la suposición de ergodicidad, que asume que todos los procesos aleatorios de los cuales se derivan los movimientos sísmicos, siguen una misma función de distribución invariable en el tiempo
+Luego, para poder inferir la intensidad sísmica en diferentes escenarios de magnitudes y distancia sin restringirnos a regiones geográficas específicas, se requieren modelos de predicción del movimiento sísmico que sean independientes de la función de distribución (distribution-free), a partir de inferencia no-paramétrica
+</Text>
         </Document>
-        <Document ID="1EC51D0D-D336-42E7-B368-86C5883E954C">
+        <Document ID="C083CE05-93FC-4DDE-B32E-D0753AC18E20">
             <Text>
-Conclusion</Text>
+Limitations and Future Work</Text>
+            <Notes>The purpose of the discussion section is to interpret and contextualise your data. You should begin by reiterating the purpose of your research and your major findings. Then you might do any or all of the following: connect your findings to other research (published or that of your peers); describe any ambiguities and sources of error in the data, and suggest future experiments to resolve uncertainties; explain where you expect your work may lead, and suggest specific experiments for extending your findings; describe any conceptual or technical limitations of the research. Finally, you should explain the significance of your findings to basic science and to engineering applications. Like the previous sections, the discussion should have a clear organisation and narrative flow, whether or not you use sub-sections.
+
+Relates results to those of others
+• Cites other work discussed
+• Relates results to theory
+• Discuss limitations and weakness of results
+• Discuss implications for further research
+• Suggest applications of findings when appropriate
+• Avoids undue speculations
+
+The DISCUSSION interprets the results in light of the project's objectives. The most important goal of the DISCUSSION section is to interpret the results so that the reader is informed of the insight or answers that the results provide. The DISCUSSION should also present an evaluation of the particular approach taken by the group. For example: Based on the results, how could the experimental procedure be improved? What additional, future work may be warranted? What recommendations can be drawn?
+
+The main body of the report is where you discuss your material. The facts and evidence you have gathered should be analysed and discussed with specific reference to the problem or issue. If your discussion section is lengthy you might divide it into section headings. Your points should be grouped and arranged in an order that is logical and easy to follow. Use headings and subheadings to create a clear structure for your material. Use bullet points to present a series of points in an easy-to-follow list. 
+
+Discussion. Discuss the meaning of the results, stating clearly what their significance is. Compare the results with theoretical expectations and account for anything unexpected.
+
+Explain in the discussion section of your document information presented in the results section, commenting on significant data produced by the study. In writing a discussion section, keep the following points in mind.
+
+• Identify significant patterns in the data and relationships between variables. Offer tentative explanations for these patterns and relationships.
+• Compare the actual data produced with any predictions or questions posed in the introduction or theory section of the document.
+• If any of the results differ from the expected results, offer possible explanations for the discrepancies. Present the most probable explanations first and the least probable last.
+• Consider how well the data answer any questions posed in the document's introduction. Do the results answer the questions completely? If not, explain what questions still need to be addressed and give possible explanations why the results may be inconclusive.
+• Qualify the scope of your explanations, discussing in what cases your explanations apply and in what cases they may not.
+• Organise your material in order of importance to your reader's purpose in using the document.
+</Notes>
         </Document>
         <Document ID="71C2FCEE-5243-4507-9B7B-29ED8F0B6296">
             <Text>Métodos y Algoritmos</Text>
         </Document>
-        <Document ID="38143955-47D4-4541-AE70-A52ED1B5AAFA">
-            <Text>
-Case Study</Text>
+        <Document ID="93F83782-1DB1-4D75-8C45-2499AEEA39AF">
+            <Text>Objetivos</Text>
         </Document>
-        <Document ID="38AE316D-2706-4839-B779-1E2BB91EC2A3">
-            <Text>
-Background</Text>
-        </Document>
-        <Document ID="12500CEB-1C3F-4619-A9D2-EEBDBCC7489D">
-            <Text>
-Proposed Approach</Text>
+        <Document ID="2408FF48-3D95-4923-9BAC-7B2FF42004AE">
+            <Text>Introducción 
+
+Objetivos
+</Text>
         </Document>
         <Document ID="A17A1142-35A3-4735-9927-EA2F26F36293">
             <Synopsis>- Summation of result
@@ -576,9 +681,52 @@ Explain in the discussion section of your document information presented in the 
 • Organise your material in order of importance to your reader's purpose in using the document.
 </Notes>
         </Document>
+        <Document ID="12500CEB-1C3F-4619-A9D2-EEBDBCC7489D">
+            <Text>Proposed Approach</Text>
+        </Document>
         <Document ID="B9746A63-2F6D-469E-A12F-0A4304CEBC70">
             <Text>
 Conclusion</Text>
+        </Document>
+        <Document ID="66735FB1-8CD9-4CC9-A2F8-09A3B50201E9">
+            <Text>Introducción 
+
+
+</Text>
+        </Document>
+        <Document ID="52716325-3C6D-4D58-B6AC-7D9925B6B43A">
+            <Text>Limitations and Future Work</Text>
+            <Notes>The purpose of the discussion section is to interpret and contextualise your data. You should begin by reiterating the purpose of your research and your major findings. Then you might do any or all of the following: connect your findings to other research (published or that of your peers); describe any ambiguities and sources of error in the data, and suggest future experiments to resolve uncertainties; explain where you expect your work may lead, and suggest specific experiments for extending your findings; describe any conceptual or technical limitations of the research. Finally, you should explain the significance of your findings to basic science and to engineering applications. Like the previous sections, the discussion should have a clear organisation and narrative flow, whether or not you use sub-sections.
+
+Relates results to those of others
+• Cites other work discussed
+• Relates results to theory
+• Discuss limitations and weakness of results
+• Discuss implications for further research
+• Suggest applications of findings when appropriate
+• Avoids undue speculations
+
+The DISCUSSION interprets the results in light of the project's objectives. The most important goal of the DISCUSSION section is to interpret the results so that the reader is informed of the insight or answers that the results provide. The DISCUSSION should also present an evaluation of the particular approach taken by the group. For example: Based on the results, how could the experimental procedure be improved? What additional, future work may be warranted? What recommendations can be drawn?
+
+The main body of the report is where you discuss your material. The facts and evidence you have gathered should be analysed and discussed with specific reference to the problem or issue. If your discussion section is lengthy you might divide it into section headings. Your points should be grouped and arranged in an order that is logical and easy to follow. Use headings and subheadings to create a clear structure for your material. Use bullet points to present a series of points in an easy-to-follow list. 
+
+Discussion. Discuss the meaning of the results, stating clearly what their significance is. Compare the results with theoretical expectations and account for anything unexpected.
+
+Explain in the discussion section of your document information presented in the results section, commenting on significant data produced by the study. In writing a discussion section, keep the following points in mind.
+
+• Identify significant patterns in the data and relationships between variables. Offer tentative explanations for these patterns and relationships.
+• Compare the actual data produced with any predictions or questions posed in the introduction or theory section of the document.
+• If any of the results differ from the expected results, offer possible explanations for the discrepancies. Present the most probable explanations first and the least probable last.
+• Consider how well the data answer any questions posed in the document's introduction. Do the results answer the questions completely? If not, explain what questions still need to be addressed and give possible explanations why the results may be inconclusive.
+• Qualify the scope of your explanations, discussing in what cases your explanations apply and in what cases they may not.
+• Organise your material in order of importance to your reader's purpose in using the document.
+</Notes>
+        </Document>
+        <Document ID="070498D9-CC3B-4895-A6E6-D5CBC1243A33">
+            <Text>Literature Review
+
+Last, M., Kandel, A., &amp; Bunke, H. (n.d.). Data Mining in Time Series Databases.
+</Text>
         </Document>
         <Document ID="DF606712-8386-4E3B-AFEB-D3D81A4E7409">
             <Title>Bibliography</Title>
@@ -591,6 +739,14 @@ Your bibliography should list, in alphabetical order by author, all published so
 Bibliography. List alphabetically any works referred to in your study. Follow the bibliographical and footnote formats of your department or of a prominent periodical published by a professional society in your field.
 </Notes>
         </Document>
+        <Document ID="302D68D5-127C-4794-9663-4D65A37F5811">
+            <Text>Literature Review
+
+</Text>
+        </Document>
+        <Document ID="7D499CC5-B775-48BE-B2A0-BDDC2718F108">
+            <Text>Formulación de un modelo de predicción de Intensidad para la región cordillerana argentina</Text>
+        </Document>
         <Document ID="16E4B583-35F9-4FB5-A0CC-0CFE5CEFBF48">
             <Title>Estado de la Practica</Title>
             <Text>
@@ -599,17 +755,27 @@ Las metodologías actuales de análisis dinámico de estructuras geotécnicas en
 La imposibilidad de analizar un gran número de registros mediante modelos computacionales complejos (predictores robustos) establece la necesidad de modelos de predicción simplificado (predictores sesgados) que permitan seleccionar los registros sísmicos críticos y establecer el intervalo de confianza de la predicción. 
 La naturaleza de los problemas requiere predictores de decenas o cientos de parámetros que solo pueden abordarse mediante métodos numéricos especializados del análisis estadístico relacionados con el aprendizaje de máquina. Por otra parte, las limitaciones del estado actual de la práctica en la predicción de la intensidad sísmica mediante modelos escalares de peligro sísmico, requiere la generalización del modelo PSHA a un modelo vectorial de varias medidas de intensidad que puedan correlacionarse luego con los parámetros del predictor</Text>
         </Document>
-        <Document ID="F849E48F-89DC-4500-808E-C426902B7740">
-            <Text>Capítulo X
-Clasificación, Regularización y Selección de Modelos de Predicción</Text>
-        </Document>
-        <Document ID="6A6194DC-8E3D-48DD-94B3-14E152C6FBA9">
-            <Text>
-Problem Statement</Text>
-        </Document>
-        <Document ID="F2E80094-AA70-4D08-8F48-20762BDE70BA">
+        <Document ID="41AA00D7-8CB0-4735-989B-CD9E8E639CF4">
             <Text>
 Proposed Approach</Text>
+        </Document>
+        <Document ID="69D9E98A-A981-49AC-ABB6-325365844DD7">
+            <Text>Spectral Analysis
+
+References
+Percival, D. B., &amp; Walden, A. T. (2020). Spectral Analysis for Univariate Time Series. In Spectral Analysis for Univariate Time Series. https://doi.org/10.1017/9781139235723
+Rainer, J. (1986). Applications of the fourier transform to the processing of vibration signals. Building Research Note, 233, 24.
+Heinzel, G., Rüdiger, A., &amp; Schilling, R. (2002). Spectrum and spectral density estimation by the Discrete Fourier transform (DFT). MPG Publication Repository, 1–84. http://hdl.handle.net/11858/00-001M-0000-0013-557A-5
+Last, M., Kandel, A., &amp; Bunke, H. (n.d.). Data Mining in Time Series Databases.
+Enochson, L. D., &amp; Otnes, R. K. (1965). Digital spectral analysis. In SAE Technical Papers. https://doi.org/10.4271/650821
+</Text>
+        </Document>
+        <Document ID="D97763CF-D283-42FA-9C33-171125405478">
+            <Text>Seismic Datasets and Databases
+References
+Pacor, F., Felicetta, C., Lanzano, G., Sgobba, S., Puglia, R., D’Amico, M., Russo, E., Baltzopoulos, G., &amp; Iervolino, I. (2018). NESS1: A worldwide collection of strong-motion data to investigate near-source effects. Seismological Research Letters, 89(6), 2299–2313.
+
+</Text>
         </Document>
         <Document ID="0B03128D-B703-405D-B848-B881F951003A">
             <Text>Motivación
@@ -632,42 +798,26 @@ Problem Statement
 ¿Qué resultados necesito obtener?
 </Notes>
         </Document>
-        <Document ID="BE46EB9A-134A-4F68-821B-1029928ACF7E">
+        <Document ID="FDF015B3-3477-4C0C-BF93-75D3457BC561">
             <Text>
-Background</Text>
+Literature Review
+
+</Text>
         </Document>
         <Document ID="9B4EDF16-6A2E-48C0-9214-AFFC53A152AE">
             <Text>
 Background</Text>
         </Document>
-        <Document ID="76B6976A-DF7E-4EB1-8425-32EFB640ADE9">
-            <Text>
-Background</Text>
-        </Document>
-        <Document ID="89D715E2-A1D0-4AC7-ABD0-6BA16AD39A8C">
-            <Text>
-Case Study</Text>
+        <Document ID="2E593C4B-775F-46BD-9872-F31FBD031263">
+            <Text>Predicción del Movimiento Sísmico</Text>
         </Document>
         <Document ID="59968058-431D-42FE-9572-FDE8659C122C">
-            <Text>Capítulo I
-Caracterización y Clasificación de la Respuesta Dinámica del Sitio</Text>
-        </Document>
-        <Document ID="81A5F6AD-487B-44FD-9946-F4D1E874ED89">
-            <Text>Predicción del Movimiento Sísmico
-</Text>
+            <Text>Caracterización del Movimiento Sísmico</Text>
         </Document>
         <Document ID="BCFE684A-E1D0-4BF3-A896-9CFAE631C596">
             <Title>Chapter</Title>
             <Text>Capítulo 1
 Chapter Title</Text>
-        </Document>
-        <Document ID="BD4CCC9B-70D0-47B7-A861-B1AEA91CF425">
-            <Text>Estimación de la Respuesta Sísmica de Sistemas Complejos
-</Text>
-        </Document>
-        <Document ID="3692290B-89E0-47A7-9456-61CAEE2CF7C4">
-            <Text>
-Proposed Approach</Text>
         </Document>
         <Document ID="3F966676-F386-40ED-8A49-27CA59B73071">
             <Title>Sample</Title>
@@ -691,70 +841,27 @@ Table Description
 
 </Text>
         </Document>
-        <Document ID="EBAA7FE3-9E31-42BF-9869-EA001104BBE2">
-            <Text>
-Case Study</Text>
-        </Document>
-        <Document ID="0433CD80-BAAD-4CF3-A18C-6EFE0D55E0D0">
-            <Title>Literature Review Capitulo 1</Title>
-            <Text>Literature Review Capitulo 1
+        <Document ID="FAAA7DC9-EDB2-4E1B-9733-AB1021DC98FD">
+            <Text>Introducción 
 
-Que ya se sabía de estemos
-Qué se hacía antes de Alejandro
+Objetivos
 </Text>
         </Document>
-        <Document ID="2E593C4B-775F-46BD-9872-F31FBD031263">
-            <Text>Capítulo II
-Predicción del Movimiento Sísmico</Text>
+        <Document ID="4D785FE7-3D80-4A88-9964-C7E895A0731C">
+            <Text>Implications for further research
+
+</Text>
+        </Document>
+        <Document ID="21AB1671-4620-4C39-95D8-5C812C257AAA">
+            <Text>Predicción del Movimiento Sísmico
+</Text>
         </Document>
         <Document ID="63369468-3A6F-4A33-8FDF-E5BDA0DC8610">
             <Text>
 Proposed Approach</Text>
         </Document>
-        <Document ID="680C529D-6F35-49A4-9AC4-3ABD4D22A586">
-            <Title>Dedication</Title>
-            <Text>Dedicación
-
-
-
-
-
-
-Dedicado a </Text>
-            <Notes>Feel free to delete this document if you don’t need it.</Notes>
-        </Document>
         <Document ID="4027414E-E569-4C60-8A71-23E657005801">
-            <Synopsis>- Summation of result
-
-- Interpretation
-	- Data patterns
-	- Relationship between variables
-	- Explanations
-
-- Comparison
-	- Theory (hypothesis)
-		- Approach evaluation
-		- Error analysis
-	- Existing schemes
-		- Performance
-		- Complexity
-		- Reliability
-		- Cost
-	- Cited works
-		- Focus
-		- Methods
-		- Outcomes
-
-- Optimisation
-	- Limitations and weaknesses
-	- Possible improvements
-
-- Ethical problem
-
-- Applications and industrial relevance
-</Synopsis>
             <Text>
-Discussion
 Limitations and Future Work</Text>
             <Notes>The purpose of the discussion section is to interpret and contextualise your data. You should begin by reiterating the purpose of your research and your major findings. Then you might do any or all of the following: connect your findings to other research (published or that of your peers); describe any ambiguities and sources of error in the data, and suggest future experiments to resolve uncertainties; explain where you expect your work may lead, and suggest specific experiments for extending your findings; describe any conceptual or technical limitations of the research. Finally, you should explain the significance of your findings to basic science and to engineering applications. Like the previous sections, the discussion should have a clear organisation and narrative flow, whether or not you use sub-sections.
 
@@ -782,64 +889,13 @@ Explain in the discussion section of your document information presented in the 
 • Organise your material in order of importance to your reader's purpose in using the document.
 </Notes>
         </Document>
-        <Document ID="86B364B8-B03C-4AB2-B97F-CDFF7EB00817">
-            <Synopsis>- Summation of result
+        <Document ID="27D3E7EC-FEA0-4B4C-8E72-0EA1871A8AC8">
+            <Text>Clasificación de Movimientos Sísmicos</Text>
+        </Document>
+        <Document ID="956A9B32-312F-4552-BFF2-8977484B9138">
+            <Text>Literature Review
 
-- Interpretation
-	- Data patterns
-	- Relationship between variables
-	- Explanations
-
-- Comparison
-	- Theory (hypothesis)
-		- Approach evaluation
-		- Error analysis
-	- Existing schemes
-		- Performance
-		- Complexity
-		- Reliability
-		- Cost
-	- Cited works
-		- Focus
-		- Methods
-		- Outcomes
-
-- Optimisation
-	- Limitations and weaknesses
-	- Possible improvements
-
-- Ethical problem
-
-- Applications and industrial relevance
-</Synopsis>
-            <Text>
-Discussion
-Limitations and Future Work</Text>
-            <Notes>The purpose of the discussion section is to interpret and contextualise your data. You should begin by reiterating the purpose of your research and your major findings. Then you might do any or all of the following: connect your findings to other research (published or that of your peers); describe any ambiguities and sources of error in the data, and suggest future experiments to resolve uncertainties; explain where you expect your work may lead, and suggest specific experiments for extending your findings; describe any conceptual or technical limitations of the research. Finally, you should explain the significance of your findings to basic science and to engineering applications. Like the previous sections, the discussion should have a clear organisation and narrative flow, whether or not you use sub-sections.
-
-Relates results to those of others
-• Cites other work discussed
-• Relates results to theory
-• Discuss limitations and weakness of results
-• Discuss implications for further research
-• Suggest applications of findings when appropriate
-• Avoids undue speculations
-
-The DISCUSSION interprets the results in light of the project's objectives. The most important goal of the DISCUSSION section is to interpret the results so that the reader is informed of the insight or answers that the results provide. The DISCUSSION should also present an evaluation of the particular approach taken by the group. For example: Based on the results, how could the experimental procedure be improved? What additional, future work may be warranted? What recommendations can be drawn?
-
-The main body of the report is where you discuss your material. The facts and evidence you have gathered should be analysed and discussed with specific reference to the problem or issue. If your discussion section is lengthy you might divide it into section headings. Your points should be grouped and arranged in an order that is logical and easy to follow. Use headings and subheadings to create a clear structure for your material. Use bullet points to present a series of points in an easy-to-follow list. 
-
-Discussion. Discuss the meaning of the results, stating clearly what their significance is. Compare the results with theoretical expectations and account for anything unexpected.
-
-Explain in the discussion section of your document information presented in the results section, commenting on significant data produced by the study. In writing a discussion section, keep the following points in mind.
-
-• Identify significant patterns in the data and relationships between variables. Offer tentative explanations for these patterns and relationships.
-• Compare the actual data produced with any predictions or questions posed in the introduction or theory section of the document.
-• If any of the results differ from the expected results, offer possible explanations for the discrepancies. Present the most probable explanations first and the least probable last.
-• Consider how well the data answer any questions posed in the document's introduction. Do the results answer the questions completely? If not, explain what questions still need to be addressed and give possible explanations why the results may be inconclusive.
-• Qualify the scope of your explanations, discussing in what cases your explanations apply and in what cases they may not.
-• Organise your material in order of importance to your reader's purpose in using the document.
-</Notes>
+</Text>
         </Document>
         <Document ID="EC85023E-F577-4346-A657-B18AE7E61DD9">
             <Title>Appendices</Title>
@@ -882,44 +938,25 @@ Guidelines for Appendixes
 • Refer to each appendix in the body of the document.</Notes>
         </Document>
         <Document ID="E8DEE7C7-E636-4A82-8F97-38E9543B449A">
-            <Text>
-Case Study</Text>
+            <Text>Case Study
+
+
+
+
+</Text>
         </Document>
-        <Document ID="49E822E1-A8DB-40A3-A294-3328D267870E">
-            <Text>
-Discussion
-Limitations and Future Work</Text>
-        </Document>
-        <Document ID="0CAAC7CD-DA2C-4E44-B2BE-7A9932425D92">
-            <Title>Resumen</Title>
-            <Synopsis>
-</Synopsis>
-            <Text>Resumen
+        <Document ID="A35ED2EF-5F02-4BB7-859B-15B57253E4B7">
+            <Text>Introduction
+ 
 
-Resumen en español</Text>
-            <Notes>The reader wants to know what area of work the report covers.
 
-The ABSTRACT is not a part of the body of the report itself. Rather, the abstract is a brief summary of the report contents that is often separately circulated so potential readers can decide whether to read the report. The abstract should very concisely summarise the whole report: why it was written, what was discovered or developed, and what is claimed to be the significance of the effort. The abstract does not include figures or tables, and only the most significant numerical values or results should be given.
-
-The summary should briefly describe the content of the report. It should cover the aims of the report, what was found and what, if any, action is called for. Aim for about 1/2 a page in length and avoid detail or discussion; just outline the main points. Remember that the summary is the first thing that is read. It should provide the reader with a clear, helpful overview of the content of the report.
-
-</Notes>
-        </Document>
-        <Document ID="7987A264-B24D-43B2-A48F-B8B0BF9857CF">
-            <Text>
-Discussion
-Limitations and Future Work</Text>
+</Text>
         </Document>
         <Document ID="93CDF702-A4D4-421A-9F59-886C7060CA7C">
-            <Text>Caracterización y Clasificación del Movimientos Sísmico
-Estado de la práctica en la formulación de modelos de predicción del la intensidad del movimiento sísmico requiere el empleo de datasets de registros pertenecientes a la región que hayan sido producto de un cierto mecanismo de generación (ejemplo, subducción).  Si bien las bases de datos de registros sísmicos cuentan con un numero cada vez mayor de registros sísmicos accesibles públicamente, esto sólo ocurre para las regiones desarrolladas del mundo (Ej, California, Región central de Europa, Taiwan, Japón ) y existen muy pocos registros sísmicos disponibles para las regiones menos desarrolladas (ej. Sudamérica y Centroamérica, Asia central, etc.). Luego, no es posible en la mayoría de los casos veces contar con un número suficiente de registros sísmicos locales medidos en roca ni tampoco conocer con metadatos que identifiquen claramente el mecanismo de generación de registros medidos en estaciones. 
-Necesidades
-Para disponer de un número adecuado de registros sísmicos para el análisis, es necesario identificar de parámetros de selección adecuados que identifiquen características comunes en las series temporales obtenidas en diferentes regiones del mundo.
-Por otra parte, se requieren métricas adecuadas para calcular distancias entre diferentes grupos de series temporales, que permitan clasificar y agrupar registros de aceleraciones en diferentes clases o categorías, sin distinción de regiones, mecanismos o medidas de intensidad. 
- Posible solución (Objetivos): 
-A partir del análisis de un gran número de series temporales, es posible diseñar métricas adecuadas que permitan agrupar registros sísmicos en roca según parámetros dinámicos, sin distinguir regiones ni mecanismos de generación. 
-
-
+            <Text>Caracterización y Clasificación del Movimiento Sísmico
+Estado de la práctica en la formulación de modelos de predicción del la intensidad del movimiento sísmico requiere el empleo de datasets de registros pertenecientes a la región.  
+Si bien las bases de datos de registros sísmicos cuentan con un numero cada vez mayor de registros sísmicos accesibles públicamente, esto sólo ocurre para las regiones desarrolladas del mundo (Ej, California, Región central de Europa, Taiwan, Japón ) y existen muy pocos registros sísmicos disponibles para las regiones menos desarrolladas (ej. Sudamérica y Centroamérica, Asia central, etc.). Luego, no es posible en la mayoría de los casos veces contar con un número suficiente de registros sísmicos locales medidos en roca ni tampoco conocer con metadatos que identifiquen claramente el mecanismo de generación de registros medidos en estaciones. 
+Para disponer de un número adecuado de registros sísmicos para el análisis, es necesario identificar características específicas de series temporales obtenidas en diferentes regiones del mundo, y diseñar métricas adecuadas para calcular distancias entre los diferentes grupos, de modo tal de agrupar registros de aceleraciones en diferentes clases o categorías, sin distinción de regiones, mecanismos o medidas de intensidad. 
 
 
 
@@ -940,17 +977,17 @@ Supervisores
 Dr. Ing. Raúl Bertero (Director)
 Dr. Ing. Emilio Picasso (Co-Director)
 
-
+Comisión de Revisores
+Dr. 
+Dr. 
 
 Fecha de Presentación: 
 1 de &lt;$month&gt;  de &lt;$year&gt;
 
 Buenos Aires, &lt;$year&gt; </Text>
         </Document>
-        <Document ID="51CC16B8-FAEC-4E56-AC33-1FF861C280BA">
-            <Text>
-Discussion
-Limitations and Future Work</Text>
+        <Document ID="2C0026B4-DEE2-42D1-8DC7-115738C49A5B">
+            <Text>Oleaje inducido por sismos (sloshing) </Text>
         </Document>
         <Document ID="B82E926A-AB51-4BA9-A16A-F8251535D54D">
             <Title>Front Matter</Title>
@@ -975,92 +1012,140 @@ by not assuming uniform sampling of the representation domain.
 It is also important to take into account the increasing diversity of data. For example, large and unstructured text and multimedia datasets stored in the Internet and the increasing use of social network media produce masses of unstructured heterogeneous data streams. Techniques for document classification, part-of-speech tagging, multimedia tagging or classification, together with massive data-processing techniques (known as “big data” techniques) relying on machine-learning theory try to get rid of unjustified assumptions about the data-generation mechanisms.
 </Text>
         </Document>
-        <Document ID="E9196AF6-9D05-42E9-B90F-1C1CD970DB61">
-            <Text>
-Background</Text>
-        </Document>
-        <Document ID="7B0B0981-6BE3-4AAA-8EE8-6EBB0A7DF70F">
-            <Text>Capítulo X
-Modelos de Clasificación de Registros Sísmicos</Text>
-        </Document>
         <Document ID="9BC1FE96-4BD8-4651-BAB5-12B83E334E5E">
-            <Text>
-Case Study</Text>
+            <Text>Case Study
+</Text>
         </Document>
         <Document ID="4EB6A1FA-ECFD-4EBA-B399-AFA894CD503D">
-            <Text>
-Problem Statement</Text>
+            <Text>Problem Statement</Text>
         </Document>
-        <Document ID="CD4A173B-28A5-4218-AA26-99D2D5A2F010">
-            <Text>Capítulo X
-Modelos de Estimación de Intensidad Sísmica</Text>
+        <Document ID="977AC71B-F0D3-4D84-BACF-9455A6350F89">
+            <Text>Literature Review
+
+</Text>
+        </Document>
+        <Document ID="9EEDA144-DE11-418E-9BE8-5096AC31E2F3">
+            <Text>Literature Review
+
+</Text>
         </Document>
         <Document ID="5929A6BD-8E75-431E-97BC-3BCA1C2D84F1">
-            <Text>
-Background. Literature Review
+            <Text>Literature Review
 
-Que ya se sabía de estemos
-Qué se hacía antes de Alejandro
 </Text>
         </Document>
         <Document ID="6DF484DF-C3CF-4800-B4DD-F3A14E40C23D">
             <Text>
 Conclusion</Text>
         </Document>
+        <Document ID="CE9B9B69-AB8D-4DD7-B530-2F68D49DD2DA">
+            <Text>
+Conclusion</Text>
+        </Document>
+        <Document ID="16A9FDE0-BB41-4287-A819-77E099D48938">
+            <Text>Case Study</Text>
+        </Document>
+        <Document ID="7368C81E-3937-49CB-A9F7-D0F005DE1AE1">
+            <Text>Objetivos</Text>
+        </Document>
+        <Document ID="43EF487E-F1F9-4386-B47B-7BCE3098FC74">
+            <Text>Introducción 
+
+Objetivos
+</Text>
+        </Document>
+        <Document ID="A4C4816F-EE44-4122-8B9D-BCA04540273A">
+            <Text>
+Case Study</Text>
+        </Document>
+        <Document ID="9257DF16-AFC3-4CB7-8A33-C0840D247FC9">
+            <Text>
+Proposed Approach</Text>
+        </Document>
         <Document ID="23622076-FF26-4B35-9FA7-9520D758FDFE">
             <Text>
 Conclusion</Text>
         </Document>
-        <Document ID="DC56D745-6B5E-4211-B63D-D17FFE531D8A">
+        <Document ID="370E2721-D2C9-4DD9-BC0E-380B9C253527">
+            <Text>State Space Models
+References
+</Text>
+        </Document>
+        <Document ID="A84CCD72-5B14-42E6-B536-58EBE7A9E91E">
+            <Text>Deformaciones inducidas por sismo en un conducto enterrado</Text>
+        </Document>
+        <Document ID="09E31ED7-97BB-4CF2-98F1-B48BBBE123E6">
+            <Text>
+Literature Review
+
+</Text>
+        </Document>
+        <Document ID="49E304C9-ACDF-45BA-B697-CF6C258B828F">
             <Text>
 Conclusion</Text>
         </Document>
-        <Document ID="EA5E2F06-54EA-46C4-AF20-521E814BFD99">
-            <Text>
-Proposed Approach</Text>
+        <Document ID="D2CDBAEC-62E3-486C-B674-380041917DC5">
+            <Text>Introducción 
+
+
+</Text>
         </Document>
         <Document ID="15D4AEA6-8819-40CE-9AE0-DA78E1492FD5">
             <Text>Aportes
 
 </Text>
         </Document>
-        <Document ID="6C13E47E-01FE-411A-93B9-B5531586EC92">
-            <Text>Clasificación de series no estacionarias
-
-Estado actual de la práctica
-El Estado del arte  identifica parámetros que caracterizan la generación de sismos en capas profundas de la corteza en diferentes regiones del mundo y existen modelos computacionales complejos que permiten predecir una historia de aceleraciones bajo ciertas condicione geológicas locales y otros parámetros de generación específicos de cada sitio.
-Problemas: 
-No se conocen los parámetros de generación en la mayoría de las regiones en el mundo y los modelos necesarios para inferir las características temporales y espectrales de un registro sísmico obtenido por simulación, son computacionalmente muy complejos y limitados a una configuración geológica de partida. Se requieren otras alternativas para inferir las características de los sismos de una region dada para un mecanismo conocido, y en algunos casos, en regiones donde no se conoce el tipo de mecanismo de generación o coexisten con otros mecanismos (ejemplo: Sismos intraplaca e inter-placa generados en la placa de Sudamérica, subduciendo bajo la placa de Nazca)
-Preguntas: 
-
-Posible Solución (objetivos): 
-Efectuar un análisis de correlación temporal y espectral de series dinámicas de un gran número de acelerogramas medidos en roca y definir métricas que permitan identificar y clasificar registros sísmicos pertenecientes a un sitio, una región o un mecanismo particular 
-</Text>
-        </Document>
         <Document ID="D61F8D16-5A18-4814-9351-406206842680">
             <Title>Templates</Title>
         </Document>
-        <Document ID="A93B21C0-F60C-4F89-9EE4-2D821BF123E4">
-            <Title>Discussion</Title>
-        </Document>
-        <Document ID="850CEB2E-02B7-4F29-9F7D-2A47AC4A19D6">
-            <Text>Capítulo IV
-Estimación de la Respuesta Sísmica de Sistemas Complejos
+        <Document ID="D22D79C6-6131-447C-A70A-19934780445B">
+            <Text>Literature Review
+
 </Text>
         </Document>
-        <Document ID="DDD4F344-D58B-4B25-AB32-050E27291295">
-            <Text>
-Discussion
-Limitations and Future Work</Text>
+        <Document ID="9DFEDD79-C8B1-40B9-98D3-944CE6ED0D98">
+            <Text>Introducción 
+
+
+</Text>
+        </Document>
+        <Document ID="850CEB2E-02B7-4F29-9F7D-2A47AC4A19D6">
+            <Text>Predicción de la Respuesta Sísmica de Sistemas de Infraestructura Minera
+</Text>
         </Document>
         <Document ID="2CE4244F-288E-4B21-9AE2-561ACDA504DC">
             <Text>
 Discussion
 Limitations and Future Work</Text>
         </Document>
-        <Document ID="78FAD7C6-6FA0-4704-B016-43FA63AB5C37">
+        <Document ID="FBF8F268-718A-41A9-B90A-C6DDFB8AC1E9">
             <Text>
-Case Study</Text>
+Limitations and Future Work</Text>
+            <Notes>The purpose of the discussion section is to interpret and contextualise your data. You should begin by reiterating the purpose of your research and your major findings. Then you might do any or all of the following: connect your findings to other research (published or that of your peers); describe any ambiguities and sources of error in the data, and suggest future experiments to resolve uncertainties; explain where you expect your work may lead, and suggest specific experiments for extending your findings; describe any conceptual or technical limitations of the research. Finally, you should explain the significance of your findings to basic science and to engineering applications. Like the previous sections, the discussion should have a clear organisation and narrative flow, whether or not you use sub-sections.
+
+Relates results to those of others
+• Cites other work discussed
+• Relates results to theory
+• Discuss limitations and weakness of results
+• Discuss implications for further research
+• Suggest applications of findings when appropriate
+• Avoids undue speculations
+
+The DISCUSSION interprets the results in light of the project's objectives. The most important goal of the DISCUSSION section is to interpret the results so that the reader is informed of the insight or answers that the results provide. The DISCUSSION should also present an evaluation of the particular approach taken by the group. For example: Based on the results, how could the experimental procedure be improved? What additional, future work may be warranted? What recommendations can be drawn?
+
+The main body of the report is where you discuss your material. The facts and evidence you have gathered should be analysed and discussed with specific reference to the problem or issue. If your discussion section is lengthy you might divide it into section headings. Your points should be grouped and arranged in an order that is logical and easy to follow. Use headings and subheadings to create a clear structure for your material. Use bullet points to present a series of points in an easy-to-follow list. 
+
+Discussion. Discuss the meaning of the results, stating clearly what their significance is. Compare the results with theoretical expectations and account for anything unexpected.
+
+Explain in the discussion section of your document information presented in the results section, commenting on significant data produced by the study. In writing a discussion section, keep the following points in mind.
+
+• Identify significant patterns in the data and relationships between variables. Offer tentative explanations for these patterns and relationships.
+• Compare the actual data produced with any predictions or questions posed in the introduction or theory section of the document.
+• If any of the results differ from the expected results, offer possible explanations for the discrepancies. Present the most probable explanations first and the least probable last.
+• Consider how well the data answer any questions posed in the document's introduction. Do the results answer the questions completely? If not, explain what questions still need to be addressed and give possible explanations why the results may be inconclusive.
+• Qualify the scope of your explanations, discussing in what cases your explanations apply and in what cases they may not.
+• Organise your material in order of importance to your reader's purpose in using the document.
+</Notes>
         </Document>
         <Document ID="8BC18B05-2ED2-4C75-9377-89921B27D9B4">
             <Title>Copyright</Title>
@@ -1076,93 +1161,50 @@ Copyright © &lt;$year&gt; &lt;$author&gt;
 </Text>
             <Notes>Feel free to delete this document if you don’t need it, or edit it for your needs.</Notes>
         </Document>
-        <Document ID="A93D1FA6-811B-4424-ACE5-24688DB50308">
-            <Title>Discussion</Title>
+        <Document ID="B7CE04F3-6D2B-4A21-904A-8FD40299A080">
+            <Text>Problem Statement</Text>
         </Document>
-        <Document ID="83417A1C-27FA-43C3-B51A-308444834057">
-            <Text>
-Conclusion</Text>
+        <Document ID="0CD8018B-2D0A-4BC5-9F64-FC376728D1CA">
+            <Text>Objetivos</Text>
         </Document>
-        <Document ID="C35FB58C-6478-4732-9305-1996A2DAE9E6">
-            <Synopsis>- Análisis de Respuesta de Dinámica del Sitio
-- Análisis de Respuesta de Dinámica de Taludes y Presas
-
- - Análisis de Respuesta de Dinámica de Túneles y Tuberías Enterradas
-
-- Análisis de Respuesta de Dinámica del Tanques de Almacenamiento 
-</Synopsis>
-            <Text>Capítulo X
-Modelos de Estimación de la Demanda Sísmica
-
-
-</Text>
-        </Document>
-        <Document ID="B675DBA1-7062-4A1E-A48D-8254E715606D">
-            <Text>
-Discussion
-Limitations and Future Work</Text>
-        </Document>
-        <Document ID="A308BFD9-EF64-4290-9E82-863557114568">
-            <Title>Discussion</Title>
-        </Document>
-        <Document ID="BBDF58D6-E0F4-4AB3-A33F-7764143E5E7B">
-            <Title>Discussion</Title>
-            <Text>Literature Review Capitulo 1
-
-Que ya se sabía de estemos
-Qué se hacía antes de Alejandro
-</Text>
+        <Document ID="79514DDE-BFA3-47DE-AD98-0708CCA0DD15">
+            <Text>Deconvolución del Movimiento Sísmico
+Las aceleraciones medidas en el suelo, son </Text>
         </Document>
         <Document ID="097E1565-B3E7-4423-A83A-AC87A5F15371">
             <Title>Back Matter</Title>
         </Document>
-        <Document ID="20FA01C8-4DAF-4050-B62D-A5A200FD480F">
-            <Synopsis>Camino #1
-Literature Review
-Gap
-
-Lo escri</Synopsis>
-            <Text>Background
-
-Defino en general el estado actual de la práctica
+        <Document ID="E2E36BFC-F353-4DC7-A7C2-9DDA4036B628">
+            <Text>Introducción 
 
 
 </Text>
         </Document>
-        <Document ID="2252F057-8F0F-40B8-9796-21E866E75940">
+        <Document ID="E29D329E-2D77-4A77-8270-D61B9022292E">
             <Text>
-Conclusion</Text>
+Newmark Models
+
+References
+
+Du, W., Huang, D., &amp; Wang, G. (2018). Quantification of model uncertainty and variability in Newmark displacement analysis. Soil Dynamics and Earthquake Engineering, 109(April), 286–298. https://doi.org/10.1016/j.soildyn.2018.02.037
+</Text>
+        </Document>
+        <Document ID="75FF92D7-1BD8-4F2E-BE79-BB8EE33593CB">
+            <Text>Amplificación dinámica de sitio
+</Text>
         </Document>
         <Document ID="BA516983-2957-48C2-8DAA-4A51F62E21CF">
-            <Text>
-Proposed Approach</Text>
+            <Text>Proposed Approach</Text>
         </Document>
-        <Document ID="21682EC6-3C5B-455E-B2B6-7F9FA300350A">
-            <Text>Predicción del Movimiento Sísmico
-
-</Text>
-        </Document>
-        <Document ID="347F015A-999E-41BD-9051-A23AE0CDB4DE">
+        <Document ID="F6A3703A-5AEE-40A9-AFA7-CC2D8343488B">
             <Text>
-Proposed Approach</Text>
+Problem Statement</Text>
+        </Document>
+        <Document ID="767A4092-0277-4CF9-A633-100C10B2E600">
+            <Text>Proposed Approach</Text>
         </Document>
         <Document ID="4623B85E-3B4B-445A-B6B4-92B7F96E540E">
-            <Title>Conclusion</Title>
-            <Synopsis>- Purpose and major findings
-
-- Outcomes
-	- Performance
-	- Complexity
-	- Reliability
-	- Cost
-
-- Significance
-	- Problem mitigation
-	- Applications
-
-- Limitations and weaknesses
-
-- Implications for further research</Synopsis>
+            <Text>Conclusion</Text>
             <Notes>The conclusion should draw out the implications from the report and normally recommends a course of action. It should link back to the introduction.
 
 The CONCLUSIONS should summarise the central points made in the Discussion section, reinforcing for the reader the value and implications of the work. If the results were not definitive, specific future work that may be needed can be (briefly) described. The conclusions should never contain "surprises". Therefore, any conclusions should be based on observations and data already discussed. It is considered extremely bad form to introduce new data in the conclusions.
@@ -1199,13 +1241,6 @@ Objeto
 	⁃	Definir criterios de regularización, penalización y selección de modelos óptimos mediante aprendizaje estadístico. M : Formulación de modelos no-paramétricos
 </Text>
         </Document>
-        <Document ID="DBC7E55A-2C5B-4960-A640-46584C9ACDAA">
-            <Title>Discussion</Title>
-        </Document>
-        <Document ID="9AA901C4-469D-48EE-9C9D-71C1833C7315">
-            <Text>
-Background</Text>
-        </Document>
         <Document ID="0333FB28-C013-4AFF-B835-BAF0BC46713A">
             <Title>Motivación</Title>
             <Text>Las presas de materiales sueltos, empleadas en los depósitos de relaves y en reservorios de agua en complejos hidroeléctricos, son estructuras geotécnicas que pueden alcanzar más de 300 m de altura y varios km de longitud y constituyen en la actualidad las estructuras más grandes construidas por el hombre. El 90% de las presas de relaves alto riesgo de todo el mundo, están localizadas en zonas sísmicas de gran actividad y sobre este total, el 60% tienen poblaciones cercanas aguas-abajo del depósito. 
@@ -1222,9 +1257,6 @@ La variabilidad del contenido de frecuencias y la duración de los registros sí
 Las mallas FEM que involucran el análisis de ondas mecánicas, deben tener una separación entre sus nodos adecuada para capturar (discretizar) el pasaje una semionda completa y en general se suele limitar el tamaño máximo del elemento al 10% de la longitud de onda más corta esperable en algún estrato de material. Las ondas mecánicas involucradas en el análisis de deformaciones inducidas por sismos son las ondas de corte y el tamaño máximo del elemento se limita con  donde  es la velocidad de propagación y  es la frecuencia característica del movimiento sísmico. Esta restricción es análoga a las que se derivan de los teoremas de muestreo de ondas y los fenómenos de aliasing
 En general, nunca se disponen de registros sísmicos que hayan ocurrido previamente en el sitio de cada proyecto, y se suelen emplear acelerogramas obtenidos en estaciones sismológicas alrededor del mundo para eventos sísmicos similares a los que se esperan en la región y escalados a la intensidad objetivo para la que se diseña cada presa. Sin embargo, las características los suelos de fundación de las estaciones sismológicas rara vez coinciden con las del material de fundación de la presa, y se suelen emplear procedimientos numéricos para corregir numéricamente los registros sísmicos.
 La tecnología de elementos finitos de los últimos 20 años ha aportado herramientas que permiten reducir la incertidumbre epistémica con formulaciones constitutivas más sofisticados e interfaces con humanos que facilitan las etapas de discretización y simulación del proceso constructivo. Sin embargo, la instancia de modelación y las hipótesis sobre el comportamiento de los materiales, sigue siendo una tarea exclusiva de los humanos y la elección de los parámetros del modelo, particularmente aquellos que no son medibles en laboratorio o en terreno, continúan siendo parte del juicio experto del analista. La incertidumbre asociada a esta instancia suele considerarse mediante árboles lógicos o simulación de Montecarlo y si bien estas técnicas son muy conocidas y relativamente simples de implementar, el costo computacional de algunos modelos numéricos las hace inviables y son empleadas únicamente en estructuras muy críticas desde el punto de vista de la seguridad a la vida o al medio ambiente.</Comments>
-        </Document>
-        <Document ID="998B5D69-D824-4738-B824-92B3A5076706">
-            <Title>Discussion</Title>
         </Document>
     </Documents>
 </SearchIndexes>
