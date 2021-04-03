@@ -72,12 +72,22 @@
 			<key>Row</key>
 			<integer>-1</integer>
 		</dict>
+		<key>0D18DA8D-4A4F-4E30-9435-3B61B84C2258</key>
+		<dict>
+			<key>Row</key>
+			<integer>-1</integer>
+		</dict>
 		<key>0D1E64A8-073F-4D71-A6FF-8A898CFA17E3</key>
 		<dict>
 			<key>Row</key>
 			<integer>-1</integer>
 		</dict>
 		<key>0FCA9D8B-41BB-42D1-BF66-1E8FC8EBCD59</key>
+		<dict>
+			<key>Row</key>
+			<integer>-1</integer>
+		</dict>
+		<key>0FDEDE2F-651D-4896-B9F5-9A7E70CA3341</key>
 		<dict>
 			<key>Row</key>
 			<integer>-1</integer>
@@ -103,6 +113,16 @@
 			<integer>-1</integer>
 		</dict>
 		<key>1D9EC9F4-0460-4E98-BFE9-B0B764DEAA7E</key>
+		<dict>
+			<key>Row</key>
+			<integer>-1</integer>
+		</dict>
+		<key>2051E328-1750-4C6C-8670-09BBF299B247</key>
+		<dict>
+			<key>Row</key>
+			<integer>-1</integer>
+		</dict>
+		<key>20BCD797-9F7E-4666-A2C7-37386B7C5C6D</key>
 		<dict>
 			<key>Row</key>
 			<integer>-1</integer>
@@ -147,6 +167,11 @@
 			<key>Row</key>
 			<integer>-1</integer>
 		</dict>
+		<key>30897C4C-9929-4F0A-A20F-8F620A0EA80F</key>
+		<dict>
+			<key>Row</key>
+			<integer>-1</integer>
+		</dict>
 		<key>30BC8413-78A5-4374-825A-74755840E548</key>
 		<dict>
 			<key>Row</key>
@@ -167,7 +192,22 @@
 			<key>Row</key>
 			<integer>-1</integer>
 		</dict>
+		<key>354DCCD5-7893-4B73-AF2C-483717C3634F</key>
+		<dict>
+			<key>Row</key>
+			<integer>-1</integer>
+		</dict>
 		<key>370E2721-D2C9-4DD9-BC0E-380B9C253527</key>
+		<dict>
+			<key>Row</key>
+			<integer>-1</integer>
+		</dict>
+		<key>37B11907-AB11-4A3D-97DE-81BBB65F7E01</key>
+		<dict>
+			<key>Row</key>
+			<integer>-1</integer>
+		</dict>
+		<key>3E924D6D-87DE-4C71-80F8-B41AC0F72916</key>
 		<dict>
 			<key>Row</key>
 			<integer>-1</integer>
@@ -197,7 +237,17 @@
 			<key>Row</key>
 			<integer>-1</integer>
 		</dict>
+		<key>4532212C-05CB-4600-8F0B-553B2E3233DF</key>
+		<dict>
+			<key>Row</key>
+			<integer>-1</integer>
+		</dict>
 		<key>4623B85E-3B4B-445A-B6B4-92B7F96E540E</key>
+		<dict>
+			<key>Row</key>
+			<integer>-1</integer>
+		</dict>
+		<key>470FB79A-4026-4265-ADFA-436FA2E53918</key>
 		<dict>
 			<key>Row</key>
 			<integer>-1</integer>
@@ -212,7 +262,22 @@
 			<key>Row</key>
 			<integer>-1</integer>
 		</dict>
+		<key>4DBCC109-44FC-43AE-A1AD-B703A970CD59</key>
+		<dict>
+			<key>Row</key>
+			<integer>-1</integer>
+		</dict>
+		<key>4E692F64-86C5-4943-B103-4B479E0A19B4</key>
+		<dict>
+			<key>Row</key>
+			<integer>-1</integer>
+		</dict>
 		<key>4EB6A1FA-ECFD-4EBA-B399-AFA894CD503D</key>
+		<dict>
+			<key>Row</key>
+			<integer>-1</integer>
+		</dict>
+		<key>50F4D285-36D3-43F6-9DA2-9C676CF9142F</key>
 		<dict>
 			<key>Row</key>
 			<integer>-1</integer>
@@ -223,6 +288,11 @@
 			<integer>-1</integer>
 		</dict>
 		<key>52716325-3C6D-4D58-B6AC-7D9925B6B43A</key>
+		<dict>
+			<key>Row</key>
+			<integer>-1</integer>
+		</dict>
+		<key>539847CB-FE88-40DE-B3EB-79CD75362F90</key>
 		<dict>
 			<key>Row</key>
 			<integer>-1</integer>
@@ -277,6 +347,11 @@
 			<key>Row</key>
 			<integer>-1</integer>
 		</dict>
+		<key>71A3975D-D1B7-4CA2-9B15-C5EA6994C1D3</key>
+		<dict>
+			<key>Row</key>
+			<integer>-1</integer>
+		</dict>
 		<key>71C2FCEE-5243-4507-9B7B-29ED8F0B6296</key>
 		<dict>
 			<key>Row</key>
@@ -302,6 +377,11 @@
 			<key>Row</key>
 			<integer>-1</integer>
 		</dict>
+		<key>7A015D52-70B9-40F7-90D3-47836C31B583</key>
+		<dict>
+			<key>Row</key>
+			<integer>-1</integer>
+		</dict>
 		<key>7D499CC5-B775-48BE-B2A0-BDDC2718F108</key>
 		<dict>
 			<key>Row</key>
@@ -311,6 +391,13 @@
 		<dict>
 			<key>Row</key>
 			<integer>-1</integer>
+		</dict>
+		<key>8470EC7A-4E1C-4B23-B868-D361DD2A7167</key>
+		<dict>
+			<key>DocID</key>
+			<string>413F0BDB-7E96-4520-B932-EE661155AF91</string>
+			<key>Row</key>
+			<integer>0</integer>
 		</dict>
 		<key>850CEB2E-02B7-4F29-9F7D-2A47AC4A19D6</key>
 		<dict>
@@ -424,6 +511,11 @@
 			<key>Row</key>
 			<integer>-1</integer>
 		</dict>
+		<key>ADC7D8AD-D8BE-4059-A9F6-DA8C11DD2E11</key>
+		<dict>
+			<key>Row</key>
+			<integer>-1</integer>
+		</dict>
 		<key>B3A3A2E4-8ED2-48CF-BE86-69232C50CBFF</key>
 		<dict>
 			<key>Row</key>
@@ -449,7 +541,17 @@
 			<key>Row</key>
 			<integer>-1</integer>
 		</dict>
+		<key>C505EEF4-FFA2-4408-8F35-DD5FD69E6B06</key>
+		<dict>
+			<key>Row</key>
+			<integer>-1</integer>
+		</dict>
 		<key>C6961460-9BB1-4B11-AB4A-76F36A5F1DA2</key>
+		<dict>
+			<key>Row</key>
+			<integer>-1</integer>
+		</dict>
+		<key>C9785E65-26B5-4237-8A30-CC4AA764E45F</key>
 		<dict>
 			<key>Row</key>
 			<integer>-1</integer>
@@ -480,6 +582,11 @@
 			<integer>-1</integer>
 		</dict>
 		<key>D2CDBAEC-62E3-486C-B674-380041917DC5</key>
+		<dict>
+			<key>Row</key>
+			<integer>-1</integer>
+		</dict>
+		<key>D4517E82-5A02-4C2E-8922-CFC101A7458A</key>
 		<dict>
 			<key>Row</key>
 			<integer>-1</integer>
@@ -520,6 +627,11 @@
 			<integer>-1</integer>
 		</dict>
 		<key>E8DEE7C7-E636-4A82-8F97-38E9543B449A</key>
+		<dict>
+			<key>Row</key>
+			<integer>-1</integer>
+		</dict>
+		<key>EB787BC1-33A6-4B8D-9C5D-34F3164C97A5</key>
 		<dict>
 			<key>Row</key>
 			<integer>-1</integer>
@@ -591,7 +703,7 @@
 		<real>1</real>
 	</dict>
 	<key>mainDocumentEditor.scrollRect</key>
-	<string>{{0, 0}, {458.66666666666669, 506.66666666666669}}</string>
+	<string>{{0, 0}, {620, 294}}</string>
 	<key>mainDocumentEditor.textEditorState</key>
 	<dict>
 		<key>textScaleFactor</key>
@@ -599,6 +711,10 @@
 	</dict>
 	<key>mainWindowFrame</key>
 	<string>0 151 1680 874 0 0 1680 1025 </string>
+	<key>supportingDocumentEditor.PDFAutoScales</key>
+	<false/>
+	<key>supportingDocumentEditor.PDFScale</key>
+	<real>1.529960036277771</real>
 	<key>supportingDocumentEditor.dockedQRTextSettings</key>
 	<dict>
 		<key>textScaleFactor</key>
