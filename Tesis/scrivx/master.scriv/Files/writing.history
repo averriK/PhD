@@ -15,5 +15,7 @@
     <Day dwc="-953" dcc="-6540" dtwc="3083" owc="0" occ="0" dtcc="22189">2021-03-31</Day>
     <Day dwc="342" dcc="2198" dtwc="3425" owc="214" occ="1307" dtcc="24387">2021-04-01</Day>
     <Day dwc="88" dcc="526" dtwc="3509" owc="290" occ="1727" dtcc="24884">2021-04-02</Day>
-    <Day dwc="-24" dcc="-154" owc="0" occ="0">2021-04-03</Day>
+    <Day dwc="422" dcc="2934" dtwc="3850" owc="0" occ="0" dtcc="27211">2021-04-03</Day>
+    <Day dwc="96" dcc="518" dtwc="3621" owc="0" occ="0" dtcc="25450">2021-04-04</Day>
+    <Day dwc="2" dcc="21" owc="0" occ="0">2021-04-05</Day>
 </WritingHistory>
