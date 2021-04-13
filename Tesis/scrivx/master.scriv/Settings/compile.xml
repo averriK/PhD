@@ -54,8 +54,16 @@
             </MMDMetaData>
         </MetaData>
     </ProjectSettings>
-    <CurrentFileType>pdf</CurrentFileType>
+    <CurrentFileType>mmd</CurrentFileType>
     <FormatSettings>
+        <Format ID="mmd-barebones">
+            <SectionLayouts>
+                <Type ID="4167FA9B-B809-45D9-80A2-FA49A7CF3177">778FA2E2-F67D-4803-B183-019F8B45528B</Type>
+                <Type ID="57B5B351-6655-4C3B-AC07-7111194AF50E">72A8A17D-2FF3-4C8D-8A4C-7895908E7EE5</Type>
+                <Type ID="AAE5284E-4A01-4DF9-AD2A-FF5AEAAA977D">778FA2E2-F67D-4803-B183-019F8B45528B</Type>
+                <Type ID="8A0CB521-BA0F-481B-9E55-33F8ADFE2270">778FA2E2-F67D-4803-B183-019F8B45528B</Type>
+            </SectionLayouts>
+        </Format>
         <Format ID="manuscript-times">
             <SectionLayouts>
                 <Type ID="4167FA9B-B809-45D9-80A2-FA49A7CF3177">AS-IS</Type>
@@ -76,17 +84,22 @@
         </Format>
         <Format ID="DEFAULT">
             <SectionLayouts>
-                <Type ID="4167FA9B-B809-45D9-80A2-FA49A7CF3177">NEW-PAGE-HEADER-WITH-TEXT</Type>
-                <Type ID="AAE5284E-4A01-4DF9-AD2A-FF5AEAAA977D">TEXT-SECTION</Type>
+                <Type ID="4167FA9B-B809-45D9-80A2-FA49A7CF3177">CHAPTER-NUMBER-AND-TEXT</Type>
+                <Type ID="57B5B351-6655-4C3B-AC07-7111194AF50E">CHAPTER-NUMBER</Type>
+                <Type ID="AAE5284E-4A01-4DF9-AD2A-FF5AEAAA977D">NEW-PAGE</Type>
+                <Type ID="8A0CB521-BA0F-481B-9E55-33F8ADFE2270">AS-IS</Type>
             </SectionLayouts>
             <FrontAndBackMatter>
-                <DefaultFrontMatter Add="Yes">B82E926A-AB51-4BA9-A16A-F8251535D54D</DefaultFrontMatter>
-                <DefaultBackMatter Add="Yes">097E1565-B3E7-4423-A83A-AC87A5F15371</DefaultBackMatter>
+                <DefaultFrontMatter>B82E926A-AB51-4BA9-A16A-F8251535D54D</DefaultFrontMatter>
+                <DefaultBackMatter>097E1565-B3E7-4423-A83A-AC87A5F15371</DefaultBackMatter>
             </FrontAndBackMatter>
         </Format>
     </FormatSettings>
     <LastUsedFormats>
         <Print>manuscript-courier</Print>
-        <pdf>manuscript-times</pdf>
+        <mmd-latex>DEFAULT</mmd-latex>
+        <mmd-pdf>DEFAULT</mmd-pdf>
+        <mmd>mmd-barebones</mmd>
+        <pdf>DEFAULT</pdf>
     </LastUsedFormats>
 </CompileSettings>
