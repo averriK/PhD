@@ -186,6 +186,11 @@
 			<key>Row</key>
 			<integer>-1</integer>
 		</dict>
+		<key>7402DCAD-7320-4270-B92F-B38E70CA8016</key>
+		<dict>
+			<key>Row</key>
+			<integer>-1</integer>
+		</dict>
 		<key>7726AA20-89B9-434E-BE95-D5694BB1597D</key>
 		<dict>
 			<key>Row</key>
@@ -415,7 +420,7 @@
 		<real>1.5</real>
 	</dict>
 	<key>mainWindowFrame</key>
-	<string>0 151 1680 874 0 0 1680 1025 </string>
+	<string>1749 559 1680 874 1680 388 1920 1055 </string>
 	<key>supportingDocumentEditor.PDFAutoScales</key>
 	<false/>
 	<key>supportingDocumentEditor.PDFScale</key>

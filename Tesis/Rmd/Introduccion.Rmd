@@ -1,0 +1,248 @@
+---
+subtitle: "Propuesta de Tesis Doctoral"
+title: "Generación automática de modelos para la estimación de la respuesta sísmica de sistemas dinámicos complejos"
+author: "Postulante: Alejandro Verri Kozlowski"
+date: "4/14/2021"
+output:
+  html_document:
+    df_print: paged
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+### Estado del Arte
+
+#### Preliminares
+La ingeniería sísmica es el vínculo entre ciencias de la tierra como geología y sisología, y la ingeniería civil. El principal aporte de la ingeniería sísmica al diseño en ingeniería es la definición de las acciones sísmicas (cargas, desplazamientos)  de diseño en términos de su intensidad y frecuencia de ocurrencia durante la vida útil de una estructura. 
+
+La respuesta sísmica de un sistema es el conjunto de parametros que caracteriza la respuesta dinámica de un sistema cuando está sujeto a movimientos sísmicos (las causas) y puede interpretarse como una expresión del movimiento sísmico del terreno en términos de fuerzas y desplazamientos en una estructura
+
+La respuesta sísmica del sitio es la expresión del movimiento sísmico en la superficie del terreno para unas condiciones geotécnicas particulares. Las propiedades geométricas, mecánicas y dinámicas de los estratos de suelo tienen una influencia muy grande en las características espectrales de las aceleraciones medidas en superficie y son una fuente muy importante de incertidumbre en la respuesta sísmica de cualquier sistema dinámico. El sitio puede considerarse en sí mismo como un sistema dinámico cuyas propiedades dinámicas dependerán de las propiedades geotécnicas de los estratos de suelo (principalmente la rigidez al corte y la densidad), y la profundidad total del relleno hasta la roca. 
+
+La respuesta sísmica de un sistema puede expresarse mediante diferentes parámetros de respuesta. 
+La demanda sísmica es un parámetro de la respuesta sísmica del sistema (por ejemplo, el esfuerzo cortante de una columna, o el asentamiento de un terraplén inducidos por sismos) que puede asociarse a un objetivo de diseño y puede entenderse como una expresión del movimiento sísmico en ese sistema dinámico particular.
+ 
+Las filosofías de diseño sísmico basadas en la capacidad, que se emplean en la mayoría de los códigos y reglamentos de diseño estructural, limitan la demanda en términos de estados límites últimos o estados límites de servicio y deben segurar que $D \leq C$.
+
+Las filosofías de diseño basadas en la performance (PBEE) por otra parte, limitan la demanda en términos de un conjunto de objetivos específicos de desempeño (distorsiones máximas, asentamientos, etc) que deben cumplirse para diferentes niveles de servicio (construcción, operación, cierre) $\left { D_j \leq d_j^* \right }$.
+
+Entendiendo a la demanda  y a la intensidad sísmica como variables aleatorias, los estados límite de capacidad o los objetivos de performance sólo pueden cumplirse de manera probabilística y el diseño óptimo de un sistema debe asegurar que la probabilidad de excedencia sea menor a cierto valor objetivo. 
+Si asumimos que la demanda sísmica $D$ está relacionada exclusivamente con la ocurrencia de eventos sísmicos durante un período de exposición $T_e$, y que la ocurrencia de estos eventos sigue un proceso de Poisson, la demanda sísmica dependerá del período de exposición $T_e$ y la confiabilidad del diseño puede expresarse numéricamente según
+$$P_{T_e}\left [D > d^*  \right ]\approx 1-e^{-\lambda_{D}T_e}\leq p^*$$
+Donde $\lambda_{D} = \nu_o P\left [D>c^* \right ]$ es la probabilidad o frecuencia anual en la que la demanda excede la capacidad y $\nu_o$ es el número de eventos por año con una magnitud igual o mayor a un cierto umbral que produce daño. 
+La demanda sísmica estará condicionada a la ocurrencia de un evento de esa intensidad $P\left [I=i^*  \right ]$ y la probabilidad de excedencia $P\left [D > d^* \right ]$ se puede estimar mediante el teorema de la probabilidad total 
+$$P\left [ D>c^* \right ] \approx \sum P\left [D > d^*|I=i^* \right ] P\left [I=i^*  \right ]$$
+El primer término del producto, es la función de fragilidad de mi sistema dinámico. En algunos casos, la fragilidad del sistema puede correlacionarse con la intensidad del movimiento sísmico en términos de una única medida de Intensidad, tales como las aceleraciones máximas del terreno (PGA), o las pseudo-aceleraciones espectrales elásticas para un periodo dedo $S_a(T)$. Si asumimos que la demanda es una variable que sigue una distribución log-Normal $.$, la fragilidad del sistema puede escribirse como:
+
+$\approx \eta_{D/I}(i^*) \epsilon \approx \eta_{D/I}(i^*) e^{\sigma_{ln D/I}}$
+
+
+El segundo término se obtiene como la derivada la funcion del peligro sísmico del sitio $G_I(i^*) = 1 - F_I(i^*)$ 
+
+La demanda sísmica $D$ 
+
+Por ejemplo, en muchos sistemas dinámicos, se puede asumir que la demanda condicional tiene una distribución log-Normal, con parámetros 
+
+En los sistemas dinámicos complejos, la demanda sísmica no puede correlacionarse directamente con una medida de intensidad en particular, y dependerá en general de toda la historia de tiempos del movimiento sísmico. 
+
+
+La demanda sísmica $D$ es una variable aleatoria que está condicionada por la intensidad $I$ y depende además de otros parámetros del sistema que por simplicidad no se muestran en la expresión.
+
+
+
+La intensidad del movimiento sísmico también es una vLos modelos de predicción de intensidad del movimiento sísmico, tambien llamados GMPE (ground-motion prediction equations), caracterizan el movimiento sísmico del terreno indirectamente a partir de medidas escalares de intensida
+
+
+#### SDOF
+
+En los sistemas cuyo comportamiento dinámico puede asimilarse a un oscilador de un grado de libertad (SDOF), la demanda sísmica puede correlacionarse directamente con las ordenadas espectrales de un SDOF equivalente. Por ejemplo, los esfuerzos de corte de diseño de una pila de un puente o los empujes hidrodinámicos en un tanque de combustibles sometidos a movimientos sísmicos de la base, son proporcionales a la pseudo-aceleración espectral del movimiento sísmico en un SDOF equivalente. 
+En los sistemas dinámicos en general no es posible identificar una única medida de intensidad que sea eficiente y suficiente para predecir la demanda sísmica. La demanda sísmica en estos casos dependerá de varios aspectos del movimiento sísmico tales como la duración, el contenido de frecuencias de la señal, la energía, etc. es decir, dependerá de toda la historia temporal. Ejemplo de estos problemas pueden ser la licuación de un estrato de fundación de arena saturada o los asentamientos de un talud de materiales sueltos sometidos a movimientos sísmicos en su base. 
+
+#### Medidas de Intensidad
+
+Cuando se emplea una única medida de intensidad para correlacionar la demanda con el movimiento sísmico, se requiere la elección de una medida óptima de intensidad. La identificación de IM óptimas en caracterizar la relación entre el movimiento sísmico y la demanda sísmica, puede ser abordada a partir de los conceptos de eficiencia y suficiencia . Una medida de intensidad suficiente es aquella para la cual los parámetros de demanda sísmica (D) son condicionalmente independientes de la magnitud y la distancia de los sismos seleccionados. Para una IM suficiente, la adición de registros de diferentes M o R no reduce la variabilidad del los parámetros de demanda sísmica (D). Una IM eficiente es aquella que reporta una variabilidad relativamente pequeña en la demanda sísmica y puede ser cuantificada en el desvío estándar del error aleatorio
+
+#### Predicción del Movimiento Sísmico
+
+Los diferentes escenarios de magnitud y distancia capturan la variabilidad de ocurrencia temporal  y espacial de los eventos sísmicos, respectivamente y todos los modelos empíricos (estadísticos) de predicción de la intensidad sísmica, se basan en estos parámetros independientes. 
+Con el fin de restringir los modelos empíricos para un rango amplio de escenarios de magnitud y distancia que se consideran dentro de los análisis probabilísticos de peligro y riesgo, generalmente es necesario compilar conjuntos de datos de movimientos del suelo de diferentes regiones debido a que no se dispone un número suficientemente grande de registros sísmicos para diferentes escenarios de magnitudes y distancias. Sin embargo, esto introduce mayor incertidumbre aleatoria ya que cualquier diferencia que exista entre el medio de propagación, las excitaciones de la fuente o la respuesta del sitio,  se manifestará como una mayor varianza en el modelo. 
+
+#### Modelos Físicos y Modelos Empíricos
+Según Draper y Smith (1981) los modelos matemáticos pueden clasificarse en tres tipos fundamentales: 
+
+* Modelos de Control. Cuando los efectos independientes de cada una de las variables de control (las variables predictoras) pueden estimarse mediante el diseño de experimentos. 
+* Modelos Funcionales. Cuando se conoce y se utiliza la verdadera relación funcional entre la respuesta (el valor a predecir) y las variables predictoras.  
+* Modelos Predictivos. Cuando no se pueden utilizar modelos funcionales ni de control y dentro de los datos existe mucha intercorrelación, los llamados "problemas de datos desordenados". 
+El análisis de la respuesta sísmica de un sistema requiere la formulación de modelos de estimación. 
+En ingeniería sísmica los modelos de control no son posibles porque los experimentos no son repetibles. Evidentemente, no se pueden realizar experimentos controlados con los movimientos del terreno causados por los terremotos porque no hay dos terremotos iguales, ni dos epicentros iguales con idénticas trayectorias hasta la estación sismológica, ni dos estaciones sismológicas con idénticas condiciones geotécnicas.
+Los modelos mecanicistas por otra parte, pretenden capturar la verdadera relación funcional que existe entre las variables predictivas (Magnitud, Distancia) y la variable a predecir (Intensidad) a partir de la naturaleza física de los fenómenos de generación. Sin embargo, en raras ocasiones se conocen en detalle todos los aspectos físicos asociados al movimiento sísmico de una fuente sísmica conocida y aunque se pudieran parametrizar aún es muuy complejo poder expresarlos en forma de una simple ecuación.  Luego, los modelos de predicción suelen ser modelos empíricos en donde se estiman las propiedades de las medianas condicionales y las varianzas que determinan la función de distribución del parámetro dependiente.
+
+
+#### Ergodicidad
+Una de las hipótesis que asumen los modelos empíricos paramétricos (estadísticos) es la de ergodicidad que asume que los movimientos sísmicos del terreno siguen una misma función de distribución con una varianza constante en el tiempo (homocedasticidad).  La hipótesis de ergodicidad es necesaria para formulaciones paramétricas en las que se buscan los momentos de una función de distribución (generalmente asumida los-normal) y tiene gran influencia en el término de error global de modelos de predicción de intensidad, aún en las formulaciones más avanzadas de muchos parámetros y formas funcionales complejas que se soportan en alguna base física. La relajación de la hipótesis de ergodicidad conlleva a la formulación de modelos no-paramétricos, en donde no es necesario conocer los parámetros (momentos) de las funciones de distribución (distribution-free models.  
+
+
+#### Respuesta dinámica del Sitio
+
+En estratos de materiales granulares poco densos o arcillas blandas, la amplitud y la frecuencia de las distorsiones de corte suelen afectar fuertemente las propiedades mecánicas de estos materiales (tales como la rigidez al corte) y las propiedades dinámicas del sistema serán variables en el tiempo que dura el proceso de deformación, es decir dependientes del sismo. Bajo este esquema teórico, la respuesta dinámica del sitio puede entenderse como el resultado de un filtro o función de transferencia (desconocida en principio) aplicado sobre una señal actuando en la base del modelo (la roca basal). 
+La mayoría de los GMPE disponibles en la bibliografía suelen considerar las características geotécnicas de los diferentes sitios de las estaciones sismológicas mediante un único parámetro, que es la velocidad de onda de corte Vs30 del sitio, la cual se define como el tiempo que tarda una onda de corte (S) en recorrer los últimos 30 m del estrato y suele emplearse como un proxy para estimar la amplificación del sitio. A igualdad de espesor, una menor velocidad Vs30 suele estar asociada a una amplificación mayor de los movimientos en superficie. Es conocida la limitación que tiene este parámetro para caracterizar debidamente la respuesta dinámica de un sitio particular, y su empleo como variable independiente en modelos de estimación de intensidad y demanda suele estar asociado a la incorporación de una gran componente de error aleatorio, ya que existen configuraciones geotécnicas con propiedades dinámicas muy diferentes, pero idéntico Vs30.
+
+
+
+#### Ejemplo de aplicación
+Para poder identificar las limitaciones y desafíos del estado actual de la práctica, se presenta un flujo de análisis conceptual del proceso de desarrollo de un modelo de estimación de demanda sísmica de un sistema dinámico no-lineal. 
+En este ejemplo, se requiere obtener una estimación de la demanda sísmica de asentamientos $D$ en el coronamiento de una presa de enrocado para un sismo máximo de diseño de intensidad conocida  $I$. 
+Debido a las características particulares de las estructuras geotécnicas de materiales sueltos, no se disponen en general medidas de intensidad eficientes ni suficientes para correlacionar el asentamiento del coronamiento con la intensidad del movimiento sísmico y se requieren modelos específicos para estimar la demanda sísmica y seleccionar los registros sísmicos de diseño.  
+El diseño adecuado de una presa de materiales sueltos debe asegurar que los asentamientos residuales al final de un evento sísmico extremo (la demanda $D$ ) no superen un cierto valor máximo (la capacidad $C$), que está determinado por la revancha existente entre el nivel máximo del embalse (freeboard) y el coronamiento de la presa de enrocado. 
+
+S
+ Asumiendo también una distribución Log-Normal para esta variable aleatoria, se tiene que
+
+La intensidad sísmica $I$ es una variable aleatoria que está condicionada por el escenario sísmico determinado por la distancia a la fuente $r^*$ al punto más cercano de la falla que produjo un evento sísmico de magnitud $m^*$. Asumiendo también una distribución Log-Normal para esta variable aleatoria, se tiene que 
+
+
+
+Si por simplicidad asumimos que ambas variables aleatorioa una variable con distribución log-normal, es posible exporesar esta variable aleatoria a partir de una mediana condicional $\etha$ y un término de error $\epsilon$
+
+
+Si suponemos que las variables aleatorias $D$ e $I$ siguen una distribucion log-normal, es posible expresar a dichas variables mediante la siguiente expresión (Ang 1971)
+
+
+#### Limitaciones del Estado Actual de la Práctica
+
+* No es posible en el estado actual de la práctica, formular modelos mecanicistas  basados en los aspectos físicos de la generación y propagación de ondas en la corteza terrestre, debido a la complejidad del fenómeno físico, a la cantidad de parámetros que influyen en los modelos y a la falta de datos que permitan calibrar esos parámetros y se requieren modelos empíricos basados en datos.  
+* Los modelos empíricos de predicción del movimiento sísmico requieren datasets con un número importante de registros sísmicos seleccionado para cada escenarios de magnitudes y distancias. Sin embargo, para eventos de movimiento fuerte que se registran en una región particular, no existen en general suficientes registros sísmicos que permitan definir modelos de predicción de intensidad y se suelen emplear registros sísmicos de otras regiones que tienen mecanismos de generación similares (de subducción, cortical, continental o volcánica). Luego, se requieren criterios de clasificación y selección de series temporales que permitan formular datasets con un gran número d registros. 
+* Para poder incluir registros sísmicos de diferentes regiones del mundo sin aumentar la variabilidad del modelo, se requieren metodologías que permitan identificar características únicas  (features) de los registros sísmicos, no sólo a partir de las medidas e intensidad, sino además mediante el análisis de las propiedades de modelos dinámicos 
+* Para agrupar registros sísmicos de acuerdo a características (features) similares, se necesitan criterios de selección basados en métricas específicas para series temporales no-estacionarias . Estas métricas deben ser capaces de distinguir de manera robusta la pertenencia de un acelerograma a un grupo (cluster) dado.
+* Los efectos de la respuesta dinámica del sitio afectan las propiedades dinámicas de las series temporales, tales como el contenido de frecuencias y la amplificación. Para desagregar el efecto local del sitio es necesario expresar el movimiento sismico a nivel de la roca basal. Los movimientos sísmicos expresados en roca basal permiten caracterizar el movimiento sísmico de la región y luego caracterizar los efectos del sitio por separado. La caracterización desagregada de la respuesta dinámica del sitio, permite reducir fuertemente la variabilidad de los efectos del sitio sobre todas las medidas de intensidad. 
+
+* Para reducir el error de predicción de los modelos de respuesta sísmica, se deben relajar las hipótesis homocedasticidad (que resulta de asumir un movimiento sísmico como un proceso ergódico) mediante la formulación de modelos no paramétricos, es decir independientes de la función de distribución (distribution-free)
+* Para reducir la incertidumbre de los modelos de predicción de la demanda sísmica, se requiere un conjunto de medidas de intensidad y parámetros dinámicos que permitan capturar adecuadamente los efectos de un movimiento sísmico particular sobre un sistema dinámico complejo
+* Cuando los sistemas dinámicos complejos involucran geometrías y materiales complejos, difíciles de formular mediante modelos empíricos o funcionales, se pueden emplear modelos substitutos (proxy modelo) que capturen los aspectos más importantes de la respuesta sísmica y permitan la selección de sismos de diseño para la posterior Modelación mediante formulaciones numéricas de alto costo computacional.
+
+### Enfoque propuesto
+
+#### Objetivos Generales
+La alta variabilidad de un modelo de estimación de respuesta sísmica suele estar controlada  por el término de error que aportan  de los modelos de predicción del movimiento sísmico de la región y los modelos de respuesta dinámica del sitio. El propósito de este trabajo es el desarrollo de modelos robustos de estimación de la respuesta sísmica en sistemas dinámicos complejos, basado en la selección, caracterización, regularización y clasificación de series temporales no-estacionarias. En este sentido, el trabajo de investigación tendrá tres objetivos generales:
+
+1. Implementar una base de datos de propiedades dinámicas de registros sísmicos en roca basal.
+2. Desarrollar una metodología de clasificación de registros sísmicos en roca, basada en propiedades dinámicas de las series temporales 
+3. Formular una metodología para la generación automática de modelos robustos de estimación de la respuesta sísmica de sistemas dinámicos, basada en las propiedades dinámicas de las series temporales
+
+
+#### Objetivos Específicos
+Para cada una de las etapas, se requieren cumplir una serie de objetivos específicos
+
+1. Compilar, procesar e implementar una base de datos de registros sísmicos de movimiento fuerte, obtenidos en diferentes regiones del mundo y bajo diferentes condiciones geotécnicas. 
+2. Procesar los registros sísmicos mediante la simulación numérica de filtros (funciones de transferencia) asociados a diferentes escenarios geotécnicos posibles bajo cada estación sismológica y expresar todas las series temporales en roca basal. 
+3. Agrupar las propiedades espectrales de cada escenario y proponer un sistema de clasificación basado en la respuesta dinámica del sitio, y no en las características del suelo superficial (Vs30)
+4. Identificar un número reducido de parámetros dinámicos que caractericen a una serie temporal aleatoria no-estacionaria, mediante las propiedades de modelos dinámicos auto-regresivos de media móvil (ARMA/ARIMA)
+5. Definir métricas óptimas para identificar similitudes entre las características dinámicas de las series temporales.
+6. Clasificar y agrupar (clustering) los parámetros dinámicos y las medidas de intensidad seleccionadas en grupos asociados a la región o el mecanismo de generación de cada evento sísmico. 
+7. Establecer las bases de formulación de modelos no-paramétricos de estimación de intensidad y demanda sísmica basados en las características dinámicas de series temporales.
+8. Aplicar el modelo general propuesto a un caso de estudio relacionado al análisis de la demanda sísmica (asentamientos verticales) de una presa de materiales sueltos en la región de Cuyo, Argentina
+
+#### Aportes
+Los aportes que resultarán del desarrollo de este trabajo de investigación serán los siguientes:
+La identificación de un conjunto óptimo de parámetros dinámicos y medidas de intensidad que caracterizan los movimientos sísmicos de una región combinada con la implementación de metodologías de inferencia no-paramétricas permitirán sentar las bases para la formulación de una nueva generación de modelos de predicción de intensidad y demanda de alta eficiencia, particularmente útiles en el contexto del diseño sísmico basado en la confiabilidad. ¡Luego, el principal aporte de este trabajo será una metodología de generación automática de modelos de predicción de respuesta sísmica.
+El procesamiento y análisis de series temporales, aportará en primer lugar una base de datos de acceso público de varios millones de registros sísmicos inferidos en roca basal, que incluirán como característica distintiva de las bases disponibles en la actualidad, los parámetros dinámicos (features) de cada región. La publicación de esto datos habilita automáticamente  el desarrollo de modelos de predicción de intensidad más sofisticados en cualquier región del mundo en donde se dispongan registros sísmicos de referencia.
+Por otra parte, los algoritmos de procesamiento, regularización, caracterización y clasificación de registros sísmicos serán publicados bajo licencia  de código abierto en una librería en lenguaje R, y en un paquete de lenguaje Wolfram (Mathematica).
+
+
+#### Organización
+El trabajo de investigación estará organizado en tres etapas fundamentales.
+
+* Datos: La primer etapa consistirá en la recopilación, depuración, regularización, procesamiento y selección de registros sísmicos que permite definir los diferentes conjuntos de datos de análisis (datasets). 
+* Metadatos: La segunda etapa trata se ocupará de la caracterización y clasificación de los registros sísmicos a partir de las propiedades dinámicas de las series temporales
+* Inferencia: La tercer etapa del estudio trata sobre la inferencia. En esta etapa se formularán e implementarán modelos empíricos de estimación de la demanda sísmica basados en las propiedades dinámicas de las series temporales de cada región y en las medidas de intensidad asociadas a dichos registros sísmicos.
+
+
+
+
+
+
+
+### Referencias
+
+
+Parte I: Procesamiento de Series Temporales 
+
+Andreas Antoniou, P. D. (2018). Digital Filters: Analysis, Design, and Signal Processing Applications. 
+Arias, J., & Blázquez, R. (2008). Accuracy Of Time Integration Procedures For Seismic Response Of Linear Oscillators. 14th World Conference on Earthquake Engineering.
+Charara, I. (2019). Seismic response of n-layered soil : Exact analytical closed-form solution. 1698–1706.
+Enochson, L. D., & Otnes, R. K. (1965). Digital spectral analysis. In SAE Technical Papers. 
+Faccioli, E., Vanini, M., & Frassine, L. (2002). "Complex" site effects in earthquake ground motion, including topography. 12th European Conference on Earthquake Engineering, Paper No.844, 23.
+Gavin, H. P. (2018). Numerical Integration in Structural Dynamics.
+Giron-Sierra, J. M. (2017). Digital Signal Processing with Matlab Examples, Volume 3. In Electronics {&} Communications Engineering Journal (Vol. 5, Issue 1).
+Graizer, V., & Commission, U. S. N. R. (2016). Determination of the true ground displacement by using strong motion records. January 1979.
+Hancock, J., & Bommer, J. J. (2005). The effective number of cycles of earthquake ground motion. Earthquake Engineering and Structural Dynamics, 34(6), 637–664. https://doi.org/10.1002/eqe.437
+Heinzel, G., Rüdiger, A., & Schilling, R. (2002). Spectrum and spectral density estimation by the Discrete Fourier transform (DFT). MPG Publication Repository, 1–84.
+Johnson, S. G., Mathematics, M. I. T. A., & April, C. (2011). Notes on FFT-based differentiation. 1–11.
+L., R. J., Martinez, M., & J.Muñoz. (n.d.). Digital Signal Processing with Kernel Methods.
+Last, M., Kandel, A., & Bunke, H. (n.d.). Data Mining in Time Series Databases.
+Lee, E., & Varaiya, P. (2003). Sampling and Reconstruction.
+Lee, H. S., Hong, Y. H., & Park, H. W. (2010). Design of an FIR filter for the displacement reconstruction using measured acceleration in low-frequency dominant structures. November 2009, 403–434. 
+Li, H., Zheng, S., Song, C., & Feng, Q. (2013). Recovering Seismic Displacements from Underground Strong-Motion Acceleration Records of the 2011 M W 9 . 0 Tohoku Earthquake in Japan. 674, 1418–1422. 
+Margrave, G. F. (2006). Methods of Seismic Data Processing.
+Rainer, J. (1986). Applications of the Fourier transform to the processing of vibration signals. Building Research Note, 233, 24.
+Tsai, N. C., & Housner, G. W. (1970). Calculation of surface motions of a layered half-space. Bulletin - Seismological Society of America, 60(5), 1625–1651.
+Valley, G. (n.d.). Peak Particle Velocity vs . the Richter Scale.
+
+
+
+
+Parte II: Análisis, caracterización y clasificación de Series Temporales
+
+Cakmak, A. S., & Sherif, R. I. (n.d.). Parametric Time Series Models for Earthquake Strong Ground Motions and Their Relationship to Site Parameters.
+Chang, M. K., Kwiatkowski, J. W., Nau, R. F., Oliver, R. M., & Pister, K. S. (1979). ARMA models for earthquake ground motions. 
+Conte, J. P., Pister, K. S., & Mahin, S. A. (1992). Non-stationary ARMA modeling of seismic motions. Soil Dynamics and Earthquake Engineering, 11(7), 411–426. https://doi.org/10.1016/0267-7261(92)90005-X 
+Dolan, K. T., & Spano, M. L. (2001). Surrogate for nonlinear time series analysis. Physical Review E - Statistical Physics, Plasmas, Fluids, and Related Interdisciplinary Topics, 64(4), 6. https://doi.org/10.1103/PhysRevE.64.046128
+Kantz, H., & Shreiber, T. (2003). Nonlinear Time Series Analysis. Cambridge.
+Kassambara, A. (2017). Practical Guide To Cluster Analysis in R - Unsupervised Machine Learning.
+Kassambara, A. (2017). Practical Guide to Principal Component Methods in R Multivariate Analysis 
+Kassambara, A. (2017). Practical Guide To Principal Component Methods in R: PCA, M (CA), FAMD, MFA, HCPC, factoextra. Sthda, 2, 1–155. 
+Kaufman, L., & Rousseeuw, P. J. (2005). Finding Groups in Data - An Introduction to Cluster Analysis.
+Kloke, J., & Mckean, J. W. (2014). The R Series Statistics Nonparametric Statistical Methods Using R. Chapman and Hall/CRC. 
+Kozin, F. (1988). Autoregressive moving average models of earthquake records. Probabilistic Engineering Mechanics, 3(2), 58–63. https://doi.org/10.1016/0266-8920(88)90016-1
+Maharaj, E. A., D'Urso, P., & Caiado, J. (2019). Time Series Clustering and Classification. In Time Series Clustering and Classification. https://doi.org/10.1201/9780429058264
+Montero, P., & Vilar, J. A. (2014). TSclust: An R package for time series clustering. Journal of Statistical Software, 62(1), 1–43. https://doi.org/10.18637/jss.v062.i01
+Percival, D. B. (1992). Simulating Gaussian Random Processes with Specified Spectra. Computing Science and Statistics, 24, 534–538.
+Percival, D. B., & Walden, A. T. (2020). Spectral Analysis for Univariate Time Series. In Spectral Analysis for Univariate Time Series. https://doi.org/10.1017/9781139235723
+Popescu, T. D., & Demetriu, S. (1990). Analysis and simulation of strong earthquake ground motions using ARMA models. Automatica, 26(4), 721–737. https://doi.org/10.1016/0005-1098(90)90049-N
+Schreiber, T. (1998). Constrained randomization of time series data. Physical Review Letters, 80(10), 2105–2108. https://doi.org/10.1103/PhysRevLett.80.2105
+Schreiber, T., & Schmitz, A. (2000). Surrogate time series. Physica D: Nonlinear Phenomena, 142(3–4), 346–382. https://doi.org/10.1016/S0167-2789(00)00043-9
+Spiegel, S. (2015). Time Series Distance Measures: Segmentation, Classification, and Clustering of Temporal Data. 211.
+Wilks, D. S. (2011). Principal Component (EOF) Analysis. In International Geophysics (Vol. 100). https://doi.org/10.1016/B978-0-12-385022-5.00012-9
+
+
+
+Parte III: Predicción de la respuesta sísmica
+
+Baker, J. W. (2007). Correlation of ground motion intensity parameters used for predicting structural and geotechnical response. Proceedings of the 10th International Conference on Applications of Statistics and Probability, 501–502.
+Bertero, R. D., & Asce, M. (n.d.). ACCEPTABILITY CHECKS FOR PERFORMANCE-BASED SEISMIC DESIGN. 1–17.
+Chambers, M. J. (1995). The simulation of random vector time series with given spectrum. Mathematical and Computer Modelling, 22(2), 1–6. https://doi.org/10.1016/0895-7177(95)00106-C
+Conte, J. P., & Peng, B. F. (1997). Fully nonstationary analytical earthquake ground-motion model. Journal of Engineering Mechanics, 123(1), 15–24. https://doi.org/10.1061/(ASCE)0733-9399(1997)123:1(15)
+Conte, J. P., Pandit, H., Stewart, J. P., & Wallace, J. W. (2003). Ground motion intensity measures for performance-based earthquake engineering. 2(1), 1465–1472. 
+Dabaghi, M., & Kiureghian, A. Der. (2014).  Stochastic Modeling and Simulation of Near-Fault Ground Motions for Performance-Based Earthquake Engineering. 
+Geisser, S. (n.d.). Models of Parametric Statistical Inference. Wiley.
+Hardle, W., & Mammen, E. (1993). Comparing Nonparametric Versus Parametric Regression Fits. The Annals of Mathematical Statistics, 21(4), 1926–1947.
+Hollander, M., Wolfe, D. A., & Chicken, E. (n.d.). Nonparametric Statistical Methods. Wiley.
+Lee, V., & Trifunac, M. (1995). CE 95-03 - Frequency Dependent Attenuation Function.
+Perez Ruiz, D. A. (2016). Bayesian Nonparametric Data Analysis. In International Statistical Review (Vol. 84, Issue 1). https://doi.org/10.1111/insr.12168
+Rathje, E. M., Abrahamson, N. A., & Bray, J. D. (1998). Simplified frequency content estimates of earthquake ground motions. Journal of Geotechnical and Geoenvironmental Engineering, 124(2), 150–158. https://doi.org/10.1061/(asce)1090-0241(1998)124:2(150)
+Rathje, E. M., & Saygili, G. (2008). Probabilistic seismic hazard analysis for the sliding displacement of slopes: Scalar and vector approaches. Journal of Geotechnical and Geoenvironmental Engineering, 134(6), 804–814. https://doi.org/10.1061/(ASCE)1090-0241(2008)134:6(804)
+Rathje, E. M., Faraj, F., Russell, S., & Bray, J. D. (2004). Empirical Relationships for Frequency Content Parameters of Earthquake Ground Motions. Earthquake Spectra, 20(1), 119–144. https://doi.org/10.1193/1.1643356
+Rathje, P. E. M., & Ph, D. (2010). Ground Motion Prediction Equations and Seismic Hazard Assessment. November.
+Ruiz, S., & Saragoni, R. (2002). Formulas De Atenuación Para La Subducción De Chile Considerando Los Dos Mecanismos De Sismogenesis y los efectos del Suelo. Achisina, 1985.
+Scherbaum, F., Delavaud, E., & Riggelsen, C. (2009). Model selection in seismic hazard analysis: An information-theoretic perspective. Bulletin - Seismological Society of America, 99(6), 3234–3247. https://doi.org/10.1785/0120080347
+Shin, G., & Song, O. (2016). A Time-Domain Method to Generate Artificial Time History from a Given Reference Response Spectrum. Nuclear Engineering and Technology, 48(3), 831–839. https://doi.org/10.1016/j.net.2016.01.023
+Sprent, P., & Smeeton, N. C. (2007). Applied Nonparametric Statistical Methods. 
+Tuan, P. D. (1984). a Note on Some Statistics Useful in Identifying the Order of Autoregressive Moving Average Model. Journal of Time Series Analysis, 5(4), 273–279. https://doi.org/10.1111/j.1467-9892.1984.tb00393.x
+Vanmarcke, E. H. (1996). Random Process in Earthquake Engineering. 11th World Conference on Earthquake Engineering. 
+
+
+
+
+
