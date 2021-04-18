@@ -12,61 +12,105 @@ output:
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-### Estado del Arte
 
-#### Preliminares
+
+
+### Planteo del Problema. 
 La ingeniería sísmica es el vínculo entre ciencias de la tierra como geología y sisología, y la ingeniería civil. El principal aporte de la ingeniería sísmica al diseño en ingeniería es la definición de las acciones sísmicas (cargas, desplazamientos)  de diseño en términos de su intensidad y frecuencia de ocurrencia durante la vida útil de una estructura. 
 
-La respuesta sísmica de un sistema es el conjunto de parametros que caracteriza la respuesta dinámica de un sistema cuando está sujeto a movimientos sísmicos (las causas) y puede interpretarse como una expresión del movimiento sísmico del terreno en términos de fuerzas y desplazamientos en una estructura
+La respuesta sísmica de un sistema es el conjunto de parametros que caracteriza la respuesta dinámica de un sistema cuando está sujeto a movimientos sísmicos (las causas) y puede interpretarse como una expresión del movimiento sísmico en el sistema en términos de fuerzas y desplazamientos en una estructura
 
 La respuesta sísmica del sitio es la expresión del movimiento sísmico en la superficie del terreno para unas condiciones geotécnicas particulares. Las propiedades geométricas, mecánicas y dinámicas de los estratos de suelo tienen una influencia muy grande en las características espectrales de las aceleraciones medidas en superficie y son una fuente muy importante de incertidumbre en la respuesta sísmica de cualquier sistema dinámico. El sitio puede considerarse en sí mismo como un sistema dinámico cuyas propiedades dinámicas dependerán de las propiedades geotécnicas de los estratos de suelo (principalmente la rigidez al corte y la densidad), y la profundidad total del relleno hasta la roca. 
 
-La respuesta sísmica de un sistema puede expresarse mediante diferentes parámetros de respuesta. 
+
+##### Demanda y Capacidad Sísmica
+La respuesta sísmica de un sistema puede expresarse a través de diferentes parámetros de respuesta que requieran correlato con diferentes parámetros de performance o capacidad. 
 La demanda sísmica es un parámetro de la respuesta sísmica del sistema (por ejemplo, el esfuerzo cortante de una columna, o el asentamiento de un terraplén inducidos por sismos) que puede asociarse a un objetivo de diseño y puede entenderse como una expresión del movimiento sísmico en ese sistema dinámico particular.
- 
-Las filosofías de diseño sísmico basadas en la capacidad, que se emplean en la mayoría de los códigos y reglamentos de diseño estructural, limitan la demanda en términos de estados límites últimos o estados límites de servicio y deben segurar que $D \leq C$.
 
-Las filosofías de diseño basadas en la performance (PBEE) por otra parte, limitan la demanda en términos de un conjunto de objetivos específicos de desempeño (distorsiones máximas, asentamientos, etc) que deben cumplirse para diferentes niveles de servicio (construcción, operación, cierre) $\left { D_j \leq d_j^* \right }$.
+Para poder identificar las limitaciones y desafíos del estado actual de la práctica, se presenta un flujo de análisis conceptual del proceso de desarrollo de un modelo de estimación de demanda sísmica de un sistema dinámico no-lineal. 
+En este ejemplo, se requiere obtener una estimación de la demanda sísmica en términos de asentamientos residuales esperables en el coronamiento de una presa de enrocado luego de la ocurrencia de un sismo máximo de diseño, el cual se espera ocurra al menos una vez durante la vida útil de la estructura. 
 
-Entendiendo a la demanda  y a la intensidad sísmica como variables aleatorias, los estados límite de capacidad o los objetivos de performance sólo pueden cumplirse de manera probabilística y el diseño óptimo de un sistema debe asegurar que la probabilidad de excedencia sea menor a cierto valor objetivo. 
+El diseño adecuado de una presa de materiales sueltos debe asegurar entre otras cosas, que los asentamientos residuales al final de un evento sísmico extremo no superen un cierto valor máximo, que está determinado por la revancha existente entre el nivel máximo del embalse (freeboard) y el coronamiento de la presa de enrocado. 
+
+Las filosofías de diseño sísmico basadas en la capacidad, que se emplean en la mayoría de los códigos y reglamentos de diseño estructural, limitan la demanda en términos de estados límites últimos o estados límites de servicio y deben segurar que $D \leq C$.  
+
+Las filosofías de diseño basadas en la performance (PBEE) por otra parte, limitan la demanda en términos de un conjunto de objetivos específicos de desempeño (distorsiones máximas, asentamientos, etc) que deben cumplirse para diferentes niveles de servicio (construcción, operación, cierre) $\left\{ D_{k}\leq d^{\ast }_{k}\right\}$.  
+
+En cualquiera de los marcos de análisis, la demanda sísmica siempre es una variable aleatoria y los estados límite de capacidad o los objetivos de performance sólo podrán cumplirse de manera probabilística. Luego, el diseño óptimo de un sistema deberá asegurar que la probabilidad de excedencia sea menor a cierto valor objetivo $p^*$. 
+
 Si asumimos que la demanda sísmica $D$ está relacionada exclusivamente con la ocurrencia de eventos sísmicos durante un período de exposición $T_e$, y que la ocurrencia de estos eventos sigue un proceso de Poisson, la demanda sísmica dependerá del período de exposición $T_e$ y la confiabilidad del diseño puede expresarse numéricamente según
-$$P_{T_e}\left [D > d^*  \right ]\approx 1-e^{-\lambda_{D}T_e}\leq p^*$$
-Donde $\lambda_{D} = \nu_o P\left [D>c^* \right ]$ es la probabilidad o frecuencia anual en la que la demanda excede la capacidad y $\nu_o$ es el número de eventos por año con una magnitud igual o mayor a un cierto umbral que produce daño. 
-La demanda sísmica estará condicionada a la ocurrencia de un evento de esa intensidad $P\left [I=i^*  \right ]$ y la probabilidad de excedencia $P\left [D > d^* \right ]$ se puede estimar mediante el teorema de la probabilidad total 
-$$P\left [ D>c^* \right ] \approx \sum P\left [D > d^*|I=i^* \right ] P\left [I=i^*  \right ]$$
-El primer término del producto, es la función de fragilidad de mi sistema dinámico. En algunos casos, la fragilidad del sistema puede correlacionarse con la intensidad del movimiento sísmico en términos de una única medida de Intensidad, tales como las aceleraciones máximas del terreno (PGA), o las pseudo-aceleraciones espectrales elásticas para un periodo dedo $S_a(T)$. Si asumimos que la demanda es una variable que sigue una distribución log-Normal $.$, la fragilidad del sistema puede escribirse como:
+$$P_{T_e}\left [D > d^*  \right ]\approx 1-e^{-\lambda_D(d^*) T_e}\leq p^*$$
+El parámetro de Poisson $\lambda_D$ es la tasa anual en que la demanda $D$ excede un cierto umbral $d^*$ y depende de la probabilidad de excedencia $P\left [D>d^* \right ]$ de un evento sísmico, y  del número de eventos por año $\nu_o$ capaces de producir daño. 
+$$ \lambda_D(d^*) \approx \nu_o P\left [D>d^* \right ] $$ 
+Entendiendo que la respuesta sísmica de un sistema sistema será dependiente del movimiento sísmico del sitio del proyecto, la probabilidad de excedencia $P\left [ D>d^* \right ]$ debe poder condicionarse a algunas características del movimiento sísmico. El planteo tradicional es caracterizar el movimiento sísmico a partir de una medida escalar de intensidad escalar $I=i^*$. Bajo esta hipótesis, la probabilidad de excedencia puede estimarse mediante el teorema de la probabilidad total 
+$$P\left [ D>d^* \right ] \approx \sum^{}_{all\  i^{\ast }}  P\left [D > d^*|I \right ] P\left [I=i^*  \right ] $$
 
-$\approx \eta_{D/I}(i^*) \epsilon \approx \eta_{D/I}(i^*) e^{\sigma_{ln D/I}}$
+La frecuencia con la que ocurren eventos de intensidad $I=i^*$ puede obtenerse a partir de la probabilidad de excedencia $P\left [ I>i^* \right ]$ para todos los escenarios posibles de eventos sísmicos en el sitio.
+La intensidad sísmica del sitio $i^*$ dependerá en general de la distancia del sitio al punto más cercano de la falla $r^*$ y de la magnitud $m^*$ del evento sísmico, el cual está directamente relacionado con el tamaño del área de falla.
 
+Debido a la naturaleza aleatoria asociada a la ubicación de los hipocentros de un terremoto y al tamaño del área de ruptura asociada a durante un evento sísmico, la distancia a la falla $R$ y la magnitud $M$  son variables aleatorias que expresan de manera simplificada la variabilidad temporal y espacial, respectivamente, del movimiento sísmico y la frecuencia anual de excedencia de intensidades se obtiene mediante el teorema de la probabilidad total según
 
-El segundo término se obtiene como la derivada la funcion del peligro sísmico del sitio $G_I(i^*) = 1 - F_I(i^*)$ 
+$$P\left [ I>i^* \right ] \approx \sum^{}_{all\  m^{\ast},r^{\ast}}  P\left [I > i^*|M,R \right ] P\left [M=m^*,R=r^*  \right ] $$
 
-La demanda sísmica $D$ 
+En general, las variables aleatorias $R$ y $M$ suelen considerarse _iid_ y $P\left [M=m^*,R=r^*  \right ]  \approx P\left [M=m^*\right ] P\left [R=r^*\right ]$
+Existen escenarios sísmicos en donde puedan estar correlacionadas. Por ejemplo, en sitios cercanos a fallas activas, la distancia al punto más cercano de la falla $R$ suele estar correlacionada con la ubicación del área de ruptura y la función de distribución de las distancias requiere del conocimiento de todas las posibles áreas de ruptura, por lo que $P\left [R=r^*,R=r^* \right ]  \approx  P\left [R=r^*|M=m^*\right ] P\left [M=m^*\right ]$  
 
-Por ejemplo, en muchos sistemas dinámicos, se puede asumir que la demanda condicional tiene una distribución log-Normal, con parámetros 
+Luego, la probabilidad de excedencia de un evento sísmico de intensidad $I=i^*$ originado en una falla situada a una distancia aleatoria $ r_{min}^* \leq R \leq r_{max}^* $ y una magnitud  $ m_{min}^* \leq M \leq m_{max}^* $ queda determinada según la función de densidad acumulada $G_I(i^*)$ según
 
-En los sistemas dinámicos complejos, la demanda sísmica no puede correlacionarse directamente con una medida de intensidad en particular, y dependerá en general de toda la historia de tiempos del movimiento sísmico. 
-
-
-La demanda sísmica $D$ es una variable aleatoria que está condicionada por la intensidad $I$ y depende además de otros parámetros del sistema que por simplicidad no se muestran en la expresión.
-
-
-
-La intensidad del movimiento sísmico también es una vLos modelos de predicción de intensidad del movimiento sísmico, tambien llamados GMPE (ground-motion prediction equations), caracterizan el movimiento sísmico del terreno indirectamente a partir de medidas escalares de intensida
+$$ P\left [ I>i^* \right ] \approx \int^{r_{max}^*}_{r_{min}^*}  \int^{m_{max}^*}_{m_{min}^*} G_{I|R,M}(i^*,r,m) f_{R|M}(r,m)  f_M(m)  dm dr \approx G_I(i^*) $$
 
 
-#### SDOF
+La función de densidad $f_I(i^*)$ que define la probabilidad ocurrencia de un evento sísmico de intensidad $I=i^*$ originado en una situada a una distancia comprendida entre $ r_{min}^*\leq R \leq r_{max}^* $ y una magnitud comprendida entre $ m_{min}^*\leq M \leq m_{max}^* $ queda determinada según 
+$$ f_I(i^*) \approx \int^{r_{max}^*}_{r_{min}^*}  \int^{m_{max}^*}_{m_{min}^*} \frac{\partial G_{I|R,M}(i^*,r,m)}{\partial i} f_{R|M}(r,m)  f_M(m)  dm dr  $$
 
-En los sistemas cuyo comportamiento dinámico puede asimilarse a un oscilador de un grado de libertad (SDOF), la demanda sísmica puede correlacionarse directamente con las ordenadas espectrales de un SDOF equivalente. Por ejemplo, los esfuerzos de corte de diseño de una pila de un puente o los empujes hidrodinámicos en un tanque de combustibles sometidos a movimientos sísmicos de la base, son proporcionales a la pseudo-aceleración espectral del movimiento sísmico en un SDOF equivalente. 
-En los sistemas dinámicos en general no es posible identificar una única medida de intensidad que sea eficiente y suficiente para predecir la demanda sísmica. La demanda sísmica en estos casos dependerá de varios aspectos del movimiento sísmico tales como la duración, el contenido de frecuencias de la señal, la energía, etc. es decir, dependerá de toda la historia temporal. Ejemplo de estos problemas pueden ser la licuación de un estrato de fundación de arena saturada o los asentamientos de un talud de materiales sueltos sometidos a movimientos sísmicos en su base. 
+Finalmente, la probabilidad de que la demanda sísmica exceda un valor límite $d^*$ dado que ocurrió un evento de intensidad $I=i$ se puede obtener mediante la expresión general:
 
-#### Medidas de Intensidad
+$$P\left [ D>d^* \right ] \approx \int^{i_{max}^*}_{i_{min}^*} \int^{r_{max}^*}_{r_{min}^*}  \int^{m_{max}^*}_{m_{min}^*} G_{D|I}(d^*,i) \frac{\partial G_{I|R,M}(i,r,m)}{\partial i} f_{R|M}(r,m)  f_M(m)  dm dr di \approx G_D(d^*) $$
+Luego, el objetivo final en la formulación de un modelo de estimación de la demanda probabilística, es obtener una expresión para la demanda condicional $G_{D|I}(d,i)$, y la intensidad condicional $G_{I|R,M}(i,r,m)$
 
+La caracterización de las funciones de demanda e intensidad condicionadas, puede hacerse mediante modelos paramétricos o modelos no-paramétrricos. Los modelos paramétricos son aquellos en que las formas funcionales de las distribuciones de probabilidad son conocidas y sólo quedan por determinar un número finito de parámetros que parametrizan o ajustan esas formas funcionales. 
+
+En el estado actual de la práctica, se suelen asumir las siguientes hipótesis:
+
+-  $I|M,R$ es una variable aleatoria Log-Normal con  esperanza $E[ln I|R,M] \approx \mu_{ln I|R,M}$  y varianza  ${Var}\left [ln I|R,M\right] = \sigma_{ln I|R,M}^2$ 
+
+-  $D|I$ es otra variable aleatoria con una esperanza $E[ln D|I] \approx \mu_{lnD|I}$ y varianza  ${Var}\left [ln D|I\right] = \sigma_{ln D|I}^2$ 
+
+*conexion modelos*
+La ventaja de asumir normalidad para las variables aleatorias $lnI|M,R$ y $lnD|I$ es que las funciones de distribución $G_{I|R,M}(d^*,i)$ y $G_{D|I}(d^*,i)$ pueden definirse explícitamente  en términos de la función de densidad normal $\phi$  y la función de densidad normal acumulada  $\Phi$
+
+$$ G_{I|M,R}(d^*,i) \approx 1-\Phi \left(  \right ) $$
+$$ G_{D|I}(d^*,i) \approx 1-\Phi \left(  \right ) $$
+
+
+#### Hipotesis
+
+
+Cualquiera sean las hipótesis que se hagan sobre la función de distribución de demanda, siempre es posible formular modelos dinámicos que estimen algún parámetro de la demanda sísmica $d$ para diferentes niveles de intensidad sísmica $i$ y permiten ajustar la mediana condicional $\eta_{D|I}(i)$ y la varianza $\sigma_{ln D|I}^2$ mediante un modelo de regresión. 
+
+
+
+ Si asumimos que las intensidades siguen una distribución Log-Normal 
+
+
+Ejemplo: En el ejemplo del diseño sísmico de la presa de materiales sueltos,  podría obtenerse mediante un modelo computacionak
+
+
+se puede ajustar mediante regresión lineal a partir de obtener mediante modelo numérico, una tabla de valores de demanda para diferentes intensidades, obtenidas ya sea mediante un modelo simplificado analítico o un modelo computacional complejo. La metodología anterior asume que la demanda sísmica puede expresarse o correlacionarse en función de una única medida de intensidad.
+
+#### Limitaciones del estado actual de la práctica
 Cuando se emplea una única medida de intensidad para correlacionar la demanda con el movimiento sísmico, se requiere la elección de una medida óptima de intensidad. La identificación de IM óptimas en caracterizar la relación entre el movimiento sísmico y la demanda sísmica, puede ser abordada a partir de los conceptos de eficiencia y suficiencia . Una medida de intensidad suficiente es aquella para la cual los parámetros de demanda sísmica (D) son condicionalmente independientes de la magnitud y la distancia de los sismos seleccionados. Para una IM suficiente, la adición de registros de diferentes M o R no reduce la variabilidad del los parámetros de demanda sísmica (D). Una IM eficiente es aquella que reporta una variabilidad relativamente pequeña en la demanda sísmica y puede ser cuantificada en el desvío estándar del error aleatorio
+
+En los sistemas dinámicos en general no es posible identificar una única medida de intensidad que sea eficiente y suficiente para predecir la demanda sísmica y dependerá de varios aspectos del movimiento sísmico tales como la duración, el contenido de frecuencias de la señal, la energía, etc. es decir, dependerá de toda la historia temporal.
+
+
+Los modelos de predicción de intensidad del movimiento sísmico, tambien llamados GMPE (ground-motion prediction equations), caracterizan el movimiento sísmico del terreno indirectamente a partir de medidas escalares de intensidad
+
+Debido a las características particulares de las estructuras geotécnicas de materiales sueltos, no se disponen en general medidas de intensidad eficientes ni suficientes para correlacionar el asentamiento del coronamiento con la intensidad del movimiento sísmico y se requieren modelos específicos para estimar la demanda sísmica y seleccionar los registros sísmicos de diseño.  
 
 #### Predicción del Movimiento Sísmico
 
-Los diferentes escenarios de magnitud y distancia capturan la variabilidad de ocurrencia temporal  y espacial de los eventos sísmicos, respectivamente y todos los modelos empíricos (estadísticos) de predicción de la intensidad sísmica, se basan en estos parámetros independientes. 
+
 Con el fin de restringir los modelos empíricos para un rango amplio de escenarios de magnitud y distancia que se consideran dentro de los análisis probabilísticos de peligro y riesgo, generalmente es necesario compilar conjuntos de datos de movimientos del suelo de diferentes regiones debido a que no se dispone un número suficientemente grande de registros sísmicos para diferentes escenarios de magnitudes y distancias. Sin embargo, esto introduce mayor incertidumbre aleatoria ya que cualquier diferencia que exista entre el medio de propagación, las excitaciones de la fuente o la respuesta del sitio,  se manifestará como una mayor varianza en el modelo. 
 
 #### Modelos Físicos y Modelos Empíricos
@@ -75,6 +119,8 @@ Según Draper y Smith (1981) los modelos matemáticos pueden clasificarse en tre
 * Modelos de Control. Cuando los efectos independientes de cada una de las variables de control (las variables predictoras) pueden estimarse mediante el diseño de experimentos. 
 * Modelos Funcionales. Cuando se conoce y se utiliza la verdadera relación funcional entre la respuesta (el valor a predecir) y las variables predictoras.  
 * Modelos Predictivos. Cuando no se pueden utilizar modelos funcionales ni de control y dentro de los datos existe mucha intercorrelación, los llamados "problemas de datos desordenados". 
+
+
 El análisis de la respuesta sísmica de un sistema requiere la formulación de modelos de estimación. 
 En ingeniería sísmica los modelos de control no son posibles porque los experimentos no son repetibles. Evidentemente, no se pueden realizar experimentos controlados con los movimientos del terreno causados por los terremotos porque no hay dos terremotos iguales, ni dos epicentros iguales con idénticas trayectorias hasta la estación sismológica, ni dos estaciones sismológicas con idénticas condiciones geotécnicas.
 Los modelos mecanicistas por otra parte, pretenden capturar la verdadera relación funcional que existe entre las variables predictivas (Magnitud, Distancia) y la variable a predecir (Intensidad) a partir de la naturaleza física de los fenómenos de generación. Sin embargo, en raras ocasiones se conocen en detalle todos los aspectos físicos asociados al movimiento sísmico de una fuente sísmica conocida y aunque se pudieran parametrizar aún es muuy complejo poder expresarlos en forma de una simple ecuación.  Luego, los modelos de predicción suelen ser modelos empíricos en donde se estiman las propiedades de las medianas condicionales y las varianzas que determinan la función de distribución del parámetro dependiente.
@@ -92,15 +138,13 @@ La mayoría de los GMPE disponibles en la bibliografía suelen considerar las ca
 
 
 #### Ejemplo de aplicación
-Para poder identificar las limitaciones y desafíos del estado actual de la práctica, se presenta un flujo de análisis conceptual del proceso de desarrollo de un modelo de estimación de demanda sísmica de un sistema dinámico no-lineal. 
-En este ejemplo, se requiere obtener una estimación de la demanda sísmica de asentamientos $D$ en el coronamiento de una presa de enrocado para un sismo máximo de diseño de intensidad conocida  $I$. 
-Debido a las características particulares de las estructuras geotécnicas de materiales sueltos, no se disponen en general medidas de intensidad eficientes ni suficientes para correlacionar el asentamiento del coronamiento con la intensidad del movimiento sísmico y se requieren modelos específicos para estimar la demanda sísmica y seleccionar los registros sísmicos de diseño.  
-El diseño adecuado de una presa de materiales sueltos debe asegurar que los asentamientos residuales al final de un evento sísmico extremo (la demanda $D$ ) no superen un cierto valor máximo (la capacidad $C$), que está determinado por la revancha existente entre el nivel máximo del embalse (freeboard) y el coronamiento de la presa de enrocado. 
+
+
 
 S
  Asumiendo también una distribución Log-Normal para esta variable aleatoria, se tiene que
 
-La intensidad sísmica $I$ es una variable aleatoria que está condicionada por el escenario sísmico determinado por la distancia a la fuente $r^*$ al punto más cercano de la falla que produjo un evento sísmico de magnitud $m^*$. Asumiendo también una distribución Log-Normal para esta variable aleatoria, se tiene que 
+
 
 
 
