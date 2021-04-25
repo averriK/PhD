@@ -3,6 +3,7 @@
     <ProjectSettings>
         <Content Scope="Included">
             <Filter State="Off" Exclude="No" Type="Label">
+                <CollectionID>A38B2AD6-408F-4B8E-A7E3-45FF5E8FAF2B</CollectionID>
                 <Label>-1</Label>
                 <Status>-1</Status>
             </Filter>
@@ -13,7 +14,7 @@
             <ResampleImages DPI="72">No</ResampleImages>
             <ConvertTablesAndListToMMD>Yes</ConvertTablesAndListToMMD>
             <PDF>
-                <Cover Bleed="9.0" BleedUnits="pt"/>
+                <Cover Source="FrontMatter" Bleed="9.0" BleedUnits="pt"/>
                 <Compression Enabled="No">
                     <ImageResolutionCompressionType>Set</ImageResolutionCompressionType>
                     <ImageResolution>150</ImageResolution>
@@ -40,11 +41,8 @@
             </Ebook>
         </Options>
         <MetaData>
-            <ProjectTitle>Prueba</ProjectTitle>
-            <ProjectAbbreviatedTitle>Prueba</ProjectAbbreviatedTitle>
-            <Authors>
-                <Author Role="aut"></Author>
-            </Authors>
+            <ProjectTitle>formats</ProjectTitle>
+            <ProjectAbbreviatedTitle>formats</ProjectAbbreviatedTitle>
             <EbookLanguage>en</EbookLanguage>
             <FountainTitlePageMetaData>
                 <Value Key="Title"><![CDATA[<$projecttitle>]]></Value>
@@ -56,14 +54,52 @@
             </MMDMetaData>
         </MetaData>
     </ProjectSettings>
-    <CurrentFileType>Print</CurrentFileType>
+    <CurrentFileType>mmd</CurrentFileType>
     <FormatSettings>
-        <Format ID="DEFAULT">
+        <Format ID="mmd-barebones">
             <SectionLayouts>
-                <Type ID="DEF2E310-8EA1-43BF-8EC3-FBD3E440576B">NEW-PAGE-HEADER-WITH-TEXT</Type>
-                <Type ID="E1922FCA-1F73-48D3-9520-FA246F6634D2">TEXT-SECTION</Type>
+                <Type ID="4167FA9B-B809-45D9-80A2-FA49A7CF3177">778FA2E2-F67D-4803-B183-019F8B45528B</Type>
+                <Type ID="57B5B351-6655-4C3B-AC07-7111194AF50E">72A8A17D-2FF3-4C8D-8A4C-7895908E7EE5</Type>
+                <Type ID="AAE5284E-4A01-4DF9-AD2A-FF5AEAAA977D">778FA2E2-F67D-4803-B183-019F8B45528B</Type>
+                <Type ID="8A0CB521-BA0F-481B-9E55-33F8ADFE2270">778FA2E2-F67D-4803-B183-019F8B45528B</Type>
             </SectionLayouts>
         </Format>
+        <Format ID="manuscript-times">
+            <SectionLayouts>
+                <Type ID="4167FA9B-B809-45D9-80A2-FA49A7CF3177">AS-IS</Type>
+                <Type ID="57B5B351-6655-4C3B-AC07-7111194AF50E">AS-IS</Type>
+                <Type ID="AAE5284E-4A01-4DF9-AD2A-FF5AEAAA977D">AS-IS</Type>
+            </SectionLayouts>
+        </Format>
+        <Format ID="manuscript-courier">
+            <SectionLayouts>
+                <Type ID="4167FA9B-B809-45D9-80A2-FA49A7CF3177">AS-IS</Type>
+                <Type ID="57B5B351-6655-4C3B-AC07-7111194AF50E">AS-IS</Type>
+                <Type ID="AAE5284E-4A01-4DF9-AD2A-FF5AEAAA977D">AS-IS</Type>
+            </SectionLayouts>
+            <FrontAndBackMatter>
+                <DefaultFrontMatter>B82E926A-AB51-4BA9-A16A-F8251535D54D</DefaultFrontMatter>
+                <DefaultBackMatter>097E1565-B3E7-4423-A83A-AC87A5F15371</DefaultBackMatter>
+            </FrontAndBackMatter>
+        </Format>
+        <Format ID="DEFAULT">
+            <SectionLayouts>
+                <Type ID="4167FA9B-B809-45D9-80A2-FA49A7CF3177">CHAPTER-NUMBER-AND-TEXT</Type>
+                <Type ID="57B5B351-6655-4C3B-AC07-7111194AF50E">CHAPTER-NUMBER</Type>
+                <Type ID="AAE5284E-4A01-4DF9-AD2A-FF5AEAAA977D">NEW-PAGE</Type>
+                <Type ID="8A0CB521-BA0F-481B-9E55-33F8ADFE2270">AS-IS</Type>
+            </SectionLayouts>
+            <FrontAndBackMatter>
+                <DefaultFrontMatter>B82E926A-AB51-4BA9-A16A-F8251535D54D</DefaultFrontMatter>
+                <DefaultBackMatter>097E1565-B3E7-4423-A83A-AC87A5F15371</DefaultBackMatter>
+            </FrontAndBackMatter>
+        </Format>
     </FormatSettings>
-    <LastUsedFormats/>
+    <LastUsedFormats>
+        <Print>manuscript-courier</Print>
+        <mmd-latex>DEFAULT</mmd-latex>
+        <mmd-pdf>DEFAULT</mmd-pdf>
+        <mmd>mmd-barebones</mmd>
+        <pdf>DEFAULT</pdf>
+    </LastUsedFormats>
 </CompileSettings>
