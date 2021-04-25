@@ -12,9 +12,9 @@ output:
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## Enfoque propuesto
+## Enfoque propuesto...
 
-### Motivación. Limitaciones del estado actual del arte. 
+### Motivación. Limitaciones del estado actual del arte.
 
 En el estado de la práctica actual de la predicción de la respuesta sísmica, la variabilidad de la demanda y en consecuencia, la incertidumbre de la probabilidad de falla de un diseño, está controlada por el error del modelos de predicción del movimiento sísmico y el error de predicción de la demanda sísmica.
 
@@ -24,7 +24,7 @@ La hipótesis de normalidad en las funciones de distribución de la intensidad (
 
 El estado de la práctica actual considera la influencia de los efectos del sitio a partir de factores de amplificación de ordenadas espectrales empíricos basados en la velocidad de onda de corte Vs30, que es un parámetro geotécnico pobremente correlacionado con la respuesta dinámica del sitio, y aporta una gran variabiliad adicional en las caracteristicas del movimiento sísmico en superficie, particularmente cuando existen estratos profundos de suelos de baja rigidez sometidos a movimiento fuerte del terreno.
 
-### Enfoque propuesto. Objetivos Generales 
+### Enfoque propuesto. Objetivos Generales
 
 El propósito del presente trabajo de investigación es la formulación de una metodología general para generación automática de modelos robustos de estimación de respuesta sísmica de sistemas dinámicos complejos, entendiendo a robustos a formulaciones heterocedásticas y no-paramétricas (distribution-free), y automáticos en el sentido de la inferencia de datos a partir del aprendizaje automático (Machine Learning) de la respuesta obtenida mediante modelos numéricos complejos
 
