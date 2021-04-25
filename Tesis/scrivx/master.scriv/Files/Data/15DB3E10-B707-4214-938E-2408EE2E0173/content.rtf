@@ -1,0 +1,464 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2578
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\froman\fcharset0 Palatino-Bold;\f2\fnil\fcharset0 STIXGeneral-Regular;
+\f3\fnil\fcharset0 AppleSymbols;\f4\fnil\fcharset0 Menlo-Regular;\f5\fnil\fcharset134 PingFangSC-Regular;
+\f6\fnil\fcharset129 AppleSDGothicNeo-Regular;\f7\fnil\fcharset0 LucidaGrande;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;}
+{\*\expandedcolortbl;;\cssrgb\c0\c0\c0;}
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\sb400\sa200\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 <$ScrKeepWithNext><$Scr_H::2><$Scr_Ps::0>
+\f1\b\fs40 Planteo del Problema\
+\pard\tx560\pardeftab720\sa160\partightenfactor0
+
+\f0\b0\fs24 \cf2 \expnd0\expndtw0\kerning0
+<!$Scr_H::2><!$Scr_Ps::0><$Scr_Ps::1>
+\fs22 Para poder identificar las limitaciones y desaf\'edos del estado actual de la pr\'e1ctica, se presenta un resumen conceptual de las expresiones matem\'e1ticas y las hip\'f3tesis impl\'edcitas en un modelo simple de estimaci\'f3n de demanda s\'edsmica.\
+En este ejemplo, se requiere obtener una estimaci\'f3n de la demanda s\'edsmica de asentamientos en el coronamiento de una presa de enrocado. Las estructuras de materiales sueltos sometidas a movimientos s\'edsmicos sufren cambios de rigidez debido al re-acomodamiento de los materiales, que resultan en asentamientos permanentes al final del evento s\'edsmico. El dise\'f1o adecuado de una presa de materiales sueltos debe asegurar una revancha (free-board) tal que los asentamientos residuales al final de un evento s\'edsmico extremo (la demanda) no superen la revancha existente con el nivel m\'e1ximo del embalse (la capacidad) durante el per\'edodo de exposici\'f3n de la obra\
+En un marco de dise\'f1o basado en la confiabilidad, se requiere que la probabilidad de que los asentamientos permanentes al final del evento s\'edsmico (la demanda) excedan a la revancha (capacidad) de la presa, sea menor a un cierto valor objetivo. Si asumimos que el nivel del embalse tiene un valor determinado $d^*$ al momento del evento s\'edsmico, la demanda s\'edsmica definida como  ser\'e1 una variable aleatoria. \
+$$
+\f2 \uc0\u55349 \u56413 
+\f0 _
+\f2 \uc0\u55349 \u56403 
+\f0 \uc0\u8776 
+\f2 \uc0\u55349 \u56387 
+\f0 _
+\f2 \uc0\u55349 \u56391 \u55349 \u56402 
+\f0  [
+\f2 \uc0\u55349 \u56375 
+\f0 >
+\f2 c
+\f0 ^
+\f3 \uc0\u8727 
+\f0  ]< p^* $$\
+Asumiendo que la demanda 
+\f2 \uc0\u55349 \u56375 
+\f0  est\'e1 relacionada exclusivamente con la ocurrencia de eventos s\'edsmicos y que la ocurrencia de estos eventos sigue un proceso de Poisson, la probabilidad de excedencia durante la vida \'fatil de la instalaci\'f3n puede expresarse a partir de una frecuencia anual de excedencia 
+\f2 \uc0\u55349 \u57094 
+\f0 _
+\f2 \uc0\u55349 \u56375 
+\f0  (
+\f2 \uc0\u55349 \u56401 
+\f0 ^
+\f3 \uc0\u8727 
+\f0  ) y del n\'famero de eventos s\'edsmicos al a\'f1o, capaces de producir asentamientos.\
+\pard\tx720\tx1080\tx1440\tx1800\tx2160\li720\pardirnatural\partightenfactor0
+
+\fs24 \cf0 \kerning1\expnd0\expndtw0 <!$Scr_Ps::1><$Scr_Ps::2>
+\f2\fs22 $$\uc0\u55349 \u56387 
+\f4 _
+\f2 \uc0\u55349 \u56391 \u55349 \u56402 
+\f4  [
+\f2 \uc0\u55349 \u56375 
+\f4 >
+\f2 \uc0\u55349 \u56401 
+\f4 ^\uc0\u8727  ]\u8776 1\u8722 
+\f2 \uc0\u55349 \u56402 \u55349 \u56421 \u55349 \u56413 
+\f4 [\uc0\u8722 
+\f5 /nu
+\f4 _
+\f2 \uc0\u55349 \u56412 
+\f4  
+\f2 \uc0\u55349 \u56387 
+\f4 [
+\f2 \uc0\u55349 \u56375 
+\f4 >
+\f2 \uc0\u55349 \u56401 
+\f4 ^\uc0\u8727  ] T_
+\f2 \uc0\u55349 \u56402 
+\f4 ] \uc0\u8776  1\u8722 
+\f2 \uc0\u55349 \u56402 \u55349 \u56421 \u55349 \u56413 
+\f4 [\uc0\u8722 
+\f2 \uc0\u55349 \u57094 
+\f4 _
+\f2 \uc0\u55349 \u56375 
+\f4  
+\f5 T
+\f4 _
+\f2 \uc0\u55349 \u56402 
+\f4  ]$$\
+\pard\tx560\pardeftab720\sa160\partightenfactor0
+
+\f0\fs24 \cf2 \expnd0\expndtw0\kerning0
+<!$Scr_Ps::2><$Scr_Ps::1>
+\fs22 La frecuencia anual de excedencia 
+\f2 \uc0\u55349 \u57094 
+\f0 _
+\f2 \uc0\u55349 \u56375 
+\f0  es el n\'famero de veces al a\'f1o que la demanda supera a la capacidad y se puede estimar mediante el teorema de la probabilidad total, a partir de considerar todas las intensidades para las cuales la demanda excede la capacidad 
+\f2 \uc0\u55349 \u56387 
+\f0 [
+\f5 \'a1\'bc
+\f2 \uc0\u55349 \u56375 
+\f0 >
+\f2 \uc0\u55349 \u56401 
+\f0 ^
+\f3 \uc0\u8727 
+\f5 \'a1\'bd\'a8\'4d\'a1\'bc
+\f2 \uc0\u55349 \u56406 
+\f0 ^
+\f3 \uc0\u8727 
+\f0   
+\f5 \'a1\'bd
+\f0 ], condicionada a la ocurrencia de un evento de esa intensidad 
+\f2 \uc0\u55349 \u56387 
+\f0 [
+\f2 \uc0\u55349 \u56380 
+\f0 =
+\f2 \uc0\u55349 \u56406 
+\f0 ^
+\f3 \uc0\u8727 
+\f0  ]\
+\pard\tx560\pardeftab720\sa160\partightenfactor0
+
+\f2 \cf2 \uc0\u55349 \u56387 
+\f0 [
+\f2 \uc0\u55349 \u56375 
+\f0 >
+\f2 \uc0\u55349 \u56401 
+\f0 ^
+\f3 \uc0\u8727 
+\f0  ]=\uc0\u8721 _(
+\f2 \uc0\u55349 \u56398 \u55349 \u56409 \u55349 \u56409 
+\f5 \'a1\'bc
+\f0   
+\f2 \uc0\u55349 \u56406 
+\f5 \'a1\'bd
+\f0 ^
+\f3 \uc0\u8727 
+\f0 )
+\f6 \'a2\'c6\uc0\u12310 
+\f2 \uc0\u55349 \u56387 
+\f0 [
+\f2 \uc0\u55349 \u56380 
+\f0 =
+\f2 \uc0\u55349 \u56406 
+\f0 ^
+\f3 \uc0\u8727 
+\f0  ]    
+\f2 \uc0\u55349 \u56387 
+\f0 [
+\f5 \'a1\'bc
+\f2 \uc0\u55349 \u56375 
+\f0 >
+\f2 \uc0\u55349 \u56401 
+\f0 ^
+\f3 \uc0\u8727 
+\f5 \'a1\'bd\'a8\'4d\'a1\'bc
+\f2 \uc0\u55349 \u56380 
+\f0 =
+\f2 \uc0\u55349 \u56406 
+\f0 ^
+\f3 \uc0\u8727 
+\f0  
+\f5 \'a1\'bd
+\f0 ]  
+\f5 \'a1\'bd
+\f0 \
+En muchos problemas de ingenier\'eda s\'edsmica, se puede asumir aproximadamente que la demanda s\'edsmica condicional 
+\f2 \uc0\u55349 \u56375 \u8725 \u55349 \u56380 
+\f0  es una variable aleatoria log-normal con una mediana condicional 
+\f2 \uc0\u55349 \u56376 
+\f0 [ln\uc0\u8289 
+\f5 \'a1\'bc
+\f2 \uc0\u55349 \u56375 \u8725 \u55349 \u56380 
+\f5 \'a1\'bd
+\f0  ]=
+\f2 \uc0\u55349 \u57095 
+\f0 _ln\uc0\u8289 
+\f5 \'a1\'bc
+\f2 \uc0\u55349 \u56375 \u8725 \u55349 \u56380 
+\f5 \'a1\'bd
+\f0  =ln\uc0\u8289 
+\f5 \'a1\'bc
+\f2 \uc0\u55349 \u57090 
+\f0 _(
+\f2 \uc0\u55349 \u56375 \u8725 \u55349 \u56380 
+\f0 ) 
+\f5 \'a1\'bd
+\f0  y una varianza 
+\f2 \uc0\u55349 \u57102 
+\f0 _ln\uc0\u8289 
+\f5 \'a1\'bc
+\f2 \uc0\u55349 \u56375 \u8725 \u55349 \u56380 
+\f5 \'a1\'bd
+\f0 ^2\
+y un t\'e9rmino de error 
+\f2 \uc0\u55349 \u57110 
+\f0  asumido como una variable aleatoria con valor medio 
+\f2 \uc0\u55349 \u57095 
+\f0 _ln\uc0\u8289 
+\f2 \uc0\u55349 \u57110 
+\f0  =0 y varianza igual al error del modelo 
+\f2 \uc0\u55349 \u57102 
+\f0 _ln\uc0\u8289 
+\f2 \uc0\u55349 \u57110 
+\f0  =
+\f2 \uc0\u55349 \u57102 
+\f0 _ln\uc0\u8289 
+\f5 \'a1\'bc
+\f2 \uc0\u55349 \u56375 
+\f0 /
+\f2 \uc0\u55349 \u56380 
+\f5 \'a1\'bd
+\f0  \
+\
+\
+
+\f2 \uc0\u55349 \u56375 
+\f0 \uc0\u8776 
+\f2 \uc0\u55349 \u57090 
+\f0 _(
+\f2 \uc0\u55349 \u56375 \u8725 \u55349 \u56380 
+\f0 ) (
+\f2 \uc0\u55349 \u56406 
+\f0 ^
+\f3 \uc0\u8727 
+\f0  )  
+\f2 \uc0\u55349 \u57110 
+\f0 \uc0\u8776 
+\f2 \uc0\u55349 \u57090 
+\f0 _(
+\f2 \uc0\u55349 \u56375 \u8725 \u55349 \u56380 
+\f0 ) (
+\f2 \uc0\u55349 \u56406 
+\f0 ^
+\f3 \uc0\u8727 
+\f0  )  
+\f2 \uc0\u55349 \u56402 
+\f0 ^(
+\f2 \uc0\u55349 \u57085 
+\f0 _(
+\f2 \uc0\u55349 \u56375 
+\f0 /
+\f2 \uc0\u55349 \u56380 
+\f0 ) (
+\f2 \uc0\u55349 \u56406 
+\f0 ^
+\f3 \uc0\u8727 
+\f0  ) )\
+s\
+La mediana condicional y el t\'e9rmino del error de la demanda puede obtenerse a partir del an\'e1lisis de un conjunto de 
+\f2 \uc0\u55349 \u56385 
+\f0 _
+\f2 \uc0\u55349 \u56389 
+\f0   registros s\'edsmicos escalados al nivel de intensidad de servicio, mediante un modelo de regresi\'f3n\
+
+\f2 \uc0\u55349 \u57090 
+\f0 _(
+\f2 \uc0\u55349 \u56375 \u8725 \u55349 \u56380 
+\f0 ) (
+\f2 \uc0\u55349 \u56406 
+\f0 _
+\f2 \uc0\u55349 \u56408 
+\f0 ^
+\f3 \uc0\u8727 
+\f0  )\uc0\u8776 \u8719 _(
+\f2 \uc0\u55349 \u56415 
+\f0 =1)^(
+\f2 \uc0\u55349 \u56385 
+\f0 _
+\f2 \uc0\u55349 \u56389 
+\f0 )
+\f6 \'a2\'c6
+\f0 (
+\f2 \uc0\u55349 \u56401 
+\f0 _
+\f2 \uc0\u55349 \u56415 
+\f0 ^
+\f3 \uc0\u8727 
+\f0  )^(1
+\f7 \uc0\u8725 
+\f2 \uc0\u55349 \u56385 
+\f0 _
+\f2 \uc0\u55349 \u56389 
+\f0  ) \
+\
+
+\f5 \'a1\'bc
+\f0  
+\f2 \uc0\u55349 \u57085 
+\f5 \'a1\'bd
+\f0 _(
+\f2 \uc0\u55349 \u56375 \u8725 \u55349 \u56380 
+\f0 ) (
+\f2 \uc0\u55349 \u56406 
+\f0 _
+\f2 \uc0\u55349 \u56408 
+\f0 ^
+\f3 \uc0\u8727 
+\f0  )\uc0\u8776 \u8730 (
+\f2 \uc0\u55349 \u56393 \u55349 \u56372 \u55349 \u56389 
+\f0 [log\uc0\u8289 \{
+\f2 \uc0\u55349 \u56401 
+\f0 _
+\f2 \uc0\u55349 \u56415 
+\f0 ^
+\f3 \uc0\u8727 
+\f0  \}])\
+	\
+\
+La magnitud 
+\f2 \uc0\u55349 \u56384 
+\f0  de un evento s\'edsmico (la energ\'eda asociada al sismo) es una variable aleatoria que tiene en general una funci\'f3n de distribuci\'f3n de probabilidad conocida 
+\f2 \uc0\u55349 \u56403 
+\f0 _
+\f2 \uc0\u55349 \u56384 
+\f0  (
+\f2 \uc0\u55349 \u56410 
+\f0 ) que se expresa en funci\'f3n de el n\'famero de eventos s\'edsmicos por a\'f1o (sismicidad hist\'f3rica)\
+La magnitud m\'e1xima que puede producirse en una fuente, est\'e1 asociada al \'e1rea m\'e1xima de ruptura f\'edsicamente posible, y se denomina el sismo m\'e1ximo cre\'edble de la fuente 
+\f2 \uc0\u55349 \u56384 \u55349 \u56374 \u55349 \u56376 
+\f0 \
+La ocurrencia de un evento de magnitud 
+\f2 \uc0\u55349 \u56384 
+\f0  asociado al movimiento entre placas, tiene asociada la generaci\'f3n de un \'e1rea de ruptura 
+\f2 \uc0\u55349 \u56372 
+\f0 =
+\f2 \uc0\u55349 \u56403 
+\f0 (
+\f2 \uc0\u55349 \u56384 
+\f0 ) que determina un conjunto finito de posibles puntos de generaci\'f3n de movimientos s\'edsmicos  (hipocentros) que producir\'e1n intensidades (efectos) sobre las estructuras. \
+Luego, las distancias 
+\f2 \uc0\u55349 \u56389 
+\f0  asociadas a la ocurrencia de un evento, son variables aleatorias con una funci\'f3n de distribuci\'f3n dependiente de la magnitud 
+\f2 \uc0\u55349 \u56403 
+\f0 _(
+\f2 \uc0\u55349 \u56384 
+\f0 ,
+\f2 \uc0\u55349 \u56389 
+\f0 ) (
+\f2 \uc0\u55349 \u56410 
+\f0 ,
+\f2 \uc0\u55349 \u56415 
+\f0 ) limitadas en un rango de distancias 
+\f2 \uc0\u55349 \u56415 
+\f0 _
+\f2 \uc0\u55349 \u56410 \u55349 \u56406 \u55349 \u56411 
+\f0  (
+\f2 \uc0\u55349 \u56384 
+\f0 ) ~ 
+\f2 \uc0\u55349 \u56415 
+\f0 _
+\f2 \uc0\u55349 \u56410 \u55349 \u56398 \u55349 \u56421 
+\f0  (
+\f2 \uc0\u55349 \u56384 
+\f0 ) f\'edsicamente posibles\
+Luego, la probabilidad de que un evento s\'edsmico pueda tener una cierta intensidad 
+\f2 \uc0\u55349 \u56406 
+\f0 ^
+\f3 \uc0\u8727 
+\f0  puede determinarse entonces a partir del teorema de la probabilidad total, a partir de las funciones distribuci\'f3n conjunta de dos variables aleatorias 
+\f2 \uc0\u55349 \u56389 
+\f0  y 
+\f2 \uc0\u55349 \u56384 
+\f0 \
+
+\f2 *
+\f0 \
+Finalmente, la probabilidad de falla de la presa queda determinada ahora seg\'fan las funciones de densidad de probabilidad \uc0\u934 _
+\f2 \uc0\u55349 \u56400 
+\f0   () y 
+\f2 \uc0\u55349 \u57113 
+\f0 ()\
+
+\f2 *
+\f0 \
+\
+Donde el integrando incluye las medianas condicionales y  los t\'e9rminos de error 
+\f2 \uc0\u55349 \u57085 
+\f0 _(
+\f2 \uc0\u55349 \u56375 \u8725 \u55349 \u56380 
+\f0 ) y 
+\f2 \uc0\u55349 \u57085 
+\f0 _(
+\f2 \uc0\u55349 \u56380 \u8725 
+\f5 \'a1\'bc
+\f2 \uc0\u55349 \u56384 
+\f0 ,
+\f2 \uc0\u55349 \u56389 
+\f5 \'a1\'bd
+\f0 )\
+\
+\uc0\u926 (
+\f2 \uc0\u55349 \u56401 
+\f0 ^
+\f3 \uc0\u8727 
+\f0 ,
+\f2 \uc0\u55349 \u56406 
+\f0 ,
+\f2 \uc0\u55349 \u56410 
+\f0 ,
+\f2 \uc0\u55349 \u56415 
+\f0 )=\uc0\u934 _
+\f2 \uc0\u55349 \u56400 
+\f0  [
+\f2 \uc0\u55349 \u56409 \u55349 \u56411 
+\f0 \uc0\u8289 [
+\f2 \uc0\u55349 \u56401 
+\f0 ^
+\f3 \uc0\u8727 \u8725 
+\f5 \'a1\'bc
+\f2 \uc0\u55349 \u57090 
+\f0 _(
+\f2 \uc0\u55349 \u56375 \u8725 \u55349 \u56380 
+\f0 ) (
+\f2 \uc0\u55349 \u56406 
+\f0 ) 
+\f5 \'a1\'bd
+\f0 ]/
+\f2 \uc0\u55349 \u57085 
+\f0 _(
+\f2 \uc0\u55349 \u56375 \u8725 \u55349 \u56380 
+\f0 ) ]  
+\f2 \uc0\u55349 \u57113 
+\f0 [(
+\f2 \uc0\u55349 \u56409 \u55349 \u56411 
+\f0 \uc0\u8289 [
+\f2 \uc0\u55349 \u56406 \u8725 
+\f5 \'a1\'bc
+\f2 \uc0\u55349 \u57090 
+\f0 _(
+\f2 \uc0\u55349 \u56380 \u8725 
+\f5 \'a1\'bc
+\f2 \uc0\u55349 \u56384 
+\f0 ,
+\f2 \uc0\u55349 \u56389 
+\f5 \'a1\'bd
+\f0 ) (
+\f2 \uc0\u55349 \u56410 
+\f0 ,
+\f2 \uc0\u55349 \u56415 
+\f0 )
+\f5 \'a1\'bd
+\f0 ])/
+\f2 \uc0\u55349 \u57085 
+\f0 _(
+\f2 \uc0\u55349 \u56380 \u8725 
+\f5 \'a1\'bc
+\f2 \uc0\u55349 \u56384 
+\f0 ,
+\f2 \uc0\u55349 \u56389 
+\f5 \'a1\'bd
+\f0 ) ]   (
+\f2 \uc0\u55349 \u56403 
+\f0 _(
+\f2 \uc0\u55349 \u56384 
+\f0 ,
+\f2 \uc0\u55349 \u56389 
+\f0 ) (
+\f2 \uc0\u55349 \u56410 
+\f0 ,
+\f2 \uc0\u55349 \u56415 
+\f0 ))/
+\f2 \uc0\u55349 \u57085 
+\f0 _(
+\f2 \uc0\u55349 \u56380 \u8725 
+\f5 \'a1\'bc
+\f2 \uc0\u55349 \u56384 
+\f0 ,
+\f2 \uc0\u55349 \u56389 
+\f5 \'a1\'bd
+\f0 ) \
+\pard\tx560\pardeftab720\sa160\partightenfactor0
+
+\fs24 \cf2 <!$Scr_Ps::1>}

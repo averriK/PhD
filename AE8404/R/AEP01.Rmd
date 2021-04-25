@@ -6,6 +6,7 @@ output:
   prettydoc::html_pretty:
     theme: cayman # leonids cayman tactile architect 
     highlight: github
+    math: katex
 ---
 
 # AE-P01
