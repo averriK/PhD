@@ -43,9 +43,13 @@ Para poder identificar las limitaciones y desafíos del estado actual de la prá
 
 ### Planteo del Problema {#planteo-del-problema}
 
-Si asumimos que la demanda sísmica $D$ está relacionada exclusivamente con la ocurrencia de eventos sísmicos durante un período de exposición $T_e$, y que la ocurrencia de estos eventos sigue un proceso de Poisson, la demanda sísmica dependerá del período de exposición $T_e$ y la confiabilidad del diseño puede expresarse numéricamente según $$P_{T_e}\left [D > d^*  \right ]\approx 1-e^{-\lambda_D(d^*) T_e}\leq p^*$$ El parámetro de Poisson $\lambda_D$ es la tasa anual en que la demanda $D$ excede un cierto umbral $d^*$ y depende de la probabilidad de excedencia $P\left [D>d^* \right ]$ de un evento sísmico, y del número de eventos por año $\nu_o$ capaces de producir daño. $$ \lambda_D(d^*) \approx \nu_o P\left [D>d^* \right ] $$
+Si asumimos que la demanda sísmica $D$ está relacionada exclusivamente con la ocurrencia de eventos sísmicos durante un período de exposición $T_e$, y que la ocurrencia de estos eventos sigue un proceso de Poisson, la demanda sísmica dependerá del período de exposición $T_e$ y la confiabilidad del diseño puede expresarse numéricamente según $$P_{T_e}\left [D > d^*  \right ]\approx 1-e^{-\lambda_D(d^*) T_e}\leq p^*$$ El parámetro de Poisson $\lambda_D$ es la tasa anual en que la demanda $D$ excede un cierto umbral $d^*$ y depende de la probabilidad de excedencia $P\left [D>d^* \right ]$ de un evento sísmico, y del número de eventos por año $\nu_o$ capaces de producir daño.
 
-Entendiendo que la respuesta sísmica de un sistema sistema será dependiente del movimiento sísmico del sitio del proyecto, la probabilidad de excedencia $P\left [ D>d^* \right ]$ debe poder condicionarse a algunas características del movimiento sísmico. El planteo tradicional es caracterizar el movimiento sísmico a partir de una medida escalar de intensidad escalar $I=i^*$. Bajo esta hipótesis, la probabilidad de excedencia puede estimarse mediante el teorema de la probabilidad total $$P\left [ D>d^* \right ] \approx \sum^{}_{all\  i^{\ast }}  P\left [D > d^*|I \right ] \ P\left [I=i^*  \right ] \approx G_D(d^*)$$
+$$ \lambda_D(d^*) \approx \nu_o P\left [D>d^* \right ] $$
+
+Entendiendo que la respuesta sísmica de un sistema sistema será dependiente del movimiento sísmico del sitio del proyecto, la probabilidad de excedencia $P\left [ D>d^* \right ]$ debe poder condicionarse a algunas características del movimiento sísmico. El planteo tradicional es caracterizar el movimiento sísmico a partir de una medida escalar de intensidad escalar $I=i^*$. Bajo esta hipótesis, la probabilidad de excedencia puede estimarse mediante el teorema de la probabilidad total
+
+$$P\left [ D>d^* \right ] \approx \sum^{}_{all\  i^{\ast }}  P\left [D > d^*|I \right ] \ P\left [I=i^*  \right ] \approx G_D(d^*)$$
 
 La frecuencia con la que ocurren eventos de intensidad $I=i^*$ puede obtenerse a partir de la probabilidad de excedencia $P\left [ I>i^* \right ]$ para todos los escenarios posibles de eventos sísmicos en el sitio. La intensidad sísmica del sitio $i^*$ dependerá en general de la distancia del sitio al punto más cercano de la falla $r^*$ y de la magnitud $m^*$ del evento sísmico, el cual está directamente relacionado con el tamaño del área de falla.
 
@@ -55,11 +59,11 @@ $$P\left [ I>i^* \right ] \approx \sum^{}_{all\  m^{\ast},r^{\ast}}  P\left [I >
 
 En general, las variables aleatorias $R$ y $M$ suelen considerarse *iid* y $P\left [M=m^*,R=r^* \right ] \approx P\left [M=m^*\right ] P\left [R=r^*\right ]$ Existen escenarios sísmicos en donde puedan estar correlacionadas. Por ejemplo, en sitios cercanos a fallas activas, la distancia al punto más cercano de la falla $R$ suele estar correlacionada con la ubicación del área de ruptura y la función de distribución de las distancias requiere del conocimiento de todas las posibles áreas de ruptura, por lo que $P\left [R=r^*,R=r^* \right ] \approx P\left [R=r^*|M=m^*\right ] P\left [M=m^*\right ]$
 
-Luego, la probabilidad de excedencia de un evento sísmico de intensidad $I=i^*$ originado en una falla situada a una distancia aleatoria \$ r\_{min}\^\* \leq R \leq r\_{max}\^\* \$ y una magnitud \$ m\_{min}\^\* \leq M \leq m\_{max}\^\* \$ queda determinada según la función de densidad acumulada $G_I(i^*)$ según
+Luego, la probabilidad de excedencia de un evento sísmico de intensidad $I=i^*$ queda determinada según la función de densidad acumulada $G_I(i^*)$ según
 
 $$ G_I(i^*) \approx \int^{r_{max}^*}_{r_{min}^*}  \int^{m_{max}^*}_{m_{min}^*} G_{I|R,M}(i^*,r,m) \ f_{R|M}(r,m) \ f_M(m) \ dm \ dr $$
 
-La función de densidad $f_I(i^*)$ que define la probabilidad ocurrencia de un evento sísmico de intensidad $I=i^*$ originado en una situada a una distancia comprendida entre \$ r\_{min}\^\* \leq R \leq r\_{max}\^\* \$ y una magnitud comprendida entre \$ m\_{min}\^\leq M \leq m\_{max}\^ \$ queda determinada según $$ f_I(i^*) \approx \left|\frac{\partial G_I(i^*)}{\partial i}\right | \approx \int^{r_{max}^*}_{r_{min}^*}  \int^{m_{max}^*}_{m_{min}^*} \left|\frac{\partial G_{I|R,M}(i^*,r,m)}{\partial i} \right| f_{R|M}(r,m)  f_M(m)  dm dr  $$
+La función de densidad $f_I(i^*)$ que define la probabilidad ocurrencia de un evento sísmico de intensidad $I=i^*$ queda determinada según $$ f_I(i^*) \approx \left|\frac{\partial G_I(i^*)}{\partial i}\right | \approx \int^{r_{max}^*}_{r_{min}^*}  \int^{m_{max}^*}_{m_{min}^*} \left|\frac{\partial G_{I|R,M}(i^*,r,m)}{\partial i} \right| f_{R|M}(r,m)  f_M(m)  dm dr  $$
 
 Finalmente, la probabilidad de que la demanda sísmica exceda un valor límite $d^*$ dado que ocurrió un evento de intensidad $I=i$ se puede obtener mediante la expresión general:
 
@@ -69,9 +73,13 @@ El paso siguiente es efectuar algunas hipótesis sobre la ley de distribución d
 
 El paso siguiente es buscar una transformación de las variables aleatorias tal que la variable transformada tenga una ley de distribución aproximadamente Normal. La transformación más simple que se ajusta a los problemas de intensidad y demanda asociadas a la ocurrencia de eventos sísmicos, es la transformación logarítmica, que en la práctica equivale a asumir una ley de distribución log-normal para las variables aleatorias. Luego centrar y normalizar, las nuevas variables aleatorias de la demanda e intensidad quedan determinadas según
 
-$$ \epsilon_{D}(d^*,i) \approx  \frac{ln\ d^*-\mu_{ln \ D|I}(i)}{\sigma_{ln \ D} }  \ \ \ \ \ \ \ \ \ \ \  \epsilon_{I}(i^*,m,r) \approx  \frac{ln \ i^*-\mu_{ln \ I|M,R}(m,r)}{\sigma_{ln \ I} } \leq \epsilon_{T}$$
+$$ \epsilon_{D}(d^*,i) \approx  \frac{ln\ d^*-ln [\eta_{D|I}(i)]}{\sigma_{ln \ D} }  \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \epsilon_{I}(i^*,m,r) \approx  \frac{ln \ i^*-ln[\eta_{I|M,R}(m,r)]}{\sigma_{ln \ I} } \leq \epsilon_{T}$$
 
-El término $\mu_{lnD|I}(i) \approx ln \ \eta_{D|I}(i)$ es el modelo de predicción del movimiento sísmico (GMPE) y ajusta las intensidades obtenidas de una selección de registros de aceleraciones para diferentes escenarios sísmicos de magnitud y distancia ${M,R}$. Por otra parte, el modelo de demanda condicional $\mu_{ln \ D|I}(i)$ se puede estimar a partir del análisis de un conjunto de registros sísmicos escalados a una intensidad objetivo $i^*$ para los cuales se obtiene un conjunto de respuestas $\{ d_k^*\}$. El modelo más simple de regresión para la mediana condicional puede obtenerse simplemente como la esperanza o valor medio de todas las respuestas
+El término $ln [\eta_{I|M,R}(i)] \approx \mu_{ln I|M,R}(i)$ es la mediana condicional de un modelo de predicción del movimiento sísmico (GMPE) y ajusta las intensidades obtenidas de una selección de registros de aceleraciones para diferentes escenarios sísmicos de magnitud y distancia ${M,R}$. Por otra parte, el término $\eta_{D|I}(i)=exp(\mu_{ln \ D|I}(i))$ es la mediana condicional de la demanda sísmica, obtenida numéricamente mediante un modelo numérico o un proxy analítico.
+
+En teoría, la mediana condicional $\mu_{ln D|I}(i)$ y la varianza $\sigma_{ln \ D|I}$ siempre podrán estimarse mediante la media muestral de las demandas obtenidas en un conjunto de registros sísmicos . Si se analizan $n$ registros sísmicos escalados a una intensidad objetivo $I=i^*$, y se conocen $n_r$ valores de la demanda sísmica condicional $D|I = \{d_1^*,d_2^*,...,d_{n}^* \}$, en el caso mas simple de un modelo de regresión lineal la mediana y la varianza quedan determinadas según
+
+$$ \eta_{D|I}(i^*) \approx \prod^{n_r}_{k=1}{exp [d_k^*/n]} \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \sigma_{lnD|I}^2 \approx \frac {1}{n} \ \sum^{n}_{1}{(ln \ d_k^*)^2} - ln [\eta_{D|I}(i^*)]^2$$
 
 Una de las ventajas de esta transformación es que las CDF $G_{I|R,M}(i^*,r,m)$ y $G_{D|I}(d^*,i)$ pueden definirse explícitamente en términos de la función de densidad normal $\phi(\epsilon^*)$ y la función de densidad acumulada complementaria normal $\tilde\Phi(\epsilon^*)=1-\Phi(\epsilon^*)$ donde $\epsilon^*$ es una variable aleatoria normal normalizada, con valor medio $\mu_{\epsilon}=0$ y desvío $\sigma_{\epsilon}=1$
 
