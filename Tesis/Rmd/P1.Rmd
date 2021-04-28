@@ -57,7 +57,7 @@ Debido a la naturaleza aleatoria asociada a la ubicación de los hipocentros de 
 
 $$P\left [ I>i^* \right ] \approx \sum^{}_{all\  m^{\ast},r^{\ast}}  P\left [I > i^*|\ M,R \right ] \ P\left [M=m^*,R=r^*  \right ] \approx G_I(i^*)$$
 
-En general, las variables aleatorias $R$ y $M$ suelen considerarse *iid* y $P\left [M=m^*,R=r^* \right ] \approx P\left [M=m^*\right ] P\left [R=r^*\right ]$ Existen escenarios sísmicos en donde puedan estar correlacionadas. Por ejemplo, en sitios cercanos a fallas activas, la distancia al punto más cercano de la falla $R$ suele estar correlacionada con la ubicación del área de ruptura y la función de distribución de las distancias requiere del conocimiento de todas las posibles áreas de ruptura, por lo que $P\left [R=r^*,R=r^* \right ] \approx P\left [R=r^*|M=m^*\right ] P\left [M=m^*\right ]$
+En general, las variables aleatorias $R$ y $M$ suelen considerarse *iid* y $P\left [M=m^*,R=r^* \right ] \approx P\left [M=m^*\right ] P\left [R=r^*\right ]$ . Sin embargo, existen algunos escenarios en donde puedan estar fuertemente correlacionadas. Por ejemplo, en sitios cercanos a fallas activas, la distancia al punto más cercano de la falla $R$ suele estar correlacionada con la ubicación del área de ruptura y la función de distribución de las distancias requiere del conocimiento de todas las posibles áreas de ruptura, por lo que $P\left [R=r^*,R=r^* \right ] \approx P\left [R=r^*|M=m^*\right ] P\left [M=m^*\right ]$
 
 Luego, la probabilidad de excedencia de un evento sísmico de intensidad $I=i^*$ queda determinada según la función de densidad acumulada $G_I(i^*)$ según
 
@@ -88,3 +88,5 @@ Cuando se conocen las funciones de distribución de la intensidad y la demanda, 
 $$ G_D(d^*) \approx \int^{i_{max}^*}_{i_{min}^*} \int^{r_{max}^*}_{r_{min}^*}  \int^{m_{max}^*}_{m_{min}^*}  \ \frac{\tilde\Phi \left[ \epsilon_{D}(d^*,i) \right] \phi \left[\epsilon_{I}(i,m,r) \right]  \ f_{R|M}(r,m) \ f_M(m)}{ i \ \sigma_{ln I}} \  dm \ dr \ di \leq \frac {-ln \left(1-p^* \right)}{\nu_o \ T_E}  $$
 
 Las variables aleatorias normalizadas $\epsilon_{D}(d^*,i)$ y $\epsilon_{I}(i^*,m,r)$ dependen indirectamente de los términos de error $\sigma_{ln \ D}$ y $\sigma_{ln \ I}$ controlan toda la incertidumbre del modelo de estimacion de demanda $G_D(d^*)$
+
+Las ecuaciones anteriores, presentan el estado actual de la práctica en el diseño sísmico basado en performance de estructuras elásticas con respuestas asemejables a un SDOF. En el capítulo que sigue, se resumen algunas de las limitaciones de este modelo de análisis para sistemas dinámicos más generales
