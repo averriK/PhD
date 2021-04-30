@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>Modelos de demanda probabilística en sistemas dinámicos complejos</title>
   <meta name="description" content="This is a minimal example of using the bookdown package to write a book. The output format for this example is bookdown::gitbook." />
-  <meta name="generator" content="bookdown 0.22.2 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.22 and GitBook 2.6.7" />
 
   <meta property="og:title" content="Modelos de demanda probabilística en sistemas dinámicos complejos" />
   <meta property="og:type" content="book" />
@@ -291,12 +291,22 @@ G_D(d^*,\pmb {s^*}) \approx \sum^{}_{all \ \pmb\psi^L} \  G_{D|\Psi,S} \left( d^
 <p>En la última parte, se resumen los principales hallazgos y aportes de la metodología (Sección 1), se discuten los resultados obtenidos (Sección 2), se identifican limitaciones de las metodologías propuestas (sección 3) y finalmente se proponen algunas ideas de investigación para futuras aplicaciones de esta metodología.</p>
 </div>
 </div>
+<<<<<<< Updated upstream
 <div id="potenciales-aportes" class="section level2 unnumbered">
 <h2>Potenciales Aportes</h2>
 <p>Las metodologías de clasificación de registros sísmicos propuestas en este trabajo, permitirán formular modelos de predicción de movimiento sísmico en regiones donde no se dispone un gran volumen de registros sísmicos. La identificación mediante inteligencia artificial de grupos (clusters) de registros sísmicos “similares” a los acelerogramas de una región en particular, permite definir automáticamente (sin supervisión) un modelo óptimo de predicción del movimiento sísmico de una región y un sitio particular. Este es el principal aporte que pretende lograr este trabajo de investigación</p>
 <p>Desde el punto de vista de los datos, el procesamiento y análisis de series temporales aportará una base de datos de acceso público de millones de registros sísmicos reales e híbridos (simulados), que incluirán como característica novedosa los metadatos asociados a los parámetros dinámicos (features) de cada registro y los sistemas de clasificación de cada grupo (Región, Mecanismo, etc. ). Por otra parte, la publicación de datos en formatos de librerías y datasets de código abierto en lenguaje R, facilitará el desarrollo de nuevo modelos de predicción más sofisticados en futuras líneas de investigación basadas en esta familia de modelos</p>
 <p><strong>Alejandro Verri Kozlowski</strong> (Ingeniero Civil)<br />
 Ciudad de Mendoza, Mayo de 2021. (Segundo año en cuarentena por COVID)</p>
+=======
+<div id="aportes" class="section level2" number="1.7">
+<h2><span class="header-section-number">1.7</span> Aportes</h2>
+<p>El principal aporte de este trabajo será una metodología de generación automática de modelos de predicción de respuesta sísmica, basados en aprendizaje automático no-supervisdo.</p>
+<p>El aporte principal del trabajo de investigación será la identificación de un conjunto reducido de parámetros dinámicos <em>i.i.d.</em> que caracterizan los movimientos sísmicos de una región y determina toda una familia de métodos de predicción. Si bien la caracterización paramétrica de series temporales es un concepto que data de la década del ’80, la disponibilidad de una base de datos de cientos de miles de registros sísmicos de diferentes regiones del mundo, permitirá emplear metodologías basadas en aprendizaje estadístico (machine-learning) no supervisado que aporten nueva luz sobre un problema extremadamente complejo de abordar a través de modelos físicos.</p>
+<p>Desde el punto de vista de los modelos, el empleo de métodos de predicción no-paramétricos (distribution-free) y la desagregación de los efectos del sitio de la mediana condicional y la varianza, aporta un modelo simple de predicción del movimiento sísmico en términos de las series temporales esperables en un sitio y región dados</p>
+<p>Desde el punto de vista de los datos, el procesamiento y análisis de series temporales, aportará una base de datos de acceso público de varios millones de registros sísmicos reales e híbridos (simulados), que incluirán como característica novedosa los metadatos asociados a los parámetros dinámicos (features) de cada registro y los sistemas de clasificación de cada grupo (Región, Mecanismo, etc. ). Por otra parte, la publicación de datos en formatos de librerías y datasets de código abierto en lenguaje R, facilitará el desarrollo de nuevo modelos de predicción más sofisticados que incorporen nuevos datos sísmicos en futuras líneas de investigación basadas en esta familia de modelos</p>
+<p>Alejandro Verri Kozlowski. Mendoza, Abril de 2021</p>
+>>>>>>> Stashed changes
 </div>
 </div>
             </section>
