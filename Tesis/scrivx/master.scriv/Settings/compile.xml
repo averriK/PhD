@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompileSettings>
+    <ProjectSettings>
+        <Content Scope="Included">
+            <Filter State="Off" Exclude="No" Type="Label">
+                <CollectionID>A38B2AD6-408F-4B8E-A7E3-45FF5E8FAF2B</CollectionID>
+                <Label>-1</Label>
+                <Status>-1</Status>
+            </Filter>
+        </Content>
+        <Options>
+            <RemoveComments>Yes</RemoveComments>
+            <RemoveAnnotations>Yes</RemoveAnnotations>
+            <ResampleImages DPI="72">No</ResampleImages>
+            <ConvertTablesAndListToMMD>Yes</ConvertTablesAndListToMMD>
+            <PDF>
+                <Cover Source="FrontMatter" Bleed="9.0" BleedUnits="pt"/>
+                <Compression Enabled="No">
+                    <ImageResolutionCompressionType>Set</ImageResolutionCompressionType>
+                    <ImageResolution>150</ImageResolution>
+                    <CompressionQuality>0.5</CompressionQuality>
+                </Compression>
+            </PDF>
+            <Scriptwriting>
+                <IncludeTitles>Yes</IncludeTitles>
+                <IncludeSynopses>Yes</IncludeSynopses>
+                <CommentsAsScriptNotes>Yes</CommentsAsScriptNotes>
+            </Scriptwriting>
+            <Ebook>
+                <StartAfterFrontMatter>Yes</StartAfterFrontMatter>
+                <Cover>
+                    <ImageDocument Source="FrontMatter"/>
+                    <Title>Cover</Title>
+                    <SVG Width="600" Height="800"><![CDATA[]]></SVG>
+                </Cover>
+                <TOC PandocDepth="3">
+                    <HTML Generate="Yes">
+                        <Title>Contents</Title>
+                    </HTML>
+                </TOC>
+            </Ebook>
+        </Options>
+        <MetaData>
+            <ProjectTitle>formats</ProjectTitle>
+            <ProjectAbbreviatedTitle>formats</ProjectAbbreviatedTitle>
+            <EbookLanguage>en</EbookLanguage>
+            <FountainTitlePageMetaData>
+                <Value Key="Title"><![CDATA[<$projecttitle>]]></Value>
+                <Value Key="Author"><![CDATA[<$author>]]></Value>
+            </FountainTitlePageMetaData>
+            <MMDMetaData>
+                <Value Key="Title"><![CDATA[<$projecttitle>]]></Value>
+                <Value Key="Author"><![CDATA[<$author>]]></Value>
+            </MMDMetaData>
+        </MetaData>
+    </ProjectSettings>
+    <CurrentFileType>mmd</CurrentFileType>
+    <FormatSettings>
+        <Format ID="mmd-barebones">
+            <SectionLayouts>
+                <Type ID="4167FA9B-B809-45D9-80A2-FA49A7CF3177">778FA2E2-F67D-4803-B183-019F8B45528B</Type>
+                <Type ID="57B5B351-6655-4C3B-AC07-7111194AF50E">72A8A17D-2FF3-4C8D-8A4C-7895908E7EE5</Type>
+                <Type ID="AAE5284E-4A01-4DF9-AD2A-FF5AEAAA977D">778FA2E2-F67D-4803-B183-019F8B45528B</Type>
+                <Type ID="8A0CB521-BA0F-481B-9E55-33F8ADFE2270">778FA2E2-F67D-4803-B183-019F8B45528B</Type>
+            </SectionLayouts>
+        </Format>
+        <Format ID="manuscript-times">
+            <SectionLayouts>
+                <Type ID="4167FA9B-B809-45D9-80A2-FA49A7CF3177">AS-IS</Type>
+                <Type ID="57B5B351-6655-4C3B-AC07-7111194AF50E">AS-IS</Type>
+                <Type ID="AAE5284E-4A01-4DF9-AD2A-FF5AEAAA977D">AS-IS</Type>
+            </SectionLayouts>
+        </Format>
+        <Format ID="manuscript-courier">
+            <SectionLayouts>
+                <Type ID="4167FA9B-B809-45D9-80A2-FA49A7CF3177">AS-IS</Type>
+                <Type ID="57B5B351-6655-4C3B-AC07-7111194AF50E">AS-IS</Type>
+                <Type ID="AAE5284E-4A01-4DF9-AD2A-FF5AEAAA977D">AS-IS</Type>
+            </SectionLayouts>
+            <FrontAndBackMatter>
+                <DefaultFrontMatter>B82E926A-AB51-4BA9-A16A-F8251535D54D</DefaultFrontMatter>
+                <DefaultBackMatter>097E1565-B3E7-4423-A83A-AC87A5F15371</DefaultBackMatter>
+            </FrontAndBackMatter>
+        </Format>
+        <Format ID="DEFAULT">
+            <SectionLayouts>
+                <Type ID="4167FA9B-B809-45D9-80A2-FA49A7CF3177">CHAPTER-NUMBER-AND-TEXT</Type>
+                <Type ID="57B5B351-6655-4C3B-AC07-7111194AF50E">CHAPTER-NUMBER</Type>
+                <Type ID="AAE5284E-4A01-4DF9-AD2A-FF5AEAAA977D">NEW-PAGE</Type>
+                <Type ID="8A0CB521-BA0F-481B-9E55-33F8ADFE2270">AS-IS</Type>
+            </SectionLayouts>
+            <FrontAndBackMatter>
+                <DefaultFrontMatter>B82E926A-AB51-4BA9-A16A-F8251535D54D</DefaultFrontMatter>
+                <DefaultBackMatter>097E1565-B3E7-4423-A83A-AC87A5F15371</DefaultBackMatter>
+            </FrontAndBackMatter>
+        </Format>
+    </FormatSettings>
+    <LastUsedFormats>
+        <Print>manuscript-courier</Print>
+        <mmd-latex>DEFAULT</mmd-latex>
+        <mmd-pdf>DEFAULT</mmd-pdf>
+        <mmd>mmd-barebones</mmd>
+        <pdf>DEFAULT</pdf>
+    </LastUsedFormats>
+</CompileSettings>

@@ -1,0 +1,232 @@
+---
+title: "Aprendizaje Estadístico (84.04)"
+subtitle: "Trabajos Prácticos"
+author: "Alumno: Alejandro Verri Kozlowski"
+output:
+  prettydoc::html_pretty:
+    theme: cayman # leonids cayman tactile architect 
+    highlight: github
+    math: katex
+---
+
+# AE-P01
+
+**Curso:** [Aprendizaje Estadístico (84.04)](https://campus.fi.uba.ar/course/view.php?id=1312)\
+**Cátedra:** Ing. [Jemina García](http://www.ic.fcen.uba.ar/institucional/integrantes/ing-garcia-jemina)\
+**Alumno:** Ing. [Alejandro Verri Kozlowski](mailto:averri@fi.uba.ar)\
+**Carrera:** Doctorado en Ingeniería Civil\
+**Lenguaje:** R y RMarkdown [^1]\
+**Librerías:** `prettydoc`, `ggplot2`
+
+[^1]: Este documento fue desarrollado en lenguaje [R Markdown](https://rmarkdown.rstudio.com/index.html) y renderizado mediante la herramienta [Knit](https://yihui.org/knitr/) disponible en la plataforma RStudio. Para mayor información sobre edición y renderización de documentos, consultar las referencias [R Markdown: The Definitive Guide](https://bookdown.org/yihui/rmarkdown/).
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(prettydoc)
+library(ggplot2)
+```
+
+------------------------------------------------------------------------
+
+## Práctica 9/10
+
+### Ejercicio 1
+
+Cargar los datos del paquete `cars` en el objeto `autos`
+
+```{r }
+autos <- cars
+str(autos)
+```
+
+### Ejercicio 2
+
+Realice el diagrama de dispersión para `X` vs. `Y` . ¿Qué observa?
+
+```{r}
+ggplot(data= autos) +
+  geom_point(mapping = aes(x=speed, y=dist),colour="blue",size=3)
+```
+
+### Ejercicio 3
+
+3.  Estime la media y el desvío standard de cada una de las variables.
+
+```{r}
+x <- autos$speed
+y <- autos$dist
+mX <- mean(x)
+mY <- mean(y)
+sX <- sd(x)
+sY <- sd(y)
+```
+
+La media y desvío de las velocidades resultan iguales a `mX` = `r mX` y `sX` = `r format(sX,digits=4)` respectivamente. La distancia media de frenado y el desvío estándar, resultan en `mY` = `r mY` y `sY` = `r format(sY,digits=4)` respectivamente.
+
+### Ejercicio 4
+
+Si se plantea un modelo\* $E[Y_i|X_i] = \beta_o + \beta_1 X_i$, $i = 1, 2,..,$ `r nrow(autos)`, halle los estimadores de mínimos cuadrados de $\beta_o$ y $\beta_1$. Graficar la recta de cuadrados mínimos sobre el gráfico realizado en (2).
+
+Si $Y$ es una V.A. y $X=(X_1,X_2,...X_n)$ es un vector aleatorio, la recta $g(X)=\beta_o + \beta_1 X$ hace mínimo el error cuadrático medio $ECM=E[(Y - g(X))^2]$. Derivando respecto de los estimadores e igualando a cero, la recta de cuadrados mínimos queda determinada según $\beta_o = E[Y]-\beta_1 E[X]$ y $\beta_1 = cov(X,Y)/var(X)$. Los estimadores resultan en
+
+```{r}
+B <- c(
+  bo = mY - cov(x,y)/var(x)*mX, 
+  b1 = cov(x,y)/var(x))
+B
+```
+
+Debido a que $X$ es un vector columna de una única variable aleatoria $X_1$, en este caso particular `cov(X,Y)` = `r format(cov(x,y),digits=4)` y `var(X)` = `r format(var(x),digits=4)` son dos escalares.
+
+Los estimadores de mínimos cuadrados pueden obtenerse también a partir de la matriz de diseño $X$ asumiendo que $\hat{Y} = X \beta$. Haciendo mínimo al residuo $S(\beta)=\Vert{Y-X \beta}\Vert$ se obtiene el vector de estimadores $\beta=(X^T X)^{-1} X^T Y$. Aplicando la inversa de una matriz con la función `solve()` y la transpuesta con el operador `t()` se obtiene
+
+```{r}
+n <- length(x)
+X <- as.matrix(data.frame(I=rep(1,n),X=x))
+B <- solve(t(X) %*% X) %*% t(X) %*% y
+B
+```
+
+Los estimadores pueden obtenerse también mediante la función de regresión lineal `lm()` de la librería `stats` de R, según
+
+```{r}
+MODEL <- lm(formula = y ~ x)
+B <- c(
+  bo = MODEL$coefficients[[1]], 
+  b1 = MODEL$coefficients[[2]])
+B
+```
+
+### Ejercicio 5
+
+Superponer sobre el gráfico anterior, en color naranja, los puntos correspondientes a los valores predichos.
+
+```{r}
+yp <- B[1]+B[2]*x
+ggplot() +
+  geom_point(mapping = aes(x, y),colour="blue",size=3) +
+  geom_point(mapping = aes(x, yp),colour="orange",size=3,shape=5)+
+  geom_line(mapping = aes(x, yp),colour="red",size=1.1,linetype="dashed")
+```
+
+### Ejercicio 6
+
+¿Cuánto vale el estimador de $\sigma^2$ ?\
+Se puede demostrar que $S^2$ es un estimador insesgado de $\sigma^2$ si $$S^2 = \frac{{\Vert{Y-\hat{Y}}\Vert}^2}{n-p}$$
+
+donde $p$ es el rango de $\beta$. Numéricamente, resulta igual a [^2]
+
+[^2]: El resultado de la operación matricial resulta en un array de 1x1 (singleton). El operador `()[[1]]` convierte el singleton en un escalar.
+
+```{r}
+p <- length(B)
+S2 <- ((y - yp)%*%(y - yp)/(n - p))[[1]]
+S2
+```
+
+### Ejercicio 7
+
+Estime la matriz de covarianza de los estimadores obtenidos. La matriz de covarianza se puede obtener según $\Sigma_{\hat{\beta}} = {\sigma}^2 {(X^T X)}^{-1}$
+
+```{r}
+S2*(solve(t(X)%*%X))
+```
+
+¿Cuánto vale en este caso la matriz $X^T X$ ?
+
+Se puede demostrar que la matriz $X^T X$ para el caso de un vector aleatorio con una única variable aleatoria $X_1 = [x_1 x_2 ... x_n]$ tiene como componentes 
+
+$$X^T X = \left({ \begin{array}{cc}{n} & {\sum\limits_{i=1}^n {x_i}}  \\ {\sum\limits_{i=1}^n {x_i}} & {\sum\limits_{i=1}^n {x_i}^2}  \\ \end{array}} \right)$$ 
+En `R`, la matriz anterior resulta igual a:
+
+```{r}
+array(c(n,sum(x),sum(x),sum(x^2)),dim=c(2,2))
+```
+
+Esta matriz, reporta los mismos valores que los que se obtienen a partir de la matriz de diseño:
+
+```{r}
+(t(X)%*%X)
+```
+
+### Ejercicio 8
+
+Verifique que $\sum\limits_{i=1}^n{(Y_i - \hat{Y}_i)}=0$
+
+```{r}
+ sum(yp-y)
+```
+
+### Ejercicio 9
+
+Centre las observaciones $X_i$ 's y recalcule los estimadores de los parámetros.
+
+```{r}
+mX <- mean(x)
+z <- x - mX
+n <- length(z)
+Z <- as.matrix(data.frame(I=rep(1,n),X=z))
+Bz <- solve(t(Z) %*% Z) %*% t(Z) %*% y
+Bz
+```
+
+Los estimadores son diferentes. Sin embargo, la predicción $\hat{Y}$ es la misma, ya que la diferencia entre ambas es despreciable ${\Vert{g(X)-g(X-\eta_X)}\Vert}^2\approx0$
+
+```{r}
+yp <- B[1]+B[2]*x
+yq <- Bz[1]+Bz[2]*z
+(t(yp-yq)%*%(yp-yq))[[1]]
+```
+
+¿Cambia el estimador de $\sigma^2$ ? Recalcule la estimación de la matriz de covarianza de los estimadores y compárela con la obtenida en (6).
+
+Por su definición, el estimador de $\sigma^2$ dado por 
+$S^2 = {\Vert{Y- \hat{Y}}\Vert}^2/(n-p)$, no cambia porque la predicción $\hat{Y}$ no cambió. Sin embargo la matriz de covarianza $\Sigma_{\hat{\beta}} = {\sigma}^2 {(Z^T Z)}^{-1}$ será diferente
+
+```{r}
+S2*(solve(t(Z)%*%Z))
+```
+
+Sin embargo, el determinante de la matriz de covarianza expresada en el cambio de variables $Z=X-E[X]$ es el mismo que la misma matriz en la variable $X$
+
+```{r}
+det(S2*(solve(t(Z)%*%Z)))/det(S2*(solve(t(X)%*%X)))
+```
+
+### Ejercicio 10
+
+Ajustar un modelo polinomial que prediga $y$ usando $x$ y $x^2$
+
+Para incluir un término más en la regresión, se incorpora una columna más en la matriz de diseño
+
+```{r}
+X <- as.matrix(data.frame(I=rep(1,n), X1=x, X2=x^2))
+B <- solve(t(X) %*% X) %*% t(X) %*% y
+B
+```
+
+¿Encuentra alguna evidencia de que el término cuadrático mejora el ajuste del modelo?
+
+La manera de medir la eficiencia del nuevo ajuste es a través del estimador de la varianza de la mediana condicional
+
+```{r}
+p <- length(B)
+S2_old <- S2
+S2 <- ((y - yp)%*%(y - yp)/(n - p))[[1]]
+S2/S2_old
+```
+
+La nueva varianza condicional es un `2%` mayor a la varianza del modelo lineal con un único término. Luego, el modelo con un término cuadrático no mejora la eficiencia de la predicción.
+
+Graficar la curva obtenida sobre el gráfico realizado en (2).
+
+```{r}
+yp_old <- yp
+yp <- B[1]+B[2]*x+B[3]*x^2
+ggplot() +
+  geom_point(mapping = aes(x, y),colour="blue",size=2) +
+  geom_point(mapping = aes(x, yp_old),colour="orange",size=2,shape=5)+
+  geom_line(mapping = aes(x, yp_old),colour="red",size=1.1,linetype=2)+
+  geom_point(mapping = aes(x, yp),colour="orange",size=3,shape=8)+
+geom_line(mapping = aes(x, yp),colour="darkred",size=1.1,linetype=4)
+```

@@ -1,0 +1,40 @@
+---
+subtitle: "ESTADÍSTICA TÉCNICA SUPERIOR (75.35)"
+title: "TRABAJO FINAL"
+#author: "Alejandro Verri Kozlowski"
+output:
+  prettydoc::html_pretty:
+    theme: cayman # leonids cayman tactile architect hpstr
+    highlight: github
+    math: katex
+---
+
+**Curso:** [Estadística Técnica Superior (75.35)](https://campus.fi.uba.ar/course/view.php?id=138)\
+**Cátedra:** Dr. Ing. Emilio Picasso - Ing. Mariano Bonnoli\
+**Alumno:** Ing. [Alejandro Verri Kozlowski](mailto:averri@fi.uba.ar)\
+**Carrera:** Doctorado en Ingeniería Civil\
+**Lenguaje:** R y RMarkdown [^1]\
+**Librerías:** `prettydoc`, `ggplot2`
+
+[^1]: Este documento fue desarrollado en lenguaje [R Markdown](https://rmarkdown.rstudio.com/index.html) y renderizado mediante la herramienta [Knit](https://yihui.org/knitr/) disponible en la plataforma RStudio. Para mayor información sobre edición y renderización de documentos, consultar las referencias [R Markdown: The Definitive Guide](https://bookdown.org/yihui/rmarkdown/).
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(prettydoc)
+library(ggplot2)
+```
+
+------------------------------------------------------------------------
+
+## Trabajo Práctico Final
+
+### XXXX
+
+Cargar los datos del paquete `cars` en el objeto `autos`
+
+```{r }
+autos <- cars
+str(autos)
+```
+
+

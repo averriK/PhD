@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Comments>
+    <Comment ID="8C1FADFE-EC2F-4011-9B59-09A665B80C00" Footnote="Yes" Color="0.949769 0.949769 0.949769"><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf2578
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 ArialMT;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f0\fs20 \cf0 Algunos par\'e1metros como la rigidez al corte inicial o la relaci\'f3n de vac\'edos son dependientes del proceso constructivo y requieren etapas previas que simulen num\'e9ricamente dicho proceso para establecer las condiciones iniciales de tensiones y deformaciones en cada nodo de la malla FEM. Otros par\'e1metros din\'e1micos, como el amortiguamiento o la rigidez a la corte instant\'e1nea, son altamente dependientes del nivel de da\'f1o que tendr\'e1 el material durante la historia de deformaciones.}]]></Comment>
+    <Comment ID="2CA0340B-1B89-405D-8407-64E6FD80E1BF" Footnote="Yes" Color="0.949769 0.949769 0.949769"><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf2578
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 ArialMT;\f1\fswiss\fcharset0 Arial-ItalicMT;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f0\fs20 \cf0 Las mallas FEM que involucran el an\'e1lisis de ondas mec\'e1nicas, deben tener una separaci\'f3n entre sus nodos adecuada para capturar (discretizar) el pasaje una semionda completa y en general se suele limitar el tama\'f1o m\'e1ximo del elemento al 10% de la longitud de onda m\'e1s corta esperable en alg\'fan estrato de material. Las ondas mec\'e1nicas involucradas en el an\'e1lisis de deformaciones inducidas por sismos son las ondas de corte y el tama\'f1o m\'e1ximo del elemento se limita con  donde  es la velocidad de propagaci\'f3n y  es la frecuencia caracter\'edstica del movimiento s\'edsmico. Esta restricci\'f3n es an\'e1loga a las que se derivan de los teoremas de muestreo de ondas y los fen\'f3menos de 
+\f1\i aliasing}]]></Comment>
+    <Comment ID="0678E53F-5F1C-4910-8790-099CBAB11BCA" Footnote="Yes" Color="0.949769 0.949769 0.949769"><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf2578
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 ArialMT;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f0\fs20 \cf0 En general, nunca se disponen de registros s\'edsmicos que hayan ocurrido previamente en el sitio de cada proyecto, y se suelen emplear acelerogramas obtenidos en estaciones sismol\'f3gicas alrededor del mundo para eventos s\'edsmicos similares a los que se esperan en la regi\'f3n y escalados a la intensidad objetivo para la que se dise\'f1a cada presa. Sin embargo, las caracter\'edsticas los suelos de fundaci\'f3n de las estaciones sismol\'f3gicas rara vez coinciden con las del material de fundaci\'f3n de la presa, y se suelen emplear procedimientos num\'e9ricos para corregir num\'e9ricamente los registros s\'edsmicos.}]]></Comment>
+    <Comment ID="B9687551-316D-47B5-91BD-C0CD4BED9B04" Footnote="Yes" Color="0.949769 0.949769 0.949769"><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf2578
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 ArialMT;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f0\fs20 \cf0 La tecnolog\'eda de elementos finitos de los \'faltimos 20 a\'f1os ha aportado herramientas que permiten reducir la incertidumbre epist\'e9mica con formulaciones constitutivas m\'e1s sofisticados e interfaces con humanos que facilitan las etapas de discretizaci\'f3n y simulaci\'f3n del proceso constructivo. Sin embargo, la instancia de modelaci\'f3n y las hip\'f3tesis sobre el comportamiento de los materiales, sigue siendo una tarea exclusiva de los humanos y la elecci\'f3n de los par\'e1metros del modelo, particularmente aquellos que no son medibles en laboratorio o en terreno, contin\'faan siendo parte del juicio experto del analista. La incertidumbre asociada a esta instancia suele considerarse mediante \'e1rboles l\'f3gicos o simulaci\'f3n de Montecarlo y si bien estas t\'e9cnicas son muy conocidas y relativamente simples de implementar, el costo computacional de algunos modelos num\'e9ricos las hace inviables y son empleadas \'fanicamente en estructuras muy cr\'edticas desde el punto de vista de la seguridad a la vida o al medio ambiente.}]]></Comment>
+</Comments>

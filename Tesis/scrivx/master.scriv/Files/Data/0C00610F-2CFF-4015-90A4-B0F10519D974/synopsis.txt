@@ -1,0 +1,9 @@
+Clasificar y caracterizar las bases de datos de registros sísmicos a partir de parámetros asociados a la demanda y parámetros relacionados con la respuesta dinámica de diferentes modelos de análisis.
+
+⁃	Formular modelos vectoriales de predicción del peligro sísmico basada en datos (data-driven) a partir del análisis de miles de registros sísmicos 
+
+⁃	Definir modelos probabilísticos de estimación de demanda (PSDM) para problemas críticos del estado actual de la práctica (presas de materiales sueltos, túneles y tuberías enterradas, etc.)
+	⁃	⁃	Clasificar y caracterizar las bases de datos de registros sísmicos a partir de parámetros asociados a la demanda y parámetros relacionados con la respuesta dinámica de diferentes modelos de análisis.
+	⁃	Establecer las condiciones mínimas que debe cumplir un modelo PSDM insesgado para poder clasificar y seleccionar registros sísmicos para el análisis dinámico.
+	⁃	Establecer estrategias robustas para el análisis de incertidumbre y la definición del intervalo de confianza de una predicción mediante la combinación de modelos FEM y modelos predictores substitutos.
+⁃	
