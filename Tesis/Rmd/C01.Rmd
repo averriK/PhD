@@ -212,13 +212,11 @@ El propósito del presente trabajo será desarrollar una metodología para la ge
 
 El primer objetivo se enfocará en los datos y consistirá en establecer metodologías de caracterización y clasificación de registros sísmicos, basadas en modelos dinámicos de series paramétricas. Las metodologías de caracterización deberá basarse en el análisis de millones de acelerogramas en roca basal, que puedan ser desagregados segun diferentes escenarios sísmicos de intensidad, y requieren la formulación de bases de datos de movimiento sísmico en roca basal y la incoporación de los efectos del sitio. Las metodologías de clasificación deberán permitir identificar registros sísmicos de un sitio particular y poder asociarlo a un grupo (cluster) de sismos característicos de regiones similares.
 
-El segundo objetivo se enfocará en la predicción y consistirá en establecer los requisitos que deberá un modelo robusto de predicción del movimiento y la demanda sísmica que incluya los sismos de diseño de una región y las características geotécnicas particulares de un sitio dado. En esta etapa se requieren metodologías específicas que permitan integrar la respuesta dinámica de modelos numéricos complejos FEM para la estimación de la respuesta sísmica de sistemas complejos
+El segundo objetivo se enfocará en los modelos de predicción y consistirá en establecer los requisitos que deberá un modelo robusto de predicción del movimiento y la demanda sísmica que incluya los sismos de diseño de una región y las características geotécnicas particulares de un sitio dado. En esta etapa se requieren metodologías específicas que permitan integrar la respuesta dinámica de modelos numéricos complejos FEM para la estimación de la respuesta sísmica de sistemas complejos
 
 ## Alcance {.unnumbered}
 
-El enfoque propuesto se limitará a caracterizar los registros sísmicos de diferentes regiones del mundo y a formular a partir de esta caracterización, modelos robustos de estimación de demanda sísmica probabilística
-
-La formulación de modelos generales de predicción del movimiento sísmico para diferentes regiones del mundo está fuera del alcance general del trabajo. Sin embargo, este trabajo pretenderá como mínimo establecer las condiciones mínimas que se requieren para la generación autimática de modelos de predicción del movimiento sísmico que puedan adpatarse luego a un modelo de demanda general
+La formulación de modelos generales de predicción del movimiento sísmico (GMPE) para diferentes regiones del mundo está fuera del alcance general del trabajo. La implementacion de dichos modelos estará limitada a la definición de de los parámetros que controlan la demanda sísmica condicional. 
 
 ## Aportes {.unnumbered}
 
