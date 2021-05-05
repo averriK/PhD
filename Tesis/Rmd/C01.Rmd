@@ -1,0 +1,241 @@
+---
+title: "Modelos de Demanda Sísmica Probabilística"
+runningheader: "Generación automática de modelos robustos mediante aprendizaje estadístico" # only for pdf output
+subtitle: "Generación automática de modelos robustos mediante aprendizaje estadístico" # only for html output
+author: "Alejandro Verri Kozlowski"
+date: "`r Sys.Date()`"
+output:
+  tufte::tufte_html: 
+    tufte_variant: "envisioned"
+  tufte::tufte_handout:
+    citation_package: natbib
+    latex_engine: xelatex
+  tufte::tufte_book:
+    citation_package: natbib
+    latex_engine: xelatex
+bibliography: book.bib
+link-citations: x x yes
+---
+
+```{r setup, include=FALSE}
+library(tufte)
+# invalidate cache when the tufte version changes
+knitr::opts_chunk$set(cache.extra = packageVersion('tufte'))
+options(htmltools.dir.version = FALSE)
+```
+
+# Capítulo I: Introducción {.unnumbered}
+
+*En este capítulo se introduce el problema fundamental del diseño sísmico basado en el desempeño en sistemas dinámicos complejos y se identifican las principales lilmitaciones del estado actual de la práctica. Luego, se proponen un enfoque probabilístico basado en una caracterización paramétrica del movimiento sísmico.* Para poder identificar las limitaciones y desafíos del estado actual de la práctica, se plantea el problema a traves de los pasos que se requieren para el desarrollo de un modelo de estimación de demanda sísmica de un sistema dinámico general.
+
+## Planteo del Problema {.unnumbered}
+
+La ingeniería sísmica es el vínculo entre las ciencias de la tierra y la ingeniería civil. El principal aporte de la ingeniería sísmica al diseño en ingeniería es la definición de las acciones sísmicas (cargas, desplazamientos)en términos de su intensidad y frecuencia de ocurrencia durante la vida útil de una estructura.
+
+La respuesta sísmica de un sistema es el conjunto de parámetros que caracteriza a un sistema dinámico cuando responde a movimientos sísmicos y puede interpretarse como una expresión del movimiento sísmico en el sistema, en términos de fuerzas, distorsiones, esfuerzos, etc.
+
+El terreno en donde se fundan las estructuras e instalaciones, puede considerarse en sí mismo como un sistema dinámico que responde cuando es sometido a movimientos sísmicos a nivel de roca basal. Este sistema tendrá propiedades dinámicas que dependerán de las propiedades mecánicas de los estratos de suelo apoyado sobre la roca basal.
+
+Los movimientos sísmicos a nivel de la roca basal constituyen a su vez la respuesta dinámica de un sistema mucho más complejo de propagación de ondas elásticas sísmicas a través de las dierentes capas de la corteza terrestre, originado por el movimiento súbito de placas tectónicas que constituyen los eventos sísmicos.
+
+La demanda es un parámetro de la respuesta sísmica del sistema que puede asociarse a un objetivo de diseño y puede entenderse como una expresión del movimiento sísmico en ese sistema dinámico particular. Ejemplos de demanda sísmica pueden ser los esfuerzos cortantes en un pilar de un puente, el asentamiento de un terraplén o el incremento de la presión de poros en un estrato de arenas licuables.
+
+La determinación de la demanda sísmica es clave para la comprension del comportamiento de un sistema dinámico sometido a los movimientos sísmicos del terreno y puede obtenerse a partir de un modelo de estimacion de demanda sísmica.
+
+En un escenario determinístico, un modelo de estimación de la demanda sísmica implica cuatro etapas de análisis:
+
+-   La estimación de la intensidad del movimiento sísmico a nivel de roca basal en el sitio del proyecto.
+-   La estimación de la intensidad del movimiento sísmico a nivel de superficie, para un sitio con características geotécnicas dadas.
+-   La estimación de la respuesta sísmica que produce ese movimiento sísmico regional en el sitio de emplazamiento.
+-   La identificación de los parámetros de la respuesta sísmica (demanda) para la cual quiero asegurar el cumplimiento de algún criterio de diseño.
+
+En el estado de la práctica actual, que conforman el conjunto de códigos, normas y recomendaciones, las filosofías de diseño sísmico basadas en la capacidad, limitan la demanda en términos de estados límites últimos o estados límites de servicio y el diseño se considera adecuado cuando se cumple que la demanda no supera la capacidad definida por algún estado límite. $D \leq C$.
+
+Las filosofías de diseño basadas en la performance (PBEE) por otra parte, limitan la demanda en términos de un conjunto de objetivos específicos de desempeño $d^*_{k}$ (distorsiones máximas, asentamientos, etc) que deben cumplirse para diferentes niveles de servicio $I_j$ (construcción, operación, cierre) a los que estará sometida la instalación, antes durante y luego de su vida útil. En esta filosofía, el diseño se considera adecuado cuando se cumplen $D|I_i \leq d_k \ \forall \ i,k$
+
+En cualquiera de los marcos de análisis, la ocurrencia de eventos sísmicos es un fenómeno de naturaleza aleatoria y tanto la demanda $D$ como la intensidad sísmica $I$ serán variables aleatorias y los estados límite de capacidad o los objetivos de performance sólo podrán cumplirse de manera probabilística. Luego, el diseño óptimo de un sistema deberá asegurar que la *probabilidad de excedencia de la demanda sísmica* sea menor a cierto valor objetivo $p^*$ durante un cierto período de exposición $T_e$
+
+Si asumimos que la demanda sísmica $D$ está relacionada exclusivamente con la ocurrencia de eventos sísmicos durante un período de exposición $T_e$, y que la ocurrencia de estos eventos sigue un proceso de Poisson, la demanda sísmica dependerá del período de exposición $T_e$ y la confiabilidad del diseño puede expresarse numéricamente según $$ \begin{equation}
+P_{T_e}\left [D > d^*  \right ]\approx 1-e^{-\lambda_D(d^*) \ T_e}\leq p^*
+\end{equation}$$ El parámetro de Poisson $\lambda_D$ es la tasa anual en que la demanda $D$ excede un cierto umbral $d^*$ y depende de la probabilidad de excedencia $P\left [D>d^* \right ]$ de un evento sísmico, y del número de eventos por año $\nu_o$ capaces de producir daño.
+
+$$ \begin{equation}
+\lambda_D(d^*) \approx \nu_o P\left [D>d^* \right ] 
+\end{equation}$$
+
+Entendiendo que la respuesta sísmica de un sistema sistema será dependiente del movimiento sísmico del sitio del proyecto, la probabilidad de excedencia $P\left [ D>d^* \right ]$ debe poder condicionarse a algunas características del movimiento sísmico. El planteo tradicional es caracterizar el movimiento sísmico a partir de una medida escalar de intensidad escalar $I=i^*$. Bajo esta hipótesis, la probabilidad de excedencia puede estimarse mediante el teorema de la probabilidad total
+
+$$ \begin{equation} 
+P\left [ D>d^* \right ] \approx \sum^{}_{all\  i^{\ast }}  P\left [D > d^*|I \right ] \ P\left [I=i^*  \right ] \approx G_D(d^*)
+\end{equation}$$
+
+Para lograr este objetivo de diseño basado en la confiabilidad, el modelo de estimación de demanda será ahora probabilístico y requiere la definición de un *modelo de estimación de la demanda sísmica probabiliística* $G_D(d^*)$
+
+La frecuencia con la que ocurren eventos de intensidad $I=i^*$ puede obtenerse a partir de la probabilidad de excedencia $P\left [ I>i^* \right ]$ para todos los escenarios posibles de eventos sísmicos en el sitio.
+
+$$ \begin{equation} 
+G_D(d^*) \approx \int^{i_{max}^*}_{i_{min}^*}  G_{D|I}(d^*,i) \ f_I(i^*) \ di
+\end{equation}$$
+
+La intensidad sísmica del sitio $i^*$ dependerá en general de la distancia del sitio al punto más cercano de la falla $r^*$ y de la magnitud $m^*$ del evento sísmico, el cual está directamente relacionado con el tamaño del área de falla. Debido a la naturaleza aleatoria asociada a la ubicación de los hipocentros de un terremoto y al tamaño del área de ruptura asociada a durante un evento sísmico, la distancia a la falla $R$ y la magnitud $M$ son variables aleatorias que expresan de manera simplificada la variabilidad temporal y espacial, respectivamente, del movimiento sísmico y la intensidad $i^*$ asociada a un sitio queda definida en términos de una función de excedencia mediante el Teorema de la Probabilidad Total (TPT)
+
+$$ \begin{equation} 
+P\left [ I>i^* \right ] \approx \sum^{}_{all\  m^{\ast},r^{\ast}}  P\left [I > i^*|\ M,R \right ] \ P\left [M=m^*,R=r^*  \right ] \approx G_I(i^*)
+\end{equation}$$
+
+En general, las variables aleatorias $R$ y $M$ suelen considerarse independientes. Sin embargo, existen algunos escenarios en donde puedan estar fuertemente correlacionadas. Por ejemplo, en sitios cercanos a fallas activas, la distancia al punto más cercano de la falla $R$ suele estar correlacionada con la ubicación del área de ruptura y la función de distribución de las distancias requiere del conocimiento de todas las posibles áreas de ruptura. Luego, la probabilidad de excedencia de un evento sísmico de intensidad $I=i^*$ queda determinada según la función de densidad acumulada $G_I(i^*)$ según
+
+$$ \begin{equation}  
+G_I(i^*) \approx \int^{r_{max}^*}_{r_{min}^*}  \int^{m_{max}^*}_{m_{min}^*} G_{I|R,M}(i^*,r,m) \ f_{R|M}(r,m) \ f_M(m) \ dm \ dr 
+\end{equation}$$
+
+El paso siguiente es efectuar algunas hipótesis sobre la ley de distribución de las variables aleatorias condicionadas $D|I$ y $I|R,M$.
+
+Si se asume conocida la forma funcional de la ley de distribución de probabiliad (PDF) , el término $G_{I|R,M}(r,m)$ puede obtenerse a partir de estimadores de la mediana condicional y la varianza. La transformación habitual que suele efectuarse sobre variables aleatorias asociadas a la ocurrencia de eventos sísmicos, es la transformación logarítmica, que en la práctica equivale a asumir una ley de distribución log-normal para las variables aleatorias. Luego centrar y normalizar, la intensisad sísmica queda determinda segun una nueva variable aleatoria normal $$ \begin{equation} 
+\epsilon_{I|M,R}(i^*,m,r) \approx  \frac{ln \ i^*-ln[\eta_{I|M,R}(m,r)]}{\sigma_{ln \ I}}
+\end{equation}$$
+
+El término $ln [\eta_{I|M,R}(m,r)] \approx \mu_{ln I|M,R}(i)$ es la mediana condicional y se obtiene de un **modelo de predicción del movimiento sísmico (GMPE)** y ajusta las intensidades obtenidas de una selección de registros de aceleraciones para diferentes escenarios sísmicos de magnitud y distancia ${M,R}$.
+
+Una de las ventajas de esta transformación es que las PDF $f_{I|R,M}(r,m)$ pueden definirse explícitamente en términos de la función de densidad normal $\phi(\epsilon^*)$ y la función de densidad acumulada complementaria normal $\tilde\Phi(\epsilon^*)=1-\Phi(\epsilon^*)$ donde $\epsilon^*$ es una variable aleatoria normal normalizada, con valor medio $\mu_{\epsilon}=0$ y desvío $\sigma_{\epsilon}=1$
+
+Los modelos donde las formas funcionales de las distribuciones de probabilidad se conocen, se denominan modelos paramétricos y sólo requieren la determinación de un número finito de parámetros que parametrizan o ajustan esas formas funcionales. Asumiendo una distribución log-normal para la demanda sísmica, la nueva variable aleatoria de la demanda condicional se puede obtener según
+
+$$ \begin{equation} 
+\epsilon_{D|I}(d^*,i) \approx  \frac{ln\ d^*-ln [\eta_{D|I}(i)]}{\sigma_{ln \ D|I} }
+\end{equation}$$
+
+Como antes, el término $ln [\eta_{D|I}(i)] \approx \mu_{ln D|I}(i)$ es ahora la mediana condicional de la demanda sísmica, y debe obtenerse numéricamente a partir de un modelo numérico o un modelo substituto (proxy) del sistema dinámico. En teoría, la mediana condicional $\mu_{ln D|I}(i)$ y la varianza $\sigma_{ln \ D|I}$ siempre podrán estimarse mediante la media muestral de las demandas obtenidas en un conjunto de registros sísmicos . Si se analizan $n$ registros sísmicos escalados a una intensidad objetivo $I=i^*$, y se conocen $n_r$ valores de la demanda sísmica condicional $D|I = \{d_1^*,d_2^*,...,d_{n}^* \}$, en el caso mas simple de un modelo de regresión lineal la mediana y la varianza quedan determinadas según
+
+$$ \begin{equation} 
+\eta_{D|I} \approx \prod^{n_r}_{k=1}{exp [d_k^*/n]} \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \sigma_{lnD|I}^2 \approx \frac {1}{n} \ \sum^{n}_{1}{(ln \ d_k^*)^2} - ln [\eta_{D|I}]^2
+\end{equation}$$
+
+Cuando se conocen las funciones de distribución de la intensidad y la demanda, la ecuación de diseño del sistema dinámico queda determinada mediante la resolución numérica de la expresión $$ \begin{equation}
+G_D(d^*) \approx
+\int^{i_{max}^*}_{i_{min}^*} \int^{r_{max}^*}_{r_{min}^*} \int^{m_{max}^*}_{m_{min}*} \ G_{D|I}(d^*,i,r,m) \ f_{R|M}(r,m) \ f_M(m) \ dm \ dr \ di 
+\end{equation}$$
+
+donde la **demanda sísmica condicional** queda determinada a partir de las funciones de distribución normal normalizadas
+
+$$ \begin{equation}  
+G_{D|I}(d^*,i,r,m) \approx \frac{\tilde\Phi \left[ \epsilon_{D}(d^*,i) \right] \phi \left[\epsilon_{I}(i,m,r) \right]  }{ i \ \sigma_{ln I}} 
+\end{equation}$$
+
+Las variables aleatorias normalizadas $\epsilon_{D}(d^*,i)$ y $\epsilon_{I}(i^*,m,r)$ dependen indirectamente de los términos de error $\sigma_{ln \ D}$ y $\sigma_{ln \ I}$ controlan toda la incertidumbre del modelo de estimacion de demanda $G_D(d^*)$
+
+Las ecuaciones anteriores, presentan el estado actual de la práctica en el diseño sísmico basado en performance de estructuras elásticas con respuestas asemejables a un SDOF. En el capítulo que sigue, se resumen algunas de las limitaciones de este modelo de análisis para sistemas dinámicos más generales
+
+## Limitaciones de la metodología {.unnumbered}
+
+### Caracterización del movimiento sísmico {.unnumbered}
+
+En un planteo paramétrico, los modelos de predicción del movimiento sísmico se basan en estimadores no-sesgados de la mediana condicional $\eta_{I|M,R}(m,r)$ y la varianza $\sigma_{ln \ I|M,R}$ de una medida escalar de intensidad $I=i^*$. Los modelos escalares requieren la elección de una medida óptima de intensidad para caracterizar la relación entre el movimiento sísmico y la demanda sísmica. La identificación de IM óptimas puede ser abordada a partir de los conceptos de eficiencia y suficiencia. Una medida de intensidad suficiente es aquella para la cual la demanda condicional es condicionalmente independientes de la magnitud $M$ y la distancia $R$ de los sismos seleccionados. Para una IM suficiente, la adición de registros de diferentes M o R no reduce la variabilidad $\sigma_{ln D|I}$. Una IM eficiente por otra parte, es aquella que reporta una variabilidad relativamente pequeña en la demanda sísmica y puede ser cuantificada en el desvío estándar del error aleatorio $\sigma_{ln D|I}$.
+
+Los modelos de predicción del movimiento sísmico se ha enfocado históricamente en la predicción de la aceleracion máxima del terreno $PGA$ y en los últimas dos décadas, se ha extendido a las ordenadas espectrales $Sa(T)$ de un espectro de respuesta elástico de un oscilador equivalente de un grado de libertad SDOF. En los sistemas dinámicos que pueden asemejarse a un SDOF las aceleraciones espectrales $Sa(T)$ suelen ser medidas eficientes y suficientes para estimar la demanda sísmica en términos de fuerzas y deformaciones elásticas para un cierto rango de períodos. Las estructuras SDOF fuera del régimen elástico, o geoestructuras como taludes y presas de materiales sueltos o relaves, son sistemas dinámicos cuyas propiedades dinámicas varían durante el proceso de deformación y no se disponen medidas de intensidad (escalares) eficientes ni suficientes para estimar la respuesta sísmica
+
+En los sistemas dinámicos en general no es posible identificar una medida de intensidad escalar que sea eficiente y suficiente y la demanda sísmica dependerá de varios aspectos del movimiento sísmico tales como la duración, el contenido de frecuencias de la señal, la energía, etc. Cuando se formulan modelos de estimación basados en un vector de medidas de intensidad $I=\{I_1,I_2...\}$ la varianza condicional $\sigma_{ln D|I_1,I_2,...}^2$ se reduce considerablemente. En el caso de un planteo paramétrico, la caracterización de las funciones de distribución requiere conocer la mediana y varianza condicional $\mu_{ln \ I_1,I_2,...|M,R}(m,r)$ y $\sigma_{ln \ I_1,I_2,...|M,R}$, y además la matriz de covarianzas $\rho_{i,j}$ que existen entre diferentes medidas de intensidad $\{I_i,I_j \}$ Cuando se emplean más de dos IMs, esta operatoria se vuelve muy engorrosa y por otra parte limita la aplicabilidad del modelo, ya que dos IMs eficientes para un problema dinámico en particular, difícilmente lo sean para otro.
+
+### Influencia del Sitio {.unnumbered}
+
+Los registros sísmicos de diferentes regiones del mundo, se obtienen en general en estaciones sismológicas construidas sobre sitios con diferentes configuraciones geotécnicas. Los modelos de predicción del movimiento sísmico en general incorporan factores de amplificación de ordenadas espectrales para considerar los efectos locales del sitio en la predicción de la intensidad , dependiente de categorías de suelo basadas en velocidades de onda de corte de los últimos 30 m del estrato. La caracterizacion de los efectos de sitio mediante un único factor basado en categorías de suelo, introduce una gran variabilidad epistémica en la predicción de la respuesta dinámica del sitio y la predicción del movimiento sísmico en superficie, particularmente fuerte en sitios con velocidades de onda de corte promedio menores a 500-700 m/s. Para reducir esta variabilidad se requiere primermente caracterizar la respuesta del sitio mediante un sistema de clasificación que incorporen otros parámetros escalares mejor correlacionados con las propiedades dinámicas del suelo $\pmb S = \{ S_1, S_2, ... \}$ Y luego, corregir los parámetros que caracterizan el movimiento sísmico en roca basal. Esto equivale en la prácita a introducir un nuevo proxy en la estimación de la demanda,
+
+### Ergodicidad {.unnumbered}
+
+El modelo de demanda sísmica $G_{D|I}(d^*,i,r,m)$ asume que la variable aleatoria condicionada $\epsilon_{I}(i^*,m,r)$ tiene una distribución normal con parámetros $\sigma_{ln I}^2$ y $\mu_{ln \ I|M,R}(m,r)$ constantes para un escenario sísmico $\{M,R\}$ dado. Es decir, supone un proceso aleatorio en la cual estos parámetros no varían en el tiempo y por otra parte, que son invariantes del registro sísmico. En otras palabras, el empleo de modelos paramétricos para caracterizar las variables aleatorias $I/M,R$ implica en la práctica que todas las series temporales (aleatorias) de la región analizada, son una realización de un único proceso aleatorio ergódico que mantiene invariantes las propiedades de sus funciones de distribución. La ergodicidad desempeña un papel fundamental en las estimaciones de las magnitudes estadísticas, ya que garantiza que los momentos $\sigma_{ln I}^2$ y $\mu_{ln \ I|M,R}(m,r)$ de las series temporales sean estimadores insesgados de la esperanza y la varianza de las funciones de distribución $G_{I|M,R}$
+
+### Movimiento sísmico fuerte {.unnumbered}
+
+Los modelos de predicción del movimiento sísmico $\mu_{ln \ I|M,R}(m,r)$ se ajustan a través de registros de aceleraciones correspondientes a diferentes escenarios sísmicos de magnitud y distancia $\{M,R\}$ En una situación ideal, un conjunto de registros sísmicos de aceleraciones de una región con una larga historia de sismicidad instrumental, abarcarían todos los escenarios $\{M,R\}$ requeridos para el modelo empírico. En la práctica, dificilmente una región dispone de un número suficiente de registros sísmicos, particularmente de movimiento fuerte, que aporten estos escenarios y generalmente se emplean datasets que incorporan registros de diferentes regiones del mundo, que comparten alguna caracerística con la región de análisis. Esta limitación en la selección de los datasets incorpora una gran incertidumbre aleatoria ya que cualquier diferencia que exista entre el medio de propagación, los espectros de frecuencias de la fuente, la respuesta del sitio, etc, se manifestará como una mayor varianza $\sigma_{ln I}^2$.
+
+### Homocedasticidad {.unnumbered}
+
+La varianza del modelo de estimación del movimiento sísmico $\sigma_{ln \ I}$ es una constante que no depende del escenario sísmico de magnitud y distancia $\{M,R\}$ Esto es una consecuencia de haber adotpado un modelo paramétrico que asumió una cierta forma funcional para la función de distribución (normal). Los modelos GMPE más avanzados, tienen términos de error no menores a $\sigma_{ln \ I}\approx0.6$ lo que equivale en la práctica a asumir una variabilidad no menor al 80% para la predicción de la intensidad en un escenario dado. Para reducir esta variabilidad se requieren relajar la hipótesis de homocedasticidad mediante una varianzas condicionales variables (GARCH) y modelos no-paramétricos, en los cuales no se requiere de antemano ninguna forma funcional explícita para las funciones de distribución (distribution-free models) del modelo $G_{I|R,M}(i,r,m)$ y $G_{D|I}(d^*,i,r,m)$
+
+### Selección de sismos de diseño {.unnumbered}
+
+El estado de la práctica actual, se basa en un modelo de predicción de intensidad y demanda para sistemas elásticos con respuesta sísmica conocida. En los sistemas dinámicos más complejos, como las geoestructuras de materiales sueltos, o incluso estructuras similares a un SDOF fuera del régimen elástico, la respuesta sísmica depende en general del contenido de frecuencias y duración de los registros sísmicos, es decir dependen del registro sísmico. En estos sistemas, la respuesta sísmica sólo puede obtenerse mediante modelos numéricos y la caracterización de la función de distribución de la demanda sísmica $G_{D|I}(d^*,i,r,m)$ se obtiene a partir del análisis de un número grande de registros sísmicos escalados a la intensidad sísmicica objetivo $I=i^*$.
+
+Sin embargo, no es posible desagregar de la intensidad condicional $I|M,R$ una muestra representativa de la demanda sísmica (un registro), y en teoría se requeriría el análisis de un gran número de regisros sísmicos para obtener los parámetros de la función de distribución de la demanda sísmica $G_{D|I}(d^*,i,r,m)$ . En la práctica, debido principalmente al costo computacional, sólo un número reducido de registros sísmicos suele analizarse y los estimadores son sesgados y se requieren metodologías de selección de registros sísmicos para identificar aquellos que controlan la demanda.
+
+Resumiendo,
+
+-   *La variabilidad de la demanda y en consecuencia, la incertidumbre de la probabilidad de falla de un diseño, está controlada por el error del modelos de predicción del movimiento sísmico y el error de predicción de la demanda sísmica.*
+
+-   *La caracterización del movimiento sísmico en términos de una medida escalar de intensidad, limita la eficiencia de cualquier modelo de predicción de la demanda sísmica, particularmente en problemas que no son asemejables a un SDOF en respuesta elástica*
+
+-   *La hipótesis de normalidad en las funciones de distribución de la intensidad (escalar) condicional, implica una varianza constante (homocedásticidad) para todos los escenarios sísmicos y afecta fuertemente el término de error aleatorio del movimiento sísmico, particularmente cuando se combinan registros sísmicos de diferentes regiones del mundo*
+
+-   *Los efectos de sitio sólo son pueden ser considerados a partir de un factor de amplificación empírico de las ordenadas espectrals basado en la velocidad de corte de los últimos 30 m del estrato* $\tilde S_a(T) \approx AF(V_{S.30}) \ S_a(T)$ , *el cual no permite correlacionar adecuadamente los efectos del sitio con el contenido de frecuencias de los registros sísmicos en superficie, y aporta una gran variabiliad adicional en las caracteristicas del movimiento sísmico en superficie, particularmente cuando existen estratos profundos de suelos de baja rigidez sometidos a movimiento fuerte del terreno.*
+
+-   *En los sistemas dinámicos en general, los estimadores de la demanda sísmica condicional* $D|I$ *son siempre sesgados,y el sesgo dependerá fuertemente del número de registros sísmicos que puedan analizarse. Cuando los sistemas dinámicos son estructuras complejas, la cantidad de registros sísmicos a analizar está fuertemente limitada por el costo computacional del modelo numérico y se requieren técnicas especializas para seleccionar registros sísmicos para obtener estimadores sesgados (con menos sesgo) de la mediana condicional* $\eta_{D|I}(i)$
+
+Luego, la principal motivación de este trabajo de investigación se basa en la idea de poder *eliminar las medidas escalares de intensidad* como predictores substitutos (proxy) y en su reemplazo, implementar un conjunto reducido de parámetros que puedan incorporar las condiciones locales del sitio y la región en la demanda sísmica probabilística y reducir la variabilidad inherente a las limitaciones anteriores
+
+## Enfoque propuesto {.unnumbered}
+
+Para implementar esta idea, se requiere en primer lugar caracterizar el movimiento sísmico en la roca basal (es decir, desagregando la influencia del sitio) mediante series temporales parametricas, de modo tal de obtener una función de distribución en función de un conjunto reducido de parámetros $\pmb \psi = \{ \psi_1,\psi_2,... \}$, que serán característicos de la región. Según este enfoque, los parámetros dinámicos que caracterizan los sismos de una región dada, podrán obtenerse según la siguiente función de distribución. $$ \begin{equation}  
+f_{\Psi}(\psi_1^*,\psi_2^*,...) \approx \int^{r_{max}^*}_{r_{min}^*}  \int^{m_{max}^*}_{m_{min}^*} f_{\Psi|R,M}(\psi_1^*,\psi_2^*,...,r,m) \  f_{R|M}(r,m)\  f_M(m) \ dm \ dr 
+\end{equation}$$
+
+Suponemos que dentro del universo de registros sísmicos en roca basal $\pmb\Psi = \{ \Psi_1,\Psi_2,... \}$, existe un subconjunto de registros sísmicos asociados a la región $\pmb\Psi^L = \{ \Psi_1^L,\Psi_2^L,... \}$ y a un escenario particular $\{ m,r \}$. Suponemos además que este set de registros $\Psi|{M,R}$ *tiene además la propiedad de ser mutuamente independientes e idénticamente distribuidos (i.i.d.*) Bajo estas hipótesis, la caracterización de una región sísmica será reducirá a poder obtener numéricamente la función de distribución local $f_{\Psi_k|R,M} (\psi_k^L,r,m)$ y el movimiento sísmico de la región $L$ queda determinado según
+
+$$ \begin{equation}  
+f_{\Psi|R,M}(\psi_1^L,\psi_2^L,...,r,m) \approx  \prod^{n_p}_{k=1}{f_{\Psi_k|R,M}(\psi_k^L,r,m)} \ 
+\end{equation}$$
+
+El paso siguiente es incluir los efectos del terreno a partir de un modelo empírico de respuesta dinámica del sitio, que incluya como variables independientes algunas propiedades dinámicas características como el período natural del sitio $T_S$, el espesor del estrato $H_S$ y la rigidez al corte promedio $G_S$. La influencia de los efectos de sitio, puede ser considerada o bien en los modelos de predicción del movimiento sísmico local, o bien en los modelos de estimación de la demanda sísmica condicional.
+
+En el primer caso, se requiere condicionar el movimiento sísmico al sitio mediante una variable aleatoria $\Theta|\Psi, S$ y la función de distribución del movimiento sísmico en terreno podría formularse a partir de una mediana condicional $\eta_{\Theta|\Psi,S}$ según
+
+$$ \begin{equation}
+\Theta|\Psi,S \approx \eta_{\Theta|L,S}(\psi_1^{L},\psi_2^{L},...,T_S,V_S,H_S) \ \epsilon_{\Theta}
+\end{equation}$$
+
+donde $\epsilon_{\Theta}$ es una variable aleatoria normal con media unitaria y desvío estándar $\sigma_{\Theta|\Psi,S}$ Según esta estrategia, las propiedades geotéctnicas de cada sitio $\pmb {s^*}=\{T_S,V_S,H_S\}$ determinan una nueva función de distribución $f_{\Theta|{\Psi,S}}(\theta,\psi,s^*)$ para los movimientos sísmicos en superficie de una región $L$ y un sitio $S$ y la demanda sísmica estará condicionada por los sismos en superficie $D|\Theta$ según una función de distribución
+
+$$ \begin{equation} 
+G_D(d^*,\pmb {s^*}) \approx \sum^{}_{all \ \pmb\theta^L} \ \sum^{}_{all \ \pmb\psi^L} \  G_{D|\Theta} \left( d^*,\pmb\theta \right ) \ f_{\Theta|\Psi,S}\left (\pmb\theta,\pmb\psi,\pmb {s^*}  \right ) \  \prod^{n_p}_{k=1}{f_{\Psi_k}(\psi_k^L)} 
+\end{equation} $$
+
+La segunda alternativa para considerar los efectos del sitio es condicionar directamente la demanda según una variable aleatoria condicional $D|S$. En los sistemas dinámicos complejos, la demanda sísmica sólo puede estimarse mediante modelos numéricos FEM cuyos resultados pueden parametrizarse a partir de medianas condicionales, y esta alternativa es la opción más eficiente, ya que elimina al proxy de respuesta de sitio. Cuando además se conocen las propiedades geotécnicas de todos los estratos desde el nivel de fundación hasta roca basal, siempre es posible incorporar al suelo como parte del sistema dinámico. Asumiendo que disponemos de un modelo numérico de estas caraterísticas, la demanda sísmica condicional queda determinada según una variable aleatoria $D|\pmb\Psi,\pmb S$ que tendrá una función de distribución $G_{D|\Psi,S}(d,\pmb\psi,\pmb s^*)$ y la demanda sísmica probabilística quedará determinada según
+
+$$ \begin{equation} 
+G_D(d^*,\pmb {s^*}) \approx \sum^{}_{all \ \pmb\psi^L} \  G_{D|\Psi,S} \left( d^*,\pmb\psi^L, \pmb s^* \right ) \  \prod^{n_p}_{k=1}{f_{\Psi_k}(\psi_k^L)} 
+\end{equation} $$
+
+donde $\psi^L = \{ \psi_1^L,\psi_2^L,... \}$ son los sismos en roca basal característicos de la región. En los parágrafos que siguen, se identifican los objetivos principales que se requieren para llevar a cabo la estrategia numérica planteada. Las alternativas anteriormente vistas requiere un factor escalar que permita clasificar los efectos del sitio en una única variable aleatoria y deberá obtenerse mediante metodologías de clasificación no supervisda
+
+## Objetivos {.unnumbered}
+
+El propósito del presente trabajo será desarrollar una metodología para la generación automática de modelos de estimación de la demanda sísmica probabilística en sistemas dinámicos complejos. La metodología general requiere lograr dos objetivos fundamentales
+
+El primer objetivo se enfocará en los datos y consistirá en establecer metodologías de caracterización y clasificación de registros sísmicos, basadas en modelos dinámicos de series paramétricas. Las metodologías de caracterización deberá basarse en el análisis de millones de acelerogramas en roca basal, que puedan ser desagregados segun diferentes escenarios sísmicos de intensidad, y requieren la formulación de bases de datos de movimiento sísmico en roca basal y la incoporación de los efectos del sitio. Las metodologías de clasificación deberán permitir identificar registros sísmicos de un sitio particular y poder asociarlo a un grupo (cluster) de sismos característicos de regiones similares.
+
+El segundo objetivo se enfocará en los modelos de predicción y consistirá en establecer los requisitos que deberá un modelo robusto de predicción del movimiento y la demanda sísmica que incluya los sismos de diseño de una región y las características geotécnicas particulares de un sitio dado. En esta etapa se requieren metodologías específicas que permitan integrar la respuesta dinámica de modelos numéricos complejos FEM para la estimación de la respuesta sísmica de sistemas complejos
+
+## Alcance {.unnumbered}
+
+La formulación de modelos generales de predicción del movimiento sísmico (GMPE) para diferentes regiones del mundo está fuera del alcance general del trabajo. La implementacion de dichos modelos estará limitada a la definición de de los parámetros que controlan la demanda sísmica condicional.
+
+## Aportes {.unnumbered}
+
+Las metodologías de clasificación de registros sísmicos propuestas en este trabajo, permitirán formular automáticamente modelos de predicción de movimiento sísmico en regiones donde no se dispone un gran volumen de registros sísmicos. La identificación mediante inteligencia artificial de grupos (clusters) de registros sísmicos "similares" a los acelerogramas de una región en particular, permite definir un modelo óptimo de predicción de la demanda sísmica de una región y un sitio particular. Este es el principal aporte que pretende lograr el presente trabajo
+
+Desde el punto de vista de los datos, el procesamiento y análisis de series temporales aportará una base de datos de acceso público de millones de registros sísmicos reales e híbridos (simulados), que incluirán como característica novedosa los metadatos asociados a los parámetros dinámicos (features) de cada registro y los sistemas de clasificación de cada grupo (Región, Mecanismo, etc. ). Por otra parte, la publicación de datos en formatos de librerías y datasets de código abierto en lenguaje R, facilitará el desarrollo de nuevo modelos de predicción más sofisticados en futuras líneas de investigación basadas en esta familia de modelos
+
+## Organización {.unnumbered}
+
+El trabajo de investigación estará organizado en seis capítulos:.
+
+El **capítulo I (Introducción)** introduce el problema fundamental del diseño sísmico basado en el desempeño en sistemas dinámicos complejos y resume el estado actual del arte en la predicción de la demanda sísmica
+
+El **capítulo II (Preliminares)** resume los antecedentes y metodologías que se emplean en el desarrollo del trabajo y se revisan conceptos de series temporales paramétricas, modelos dinámicos auto-regresivos y modelos de media móvil, procesamiento digital de señales, modelos de clasificacion (clustering) supervisado y no supervisado, analisis de componentes principales y modelos de respuesta sísmica del sitio.
+
+El **capítulo III (Análisis de Series Temporales)** desarrolla las metodologías de procesamiento, regularización, normalización y parametrizacion de series temporales y presenta una aplicación de base de datos para la clasificación no supervisada de registros sísmicos
+
+El **capítulo IV (Análisis de la Demanda Sísmica)** presenta una metodología general para la generación automática de modelos de predicción de demanda sísmica basado en series temporales paramétricas y medianas condicionales de modelos numéricos avanzados.
+
+El **capítulo V (Aplicación)** presenta como caso de estudio la selección de sismos de diseño para el análisis dinámico de un sistema complejo, mediante esta metodología
+
+El **capítulo VI (Conclusiones)**, presenta un resumen los principales hallazgos y aportes de la metodología y los resultados obtenidos , se identifican limitaciones de las metodologías propuestas y finalmente se proponen algunas ideas de investigación para futuras aplicaciones de esta metodología.

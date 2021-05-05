@@ -1,0 +1,34 @@
+---
+title: "Clases Virtuales"
+author: "Alejandro Verri"
+output:
+  pagedown::html_letter:
+    self_contained: true
+links-to-footnotes: true
+paged-footnotes: true
+# uncomment this line to produce HTML and PDF in RStudio:
+# knit: pagedown::chrome_print
+---
+
+::: {.from}
+Alejandro Verri Kozlowski\
+Cerro Banderita Norte 259\
+El Challao, 5539 Mendoza\
+Email: [averri\@fi.uba.ar](mailto:averri@fi.uba.ar){.email}
+:::
+
+Sra Directora,\
+ETec - Escuela Técnica de la Universiad de Mendoza\
+Perito Moreno 2397, Godoy Cruz. Mendoza\
+SD
+
+::: {.date}
+Viernes 30 de Abril de 2021
+:::
+
+De mi mayor consideración,
+
+![Firma AVK](https://github.com/averriK/PhD/blob/macOS/Notas/signature.png?raw=true){width="140"}\
+Alejandro Verri
+
+RStudio, PBC
