@@ -12,7 +12,7 @@
 
 <meta name="author" content="Alejandro Verri Kozlowski" />
 
-<meta name="date" content="2021-05-02" />
+<meta name="date" content="2021-05-04" />
 
 <title>Modelos de Demanda Sísmica Probabilística</title>
 
@@ -60,7 +60,7 @@ if (window.hljs) {
 <h1 class="title toc-ignore">Modelos de Demanda Sísmica Probabilística</h1>
 <h3 class="subtitle">Generación automática de modelos robustos mediante aprendizaje estadístico</h3>
 <h4 class="author">Alejandro Verri Kozlowski</h4>
-<h4 class="date">2021-05-02</h4>
+<h4 class="date">2021-05-04</h4>
 
 
 
@@ -71,7 +71,7 @@ if (window.hljs) {
 <h2 class="unnumbered">Planteo del Problema</h2>
 <p>La ingeniería sísmica es el vínculo entre las ciencias de la tierra y la ingeniería civil. El principal aporte de la ingeniería sísmica al diseño en ingeniería es la definición de las acciones sísmicas (cargas, desplazamientos)en términos de su intensidad y frecuencia de ocurrencia durante la vida útil de una estructura.</p>
 <p>La respuesta sísmica de un sistema es el conjunto de parámetros que caracteriza a un sistema dinámico cuando responde a movimientos sísmicos y puede interpretarse como una expresión del movimiento sísmico en el sistema, en términos de fuerzas, distorsiones, esfuerzos, etc.</p>
-<p>El tterreno en donde se fundan las estructuras e instalaciones, puede considerarse en sí mismo como un sistema dinámico que responde cuando es sometido a movimientos sísmicos a nivel de roca basal. Este sistema tendrá propiedades dinámicas que dependerán de las propiedades mecánicas de los estratos de suelo apoyado sobre la roca basal.</p>
+<p>El terreno en donde se fundan las estructuras e instalaciones, puede considerarse en sí mismo como un sistema dinámico que responde cuando es sometido a movimientos sísmicos a nivel de roca basal. Este sistema tendrá propiedades dinámicas que dependerán de las propiedades mecánicas de los estratos de suelo apoyado sobre la roca basal.</p>
 <p>Los movimientos sísmicos a nivel de la roca basal constituyen a su vez la respuesta dinámica de un sistema mucho más complejo de propagación de ondas elásticas sísmicas a través de las dierentes capas de la corteza terrestre, originado por el movimiento súbito de placas tectónicas que constituyen los eventos sísmicos.</p>
 <p>La demanda es un parámetro de la respuesta sísmica del sistema que puede asociarse a un objetivo de diseño y puede entenderse como una expresión del movimiento sísmico en ese sistema dinámico particular. Ejemplos de demanda sísmica pueden ser los esfuerzos cortantes en un pilar de un puente, el asentamiento de un terraplén o el incremento de la presión de poros en un estrato de arenas licuables.</p>
 <p>La determinación de la demanda sísmica es clave para la comprension del comportamiento de un sistema dinámico sometido a los movimientos sísmicos del terreno y puede obtenerse a partir de un modelo de estimacion de demanda sísmica.</p>
@@ -110,12 +110,13 @@ G_I(i^*) \approx \int^{r_{max}^*}_{r_{min}^*}  \int^{m_{max}^*}_{m_{min}^*} G_{I
 \end{equation}\]</span></p>
 <p>El paso siguiente es efectuar algunas hipótesis sobre la ley de distribución de las variables aleatorias condicionadas <span class="math inline">\(D|I\)</span> y <span class="math inline">\(I|R,M\)</span>.</p>
 <p>Si se asume conocida la forma funcional de la ley de distribución de probabiliad (PDF) , el término <span class="math inline">\(G_{I|R,M}(r,m)\)</span> puede obtenerse a partir de estimadores de la mediana condicional y la varianza. La transformación habitual que suele efectuarse sobre variables aleatorias asociadas a la ocurrencia de eventos sísmicos, es la transformación logarítmica, que en la práctica equivale a asumir una ley de distribución log-normal para las variables aleatorias. Luego centrar y normalizar, la intensisad sísmica queda determinda segun una nueva variable aleatoria normal <span class="math display">\[ \begin{equation} 
-\epsilon_{I}(i^*,m,r) \approx  \frac{ln \ i^*-ln[\eta_{I|M,R}(m,r)]}{\sigma_{ln \ I}}
+\epsilon_{I|M,R}(i^*,m,r) \approx  \frac{ln \ i^*-ln[\eta_{I|M,R}(m,r)]}{\sigma_{ln \ I}}
 \end{equation}\]</span></p>
 <p>El término <span class="math inline">\(ln [\eta_{I|M,R}(m,r)] \approx \mu_{ln I|M,R}(i)\)</span> es la mediana condicional y se obtiene de un <strong>modelo de predicción del movimiento sísmico (GMPE)</strong> y ajusta las intensidades obtenidas de una selección de registros de aceleraciones para diferentes escenarios sísmicos de magnitud y distancia <span class="math inline">\({M,R}\)</span>.</p>
-<p>Una de las ventajas de esta transformación es que las PDF <span class="math inline">\(f_{I|R,M}(r,m)\)</span> pueden definirse explícitamente en términos de la función de densidad normal <span class="math inline">\(\phi(\epsilon^*)\)</span> y la función de densidad acumulada complementaria normal <span class="math inline">\(\tilde\Phi(\epsilon^*)=1-\Phi(\epsilon^*)\)</span> donde <span class="math inline">\(\epsilon^*\)</span> es una variable aleatoria normal normalizada, con valor medio <span class="math inline">\(\mu_{\epsilon}=0\)</span> y desvío <span class="math inline">\(\sigma_{\epsilon}=1\)</span> Los modelos donde las formas funcionales de las distribuciones de probabilidad se conocen, se denominan modelos paramétricos y sólo requieren la determinación de un número finito de parámetros que parametrizan o ajustan esas formas funcionales. Si la variable * también puede asumirse log-normal, la demanda puede expresarse mediante una variable aleatoria normal normalizada.</p>
+<p>Una de las ventajas de esta transformación es que las PDF <span class="math inline">\(f_{I|R,M}(r,m)\)</span> pueden definirse explícitamente en términos de la función de densidad normal <span class="math inline">\(\phi(\epsilon^*)\)</span> y la función de densidad acumulada complementaria normal <span class="math inline">\(\tilde\Phi(\epsilon^*)=1-\Phi(\epsilon^*)\)</span> donde <span class="math inline">\(\epsilon^*\)</span> es una variable aleatoria normal normalizada, con valor medio <span class="math inline">\(\mu_{\epsilon}=0\)</span> y desvío <span class="math inline">\(\sigma_{\epsilon}=1\)</span></p>
+<p>Los modelos donde las formas funcionales de las distribuciones de probabilidad se conocen, se denominan modelos paramétricos y sólo requieren la determinación de un número finito de parámetros que parametrizan o ajustan esas formas funcionales. Asumiendo una distribución log-normal para la demanda sísmica, la nueva variable aleatoria de la demanda condicional se puede obtener según</p>
 <p><span class="math display">\[ \begin{equation} 
-\epsilon_{D}(d^*,i) \approx  \frac{ln\ d^*-ln [\eta_{D|I}(i)]}{\sigma_{ln \ D|I} }
+\epsilon_{D|I}(d^*,i) \approx  \frac{ln\ d^*-ln [\eta_{D|I}(i)]}{\sigma_{ln \ D|I} }
 \end{equation}\]</span></p>
 <p>Como antes, el término <span class="math inline">\(ln [\eta_{D|I}(i)] \approx \mu_{ln D|I}(i)\)</span> es ahora la mediana condicional de la demanda sísmica, y debe obtenerse numéricamente a partir de un modelo numérico o un modelo substituto (proxy) del sistema dinámico. En teoría, la mediana condicional <span class="math inline">\(\mu_{ln D|I}(i)\)</span> y la varianza <span class="math inline">\(\sigma_{ln \ D|I}\)</span> siempre podrán estimarse mediante la media muestral de las demandas obtenidas en un conjunto de registros sísmicos . Si se analizan <span class="math inline">\(n\)</span> registros sísmicos escalados a una intensidad objetivo <span class="math inline">\(I=i^*\)</span>, y se conocen <span class="math inline">\(n_r\)</span> valores de la demanda sísmica condicional <span class="math inline">\(D|I = \{d_1^*,d_2^*,...,d_{n}^* \}\)</span>, en el caso mas simple de un modelo de regresión lineal la mediana y la varianza quedan determinadas según</p>
 <p><span class="math display">\[ \begin{equation} 

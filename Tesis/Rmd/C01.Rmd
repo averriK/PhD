@@ -34,7 +34,7 @@ La ingeniería sísmica es el vínculo entre las ciencias de la tierra y la inge
 
 La respuesta sísmica de un sistema es el conjunto de parámetros que caracteriza a un sistema dinámico cuando responde a movimientos sísmicos y puede interpretarse como una expresión del movimiento sísmico en el sistema, en términos de fuerzas, distorsiones, esfuerzos, etc.
 
-El tterreno en donde se fundan las estructuras e instalaciones, puede considerarse en sí mismo como un sistema dinámico que responde cuando es sometido a movimientos sísmicos a nivel de roca basal. Este sistema tendrá propiedades dinámicas que dependerán de las propiedades mecánicas de los estratos de suelo apoyado sobre la roca basal.
+El terreno en donde se fundan las estructuras e instalaciones, puede considerarse en sí mismo como un sistema dinámico que responde cuando es sometido a movimientos sísmicos a nivel de roca basal. Este sistema tendrá propiedades dinámicas que dependerán de las propiedades mecánicas de los estratos de suelo apoyado sobre la roca basal.
 
 Los movimientos sísmicos a nivel de la roca basal constituyen a su vez la respuesta dinámica de un sistema mucho más complejo de propagación de ondas elásticas sísmicas a través de las dierentes capas de la corteza terrestre, originado por el movimiento súbito de placas tectónicas que constituyen los eventos sísmicos.
 
@@ -91,18 +91,18 @@ G_I(i^*) \approx \int^{r_{max}^*}_{r_{min}^*}  \int^{m_{max}^*}_{m_{min}^*} G_{I
 
 El paso siguiente es efectuar algunas hipótesis sobre la ley de distribución de las variables aleatorias condicionadas $D|I$ y $I|R,M$.
 
-Si se asume conocida la forma funcional de la ley de distribución de probabiliad (PDF) , el término $G_{I|R,M}(r,m)$ puede obtenerse a partir de estimadores de la mediana condicional y la varianza. La transformación habitual que suele efectuarse sobre variables aleatorias asociadas a la ocurrencia de eventos sísmicos, es la transformación logarítmica, que en la práctica equivale a asumir una ley de distribución log-normal para las variables aleatorias. 
-Luego centrar y normalizar, la intensisad sísmica queda determinda segun una nueva variable aleatoria normal $$ \begin{equation} 
-\epsilon_{I}(i^*,m,r) \approx  \frac{ln \ i^*-ln[\eta_{I|M,R}(m,r)]}{\sigma_{ln \ I}}
+Si se asume conocida la forma funcional de la ley de distribución de probabiliad (PDF) , el término $G_{I|R,M}(r,m)$ puede obtenerse a partir de estimadores de la mediana condicional y la varianza. La transformación habitual que suele efectuarse sobre variables aleatorias asociadas a la ocurrencia de eventos sísmicos, es la transformación logarítmica, que en la práctica equivale a asumir una ley de distribución log-normal para las variables aleatorias. Luego centrar y normalizar, la intensisad sísmica queda determinda segun una nueva variable aleatoria normal $$ \begin{equation} 
+\epsilon_{I|M,R}(i^*,m,r) \approx  \frac{ln \ i^*-ln[\eta_{I|M,R}(m,r)]}{\sigma_{ln \ I}}
 \end{equation}$$
 
 El término $ln [\eta_{I|M,R}(m,r)] \approx \mu_{ln I|M,R}(i)$ es la mediana condicional y se obtiene de un **modelo de predicción del movimiento sísmico (GMPE)** y ajusta las intensidades obtenidas de una selección de registros de aceleraciones para diferentes escenarios sísmicos de magnitud y distancia ${M,R}$.
 
-Una de las ventajas de esta transformación es que las PDF $f_{I|R,M}(r,m)$ pueden definirse explícitamente en términos de la función de densidad normal $\phi(\epsilon^*)$ y la función de densidad acumulada complementaria normal $\tilde\Phi(\epsilon^*)=1-\Phi(\epsilon^*)$ donde $\epsilon^*$ es una variable aleatoria normal normalizada, con valor medio $\mu_{\epsilon}=0$ y desvío $\sigma_{\epsilon}=1$ 
-Los modelos donde las formas funcionales de las distribuciones de probabilidad se conocen, se denominan modelos paramétricos y sólo requieren la determinación de un número finito de parámetros que parametrizan o ajustan esas formas funcionales. Si la variable \* también puede asumirse log-normal, la demanda puede expresarse mediante una variable aleatoria normal normalizada. 
+Una de las ventajas de esta transformación es que las PDF $f_{I|R,M}(r,m)$ pueden definirse explícitamente en términos de la función de densidad normal $\phi(\epsilon^*)$ y la función de densidad acumulada complementaria normal $\tilde\Phi(\epsilon^*)=1-\Phi(\epsilon^*)$ donde $\epsilon^*$ es una variable aleatoria normal normalizada, con valor medio $\mu_{\epsilon}=0$ y desvío $\sigma_{\epsilon}=1$
+
+Los modelos donde las formas funcionales de las distribuciones de probabilidad se conocen, se denominan modelos paramétricos y sólo requieren la determinación de un número finito de parámetros que parametrizan o ajustan esas formas funcionales. Asumiendo una distribución log-normal para la demanda sísmica, la nueva variable aleatoria de la demanda condicional se puede obtener según
 
 $$ \begin{equation} 
-\epsilon_{D}(d^*,i) \approx  \frac{ln\ d^*-ln [\eta_{D|I}(i)]}{\sigma_{ln \ D|I} }
+\epsilon_{D|I}(d^*,i) \approx  \frac{ln\ d^*-ln [\eta_{D|I}(i)]}{\sigma_{ln \ D|I} }
 \end{equation}$$
 
 Como antes, el término $ln [\eta_{D|I}(i)] \approx \mu_{ln D|I}(i)$ es ahora la mediana condicional de la demanda sísmica, y debe obtenerse numéricamente a partir de un modelo numérico o un modelo substituto (proxy) del sistema dinámico. En teoría, la mediana condicional $\mu_{ln D|I}(i)$ y la varianza $\sigma_{ln \ D|I}$ siempre podrán estimarse mediante la media muestral de las demandas obtenidas en un conjunto de registros sísmicos . Si se analizan $n$ registros sísmicos escalados a una intensidad objetivo $I=i^*$, y se conocen $n_r$ valores de la demanda sísmica condicional $D|I = \{d_1^*,d_2^*,...,d_{n}^* \}$, en el caso mas simple de un modelo de regresión lineal la mediana y la varianza quedan determinadas según
@@ -216,7 +216,7 @@ El segundo objetivo se enfocará en los modelos de predicción y consistirá en 
 
 ## Alcance {.unnumbered}
 
-La formulación de modelos generales de predicción del movimiento sísmico (GMPE) para diferentes regiones del mundo está fuera del alcance general del trabajo. La implementacion de dichos modelos estará limitada a la definición de de los parámetros que controlan la demanda sísmica condicional. 
+La formulación de modelos generales de predicción del movimiento sísmico (GMPE) para diferentes regiones del mundo está fuera del alcance general del trabajo. La implementacion de dichos modelos estará limitada a la definición de de los parámetros que controlan la demanda sísmica condicional.
 
 ## Aportes {.unnumbered}
 
