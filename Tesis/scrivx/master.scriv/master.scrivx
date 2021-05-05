@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ScrivenerProject Identifier="6AB37CD2-587B-412E-93B6-E97FA48E9CB5" Version="2.0" Creator="SCRMAC-3.2.2-14632" Device="AVK-NB" Author="" Modified="2021-04-25 10:00:00 -0300" ModID="91201884-8554-49F0-8467-1DA073216C28">
+<ScrivenerProject Identifier="6AB37CD2-587B-412E-93B6-E97FA48E9CB5" Version="2.0" Creator="SCRMAC-3.2.2-14632" Device="AVK-NB" Author="" Modified="2021-04-30 00:27:22 -0300" ModID="DE7C5F90-8CBD-41C8-A12C-0183B7693763">
     <Binder>
         <BinderItem UUID="8FC126C3-6408-43AD-985E-62046A87B53B" Type="Text" Created="2021-03-10 13:27:46 -0300" Modified="2021-03-10 13:28:18 -0300">
             <Title>Research Proposal</Title>
@@ -58,7 +58,7 @@
                         <NotesTextSelection>2144,208</NotesTextSelection>
                     </MetaData>
                     <TextSettings>
-                        <TextSelection>4,122</TextSelection>
+                        <TextSelection>128,0</TextSelection>
                     </TextSettings>
                 </BinderItem>
                 <BinderItem UUID="F83D28B1-D7EE-4B58-8FBF-23F580BD477B" Type="Text" Created="2021-03-11 14:21:42 -0300" Modified="2021-04-10 11:16:52 -0300">
@@ -68,7 +68,7 @@
                         <IncludeInCompile>Yes</IncludeInCompile>
                     </MetaData>
                     <TextSettings>
-                        <TextSelection>293,0</TextSelection>
+                        <TextSelection>298,0</TextSelection>
                     </TextSettings>
                 </BinderItem>
                 <BinderItem UUID="43A368C6-7374-4433-947A-2B512617D60B" Type="Text" Created="2021-03-10 13:59:33 -0300" Modified="2021-04-10 11:18:49 -0300">
@@ -737,10 +737,10 @@
     </StatusSettings>
     <ProjectTargets Notify="No">
         <DraftTarget Type="Words" CountIncludedOnly="Yes" CurrentCompileGroupOnly="No" Deadline="2021-03-11 12:42:10 -0300" IgnoreDeadline="Yes">0</DraftTarget>
-        <SessionTarget Type="Words" CountDraftOnly="Yes" AllowNegatives="Yes" NextResetDate="2021-04-26 00:00:00 -0300" ResetType="Time" ResetTime="00:00" DeterminedFromDeadline="No" WritingDays="" CanWriteOnDeadlineDate="No">0</SessionTarget>
-        <PreviousSession Words="0" Characters="0" Date="2021-04-25 09:59:57 -0300"/>
+        <SessionTarget Type="Words" CountDraftOnly="Yes" AllowNegatives="Yes" NextResetDate="2021-05-01 00:00:00 -0300" ResetType="Time" ResetTime="00:00" DeterminedFromDeadline="No" WritingDays="" CanWriteOnDeadlineDate="No">0</SessionTarget>
+        <PreviousSession Words="0" Characters="0" Date="2021-04-30 00:27:15 -0300"/>
     </ProjectTargets>
-    <RecentWritingHistory Date="2021-04-25 00:00:00 -0300">
+    <RecentWritingHistory Date="2021-04-30 00:00:00 -0300">
         <DraftWordCount>0</DraftWordCount>
         <DraftCharCount>0</DraftCharCount>
         <OtherWordCount>0</OtherWordCount>
