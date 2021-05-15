@@ -1,4 +1,8 @@
 
 Tesis/Rmd/rsconnect/
 
+<<<<<<< HEAD
 *.html
+=======
+.Rproj.user/
+>>>>>>> rhel
